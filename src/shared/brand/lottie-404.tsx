@@ -49,7 +49,13 @@ export function Lottie404({ speed = 0.5, label, className }: Lottie404Props) {
 
   return (
     <div
-      className={cn('aspect-[5/1] w-[calc(100%-32px)] max-w-[640px]', className)}
+      // Same artwork, same arithmetic as `<LottieLoader>`: the logo is only ~46% of the json's
+      // canvas, so 640 drew a ~295px scooter. Raised with the rest of the animation; bounded
+      // rather than `vw` because this sits in page content, which must not be clipped.
+      className={cn(
+        'aspect-[5/1] w-[calc(100%-32px)] max-w-[560px] md:max-w-[860px] lg:max-w-[1040px]',
+        className,
+      )}
       role={label ? 'img' : undefined}
       aria-label={label}
       aria-hidden={label ? undefined : true}

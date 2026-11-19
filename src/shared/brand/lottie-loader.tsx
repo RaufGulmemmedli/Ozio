@@ -137,16 +137,18 @@ export function LottieLoader({
         // while the json loads.
         'aspect-[5/1]',
         /*
-         * The size ladder lives here, not in the callers, because both of them (<BootSplash> and
-         * /splash) want the same thing and used to pin it to 420 px — which looked lost on a
-         * 1440-wide screen. It climbs with the project's own breakpoints (sm 480, md 768,
-         * lg 1200, 2xl 1440); at 2xl the scooter is 960x192, two thirds of the viewport width.
+         * The default ladder, used by the `/splash` route. `<BootSplash>` overrides it with `vw`
+         * widths, because an overlay can clip; a page cannot, so this one stays bounded.
          *
-         * `calc(100%-32px)` keeps the 16 px gutter on phones that 07-responsive-a11y-perf.md asks
-         * for. assets.md caps the drawn asset at 640 px, which is what md still gives; the wider
-         * desktop steps are the owner's call.
+         * The numbers are bigger than they look: the logo is only about 46% of the json's
+         * 2560-wide canvas, so a 640px box draws a ~295px logo. These widths climb with the
+         * project's own breakpoints (sm 480, md 768, lg 1200, 2xl 1440) and put the logo at
+         * roughly half the screen at 2xl.
+         *
+         * `calc(100%-32px)` keeps the 16px gutter on phones that 07-responsive-a11y-perf.md asks
+         * for. assets.md caps the drawn asset at 640; the wider desktop steps are the owner's call.
          */
-        'w-[calc(100%-32px)] max-w-[420px] md:max-w-[640px] lg:max-w-[820px] 2xl:max-w-[960px]',
+        'w-[calc(100%-32px)] max-w-[560px] md:max-w-[900px] lg:max-w-[1200px] 2xl:max-w-[1400px]',
         className,
       )}
       role={label ? 'img' : undefined}

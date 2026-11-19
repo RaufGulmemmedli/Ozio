@@ -84,7 +84,11 @@ export function BootSplash({ travel = false, ready = true }: BootSplashProps) {
   return (
     <div
       className={cn(
-        'fixed inset-0 z-[200] grid place-items-center transition-opacity duration-[250ms] ease-[var(--oz-ease-out)]',
+        // `overflow-hidden` because both size cases below are now WIDER than the viewport: the
+        // json's canvas is mostly empty around the logo, so the only way to draw a bigger logo is
+        // a bigger canvas. Clipping the empty sides is free; letting them out would add a
+        // horizontal scrollbar to every page the overlay sits on.
+        'fixed inset-0 z-[200] grid place-items-center overflow-hidden transition-opacity duration-[250ms] ease-[var(--oz-ease-out)]',
         /*
          * Two different things, despite being one component.
          *
@@ -107,22 +111,28 @@ export function BootSplash({ travel = false, ready = true }: BootSplashProps) {
         travel={travel}
         onExitDone={finish}
         /*
-         * Both cases override `<LottieLoader>`'s default ladder, for opposite reasons.
+         * Sized in `vw`, deliberately over 100, and on a ladder.
          *
-         * Travelling needs the whole width: the drive-in starts off-screen, so a 960-wide box on
-         * a 1920 screen made the scooter appear mid-page instead of riding in from the edge.
+         * The logo occupies only about 46% of the json's 2560-wide canvas — measured: a 1320px
+         * box drew a logo of roughly 610px. So the box width is NOT the logo size, and capping
+         * the box at the viewport caps the logo at under half of it, which is why this read small
+         * at every width. Going wider than the screen is what makes the logo big; the empty
+         * canvas either side is clipped by the overlay's `overflow-hidden`.
          *
-         * The loading version needs to be BIGGER than the default. The json's canvas is 2560x512
-         * with the logo parked in the middle of it, so a 960-wide box draws a logo of roughly
-         * 430px and reads as small — which is what it looked like between pages. These widths put
-         * it at about the size the frame shows. There is nothing to collide with: the overlay is
-         * full-screen and the artwork is centred in it.
+         * The ratio then eases off as the screen grows, because a percentage that feels right on
+         * a 390px phone is overbearing on a 27-inch monitor. At the project's own breakpoints
+         * (sm 480, md 768, lg 1200, 2xl 1440) the logo lands at roughly 87% of the width on a
+         * phone and 64% at 2xl — and the box stays short enough to fit the height everywhere,
+         * since 5:1 makes even the widest step one fifth as tall.
+         *
+         * Travelling carries more at every step: its drive-in still has to begin off-screen.
          */
-        className={
+        className={cn(
+          'max-w-none',
           travel
-            ? 'w-screen max-w-none'
-            : 'w-[calc(100%-32px)] max-w-[520px] md:max-w-[820px] lg:max-w-[1120px] 2xl:max-w-[1320px]'
-        }
+            ? 'w-[220vw] sm:w-[210vw] md:w-[200vw] lg:w-[190vw] 2xl:w-[180vw]'
+            : 'w-[190vw] sm:w-[175vw] md:w-[160vw] lg:w-[150vw] 2xl:w-[140vw]',
+        )}
       />
     </div>
   );

@@ -65,8 +65,21 @@ export function OtpView() {
   const phone = flow.e164 ?? (flow.digits ? `${flow.dialCode}${flow.digits}` : null);
   const display = formatAzDisplay(phone);
 
+  /**
+   * Set the moment a code is accepted, and never unset.
+   *
+   * The guard below exists for a visitor who lands on `/otp` with no phone in the flow. But a
+   * SUCCESSFUL verification also clears the phone — `flow.clear()` is how the number stops
+   * outliving the flow — so the guard fired on the way out and sent the browser to `/login`,
+   * overriding the `replace()` into the app that had just been issued. From the outside that was
+   * "I press send and nothing opens"; the cookies were set, so reloading by hand walked straight
+   * in, which is exactly what was reported.
+   */
+  const leaving = useRef(false);
+
   // No phone in the flow (a direct hit on /otp, or the tab was reopened) → start over.
   useEffect(() => {
+    if (leaving.current) return;
     if (flow.hydrated && !phone) router.replace(paths.login);
   }, [flow.hydrated, phone, router]);
 
@@ -84,6 +97,8 @@ export function OtpView() {
 
     try {
       const outcome = await verify.mutateAsync({ phone, code: value });
+      // From here the screen is on its way out; the "no phone → /login" guard must stand down.
+      leaving.current = true;
 
       // The handler has set the cookies; seed the store, then let it hydrate the real profile.
       setAuthenticated({
@@ -104,6 +119,15 @@ export function OtpView() {
       // The number has done its job; it must not outlive the flow.
       if (!outcome.needsRegistration) flow.clear();
       router.replace(afterOtp(outcome.needsRegistration));
+      /*
+       * And invalidate the Router Cache.
+       *
+       * The destination's RSC payload may already be cached from a prefetch made while this
+       * visitor was still a guest — the middleware answered that with a redirect to `/login`.
+       * Without `refresh()` the router is entitled to reuse it, so the sign-in "works" and the
+       * app still refuses to open until a reload re-runs the request with the new cookies.
+       */
+      router.refresh();
     } catch (thrown) {
       const next = thrown as AuthFailure;
       setFailure(next);
