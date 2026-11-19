@@ -1,0 +1,390 @@
+{
+  "demo": {
+    "az": "Demo rejim: kuryer xidməti hələ işləmir. Müraciət heç yerə göndərilmir, təsdiq, sifarişlər və qazanc isə nümunədir",
+    "ru": "Демо-режим: курьерский сервис пока не работает. Заявка никуда не отправляется, а одобрение, заказы и заработок — примеры",
+    "en": "Demo mode: the courier service does not work yet. The application is sent nowhere, and the approval, orders and earnings are samples"
+  },
+  "crumb.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "crumb.courier": { "az": "Kuryer", "ru": "Курьер", "en": "Courier" },
+
+  "apply.title": { "az": "Ozio kuryeri ol", "ru": "Стань курьером Ozio", "en": "Become an Ozio courier" },
+  "apply.subtitle": {
+    "az": "Öz qrafikinlə çatdır, hər sifarişdən qazan",
+    "ru": "Доставляй по своему графику и зарабатывай с каждого заказа",
+    "en": "Deliver on your own schedule and earn on every order"
+  },
+  "apply.loading": { "az": "Müraciət forması yüklənir", "ru": "Форма заявки загружается", "en": "Loading the application form" },
+  "apply.personal": { "az": "Şəxsi məlumat", "ru": "Личные данные", "en": "Personal details" },
+  "apply.fullName": { "az": "Ad və soyad", "ru": "Имя и фамилия", "en": "Full name" },
+  "apply.fullNameHint": { "az": "Nurlan Qarayev", "ru": "Нурлан Гараев", "en": "Nurlan Qarayev" },
+  "apply.phone": { "az": "Telefon", "ru": "Телефон", "en": "Phone" },
+  "apply.phoneHint": { "az": "+994 50 123 45 67", "ru": "+994 50 123 45 67", "en": "+994 50 123 45 67" },
+  "apply.birthDate": { "az": "Doğum tarixi", "ru": "Дата рождения", "en": "Date of birth" },
+  "apply.birthDateHint": { "az": "14.03.1998", "ru": "14.03.1998", "en": "14.03.1998" },
+  "apply.city": { "az": "Şəhər", "ru": "Город", "en": "City" },
+
+  "apply.vehicle": { "az": "Nəqliyyat vasitəsi", "ru": "Транспортное средство", "en": "Vehicle" },
+  "apply.plate": { "az": "Qeydiyyat nişanı", "ru": "Номерной знак", "en": "Number plate" },
+  "apply.plateHint": { "az": "10-AB-123", "ru": "10-AB-123", "en": "10-AB-123" },
+  "apply.thermalBag": { "az": "Termo çanta var", "ru": "Есть термосумка", "en": "I have a thermal bag" },
+  "apply.thermalBagNote": { "az": "Soyuq məhsullar üçün", "ru": "Для холодных продуктов", "en": "For chilled goods" },
+
+  "apply.documents": { "az": "Sənədlər və ödəniş", "ru": "Документы и выплаты", "en": "Documents and payout" },
+  "apply.fin": { "az": "Şəxsiyyət vəsiqəsi (FİN)", "ru": "Удостоверение личности (FIN)", "en": "ID card (FIN)" },
+  "apply.finHint": { "az": "7XK2P9L", "ru": "7XK2P9L", "en": "7XK2P9L" },
+  "apply.voen": { "az": "VÖEN (könüllü)", "ru": "ИНН (необязательно)", "en": "Tax number (optional)" },
+  "apply.voenHint": { "az": "10 rəqəm", "ru": "10 цифр", "en": "10 digits" },
+  "apply.iban": { "az": "Bank hesabı (IBAN)", "ru": "Банковский счёт (IBAN)", "en": "Bank account (IBAN)" },
+  "apply.ibanHint": {
+    "az": "AZ21 NABZ 0035 0100 0000 0000 1944",
+    "ru": "AZ21 NABZ 0035 0100 0000 0000 1944",
+    "en": "AZ21 NABZ 0035 0100 0000 0000 1944"
+  },
+  "apply.agreement": {
+    "az": "Kuryer şərtləri və məxfilik siyasəti ilə razıyam",
+    "ru": "Согласен с условиями для курьеров и политикой конфиденциальности",
+    "en": "I agree to the courier terms and the privacy policy"
+  },
+  "apply.submit": { "az": "Müraciət göndər", "ru": "Отправить заявку", "en": "Submit the application" },
+  "apply.errorBanner": {
+    "az": "Müraciət göndərilmədi, formadaki sahələri yoxlayın.",
+    "ru": "Заявка не отправлена, проверьте поля формы.",
+    "en": "The application was not submitted, please check the form fields."
+  },
+
+  "apply.perksTitle": { "az": "Niyə Ozio kuryeri?", "ru": "Почему курьер Ozio?", "en": "Why an Ozio courier?" },
+  "apply.perk1": { "az": "Çevik qrafik", "ru": "Гибкий график", "en": "Flexible schedule" },
+  "apply.perk1Body": { "az": "İstədiyin vaxt növbəyə çıx", "ru": "Выходи на смену когда хочешь", "en": "Start a shift whenever you want" },
+  "apply.perk2": { "az": "Həftəlik ödəniş", "ru": "Выплаты каждую неделю", "en": "Weekly payout" },
+  "apply.perk2Body": { "az": "Qazanc birbaşa hesabına", "ru": "Заработок прямо на счёт", "en": "Earnings straight to your account" },
+  "apply.perk3": { "az": "Çatdırılma başına qazanc", "ru": "Заработок за доставку", "en": "Earnings per delivery" },
+  "apply.perk3Body": { "az": "Məsafə və bonus nəzərə alınır", "ru": "Учитываются расстояние и бонус", "en": "Distance and bonus are counted in" },
+  "apply.perk4": { "az": "Sığorta", "ru": "Страховка", "en": "Insurance" },
+  "apply.perk4Body": { "az": "Növbə zamanı təminat", "ru": "Покрытие во время смены", "en": "Cover while you are on shift" },
+
+  "vehicle.foot": { "az": "Piyada", "ru": "Пешком", "en": "On foot" },
+  "vehicle.bicycle": { "az": "Velosiped", "ru": "Велосипед", "en": "Bicycle" },
+  "vehicle.scooter": { "az": "Skuter", "ru": "Скутер", "en": "Scooter" },
+  "vehicle.car": { "az": "Avtomobil", "ru": "Автомобиль", "en": "Car" },
+
+  "status.crumb": { "az": "Müraciət statusu", "ru": "Статус заявки", "en": "Application status" },
+  "status.title": { "az": "Müraciət statusu", "ru": "Статус заявки", "en": "Application status" },
+  "status.subtitle": { "az": "Müraciət nömrəsi {number}", "ru": "Номер заявки {number}", "en": "Application number {number}" },
+  "status.pendingTitle": { "az": "Müraciətin yoxlanılır", "ru": "Заявка проверяется", "en": "Your application is under review" },
+  "status.pendingBody": {
+    "az": "Sənədlərin komandamız tərəfindən yoxlanılır. Adətən 1–2 iş günü çəkir, nəticə bildirişlə gələcək.",
+    "ru": "Документы проверяет наша команда. Обычно это 1–2 рабочих дня, результат придёт уведомлением.",
+    "en": "Our team is checking your documents. It usually takes 1–2 working days and the result arrives as a notification."
+  },
+  "status.activeTitle": { "az": "Təbrik edirik, təsdiqləndin", "ru": "Поздравляем, ты одобрен", "en": "Congratulations, you are approved" },
+  "status.activeBody": {
+    "az": "Artıq növbəyə çıxıb sifariş qəbul edə bilərsən. Termo çantanı və qaydaları təlimdə təqdim edirik.",
+    "ru": "Теперь можно выходить на смену и принимать заказы. Термосумку и правила выдаём на обучении.",
+    "en": "You can start a shift and take orders now. We hand out the thermal bag and the rules at the training."
+  },
+  "status.goToPanel": { "az": "Kuryer panelinə keç", "ru": "Перейти в панель курьера", "en": "Go to the courier panel" },
+  "status.rejectedTitle": { "az": "Müraciət təsdiqlənmədi", "ru": "Заявка не одобрена", "en": "The application was not approved" },
+  "status.rejectedBody": {
+    "az": "Sənədlərdə uyğunsuzluq var. Məlumatları yeniləyib yenidən müraciət edə bilərsən.",
+    "ru": "В документах есть несоответствие. Обнови данные и подай заявку снова.",
+    "en": "There is a mismatch in the documents. Update your details and apply again."
+  },
+  "status.reapply": { "az": "Yenidən müraciət et", "ru": "Подать заявку снова", "en": "Apply again" },
+  "status.noneTitle": { "az": "Müraciət yoxdur", "ru": "Заявки нет", "en": "No application" },
+  "status.noneBody": {
+    "az": "Hələ müraciət göndərməmisən. Formanı doldurub göndər.",
+    "ru": "Ты ещё не отправлял заявку. Заполни форму и отправь.",
+    "en": "You have not submitted an application yet. Fill the form in and send it."
+  },
+  "status.apply": { "az": "Kuryer ol", "ru": "Стать курьером", "en": "Become a courier" },
+  "status.steps": { "az": "Mərhələlər", "ru": "Этапы", "en": "Steps" },
+  "status.step1": { "az": "Müraciət göndərildi", "ru": "Заявка отправлена", "en": "Application submitted" },
+  "status.step2": { "az": "Sənədlər yoxlanılır", "ru": "Документы проверяются", "en": "Documents under review" },
+  "status.step3": { "az": "Qısa təlim", "ru": "Короткое обучение", "en": "Short training" },
+  "status.step4": { "az": "Təsdiq", "ru": "Одобрение", "en": "Approval" },
+  "status.waiting": { "az": "Gözlənilir", "ru": "Ожидается", "en": "Pending" },
+  "status.todo": { "az": "—", "ru": "—", "en": "—" },
+  "status.summary": { "az": "Müraciət məlumatları", "ru": "Данные заявки", "en": "Application details" },
+  "status.name": { "az": "Ad", "ru": "Имя", "en": "Name" },
+  "status.phone": { "az": "Telefon", "ru": "Телефон", "en": "Phone" },
+  "status.city": { "az": "Şəhər", "ru": "Город", "en": "City" },
+  "status.vehicle": { "az": "Nəqliyyat", "ru": "Транспорт", "en": "Vehicle" },
+  "status.plate": { "az": "Nişan", "ru": "Номер", "en": "Plate" },
+  "status.thermalBag": { "az": "Termo çanta", "ru": "Термосумка", "en": "Thermal bag" },
+  "status.yes": { "az": "Var", "ru": "Есть", "en": "Yes" },
+  "status.no": { "az": "Yoxdur", "ru": "Нет", "en": "No" },
+  "status.submittedAt": { "az": "Göndərilib", "ru": "Отправлено", "en": "Submitted" },
+  "status.loading": { "az": "Status yüklənir", "ru": "Статус загружается", "en": "Loading the status" },
+
+  "panel.title": { "az": "Kuryer paneli", "ru": "Панель курьера", "en": "Courier panel" },
+  "panel.subtitle": {
+    "az": "Növbəni aç və yaxınlıqdakı sifarişləri qəbul et",
+    "ru": "Открой смену и принимай заказы рядом",
+    "en": "Open your shift and take nearby orders"
+  },
+  "panel.onShift": { "az": "Növbədə", "ru": "На смене", "en": "On shift" },
+  "panel.offShift": { "az": "Növbə bağlı", "ru": "Смена закрыта", "en": "Shift closed" },
+  "panel.earnings": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "panel.history": { "az": "Tarixçə", "ru": "История", "en": "History" },
+  "panel.help": { "az": "Kömək", "ru": "Помощь", "en": "Help" },
+  "panel.todayEarning": { "az": "Bu gün qazanc", "ru": "Заработок за сегодня", "en": "Earned today" },
+  "panel.deliveries": { "az": "Çatdırılma", "ru": "Доставки", "en": "Deliveries" },
+  "panel.rating": { "az": "Reytinq", "ru": "Рейтинг", "en": "Rating" },
+  "panel.acceptance": { "az": "Qəbul faizi", "ru": "Процент принятия", "en": "Acceptance rate" },
+  "panel.activeDelivery": { "az": "Aktiv çatdırılma · {number}", "ru": "Активная доставка · {number}", "en": "Active delivery · {number}" },
+  "panel.continue": { "az": "Davam et", "ru": "Продолжить", "en": "Continue" },
+  "panel.nearby": { "az": "Yaxınlıqdakı sifarişlər", "ru": "Заказы рядом", "en": "Nearby orders" },
+  "panel.offerCount": {
+    "az": "{count, plural, one {# təklif} other {# təklif}}",
+    "ru": "{count, plural, one {# предложение} few {# предложения} many {# предложений} other {# предложения}}",
+    "en": "{count, plural, one {# offer} other {# offers}}"
+  },
+  "panel.view": { "az": "Bax", "ru": "Смотреть", "en": "View" },
+  "panel.earningSuffix": { "az": "qazanc", "ru": "заработок", "en": "earning" },
+  "panel.shift": { "az": "Növbə", "ru": "Смена", "en": "Shift" },
+  "panel.shiftOpen": { "az": "Açıqdır · {duration}", "ru": "Открыта · {duration}", "en": "Open · {duration}" },
+  "panel.shiftClosed": { "az": "Bağlıdır", "ru": "Закрыта", "en": "Closed" },
+  "panel.shiftToggle": { "az": "Növbə vəziyyəti", "ru": "Состояние смены", "en": "Shift state" },
+  "panel.nextPayout": { "az": "Növbəti ödəniş", "ru": "Следующая выплата", "en": "Next payout" },
+  "panel.balance": { "az": "Balans", "ru": "Баланс", "en": "Balance" },
+  "panel.loading": { "az": "Panel yüklənir", "ru": "Панель загружается", "en": "Loading the panel" },
+  "panel.paymentCard": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "panel.paymentCash": { "az": "Nağd {amount}", "ru": "Наличные {amount}", "en": "Cash {amount}" },
+
+  "panel.offTitle": { "az": "Növbə bağlıdır", "ru": "Смена закрыта", "en": "The shift is closed" },
+  "panel.offBody": {
+    "az": "Sifarişləri görmək üçün növbəni aç. Yaxınlıqdakı təkliflər burada görünəcək.",
+    "ru": "Открой смену, чтобы видеть заказы. Предложения рядом появятся здесь.",
+    "en": "Open your shift to see orders. Nearby offers appear here."
+  },
+  "panel.openShift": { "az": "Növbəni aç", "ru": "Открыть смену", "en": "Open the shift" },
+  "panel.noOffersTitle": { "az": "Yaxınlıqda sifariş yoxdur", "ru": "Рядом нет заказов", "en": "No orders nearby" },
+  "panel.noOffersBody": {
+    "az": "Növbə açıqdır, yeni təkliflər gəldikcə burada görünəcək.",
+    "ru": "Смена открыта, новые предложения появятся здесь.",
+    "en": "Your shift is open, new offers appear here as they come in."
+  },
+  "panel.errorTitle": { "az": "Sifarişlər yüklənmədi", "ru": "Заказы не загрузились", "en": "Orders did not load" },
+  "panel.errorBody": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Возникла проблема со связью. Повтори попытку.",
+    "en": "There was a connection problem. Try again."
+  },
+  "panel.retry": { "az": "Yenidən cəhd et", "ru": "Повторить попытку", "en": "Try again" },
+  "panel.gateTitle": { "az": "Kuryer deyilsən hələ", "ru": "Ты пока не курьер", "en": "You are not a courier yet" },
+  "panel.gateBody": {
+    "az": "Panelə giriş üçün əvvəlcə müraciət göndər və təsdiq gözlə.",
+    "ru": "Чтобы войти в панель, сначала отправь заявку и дождись одобрения.",
+    "en": "To get into the panel, submit an application first and wait for approval."
+  },
+  "panel.gateCta": { "az": "Kuryer ol", "ru": "Стать курьером", "en": "Become a courier" },
+  "panel.pendingTitle": { "az": "Müraciətin yoxlanılır", "ru": "Заявка проверяется", "en": "Your application is under review" },
+  "panel.pendingBody": {
+    "az": "Təsdiqdən sonra panel açılacaq. Statusa baxa bilərsən.",
+    "ru": "Панель откроется после одобрения. Можно посмотреть статус.",
+    "en": "The panel opens after approval. You can check the status."
+  },
+  "panel.pendingCta": { "az": "Statusa bax", "ru": "Посмотреть статус", "en": "Check the status" },
+  "panel.hours": { "az": "{hours} saat {minutes} dəq", "ru": "{hours} ч {minutes} мин", "en": "{hours} h {minutes} min" },
+
+  "offer.crumb": { "az": "Təklif {number}", "ru": "Предложение {number}", "en": "Offer {number}" },
+  "offer.title": { "az": "Təklif {number}", "ru": "Предложение {number}", "en": "Offer {number}" },
+  "offer.route": { "az": "{store} → {customer}", "ru": "{store} → {customer}", "en": "{store} → {customer}" },
+  "offer.tag": { "az": "Yeni təklif", "ru": "Новое предложение", "en": "New offer" },
+  "offer.map": {
+    "az": "Marşrut xəritəsi: mağaza və müştəri (demo)",
+    "ru": "Карта маршрута: магазин и клиент (демо)",
+    "en": "Route map: store and customer (demo)"
+  },
+  "offer.mapPoints": { "az": "Marşrutdakı nöqtələr", "ru": "Точки маршрута", "en": "Points on the route" },
+  "offer.store": { "az": "MAĞAZA", "ru": "МАГАЗИН", "en": "STORE" },
+  "offer.customer": { "az": "MÜŞTƏRİ", "ru": "КЛИЕНТ", "en": "CUSTOMER" },
+  "offer.items": {
+    "az": "Sifariş tərkibi · {count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "Состав заказа · {count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "Order contents · {count, plural, one {# item} other {# items}}"
+  },
+  "offer.quantity": { "az": "× {count}", "ru": "× {count}", "en": "× {count}" },
+  "offer.noUnit": { "az": "—", "ru": "—", "en": "—" },
+  "offer.note": { "az": "Müştəri qeydi", "ru": "Заметка клиента", "en": "Customer note" },
+  "offer.earning": { "az": "Qazancınız", "ru": "Ваш заработок", "en": "Your earning" },
+  "offer.km": { "az": "{km} km", "ru": "{km} км", "en": "{km} km" },
+  "offer.eta": { "az": "~{minutes} dəq", "ru": "~{minutes} мин", "en": "~{minutes} min" },
+  "offer.breakdown": { "az": "Hesablama", "ru": "Расчёт", "en": "Breakdown" },
+  "offer.fee": { "az": "Çatdırılma haqqı", "ru": "Плата за доставку", "en": "Delivery fee" },
+  "offer.distanceBonus": { "az": "Məsafə bonusu", "ru": "Бонус за расстояние", "en": "Distance bonus" },
+  "offer.tip": { "az": "Tip", "ru": "Чай", "en": "Tip" },
+  "offer.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "offer.accept": { "az": "Qəbul et", "ru": "Принять", "en": "Accept" },
+  "offer.decline": { "az": "Rədd et", "ru": "Отклонить", "en": "Decline" },
+  "offer.loading": { "az": "Təklif yüklənir", "ru": "Предложение загружается", "en": "Loading the offer" },
+  "offer.activeBlocked": {
+    "az": "Əvvəlcə cari çatdırmanı bitir",
+    "ru": "Сначала заверши текущую доставку",
+    "en": "Finish the current delivery first"
+  },
+  "offer.takenTitle": { "az": "Təklif artıq götürülüb", "ru": "Предложение уже забрали", "en": "The offer is already taken" },
+  "offer.takenBody": {
+    "az": "Bu sifarişi başqa kuryer qəbul etdi. Panelə qayıdıb yeni təkliflərə bax.",
+    "ru": "Этот заказ принял другой курьер. Вернись в панель и посмотри новые предложения.",
+    "en": "Another courier took this order. Go back to the panel and look at the new offers."
+  },
+  "offer.backToPanel": { "az": "Panelə qayıt", "ru": "Вернуться в панель", "en": "Back to the panel" },
+
+  "decline.title": { "az": "Təklifi rədd et", "ru": "Отклонить предложение", "en": "Decline the offer" },
+  "decline.body": {
+    "az": "Səbəbi seç, bu sənin qəbul faizinə təsir etməyəcək.",
+    "ru": "Выбери причину, это не повлияет на твой процент принятия.",
+    "en": "Pick a reason, it will not affect your acceptance rate."
+  },
+  "decline.reasonLabel": { "az": "Rədd səbəbi", "ru": "Причина отказа", "en": "Reason for declining" },
+  "decline.tooFar": { "az": "Çox uzaqdır", "ru": "Слишком далеко", "en": "Too far away" },
+  "decline.vehicle": { "az": "Nəqliyyat problemi", "ru": "Проблема с транспортом", "en": "Vehicle problem" },
+  "decline.endingShift": { "az": "Növbəni bitirirəm", "ru": "Заканчиваю смену", "en": "I am ending my shift" },
+  "decline.other": { "az": "Başqa səbəb", "ru": "Другая причина", "en": "Another reason" },
+  "decline.back": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "decline.confirm": { "az": "Rədd et", "ru": "Отклонить", "en": "Decline" },
+  "decline.done": { "az": "Təklif rədd edildi", "ru": "Предложение отклонено", "en": "The offer was declined" },
+
+  "delivery.crumb": { "az": "Çatdırılma {number}", "ru": "Доставка {number}", "en": "Delivery {number}" },
+  "delivery.title": { "az": "Aktiv çatdırılma", "ru": "Активная доставка", "en": "Active delivery" },
+  "delivery.subtitle": { "az": "{number} · {store} → {customer}", "ru": "{number} · {store} → {customer}", "en": "{number} · {store} → {customer}" },
+  "delivery.map": { "az": "Canlı marşrut (demo)", "ru": "Живой маршрут (демо)", "en": "Live route (demo)" },
+  "delivery.step1": { "az": "Qəbul edildi", "ru": "Принято", "en": "Accepted" },
+  "delivery.step2": { "az": "Mağazada", "ru": "В магазине", "en": "At the store" },
+  "delivery.step3": { "az": "Götürüldü", "ru": "Забрано", "en": "Picked up" },
+  "delivery.step4": { "az": "Çatdırıldı", "ru": "Доставлено", "en": "Delivered" },
+  "delivery.stepsLabel": { "az": "Çatdırılma mərhələləri", "ru": "Этапы доставки", "en": "Delivery steps" },
+  "delivery.statusAccepted": { "az": "Qəbul edildi", "ru": "Принято", "en": "Accepted" },
+  "delivery.statusAtStore": { "az": "Mağazadadır", "ru": "В магазине", "en": "At the store" },
+  "delivery.statusPickedUp": { "az": "Yoldadır", "ru": "В пути", "en": "On the way" },
+  "delivery.statusDelivered": { "az": "Çatdırıldı", "ru": "Доставлено", "en": "Delivered" },
+  "delivery.nextStep": { "az": "Növbəti addım", "ru": "Следующий шаг", "en": "Next step" },
+  "delivery.goToStore": { "az": "Mağazaya get", "ru": "Поезжай в магазин", "en": "Head to the store" },
+  "delivery.goToStoreBody": {
+    "az": "{store}, {address}. Çatanda “Mağazadayam” düyməsini bas.",
+    "ru": "{store}, {address}. На месте нажми «Я в магазине».",
+    "en": "{store}, {address}. Press \"I am at the store\" when you arrive."
+  },
+  "delivery.atStoreAction": { "az": "Mağazadayam", "ru": "Я в магазине", "en": "I am at the store" },
+  "delivery.pickupTitle": { "az": "Məhsulları götür və yoxla", "ru": "Забери и проверь товары", "en": "Collect and check the items" },
+  "delivery.pickupBody": {
+    "az": "{store}, {address}. Sifariş nömrəsini kassada göstər.",
+    "ru": "{store}, {address}. Покажи номер заказа на кассе.",
+    "en": "{store}, {address}. Show the order number at the till."
+  },
+  "delivery.pickedUpAction": { "az": "Məhsulu götürdüm", "ru": "Товары забрал", "en": "I have picked the items up" },
+  "delivery.deliverTitle": { "az": "Müştəriyə çatdır", "ru": "Доставь клиенту", "en": "Deliver to the customer" },
+  "delivery.deliverBody": {
+    "az": "{address}. Təhvil verəndən sonra “Çatdırdım” düyməsini bas.",
+    "ru": "{address}. После передачи нажми «Доставил».",
+    "en": "{address}. Press \"Delivered\" once you have handed it over."
+  },
+  "delivery.deliveredAction": { "az": "Çatdırdım", "ru": "Доставил", "en": "Delivered" },
+  "delivery.doneTitle": { "az": "Çatdırılma bitdi", "ru": "Доставка завершена", "en": "The delivery is done" },
+  "delivery.doneBody": {
+    "az": "Qazanc balansına əlavə olundu. Yeni təkliflərə baxa bilərsən.",
+    "ru": "Заработок добавлен на баланс. Можно смотреть новые предложения.",
+    "en": "The earning was added to your balance. You can look at new offers."
+  },
+  "delivery.doneAction": { "az": "Panelə qayıt", "ru": "Вернуться в панель", "en": "Back to the panel" },
+  "delivery.cashTitle": { "az": "Nağdı yığdın?", "ru": "Наличные получены?", "en": "Did you collect the cash?" },
+  "delivery.cashBody": {
+    "az": "Müştəridən {amount} nağd yığmalısan. Təsdiqlədikdə çatdırılma bağlanacaq.",
+    "ru": "Нужно получить от клиента {amount} наличными. После подтверждения доставка закроется.",
+    "en": "You need to collect {amount} in cash from the customer. Confirming closes the delivery."
+  },
+  "delivery.cashConfirm": { "az": "Bəli, yığdım", "ru": "Да, получил", "en": "Yes, collected" },
+  "delivery.cashCancel": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "delivery.customer": { "az": "Müştəri", "ru": "Клиент", "en": "Customer" },
+  "delivery.call": { "az": "Zəng et", "ru": "Позвонить", "en": "Call" },
+  "delivery.payment": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "delivery.method": { "az": "Üsul", "ru": "Способ", "en": "Method" },
+  "delivery.methodCash": { "az": "Nağd", "ru": "Наличные", "en": "Cash" },
+  "delivery.methodCard": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "delivery.cashToCollect": { "az": "Müştəridən yığ", "ru": "Получить с клиента", "en": "Collect from the customer" },
+  "delivery.yourEarning": { "az": "Sənin qazancın", "ru": "Твой заработок", "en": "Your earning" },
+  "delivery.reportProblem": { "az": "Problem bildir", "ru": "Сообщить о проблеме", "en": "Report a problem" },
+  "delivery.reportTitle": { "az": "Problem bildir?", "ru": "Сообщить о проблеме?", "en": "Report a problem?" },
+  "delivery.reportBody": {
+    "az": "Demo rejimdə dəstək açılmır. Real versiyada operator sənə zəng edəcək.",
+    "ru": "В демо-режиме поддержка не открывается. В реальной версии оператор позвонит тебе.",
+    "en": "Support does not open in demo mode. In the real version an operator calls you."
+  },
+  "delivery.reportConfirm": { "az": "Başa düşdüm", "ru": "Понятно", "en": "Got it" },
+  "delivery.loading": { "az": "Çatdırılma yüklənir", "ru": "Доставка загружается", "en": "Loading the delivery" },
+  "delivery.noneTitle": { "az": "Aktiv çatdırılma yoxdur", "ru": "Активной доставки нет", "en": "No active delivery" },
+  "delivery.noneBody": {
+    "az": "Bu çatdırılma bitmiş və ya ləğv edilmişdir. Panelə qayıdıb yeni təklif seç.",
+    "ru": "Эта доставка завершена или отменена. Вернись в панель и выбери новое предложение.",
+    "en": "This delivery is finished or cancelled. Go back to the panel and pick a new offer."
+  },
+
+  "earnings.crumb": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "earnings.title": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "earnings.subtitle": { "az": "Balans və son 7 gün", "ru": "Баланс и последние 7 дней", "en": "Balance and the last 7 days" },
+  "earnings.payoutRequest": { "az": "Çıxarış sorğusu", "ru": "Запрос на вывод", "en": "Request a payout" },
+  "earnings.payoutToast": {
+    "az": "Demo rejim: çıxarış sorğusu heç yerə göndərilmir",
+    "ru": "Демо-режим: запрос на вывод никуда не отправляется",
+    "en": "Demo mode: the payout request is sent nowhere"
+  },
+  "earnings.balance": { "az": "Balans", "ru": "Баланс", "en": "Balance" },
+  "earnings.nextPayout": { "az": "Növbəti ödəniş: {date}", "ru": "Следующая выплата: {date}", "en": "Next payout: {date}" },
+  "earnings.today": { "az": "Bu gün", "ru": "Сегодня", "en": "Today" },
+  "earnings.week": { "az": "Bu həftə", "ru": "На этой неделе", "en": "This week" },
+  "earnings.month": { "az": "Bu ay", "ru": "В этом месяце", "en": "This month" },
+  "earnings.deliveryCount": {
+    "az": "{count, plural, one {# çatdırılma} other {# çatdırılma}}",
+    "ru": "{count, plural, one {# доставка} few {# доставки} many {# доставок} other {# доставки}}",
+    "en": "{count, plural, one {# delivery} other {# deliveries}}"
+  },
+  "earnings.last7": { "az": "Son 7 gün", "ru": "Последние 7 дней", "en": "The last 7 days" },
+  "earnings.chartLabel": { "az": "Son 7 günün qazancı", "ru": "Заработок за последние 7 дней", "en": "Earnings over the last 7 days" },
+  "earnings.rating": { "az": "Reytinq", "ru": "Рейтинг", "en": "Rating" },
+  "earnings.acceptance": { "az": "Qəbul faizi", "ru": "Процент принятия", "en": "Acceptance rate" },
+  "earnings.totalDeliveries": { "az": "Ümumi çatdırılma", "ru": "Всего доставок", "en": "Total deliveries" },
+  "earnings.loading": { "az": "Qazanc yüklənir", "ru": "Заработок загружается", "en": "Loading the earnings" },
+  "earnings.errorTitle": { "az": "Qazanc yüklənmədi", "ru": "Заработок не загрузился", "en": "Earnings did not load" },
+
+  "history.crumb": { "az": "Tarixçə", "ru": "История", "en": "History" },
+  "history.title": { "az": "Çatdırılma tarixçəsi", "ru": "История доставок", "en": "Delivery history" },
+  "history.subtitle": { "az": "Tamamlanmış sifarişlər", "ru": "Завершённые заказы", "en": "Completed orders" },
+  "history.tip": { "az": "+{amount}", "ru": "+{amount}", "en": "+{amount}" },
+  "history.noTip": { "az": "—", "ru": "—", "en": "—" },
+  "history.km": { "az": "{km} km", "ru": "{km} км", "en": "{km} km" },
+  "history.loading": { "az": "Tarixçə yüklənir", "ru": "История загружается", "en": "Loading the history" },
+  "history.emptyTitle": { "az": "Hələ çatdırılma yoxdur", "ru": "Доставок пока нет", "en": "No deliveries yet" },
+  "history.emptyBody": {
+    "az": "İlk sifarişi tamamla, tarixçə burada görünəcək.",
+    "ru": "Заверши первый заказ, история появится здесь.",
+    "en": "Finish your first order and the history appears here."
+  },
+  "history.emptyCta": { "az": "Panelə qayıt", "ru": "Вернуться в панель", "en": "Back to the panel" },
+  "history.errorTitle": { "az": "Tarixçə yüklənmədi", "ru": "История не загрузилась", "en": "The history did not load" },
+  "history.more": { "az": "Daha çox", "ru": "Показать ещё", "en": "Show more" },
+
+  "day.mon": { "az": "B.e", "ru": "Пн", "en": "Mon" },
+  "day.tue": { "az": "Ç.a", "ru": "Вт", "en": "Tue" },
+  "day.wed": { "az": "Ç", "ru": "Ср", "en": "Wed" },
+  "day.thu": { "az": "C.a", "ru": "Чт", "en": "Thu" },
+  "day.fri": { "az": "C", "ru": "Пт", "en": "Fri" },
+  "day.sat": { "az": "Ş", "ru": "Сб", "en": "Sat" },
+  "day.sun": { "az": "B", "ru": "Вс", "en": "Sun" },
+
+  "field.required": { "az": "Bu sahə vacibdir", "ru": "Это поле обязательно", "en": "This field is required" },
+  "field.phone": { "az": "Telefon nömrəsi düzgün deyil", "ru": "Неверный номер телефона", "en": "The phone number is not valid" },
+  "field.fin": { "az": "FİN 7 simvoldan ibarətdir", "ru": "FIN состоит из 7 символов", "en": "The FIN is 7 characters long" },
+  "field.voen": { "az": "VÖEN 10 rəqəmdir", "ru": "ИНН — это 10 цифр", "en": "The tax number is 10 digits" },
+  "field.iban": { "az": "IBAN “AZ” və 26 simvoldan ibarətdir", "ru": "IBAN — это «AZ» и 26 символов", "en": "An IBAN is \"AZ\" plus 26 characters" },
+  "field.plate": { "az": "Qeydiyyat nişanını yazın", "ru": "Укажите номерной знак", "en": "Enter the number plate" },
+  "field.agreement": { "az": "Şərtləri qəbul etməlisiniz", "ru": "Нужно принять условия", "en": "You must accept the terms" },
+  "field.birthDate": { "az": "Tarix gg.aa.iiii formatında", "ru": "Дата в формате дд.мм.гггг", "en": "The date goes as dd.mm.yyyy" },
+
+  "entry.title": { "az": "Ozio ilə işlə", "ru": "Работай с Ozio", "en": "Work with Ozio" },
+  "entry.body": {
+    "az": "Kuryer ol, öz qrafikinlə qazan",
+    "ru": "Стань курьером и зарабатывай по своему графику",
+    "en": "Become a courier and earn on your own schedule"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "network": {
+    "az": "İnternet bağlantısı yoxdur",
+    "ru": "Нет подключения к интернету",
+    "en": "No internet connection"
+  },
+  "timeout": {
+    "az": "Bağlantı vaxtı bitdi",
+    "ru": "Время ожидания истекло",
+    "en": "The connection timed out"
+  },
+  "unauthorized": { "az": "Giriş tələb olunur", "ru": "Требуется вход", "en": "Sign-in required" },
+  "notFound": { "az": "Tapılmadı", "ru": "Не найдено", "en": "Not found" },
+  "server": { "az": "Server xətası", "ru": "Ошибка сервера", "en": "Server error" },
+  "parse": {
+    "az": "Cavabı oxumaq mümkün olmadı",
+    "ru": "Не удалось обработать ответ",
+    "en": "We couldn’t read the response"
+  },
+  "unknown": { "az": "Naməlum xəta", "ru": "Неизвестная ошибка", "en": "Unknown error" },
+  "rateLimited": { "az": "Çox sayda sorğu", "ru": "Слишком много запросов", "en": "Too many requests" },
+  "notAvailable": {
+    "az": "Bu bölmə hazırda əlçatan deyil",
+    "ru": "Этот раздел пока недоступен",
+    "en": "This section isn’t available yet"
+  }
+}

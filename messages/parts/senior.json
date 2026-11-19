@@ -1,0 +1,210 @@
+{
+  "demo.body": {
+    "az": "· Qiymətlər və sorğular nümunədir, real sifariş yaradılmır.",
+    "ru": "· Цены и запросы примерные, реальный заказ не создаётся.",
+    "en": "· The prices and requests are samples; no real order is created."
+  },
+
+  "breadcrumb.label": { "az": "Naviqasiya", "ru": "Навигация", "en": "Breadcrumb" },
+  "breadcrumb.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "breadcrumb.module": { "az": "Sadə rejim", "ru": "Простой режим", "en": "Simple mode" },
+
+  "mode.title": { "az": "Sadə rejim", "ru": "Простой режим", "en": "Simple mode" },
+  "mode.subtitle": {
+    "az": "Daha böyük yazı və daha geniş düymələr — rahat oxumaq üçün.",
+    "ru": "Крупный шрифт и большие кнопки — чтобы читать было легче.",
+    "en": "Larger type and bigger buttons, so everything is easier to read."
+  },
+  "mode.demo": {
+    "az": "· Rejim parametrləri cihazda saxlanılır; pensiya və qonşu ekranları nümunə məlumatla işləyir.",
+    "ru": "· Настройки режима хранятся на устройстве; экраны пенсии и соседей работают на примерных данных.",
+    "en": "· The mode settings are kept on this device; the pension and neighbour screens run on sample data."
+  },
+  "mode.entryBody": {
+    "az": "Yazını böyüt, düymələri genişlət.",
+    "ru": "Увеличьте шрифт и кнопки.",
+    "en": "Enlarge the type and the buttons."
+  },
+  "mode.openSettings": {
+    "az": "Sadə rejim parametrlərini aç",
+    "ru": "Открыть настройки простого режима",
+    "en": "Open the simple-mode settings"
+  },
+  "mode.settings": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+  "mode.enabled": { "az": "Sadə rejim aktivdir", "ru": "Простой режим включён", "en": "Simple mode is on" },
+  "mode.enabledHint": {
+    "az": "Yazı ölçüsü və düymələr bütün sadə rejim ekranlarında böyüyür.",
+    "ru": "Размер шрифта и кнопки увеличиваются на всех экранах простого режима.",
+    "en": "Type size and buttons grow on every simple-mode screen."
+  },
+  "mode.scale": { "az": "Yazı ölçüsü", "ru": "Размер шрифта", "en": "Type size" },
+  "mode.scaleValue": { "az": "{percent} %", "ru": "{percent} %", "en": "{percent} %" },
+  "mode.scaleHint": {
+    "az": "100 %-dan 160 %-a qədər. Dəyişiklik dərhal aşağıdaki nümunədə görünür.",
+    "ru": "От 100 % до 160 %. Изменение сразу видно в образце ниже.",
+    "en": "From 100 % to 160 %. The change shows in the sample below straight away."
+  },
+  "mode.contrast": { "az": "Güclü kontrast", "ru": "Усиленный контраст", "en": "Stronger contrast" },
+  "mode.contrastHint": {
+    "az": "Yazı və çərçivələr daha tünd olur.",
+    "ru": "Текст и рамки становятся более насыщенными.",
+    "en": "Text and borders become more pronounced."
+  },
+  "mode.sample.title": { "az": "Nümunə", "ru": "Образец", "en": "Sample" },
+  "mode.sample.body": {
+    "az": "Çörək, süd və yumurta səbətə atıldı. Sifariş sabah səhər çatdırılacaq.",
+    "ru": "Хлеб, молоко и яйца добавлены в корзину. Заказ доставят завтра утром.",
+    "en": "Bread, milk and eggs are in the basket. The order arrives tomorrow morning."
+  },
+  "mode.sample.meta": {
+    "az": "Nərimanov rayonu · 20 dəqiqə",
+    "ru": "Район Нариманов · 20 минут",
+    "en": "Narimanov district · 20 minutes"
+  },
+  "mode.screens": { "az": "Sadə rejim ekranları", "ru": "Экраны простого режима", "en": "Simple-mode screens" },
+
+  "pension.title": { "az": "Pensiya günü", "ru": "День пенсии", "en": "Pension day" },
+  "pension.subtitle": {
+    "az": "Pensiya gəlməmiş ən vacib məhsulları bir toxunuşla sifariş et.",
+    "ru": "Закажите самое нужное одним касанием ещё до прихода пенсии.",
+    "en": "Order the essentials in one tap, before the pension arrives."
+  },
+  "pension.payday": { "az": "Pensiya günü · {date}", "ru": "День пенсии · {date}", "en": "Pension day · {date}" },
+  "pension.countdown": {
+    "az": "{days, plural, =0 {Bu gündür} one {# gün qalıb} other {# gün qalıb}}",
+    "ru": "{days, plural, =0 {Сегодня} one {Остался # день} few {Осталось # дня} many {Осталось # дней} other {Осталось # дня}}",
+    "en": "{days, plural, =0 {Today} one {# day to go} other {# days to go}}"
+  },
+  "pension.amountLabel": { "az": "Pensiya məbləği", "ru": "Сумма пенсии", "en": "Pension amount" },
+  "pension.basket": { "az": "Əsas ərzaq səbəti", "ru": "Базовая продуктовая корзина", "en": "Essentials basket" },
+  "pension.summary": { "az": "Sifariş xülasəsi", "ru": "Сводка заказа", "en": "Order summary" },
+  "pension.autoRepeat": { "az": "Hər ay təkrarla", "ru": "Повторять каждый месяц", "en": "Repeat every month" },
+  "pension.autoRepeatHint": {
+    "az": "Pensiya günü avtomatik sifariş",
+    "ru": "Автоматический заказ в день пенсии",
+    "en": "An automatic order on pension day"
+  },
+  "pension.total": { "az": "Səbət cəmi", "ru": "Итого по корзине", "en": "Basket total" },
+  "pension.order": {
+    "az": "Pensiya günü səbətini sifariş et",
+    "ru": "Заказать корзину на день пенсии",
+    "en": "Order the pension-day basket"
+  },
+  "pension.openOrder": { "az": "Sifarişə bax", "ru": "Открыть заказ", "en": "View the order" },
+  "pension.ordered.title": { "az": "Səbət sifariş edildi", "ru": "Корзина заказана", "en": "The basket is ordered" },
+  "pension.ordered.body": {
+    "az": "Sifariş #{number} qəbul olundu. Kuryer {date} günü səhər çatdıracaq.",
+    "ru": "Заказ #{number} принят. Курьер доставит его утром {date}.",
+    "en": "Order #{number} was accepted. The courier will deliver it on the morning of {date}."
+  },
+  "pension.orderedNote": {
+    "az": "Demo rejim: real sifariş yaradılmadı və heç nə ödənilmədi.",
+    "ru": "Демо-режим: реальный заказ не создан и ничего не оплачено.",
+    "en": "Demo mode: no real order was created and nothing was paid."
+  },
+  "pension.demoNote": {
+    "az": "Demo rejim: düyməyə basmaq real sifariş yaratmır.",
+    "ru": "Демо-режим: нажатие кнопки не создаёт реальный заказ.",
+    "en": "Demo mode: pressing the button does not create a real order."
+  },
+  "pension.error.title": { "az": "Səbət yüklənmədi", "ru": "Корзина не загрузилась", "en": "The basket did not load" },
+
+  "help.title": { "az": "Qonşu nəvə", "ru": "Соседский внук", "en": "Neighbour help" },
+  "help.subtitle": {
+    "az": "Yaxınlıqdakı qonşulara kömək et və ya özün kömək istə.",
+    "ru": "Помогите соседям поблизости или попросите помощи сами.",
+    "en": "Help a neighbour nearby, or ask for help yourself."
+  },
+  "help.tab.label": { "az": "Qonşu nəvə siyahıları", "ru": "Списки соседской помощи", "en": "Neighbour help lists" },
+  "help.tab.mine": { "az": "Kömək istə", "ru": "Попросить помощь", "en": "Ask for help" },
+  "help.tab.nearby": { "az": "Köməyə get", "ru": "Пойти помочь", "en": "Go and help" },
+  "help.tab.announce": {
+    "az": "{tab}: {count, plural, =0 {sorğu yoxdur} one {# sorğu} other {# sorğu}}",
+    "ru": "{tab}: {count, plural, =0 {нет запросов} one {# запрос} few {# запроса} many {# запросов} other {# запроса}}",
+    "en": "{tab}: {count, plural, =0 {no requests} one {# request} other {# requests}}"
+  },
+
+  "help.kind.medicine": { "az": "Dərman alınması", "ru": "Купить лекарство", "en": "Pick up medicine" },
+  "help.kind.groceries": { "az": "Ərzaq gətirilməsi", "ru": "Принести продукты", "en": "Bring groceries" },
+  "help.kind.trash": { "az": "Zibil atılması", "ru": "Вынести мусор", "en": "Take out the rubbish" },
+
+  "help.status.open": { "az": "Gözləyir", "ru": "Ожидает", "en": "Waiting" },
+  "help.status.accepted": { "az": "Yoldadır", "ru": "В пути", "en": "On the way" },
+  "help.status.completed": { "az": "Tamamlandı", "ru": "Выполнено", "en": "Done" },
+
+  "help.unit.m": { "az": "m", "ru": "м", "en": "m" },
+  "help.unit.km": { "az": "km", "ru": "км", "en": "km" },
+  "help.bonusTag": { "az": "+{amount} ₼ bonus", "ru": "+{amount} ₼ бонус", "en": "+{amount} ₼ bonus" },
+  "help.accept": { "az": "Köməyə get", "ru": "Пойти помочь", "en": "Go and help" },
+  "help.complete": { "az": "Tamamlandı", "ru": "Выполнено", "en": "Mark as done" },
+  "help.helperLine": { "az": "{note} · {helper}", "ru": "{note} · {helper}", "en": "{note} · {helper}" },
+
+  "help.earned.label": { "az": "Qazandığın bonus", "ru": "Заработанный бонус", "en": "Bonus you earned" },
+  "help.earned.value": { "az": "+{amount}", "ru": "+{amount}", "en": "+{amount}" },
+  "help.earned.body": {
+    "az": "{name} — kömək etdiyin üçün.",
+    "ru": "За помощь: {name}.",
+    "en": "For helping {name}."
+  },
+
+  "help.info.title": { "az": "Qonşu nəvə", "ru": "Соседский внук", "en": "Neighbour help" },
+  "help.info.body": {
+    "az": "Yaşlı qonşular dərman, ərzaq və ya zibil atmaq üçün kömək istəyir. Köməyə gedən qonşu hər sorğu üçün bonus qazanır.",
+    "ru": "Пожилые соседи просят помочь с лекарствами, продуктами или мусором. Тот, кто помогает, получает бонус за каждый запрос.",
+    "en": "Older neighbours ask for help with medicine, groceries or the rubbish. Whoever helps earns a bonus for each request."
+  },
+
+  "help.empty.mine.title": { "az": "Hələ sorğun yoxdur", "ru": "У вас пока нет запросов", "en": "You have no requests yet" },
+  "help.empty.mine.body": {
+    "az": "Dərman, ərzaq və ya zibil üçün qonşudan kömək istə.",
+    "ru": "Попросите соседа помочь с лекарством, продуктами или мусором.",
+    "en": "Ask a neighbour for help with medicine, groceries or the rubbish."
+  },
+  "help.empty.nearby.title": {
+    "az": "Yaxınlıqda sorğu yoxdur",
+    "ru": "Поблизости запросов нет",
+    "en": "No requests nearby"
+  },
+  "help.empty.nearby.body": {
+    "az": "Qonşuların hamısı kömək alıb. Sonra yenidən yoxla.",
+    "ru": "Всем соседям уже помогли. Заглядывайте позже.",
+    "en": "Every neighbour has been helped. Check again later."
+  },
+  "help.error.title": { "az": "Sorğular yüklənmədi", "ru": "Запросы не загрузились", "en": "The requests did not load" },
+
+  "help.new.action": { "az": "Yeni sorğu", "ru": "Новый запрос", "en": "New request" },
+  "help.new.title": { "az": "Yeni sorğu", "ru": "Новый запрос", "en": "New request" },
+  "help.new.question": {
+    "az": "Hansı köməyə ehtiyacın var?",
+    "ru": "Какая помощь нужна?",
+    "en": "What do you need help with?"
+  },
+  "help.new.noteLabel": { "az": "Qeyd", "ru": "Примечание", "en": "Note" },
+  "help.new.noteCounter": { "az": "{count} / {max}", "ru": "{count} / {max}", "en": "{count} / {max}" },
+  "help.new.notePlaceholder.medicine": {
+    "az": "Qeyd: məsələn, Metformin 500 mg",
+    "ru": "Примечание: например, метформин 500 мг",
+    "en": "Note: for example, Metformin 500 mg"
+  },
+  "help.new.notePlaceholder.groceries": {
+    "az": "Qeyd: məsələn, çörək, süd, 1 kq düyü",
+    "ru": "Примечание: например, хлеб, молоко, 1 кг риса",
+    "en": "Note: for example, bread, milk, 1 kg of rice"
+  },
+  "help.new.notePlaceholder.trash": {
+    "az": "Qeyd: məsələn, zibil kisəsi həyətdəki qutuya",
+    "ru": "Примечание: например, мусорный пакет в бак во дворе",
+    "en": "Note: for example, the rubbish bag to the bin in the yard"
+  },
+  "help.new.bonusNote": {
+    "az": "Köməyə gələn qonşu +{amount} bonus qazanacaq.",
+    "ru": "Сосед, который придёт помочь, получит +{amount} бонуса.",
+    "en": "The neighbour who comes to help will earn a +{amount} bonus."
+  },
+  "help.new.submit": { "az": "Sorğunu göndər", "ru": "Отправить запрос", "en": "Send request" },
+  "help.new.errors.noteTooLong": {
+    "az": "Qeyd ən çoxu {max} simvol ola bilər.",
+    "ru": "Примечание не длиннее {max} символов.",
+    "en": "The note can be at most {max} characters."
+  }
+}

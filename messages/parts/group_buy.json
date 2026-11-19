@@ -1,0 +1,567 @@
+{
+  "meta.title": {
+    "az": "Birgə al",
+    "ru": "Купить вместе",
+    "en": "Group buy"
+  },
+  "title": {
+    "az": "Birgə al",
+    "ru": "Купить вместе",
+    "en": "Group buy"
+  },
+  "subtitle": {
+    "az": "Qonşu və qohumla birgə al, topdan qiymətə qənaət et",
+    "ru": "Покупайте с соседями и родными — экономьте по оптовой цене",
+    "en": "Buy together with neighbours and family, save at the wholesale price"
+  },
+  "demo.module": {
+    "az": "Birgə al",
+    "ru": "Купить вместе",
+    "en": "Group buy"
+  },
+  "tabs.label": {
+    "az": "Qrup siyahısı",
+    "ru": "Список групп",
+    "en": "Deal lists"
+  },
+  "tabs.nearby": {
+    "az": "Yaxınlıqda",
+    "ru": "Рядом",
+    "en": "Nearby"
+  },
+  "tabs.mine": {
+    "az": "Mənim qruplarım",
+    "ru": "Мои группы",
+    "en": "My groups"
+  },
+  "create.cta": {
+    "az": "Qrup yarat",
+    "ru": "Создать группу",
+    "en": "Create a group"
+  },
+  "card.groupPrice": {
+    "az": "{pack} · qrup qiyməti",
+    "ru": "{pack} · групповая цена",
+    "en": "{pack} · group price"
+  },
+  "card.retail": {
+    "az": "adi {price}",
+    "ru": "обычно {price}",
+    "en": "usually {price}"
+  },
+  "card.people": {
+    "az": "{joined} / {target} nəfər",
+    "ru": "{joined} / {target} чел.",
+    "en": "{joined} / {target} people"
+  },
+  "card.details": {
+    "az": "Ətraflı bax",
+    "ru": "Подробнее",
+    "en": "View details"
+  },
+  "tag.discount": {
+    "az": "-{percent}%",
+    "ru": "-{percent}%",
+    "en": "-{percent}%"
+  },
+  "tag.sameBuilding": {
+    "az": "Eyni binadan",
+    "ru": "Тот же дом",
+    "en": "Same building"
+  },
+  "tag.nextBuilding": {
+    "az": "Qonşu bina",
+    "ru": "Соседний дом",
+    "en": "Next building"
+  },
+  "tag.complete": {
+    "az": "Qrup tamamlandı",
+    "ru": "Группа собрана",
+    "en": "Group complete"
+  },
+  "tag.expired": {
+    "az": "Vaxtı bitdi",
+    "ru": "Время вышло",
+    "en": "Window closed"
+  },
+  "progress.label": {
+    "az": "Qrupun doluluğu",
+    "ru": "Наполнение группы",
+    "en": "Group progress"
+  },
+  "progress.value": {
+    "az": "{target} nəfərdən {joined} nəfər qoşuldu",
+    "ru": "присоединились {joined} из {target}",
+    "en": "{joined} of {target} people joined"
+  },
+  "countdown.daysHours": {
+    "az": "{days} gün {hours} saat qalıb",
+    "ru": "осталось {days} дн. {hours} ч.",
+    "en": "{days}d {hours}h left"
+  },
+  "countdown.days": {
+    "az": "{days} gün qalıb",
+    "ru": "осталось {days} дн.",
+    "en": "{days}d left"
+  },
+  "countdown.hoursMinutes": {
+    "az": "{hours} saat {minutes} dəq qalıb",
+    "ru": "осталось {hours} ч. {minutes} мин.",
+    "en": "{hours}h {minutes}m left"
+  },
+  "countdown.minutes": {
+    "az": "{minutes} dəq qalıb",
+    "ru": "осталось {minutes} мин.",
+    "en": "{minutes}m left"
+  },
+  "countdown.ended": {
+    "az": "Vaxt bitdi",
+    "ru": "Время вышло",
+    "en": "Time is up"
+  },
+  "duration.daysHours": {
+    "az": "{days} gün {hours} saat",
+    "ru": "{days} дн. {hours} ч.",
+    "en": "{days}d {hours}h"
+  },
+  "duration.days": {
+    "az": "{days} gün",
+    "ru": "{days} дн.",
+    "en": "{days}d"
+  },
+  "duration.hoursMinutes": {
+    "az": "{hours} saat {minutes} dəq",
+    "ru": "{hours} ч. {minutes} мин.",
+    "en": "{hours}h {minutes}m"
+  },
+  "duration.minutes": {
+    "az": "{minutes} dəq",
+    "ru": "{minutes} мин.",
+    "en": "{minutes}m"
+  },
+  "countdown.label": {
+    "az": "Qrupun bitmə vaxtı",
+    "ru": "Срок закрытия группы",
+    "en": "Time left to join"
+  },
+  "detail.breadcrumb": {
+    "az": "Birgə al",
+    "ru": "Купить вместе",
+    "en": "Group buy"
+  },
+  "detail.title": {
+    "az": "{title} · {pack}",
+    "ru": "{title} · {pack}",
+    "en": "{title} · {pack}"
+  },
+  "detail.subtitle": {
+    "az": "Qrup #{id} · {address}",
+    "ru": "Группа #{id} · {address}",
+    "en": "Group #{id} · {address}"
+  },
+  "detail.currentPrice": {
+    "az": "Hazırda qrup qiyməti",
+    "ru": "Групповая цена сейчас",
+    "en": "Group price right now"
+  },
+  "detail.retailAndBest": {
+    "az": "Adi qiymət {retail} · {target} nəfərə çatanda {best}",
+    "ru": "Обычная цена {retail} · при {target} участниках {best}",
+    "en": "Usual price {retail} · {best} once {target} people join"
+  },
+  "detail.invite": {
+    "az": "Dəvət et",
+    "ru": "Пригласить",
+    "en": "Invite"
+  },
+  "tiers.title": {
+    "az": "Qiymət pillələri",
+    "ru": "Ступени цены",
+    "en": "Price tiers"
+  },
+  "tiers.people": {
+    "az": "{count, plural, one {# nəfər} other {# nəfər}}",
+    "ru": "{count, plural, one {# человек} few {# человека} many {# человек} other {# человека}}",
+    "en": "{count, plural, one {# person} other {# people}}"
+  },
+  "tiers.current": {
+    "az": "Cari",
+    "ru": "Сейчас",
+    "en": "Current"
+  },
+  "tiers.reached": {
+    "az": "Bu pilləyə çatılıb",
+    "ru": "Эта ступень достигнута",
+    "en": "This tier is reached"
+  },
+  "participants.title": {
+    "az": "İştirakçılar",
+    "ru": "Участники",
+    "en": "Participants"
+  },
+  "participants.missing": {
+    "az": "Qrupun dolması üçün {count} nəfər çatışmır. Dəvət et — hər yeni üzvdən sonra qiymət düşür.",
+    "ru": "До полной группы не хватает {count} чел. Пригласите — с каждым новым участником цена падает.",
+    "en": "{count} more people needed. Invite someone — every new member lowers the price."
+  },
+  "participants.complete": {
+    "az": "Qrup doldu. Hamı ən aşağı qiyməti ödəyir, çatdırılma ortaqdır.",
+    "ru": "Группа собрана. Все платят минимальную цену, доставка общая.",
+    "en": "The group is full. Everyone pays the lowest price and shares one delivery."
+  },
+  "join.title": {
+    "az": "Qrupa qoşul",
+    "ru": "Присоединиться",
+    "en": "Join the group"
+  },
+  "join.qty": {
+    "az": "Miqdar",
+    "ru": "Количество",
+    "en": "Quantity"
+  },
+  "join.qtyDecrease": {
+    "az": "Miqdarı azalt",
+    "ru": "Уменьшить количество",
+    "en": "Decrease quantity"
+  },
+  "join.qtyIncrease": {
+    "az": "Miqdarı artır",
+    "ru": "Увеличить количество",
+    "en": "Increase quantity"
+  },
+  "join.address": {
+    "az": "Ortaq çatdırılma ünvanı",
+    "ru": "Общий адрес доставки",
+    "en": "Shared delivery address"
+  },
+  "join.freeDelivery": {
+    "az": "0 ₼ çatdırılma",
+    "ru": "доставка 0 ₼",
+    "en": "₼0 delivery"
+  },
+  "join.line": {
+    "az": "{qty} × {price}",
+    "ru": "{qty} × {price}",
+    "en": "{qty} × {price}"
+  },
+  "join.delivery": {
+    "az": "Çatdırılma",
+    "ru": "Доставка",
+    "en": "Delivery"
+  },
+  "join.total": {
+    "az": "Cəmi",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "join.submit": {
+    "az": "Qoşul",
+    "ru": "Присоединиться",
+    "en": "Join"
+  },
+  "join.alreadyJoined": {
+    "az": "Qoşulmusan · {qty} ədəd",
+    "ru": "Вы в группе · {qty} шт.",
+    "en": "You are in · {qty} pcs"
+  },
+  "join.link": {
+    "az": "Dəvət linki",
+    "ru": "Ссылка-приглашение",
+    "en": "Invite link"
+  },
+  "confirm.title": {
+    "az": "Qoşulmanı təsdiqlə",
+    "ru": "Подтвердите участие",
+    "en": "Confirm joining"
+  },
+  "confirm.group": {
+    "az": "Qrup #{id} · {joined} / {target} nəfər",
+    "ru": "Группа #{id} · {joined} / {target} чел.",
+    "en": "Group #{id} · {joined} / {target} people"
+  },
+  "confirm.savings": {
+    "az": "Qənaətin",
+    "ru": "Ваша экономия",
+    "en": "You save"
+  },
+  "confirm.note": {
+    "az": "Qrup dolanda kartından çıxılacaq. Dolmasa — heç nə çıxılmır.",
+    "ru": "Деньги спишутся с карты, когда группа соберётся. Не соберётся — ничего не спишется.",
+    "en": "Your card is charged when the group fills. If it does not, nothing is charged."
+  },
+  "confirm.failed": {
+    "az": "Qoşulmaq alınmadı. Yenidən cəhd et.",
+    "ru": "Не удалось присоединиться. Попробуйте снова.",
+    "en": "Could not join. Please try again."
+  },
+  "waiting.title": {
+    "az": "Gözləyirik",
+    "ru": "Ждём",
+    "en": "Waiting"
+  },
+  "waiting.body": {
+    "az": "Qoşuldun! Qrupun dolması üçün {count} nəfər çatışmır. Dəvət et — vaxt bitənədək {time}.",
+    "ru": "Вы в группе! До полного состава не хватает {count} чел. Пригласите — до закрытия {time}.",
+    "en": "You are in. {count} more people are needed — {time} to invite them."
+  },
+  "complete.title": {
+    "az": "Qrup tamamlandı",
+    "ru": "Группа собрана",
+    "en": "Group complete"
+  },
+  "complete.body": {
+    "az": "Hamı qoşuldu. Sifarişin hazırlanır, ortaq çatdırılma 0 ₼.",
+    "ru": "Все присоединились. Заказ готовится, общая доставка 0 ₼.",
+    "en": "Everyone joined. Your order is being prepared, shared delivery ₼0."
+  },
+  "complete.track": {
+    "az": "Sifarişi izlə",
+    "ru": "Отследить заказ",
+    "en": "Track the order"
+  },
+  "close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "share.title": {
+    "az": "Dəvət et",
+    "ru": "Пригласить",
+    "en": "Invite"
+  },
+  "share.body": {
+    "az": "Linki qonşularına göndər — hər yeni üzvdən sonra qiymət düşür.",
+    "ru": "Отправьте ссылку соседям — с каждым участником цена падает.",
+    "en": "Send the link to your neighbours — every new member lowers the price."
+  },
+  "share.copy": {
+    "az": "Linki kopyala",
+    "ru": "Скопировать ссылку",
+    "en": "Copy the link"
+  },
+  "share.copied": {
+    "az": "Dəvət linki kopyalandı · {link}",
+    "ru": "Ссылка-приглашение скопирована · {link}",
+    "en": "Invite link copied · {link}"
+  },
+  "share.shared": {
+    "az": "Dəvət göndərildi",
+    "ru": "Приглашение отправлено",
+    "en": "Invite shared"
+  },
+  "share.failed": {
+    "az": "Link kopyalanmadı",
+    "ru": "Ссылку скопировать не удалось",
+    "en": "Could not copy the link"
+  },
+  "rail.title": {
+    "az": "Qonşunla birgə al, ucuz al",
+    "ru": "Покупайте с соседями дешевле",
+    "en": "Buy with your neighbours, pay less"
+  },
+  "rail.body": {
+    "az": "Topdan məhsulu 3, 5 və ya 10 nəfərlə böl — qrup böyüdükcə qiymət düşür. Çatdırılma 0 ₼.",
+    "ru": "Разделите оптовый товар на 3, 5 или 10 человек — чем больше группа, тем ниже цена. Доставка 0 ₼.",
+    "en": "Split a wholesale pack between 3, 5 or 10 people — the bigger the group, the lower the price. Delivery ₼0."
+  },
+  "how.title": {
+    "az": "Necə işləyir",
+    "ru": "Как это работает",
+    "en": "How it works"
+  },
+  "how.step1": {
+    "az": "Qrupa qoşul və ya yarat",
+    "ru": "Присоединитесь к группе или создайте свою",
+    "en": "Join a group or start one"
+  },
+  "how.step2": {
+    "az": "Daha çox nəfər — daha aşağı qiymət",
+    "ru": "Больше участников — ниже цена",
+    "en": "More people, lower price"
+  },
+  "how.step3": {
+    "az": "Qrup dolanda kartdan çıxılır, bir çatdırılma",
+    "ru": "Когда группа соберётся — списание с карты и одна доставка",
+    "en": "When the group fills, the card is charged and one delivery is made"
+  },
+  "create.title": {
+    "az": "Qrup yarat",
+    "ru": "Создать группу",
+    "en": "Create a group"
+  },
+  "create.subtitle": {
+    "az": "Məhsul seç, nəfər sayını və müddəti təyin et",
+    "ru": "Выберите товар, количество участников и срок",
+    "en": "Pick a product, a target and a deadline"
+  },
+  "create.step1": {
+    "az": "1. Məhsul",
+    "ru": "1. Товар",
+    "en": "1. Product"
+  },
+  "create.step2": {
+    "az": "2. Neçə nəfər?",
+    "ru": "2. Сколько человек?",
+    "en": "2. How many people?"
+  },
+  "create.step3": {
+    "az": "3. Son tarix",
+    "ru": "3. Срок",
+    "en": "3. Deadline"
+  },
+  "create.step4": {
+    "az": "4. Sənin miqdarın",
+    "ru": "4. Ваше количество",
+    "en": "4. Your quantity"
+  },
+  "create.step5": {
+    "az": "5. Çatdırılma ünvanı",
+    "ru": "5. Адрес доставки",
+    "en": "5. Delivery address"
+  },
+  "create.productMeta": {
+    "az": "{pack} · {price}",
+    "ru": "{pack} · {price}",
+    "en": "{pack} · {price}"
+  },
+  "create.hours": {
+    "az": "{count, plural, one {# saat} other {# saat}}",
+    "ru": "{count, plural, one {# час} few {# часа} many {# часов} other {# часа}}",
+    "en": "{count, plural, one {# hour} other {# hours}}"
+  },
+  "create.preview": {
+    "az": "Qiymət önizləməsi",
+    "ru": "Предпросмотр цены",
+    "en": "Price preview"
+  },
+  "create.previewNote": {
+    "az": "Adi qiymət {price}. Hədəfə çatanda hamı ən aşağı qiyməti ödəyir.",
+    "ru": "Обычная цена {price}. При достижении цели все платят минимальную цену.",
+    "en": "Usual price {price}. Once the target is reached everyone pays the lowest price."
+  },
+  "create.submit": {
+    "az": "Qrupu aç",
+    "ru": "Открыть группу",
+    "en": "Open the group"
+  },
+  "create.needProduct": {
+    "az": "Əvvəlcə məhsul seç",
+    "ru": "Сначала выберите товар",
+    "en": "Pick a product first"
+  },
+  "create.failed": {
+    "az": "Qrup yaradılmadı. Yenidən cəhd et.",
+    "ru": "Группу создать не удалось. Попробуйте снова.",
+    "en": "The group was not created. Please try again."
+  },
+  "create.productsLabel": {
+    "az": "Məhsul seçimi",
+    "ru": "Выбор товара",
+    "en": "Product choice"
+  },
+  "create.targetsLabel": {
+    "az": "Nəfər sayı",
+    "ru": "Количество участников",
+    "en": "Target size"
+  },
+  "create.deadlinesLabel": {
+    "az": "Qrupun müddəti",
+    "ru": "Срок группы",
+    "en": "Group deadline"
+  },
+  "empty.title": {
+    "az": "Hələ qrupun yoxdur",
+    "ru": "У вас пока нет групп",
+    "en": "You have no groups yet"
+  },
+  "empty.body": {
+    "az": "Mənim qruplarım boşdur. Qrupa qoşul və ya özün yarat.",
+    "ru": "Раздел «Мои группы» пуст. Присоединитесь к группе или создайте свою.",
+    "en": "My groups is empty. Join a group or start your own."
+  },
+  "empty.cta": {
+    "az": "Qrup yarat",
+    "ru": "Создать группу",
+    "en": "Create a group"
+  },
+  "emptyNearby.title": {
+    "az": "Yaxınlıqda açıq qrup yoxdur",
+    "ru": "Рядом нет открытых групп",
+    "en": "No open groups nearby"
+  },
+  "emptyNearby.body": {
+    "az": "Binanızda hazırda açıq qrup yoxdur. Birinci sən yarat.",
+    "ru": "В вашем доме пока нет открытых групп. Создайте первую.",
+    "en": "Nothing is open in your building right now. Be the first to start one."
+  },
+  "error.title": {
+    "az": "Qruplar yüklənmədi",
+    "ru": "Группы не загрузились",
+    "en": "Groups did not load"
+  },
+  "error.body": {
+    "az": "Şəbəkə xətası baş verdi. Bir az sonra yenidən cəhd et.",
+    "ru": "Произошла сетевая ошибка. Попробуйте чуть позже.",
+    "en": "A network error occurred. Try again in a moment."
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "errorDeal.title": {
+    "az": "Qrup yüklənmədi",
+    "ru": "Группа не загрузилась",
+    "en": "The group did not load"
+  },
+  "expired.title": {
+    "az": "Qrupun vaxtı bitdi",
+    "ru": "Время группы истекло",
+    "en": "The group's window closed"
+  },
+  "expired.body": {
+    "az": "Hədəf sayına çatılmadı, heç nə çıxılmadı. Yeni qrup yarada bilərsən.",
+    "ru": "Цель не достигнута, ничего не списано. Можно создать новую группу.",
+    "en": "The target was not reached and nothing was charged. You can start a new group."
+  },
+  "expired.cta": {
+    "az": "Yeni qrup yarat",
+    "ru": "Создать новую группу",
+    "en": "Create a new group"
+  },
+  "loading": {
+    "az": "Yüklənir",
+    "ru": "Загрузка",
+    "en": "Loading"
+  },
+  "tile.title": {
+    "az": "Açıq qrup alışı",
+    "ru": "Открытая групповая покупка",
+    "en": "Open group deal"
+  },
+  "tile.body": {
+    "az": "{title} · {joined} / {target} nəfər, {price}",
+    "ru": "{title} · {joined} / {target} чел., {price}",
+    "en": "{title} · {joined} / {target} people, {price}"
+  },
+  "tile.cta": {
+    "az": "Qrupa bax",
+    "ru": "Открыть группу",
+    "en": "Open the deal"
+  },
+  "demo.body": {
+    "az": "Bu bölmə hələ real serverə qoşulmayıb — göstərilən məlumatlar nümunədir.",
+    "ru": "Этот раздел пока не подключён к реальному серверу — показанные данные являются примером.",
+    "en": "This section is not connected to a real server yet — the data shown is sample data."
+  },
+  "countdown.hours": {
+    "az": "{hours} saat qalıb",
+    "ru": "осталось {hours} ч.",
+    "en": "{hours}h left"
+  },
+  "countdown.lastHour": {
+    "az": "Bir saatdan az qalıb",
+    "ru": "Осталось меньше часа",
+    "en": "Less than an hour left"
+  }
+}

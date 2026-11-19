@@ -1,0 +1,524 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   Ozio Web — design tokens.
+   Source: web-handoff/design-system/tokens.css + tailwind-theme.css (1:1).
+   Theme resolution: [data-theme="dark"|"light"] on <html> > prefers-color-scheme > light.
+   NEVER hand-write a hex value outside this file.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+
+  /* colors: light */
+  --oz-bg: #f4f1ec;
+  --oz-surface: #ffffff;
+  --oz-surface-2: #eae5de;
+  --oz-ink: #111111;
+  --oz-ink-2: #5c5852;
+  --oz-ink-3: #9c978f;
+  --oz-line: #e2ddd5;
+  --oz-brand: #ee3768;
+  --oz-brand-dark: #c81f4f;
+  --oz-brand-soft: #ffd6e1;
+  --oz-yellow: #ffd43b;
+  --oz-success: #12a150;
+  --oz-success-soft: #e3f6ec;
+  --oz-sky: #2e90fa;
+  --oz-sky-soft: #e4f0fe;
+  --oz-violet: #7b5cfa;
+  --oz-violet-soft: #eeeafe;
+  --oz-block: #111111;
+  --oz-cta: #111111;
+  --oz-on-cta: #ffffff;
+  --oz-on-block: #ffffff;
+  --oz-on-yellow: #111111;
+  --oz-white: #ffffff;
+
+  /* proposed (not in canvas) */
+  --oz-danger: var(--oz-brand);
+  --oz-danger-soft: var(--oz-brand-soft);
+  --oz-warn: #f5a524;
+  --oz-warn-soft: #fff4e0;
+
+  /* ------------------------------------------------------------------------
+     Accessible text colours for SMALL text on light fills.
+     `07-responsive-a11y-perf.md` asks for exactly this and never defined it:
+     "Brand #EE3768 on white is ~3.9:1 → use it for large text/fills […]; small
+     brand text uses the darker --c-brand-text token".
+
+     The accent tokens are fills and large-text colours, and measured against
+     their own soft tints they all fail WCAG AA for body-sized text:
+       white on brand 3.90 · brand on brand-soft 2.97 · success on
+       success-soft 2.99 · sky on sky-soft 2.81 · violet on violet-soft 3.75 ·
+       warn on warn-soft 1.87
+     Every value below was measured, and clears 4.5:1 on BOTH its soft tint and
+     `surface`, in both themes:
+       brand-text 5.19 / 6.82 · success-text 5.89 / 6.63 · sky-text 5.73 / 6.62
+       violet-text 7.21 / 8.49 · warn-text 5.97 / 6.51
+
+     Rule: text below 18.66px bold or 24px regular on a light surface or soft
+     tint uses `text-<accent>-text`; fills, icons, borders and large display
+     text keep the plain accent token.
+     ------------------------------------------------------------------------ */
+  --oz-brand-text: #b01a44;
+  --oz-success-text: #0b6b34;
+  --oz-sky-text: #155cae;
+  --oz-violet-text: #4c33b8;
+  --oz-warn-text: #8a5000;
+  --oz-danger-text: var(--oz-brand-text);
+  --oz-focus-ring: var(--oz-brand);
+  --oz-overlay: #000000a6;
+  --oz-on-block-2: #b5afa6;
+  --oz-on-block-3: #77726b;
+
+  /* type */
+  --oz-font:
+    "Geologica", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* radius */
+  --oz-r-xs: 6px;
+  --oz-r-sm: 10px;
+  --oz-r-md: 14px;
+  --oz-r-lg: 20px;
+  --oz-r-card: 24px;
+  --oz-r-xl: 28px;
+  --oz-r-modal: 32px;
+  --oz-r-bento: 36px;
+  --oz-r-2xl: 48px;
+  --oz-r-pill: 999px;
+
+  /* spacing (4px base) */
+  --oz-s-1: 4px;
+  --oz-s-2: 8px;
+  --oz-s-3: 12px;
+  --oz-s-4: 16px;
+  --oz-s-5: 20px;
+  --oz-s-6: 24px;
+  --oz-s-8: 32px;
+  --oz-s-10: 40px;
+  --oz-s-12: 48px;
+  --oz-s-16: 64px;
+  --oz-s-24: 96px;
+  --oz-s-30: 120px;
+
+  /* layout */
+  --oz-container: 1200px;
+  --oz-page-x: 120px;
+  --oz-section-y: 120px;
+  --oz-sidebar-w: 264px;
+  --oz-rail-w: 88px;
+  --oz-topbar-h: 88px;
+  --oz-content-pad-x: 32px;
+  --oz-content-gap: 32px;
+  --oz-tabbar-h: 68px;
+
+  /* shadows */
+  --oz-shadow-toast: 0 8px 24px #0000001a;
+  --oz-shadow-chip: 0 8px 24px #00000033;
+  --oz-shadow-menu: 0 12px 32px #00000022;
+  --oz-shadow-modal: 0 16px 40px #00000022;
+  --oz-shadow-float: 0 24px 48px #00000040;
+
+  /* motion */
+  --oz-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --oz-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --oz-dur-fast: 120ms;
+  --oz-dur-base: 200ms;
+  --oz-dur-slow: 320ms;
+  --oz-shimmer-dur: 1400ms;
+  --oz-shimmer-hi: #ffffff99;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --oz-bg: #0e0d0c;
+  --oz-surface: #1b1917;
+  --oz-surface-2: #2a2724;
+  --oz-ink: #f4f1ec;
+  --oz-ink-2: #b5afa6;
+  --oz-ink-3: #77726b;
+  --oz-line: #2e2b28;
+  --oz-brand: #ff4d7d;
+  --oz-brand-dark: #c81f4f;
+  --oz-brand-soft: #3d1623;
+  --oz-success: #3dd68c;
+  --oz-success-soft: #12301f;
+  --oz-sky-soft: #10263f;
+  --oz-violet-soft: #251e4a;
+  --oz-block: #2a2724;
+  --oz-cta: #ff4d7d;
+  --oz-warn-soft: #3a2a0c;
+  --oz-shimmer-hi: #f4f1ec14;
+
+  /* On dark the soft tints are dark, so the bright accents are already the
+     readable choice (measured on their own tints: brand 4.94, success 7.63,
+     sky 4.73, warn 6.79). Violet is the exception at 3.49, so it lightens. */
+  --oz-brand-text: var(--oz-brand);
+  --oz-success-text: var(--oz-success);
+  --oz-sky-text: var(--oz-sky);
+  --oz-violet-text: #b3a0ff;
+  --oz-warn-text: var(--oz-warn);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    color-scheme: dark;
+    --oz-bg: #0e0d0c;
+    --oz-surface: #1b1917;
+    --oz-surface-2: #2a2724;
+    --oz-ink: #f4f1ec;
+    --oz-ink-2: #b5afa6;
+    --oz-ink-3: #77726b;
+    --oz-line: #2e2b28;
+    --oz-brand: #ff4d7d;
+    --oz-brand-dark: #c81f4f;
+    --oz-brand-soft: #3d1623;
+    --oz-success: #3dd68c;
+    --oz-success-soft: #12301f;
+    --oz-sky-soft: #10263f;
+    --oz-violet-soft: #251e4a;
+    --oz-block: #2a2724;
+    --oz-cta: #ff4d7d;
+    --oz-warn-soft: #3a2a0c;
+    --oz-shimmer-hi: #f4f1ec14;
+    --oz-brand-text: var(--oz-brand);
+    --oz-success-text: var(--oz-success);
+    --oz-sky-text: var(--oz-sky);
+    --oz-violet-text: #b3a0ff;
+    --oz-warn-text: var(--oz-warn);
+  }
+}
+
+/* Tablet (frame 768) / mobile (frame 390) layout token overrides */
+@media (max-width: 1199px) {
+  :root {
+    --oz-page-x: 32px;
+    --oz-section-y: 72px;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --oz-page-x: 20px;
+    --oz-section-y: 48px;
+    --oz-content-pad-x: 20px;
+    --oz-topbar-h: 72px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --oz-dur-fast: 0ms;
+    --oz-dur-base: 0ms;
+    --oz-dur-slow: 0ms;
+    --oz-shimmer-dur: 0ms;
+  }
+}
+
+/* ============================================================================
+   Tailwind v4 theme — utilities reference the CSS variables above, so
+   light/dark switches with [data-theme] and no `dark:` variants are needed.
+   ========================================================================== */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans:
+    "Geologica", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* reset the default palette; expose only Ozio colors */
+  --color-*: initial;
+  --color-bg: var(--oz-bg);
+  --color-surface: var(--oz-surface);
+  --color-surface2: var(--oz-surface-2);
+  --color-ink: var(--oz-ink);
+  --color-ink2: var(--oz-ink-2);
+  --color-ink3: var(--oz-ink-3);
+  --color-line: var(--oz-line);
+  --color-brand: var(--oz-brand);
+  --color-brand-dark: var(--oz-brand-dark);
+  --color-brand-soft: var(--oz-brand-soft);
+  --color-yellow: var(--oz-yellow);
+  --color-success: var(--oz-success);
+  --color-success-soft: var(--oz-success-soft);
+  --color-sky: var(--oz-sky);
+  --color-sky-soft: var(--oz-sky-soft);
+  --color-violet: var(--oz-violet);
+  --color-violet-soft: var(--oz-violet-soft);
+  --color-block: var(--oz-block);
+  --color-cta: var(--oz-cta);
+  --color-on-cta: var(--oz-on-cta);
+  --color-on-block: var(--oz-on-block);
+  --color-on-block2: var(--oz-on-block-2);
+  --color-on-block3: var(--oz-on-block-3);
+  --color-on-yellow: var(--oz-on-yellow);
+  --color-white: #ffffff;
+  --color-danger: var(--oz-danger);
+  --color-danger-soft: var(--oz-danger-soft);
+  --color-warn: var(--oz-warn);
+  --color-warn-soft: var(--oz-warn-soft);
+  /* small text on light fills — see the note next to the --oz-*-text tokens */
+  --color-brand-text: var(--oz-brand-text);
+  --color-success-text: var(--oz-success-text);
+  --color-sky-text: var(--oz-sky-text);
+  --color-violet-text: var(--oz-violet-text);
+  --color-warn-text: var(--oz-warn-text);
+  --color-danger-text: var(--oz-danger-text);
+  --color-overlay: var(--oz-overlay);
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-inherit: inherit;
+
+  /* breakpoints (min-width) */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-2xl: 1440px;
+
+  --spacing: 4px;
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-card: 24px;
+  --radius-xl: 28px;
+  --radius-modal: 32px;
+  --radius-bento: 36px;
+  --radius-2xl: 48px;
+  --radius-pill: 999px;
+
+  --shadow-toast: 0 8px 24px #0000001a;
+  --shadow-chip: 0 8px 24px #00000033;
+  --shadow-menu: 0 12px 32px #00000022;
+  --shadow-modal: 0 16px 40px #00000022;
+  --shadow-float: 0 24px 48px #00000040;
+
+  /* type scale */
+  --text-nano: 11px;
+  --text-micro: 12px;
+  --text-caption: 13px;
+  --text-label: 14px;
+  --text-body-sm: 15px;
+  --text-body: 16px;
+  --text-body-l: 19px;
+  --text-h4: 20px;
+  --text-h3: 24px;
+  --text-h2: 32px;
+  --text-h1-app: 36px;
+  --text-h1: 48px;
+  --text-hero-lg: 52px;
+  --text-hero: 68px;
+  --text-display: 72px;
+  --text-display-404: 96px;
+  --text-hero-lg--line-height: 1.08;
+  --text-hero-lg--letter-spacing: -0.03em;
+  --text-hero--line-height: 1.05;
+  --text-hero--letter-spacing: -0.03em;
+  --text-h1--line-height: 1.1;
+  --text-h1--letter-spacing: -0.03em;
+  --text-h1-app--line-height: 1.25;
+  --text-h1-app--letter-spacing: -0.03em;
+  --text-display--letter-spacing: -0.02em;
+  --text-display-404--letter-spacing: -0.03em;
+  --text-body--line-height: 1.5;
+  --text-body-l--line-height: 1.5;
+  --text-caption--line-height: 1.4;
+
+  --container-modal-s: 400px;
+  --container-modal-m: 560px;
+  --container-modal-l: 760px;
+  --container-page: 1200px;
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-shimmer: oz-shimmer 1.4s linear infinite;
+}
+
+@utility w-sidebar {
+  width: var(--oz-sidebar-w);
+}
+@utility w-rail {
+  width: var(--oz-rail-w);
+}
+@utility h-topbar {
+  height: var(--oz-topbar-h);
+}
+@utility px-page {
+  padding-inline: var(--oz-page-x);
+}
+@utility py-section {
+  padding-block: var(--oz-section-y);
+}
+@utility eyebrow {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.143em;
+  text-transform: uppercase;
+  color: var(--oz-brand);
+}
+/* container rule from layout.md §3: content is 1200 only at >=1440 */
+@utility oz-container {
+  width: min(100% - 2 * var(--oz-page-x), var(--oz-container));
+  margin-inline: auto;
+}
+
+/* ============================================================================
+   Base
+   ========================================================================== */
+
+html {
+  font-family: var(--oz-font);
+  background: var(--oz-bg);
+  color: var(--oz-ink);
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.oz-num,
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Inside `@layer base` on purpose.
+ *
+ * Unlayered CSS beats everything in a layer, so while this rule sat outside one it overrode
+ * Tailwind's `outline-none` utility (which lives in `@layer utilities`). Text controls therefore
+ * kept this 2px offset ring even where a component explicitly turned it off, and a focused input
+ * drew two pink frames: this ring plus the component's own `brand` focus border.
+ *
+ * In `base` the cascade works the way the utilities assume: the ring is the default for anything
+ * focusable, and a component that provides its own indicator can opt out with `outline-none`
+ * (see `inputShellClasses` in shared/ui/input.tsx, where the brand border is the indicator).
+ */
+@layer base {
+  :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline: 2px solid var(--oz-focus-ring);
+    outline-offset: 2px;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ============================================================================
+   Skeleton system (architecture/05, design-system/skeletons.md)
+   ONE animation per skeleton root: bones inside .oz-skeleton share the sweep.
+   ========================================================================== */
+
+@keyframes oz-shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.oz-bone {
+  background-color: var(--oz-surface-2);
+  border-radius: 8px;
+}
+
+.oz-skeleton .oz-bone,
+.oz-skeleton .oz-bone-fill {
+  background-image: linear-gradient(
+    100deg,
+    transparent 30%,
+    var(--oz-shimmer-hi) 50%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  animation: oz-shimmer var(--oz-shimmer-dur) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oz-skeleton .oz-bone,
+  .oz-skeleton .oz-bone-fill {
+    animation: none;
+    background-image: none;
+  }
+}
+
+/* Safety net for reduced motion (architecture/06) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Spinner — allowed ONLY inside buttons, pull-to-refresh and pagination footers */
+@keyframes oz-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.oz-spinner {
+  animation: oz-spin 600ms linear infinite;
+}
+
+/*
+ * The splash surface, for <BootSplash> and the /splash route.
+ *
+ * Brand pink, because every fill in `public/lottie/ozio_logo.json` is #FFFFFF: on the cream `bg`
+ * token the white scooter is all but invisible. (The design export frames it on #111111 —
+ * html/auth/yuklenme-lottie.html, node `pTwuM` — but the owner asked for the site's pink.)
+ *
+ * `--oz-brand` rather than a literal, so the splash is the same pink as the CTAs next to it and
+ * follows the theme the way the rest of the brand does; white reads clearly on both the light
+ * (#ee3768) and dark (#ff4d7d) values.
+ */
+.oz-splash-surface {
+  background-color: var(--oz-brand);
+  color: #ffffff;
+}
+
+/*
+ * The page-transition splash: brand-coloured artwork on nothing at all.
+ *
+ * `public/lottie/ozio_logo.json` is drawn entirely in #FFFFFF — every fill in the file. On the
+ * landing that is right, because the scooter rides across a full pink surface. Between pages
+ * there is no surface: the overlay is transparent and the page shows through, so a white logo
+ * would be invisible on the cream `bg`.
+ *
+ * lottie-web's SVG renderer writes `fill` as an ATTRIBUTE on each shape, and a CSS declaration
+ * beats a presentation attribute without needing `!important` — so this repaints the whole
+ * animation brand pink without touching the json or shipping a second copy of it.
+ */
+.oz-splash-tint svg path,
+.oz-splash-tint svg rect,
+.oz-splash-tint svg circle,
+.oz-splash-tint svg ellipse,
+.oz-splash-tint svg polygon {
+  fill: var(--oz-brand);
+}

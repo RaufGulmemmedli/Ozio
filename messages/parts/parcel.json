@@ -1,0 +1,267 @@
+{
+  "demo": {
+    "az": "Demo rejim: bu xidmət hələ işləmir, məlumatlar nümunədir və heç yerə göndərilmir",
+    "ru": "Демо-режим: эта услуга пока не работает, данные — примеры и никуда не отправляются",
+    "en": "Demo mode: this service does not work yet, the data is sample data and is sent nowhere"
+  },
+  "crumb.home": { "az": "Ana səhifə", "ru": "Главная", "en": "Home" },
+  "crumb.parcel": { "az": "Bağlama", "ru": "Посылка", "en": "Parcel" },
+
+  "list.title": { "az": "Bağlama göndər", "ru": "Отправить посылку", "en": "Send a parcel" },
+  "list.subtitle": {
+    "az": "Ünvandan ünvana kuryerlə, ortalama 40 dəqiqəyə",
+    "ru": "От адреса до адреса курьером, в среднем за 40 минут",
+    "en": "Address to address by courier, about 40 minutes"
+  },
+  "list.newParcel": { "az": "Yeni bağlama", "ru": "Новая посылка", "en": "New parcel" },
+  "list.myParcels": { "az": "Bağlamalarım", "ru": "Мои посылки", "en": "My parcels" },
+  "list.loading": {
+    "az": "Bağlamalar yüklənir",
+    "ru": "Посылки загружаются",
+    "en": "Loading parcels"
+  },
+
+  "hero.headline": {
+    "az": "Bağlamanı kuryer götürsün, sən yalnız ünvanı yaz",
+    "ru": "Курьер забирает посылку — тебе остаётся только написать адрес",
+    "en": "A courier picks the parcel up, you only write the address"
+  },
+  "hero.lead": {
+    "az": "Qiymət məsafə, çəki və kövrəklik üzrə göndərməzdən əvvəl göstərilir. Alıcı 4 rəqəmli kodla bağlamanı təhvil alır.",
+    "ru": "Цена по расстоянию, весу и хрупкости показывается до отправки. Получатель забирает посылку по 4-значному коду.",
+    "en": "The price for distance, weight and fragility is shown before sending. The recipient collects the parcel with a 4-digit code."
+  },
+  "hero.send": { "az": "Bağlama göndər", "ru": "Отправить посылку", "en": "Send a parcel" },
+  "hero.step1": { "az": "Ünvanlar", "ru": "Адреса", "en": "Addresses" },
+  "hero.step2": { "az": "Bağlama", "ru": "Посылка", "en": "Parcel" },
+  "hero.step3": { "az": "Qiymət", "ru": "Цена", "en": "Price" },
+  "hero.step4": { "az": "Təsdiq", "ru": "Подтверждение", "en": "Confirm" },
+
+  "rules.title": { "az": "Qaydalar və qiymət", "ru": "Правила и цена", "en": "Rules and price" },
+  "rules.fromPrice": { "az": "{price}-dan", "ru": "от {price}", "en": "from {price}" },
+  "rules.maxWeight": { "az": "Maks. çəki", "ru": "Макс. вес", "en": "Max weight" },
+  "rules.maxSide": { "az": "Maks. tərəf", "ru": "Макс. сторона", "en": "Max side" },
+  "rules.payment": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "rules.paymentMethods": {
+    "az": "Nağd, kart, Ozio balansı",
+    "ru": "Наличные, карта, баланс Ozio",
+    "en": "Cash, card, Ozio balance"
+  },
+  "rules.fragile": { "az": "Kövrək bağlama", "ru": "Хрупкая посылка", "en": "Fragile parcel" },
+  "rules.fragileFee": { "az": "+{amount}", "ru": "+{amount}", "en": "+{amount}" },
+  "rules.cm": { "az": "{value} sm", "ru": "{value} см", "en": "{value} cm" },
+
+  "filter.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "filter.active": { "az": "Aktiv", "ru": "Активные", "en": "Active" },
+  "filter.delivered": { "az": "Çatdırılıb", "ru": "Доставлены", "en": "Delivered" },
+  "filter.cancelled": { "az": "Ləğv edilib", "ru": "Отменены", "en": "Cancelled" },
+  "filter.label": { "az": "Bağlama filtri", "ru": "Фильтр посылок", "en": "Parcel filter" },
+
+  "status.searching": { "az": "Kuryer axtarılır", "ru": "Ищем курьера", "en": "Looking for a courier" },
+  "status.assigned": { "az": "Kuryer yoldadır", "ru": "Курьер в пути", "en": "Courier on the way" },
+  "status.pickedUp": { "az": "Kuryer yoldadır", "ru": "Курьер в пути", "en": "Courier on the way" },
+  "status.delivered": { "az": "Çatdırılıb", "ru": "Доставлено", "en": "Delivered" },
+  "status.cancelled": { "az": "Ləğv edilib", "ru": "Отменено", "en": "Cancelled" },
+  "status.noPrice": { "az": "—", "ru": "—", "en": "—" },
+
+  "empty.title": { "az": "Hələ bağlamanız yoxdur", "ru": "Посылок пока нет", "en": "No parcels yet" },
+  "empty.body": {
+    "az": "İlk bağlamanı göndərin: ünvanları yazın, qiyməti görün, kuryer götürsün.",
+    "ru": "Отправьте первую посылку: напишите адреса, посмотрите цену, курьер её заберёт.",
+    "en": "Send your first parcel: enter the addresses, see the price, a courier picks it up."
+  },
+  "error.title": { "az": "Bağlamalar yüklənmədi", "ru": "Посылки не загрузились", "en": "Parcels did not load" },
+  "error.body": {
+    "az": "Əlaqə problemi yarandı. Bir az sonra yenidən cəhd edin.",
+    "ru": "Возникла проблема со связью. Повторите попытку немного позже.",
+    "en": "There was a connection problem. Please try again in a moment."
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить попытку", "en": "Try again" },
+
+  "new.crumb": { "az": "Yeni bağlama", "ru": "Новая посылка", "en": "New parcel" },
+  "new.title": { "az": "Yeni bağlama", "ru": "Новая посылка", "en": "New parcel" },
+  "new.subtitle": {
+    "az": "Ünvanlar, bağlama ölçüsü və ödəniş — qiymət sağda canlı hesablanır",
+    "ru": "Адреса, размер посылки и оплата — цена считается справа в реальном времени",
+    "en": "Addresses, parcel size and payment — the price is calculated live on the right"
+  },
+  "new.cancel": { "az": "Ləğv et", "ru": "Отменить", "en": "Cancel" },
+  "new.loading": { "az": "Forma yüklənir", "ru": "Форма загружается", "en": "Loading the form" },
+
+  "new.pickup": { "az": "Götürmə ünvanı", "ru": "Адрес забора", "en": "Pickup address" },
+  "new.dropoff": { "az": "Çatdırılma ünvanı", "ru": "Адрес доставки", "en": "Delivery address" },
+  "new.address": { "az": "Ünvan", "ru": "Адрес", "en": "Address" },
+  "new.details": {
+    "az": "Detallar (mərtəbə, mənzil, giriş)",
+    "ru": "Детали (этаж, квартира, подъезд)",
+    "en": "Details (floor, flat, entrance)"
+  },
+  "new.contactName": { "az": "Əlaqə şəxsi", "ru": "Контактное лицо", "en": "Contact person" },
+  "new.phone": { "az": "Telefon", "ru": "Телефон", "en": "Phone" },
+  "new.savedAddresses": { "az": "Yadda saxlanmış ünvanlar", "ru": "Сохранённые адреса", "en": "Saved addresses" },
+  "new.pickupAddressHint": { "az": "Nizami küç. 12", "ru": "ул. Низами 12", "en": "Nizami str. 12" },
+  "new.detailsHint": { "az": "Məsələn: 3-cü mərtəbə", "ru": "Например: 3-й этаж", "en": "For example: 3rd floor" },
+  "new.nameHint": { "az": "Nurlan Qarayev", "ru": "Нурлан Гараев", "en": "Nurlan Qarayev" },
+  "new.phoneHint": { "az": "+994 50 123 45 67", "ru": "+994 50 123 45 67", "en": "+994 50 123 45 67" },
+  "new.dropoffAddressHint": {
+    "az": "Nərimanov, Əhməd Rəcəbli 7",
+    "ru": "Нариманов, Ахмед Раджабли 7",
+    "en": "Narimanov, Ahmad Rajabli 7"
+  },
+  "new.dropoffDetailsHint": {
+    "az": "Blok 2 · mərtəbə 5 · mənzil 47",
+    "ru": "Блок 2 · этаж 5 · квартира 47",
+    "en": "Block 2 · floor 5 · flat 47"
+  },
+  "new.dropoffNameHint": { "az": "Aysel Məmmədova", "ru": "Айсель Мамедова", "en": "Aysel Mammadova" },
+  "new.dropoffPhoneHint": { "az": "+994 55 321 45 67", "ru": "+994 55 321 45 67", "en": "+994 55 321 45 67" },
+
+  "new.parcel": { "az": "Bağlama", "ru": "Посылка", "en": "Parcel" },
+  "new.presetDims": { "az": "{l}×{w}×{h} sm", "ru": "{l}×{w}×{h} см", "en": "{l}×{w}×{h} cm" },
+  "new.presetMaxWeight": { "az": "{kg} kq-a qədər", "ru": "до {kg} кг", "en": "up to {kg} kg" },
+  "new.presetLabel": { "az": "Ölçü şablonu", "ru": "Шаблон размера", "en": "Size preset" },
+  "new.length": { "az": "Uzunluq (sm)", "ru": "Длина (см)", "en": "Length (cm)" },
+  "new.width": { "az": "En (sm)", "ru": "Ширина (см)", "en": "Width (cm)" },
+  "new.height": { "az": "Hündürlük (sm)", "ru": "Высота (см)", "en": "Height (cm)" },
+  "new.weight": { "az": "Çəki (kq)", "ru": "Вес (кг)", "en": "Weight (kg)" },
+  "new.contents": { "az": "Bağlamanın məzmunu", "ru": "Содержимое посылки", "en": "Parcel contents" },
+  "new.contentsHint": { "az": "Geyim və aksesuar", "ru": "Одежда и аксессуары", "en": "Clothing and accessories" },
+  "new.fragile": { "az": "Kövrək bağlama", "ru": "Хрупкая посылка", "en": "Fragile parcel" },
+  "new.fragileNote": {
+    "az": "Kuryer ehtiyatla daşıyır, +{amount}",
+    "ru": "Курьер везёт аккуратно, +{amount}",
+    "en": "The courier handles it with care, +{amount}"
+  },
+
+  "new.payment": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "new.payerSender": { "az": "Göndərən ödəyir", "ru": "Платит отправитель", "en": "Sender pays" },
+  "new.payerRecipient": { "az": "Alıcı ödəyir", "ru": "Платит получатель", "en": "Recipient pays" },
+  "new.payerLabel": { "az": "Kim ödəyir", "ru": "Кто платит", "en": "Who pays" },
+  "new.methodLabel": { "az": "Ödəniş üsulu", "ru": "Способ оплаты", "en": "Payment method" },
+  "new.methodCash": { "az": "Nağd", "ru": "Наличные", "en": "Cash" },
+  "new.methodCashNote": { "az": "Kuryerə təhvil verərkən", "ru": "При передаче курьеру", "en": "When handing over to the courier" },
+  "new.methodCard": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "new.methodBalance": { "az": "Ozio balansı", "ru": "Баланс Ozio", "en": "Ozio balance" },
+  "new.note": { "az": "Kuryer üçün qeyd", "ru": "Заметка для курьера", "en": "Note for the courier" },
+  "new.noteHint": {
+    "az": "Qapı kodu 47#, zəng vurmayın",
+    "ru": "Код двери 47#, не звоните",
+    "en": "Door code 47#, please do not ring"
+  },
+
+  "quote.title": { "az": "Qiymət", "ru": "Цена", "en": "Price" },
+  "quote.km": { "az": "{km} km", "ru": "{km} км", "en": "{km} km" },
+  "quote.eta": { "az": "~{minutes} dəq", "ru": "~{minutes} мин", "en": "~{minutes} min" },
+  "quote.base": { "az": "Baza tarif", "ru": "Базовый тариф", "en": "Base fare" },
+  "quote.distance": { "az": "Məsafə ({km} km)", "ru": "Расстояние ({km} км)", "en": "Distance ({km} km)" },
+  "quote.weight": { "az": "Çəki ({kg} kq)", "ru": "Вес ({kg} кг)", "en": "Weight ({kg} kg)" },
+  "quote.fragile": { "az": "Kövrək bağlama", "ru": "Хрупкая посылка", "en": "Fragile parcel" },
+  "quote.confirm": { "az": "Qiyməti təsdiqlə", "ru": "Подтвердить цену", "en": "Confirm the price" },
+  "quote.serverNote": {
+    "az": "Qiymət server tərəfindən hesablanır və dəyişdikdə yenilənir.",
+    "ru": "Цена рассчитывается на сервере и обновляется при изменениях.",
+    "en": "The price is calculated on the server and refreshes when it changes."
+  },
+  "quote.idle": { "az": "Ünvanları yazın, qiymət görünəcək.", "ru": "Напишите адреса — цена появится.", "en": "Enter the addresses and the price appears." },
+  "quote.errorTitle": { "az": "Qiymət hesablanmadı", "ru": "Цена не рассчитана", "en": "The price was not calculated" },
+  "quote.retry": { "az": "Yenidən hesabla", "ru": "Пересчитать", "en": "Recalculate" },
+
+  "confirm.title": { "az": "Bağlamanı təsdiqlə", "ru": "Подтвердите посылку", "en": "Confirm the parcel" },
+  "confirm.parcel": { "az": "Bağlama", "ru": "Посылка", "en": "Parcel" },
+  "confirm.spec": { "az": "{preset} · {kg} kq", "ru": "{preset} · {kg} кг", "en": "{preset} · {kg} kg" },
+  "confirm.specFragile": { "az": "{preset} · {kg} kq · kövrək", "ru": "{preset} · {kg} кг · хрупкая", "en": "{preset} · {kg} kg · fragile" },
+  "confirm.payment": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "confirm.paymentBySender": { "az": "{method} (göndərən)", "ru": "{method} (отправитель)", "en": "{method} (sender)" },
+  "confirm.paymentByRecipient": { "az": "{method} (alıcı)", "ru": "{method} (получатель)", "en": "{method} (recipient)" },
+  "confirm.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "confirm.back": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "confirm.submit": { "az": "Təsdiqlə və göndər", "ru": "Подтвердить и отправить", "en": "Confirm and send" },
+  "confirm.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+
+  "track.map": {
+    "az": "Xəritə: kuryerin canlı yeri (demo)",
+    "ru": "Карта: живое местоположение курьера (демо)",
+    "en": "Map: the courier's live position (demo)"
+  },
+  "track.mapPoints": { "az": "Xəritədəki nöqtələr", "ru": "Точки на карте", "en": "Points on the map" },
+  "track.timeline": { "az": "Çatdırılma mərhələləri", "ru": "Этапы доставки", "en": "Delivery steps" },
+  "track.step1": { "az": "Sifariş qəbul edildi", "ru": "Заказ принят", "en": "Order accepted" },
+  "track.step2": { "az": "Kuryer təyin edildi", "ru": "Курьер назначен", "en": "Courier assigned" },
+  "track.step3": { "az": "Bağlama götürüldü", "ru": "Посылка забрана", "en": "Parcel picked up" },
+  "track.step4": { "az": "Çatdırıldı", "ru": "Доставлено", "en": "Delivered" },
+  "track.pending": { "az": "—", "ru": "—", "en": "—" },
+  "track.courier": { "az": "Kuryer", "ru": "Курьер", "en": "Courier" },
+  "track.courierMeta": { "az": "{vehicle} · {rating} reytinq", "ru": "{vehicle} · рейтинг {rating}", "en": "{vehicle} · {rating} rating" },
+  "track.call": { "az": "Zəng et", "ru": "Позвонить", "en": "Call" },
+  "track.searching": { "az": "Kuryer axtarılır", "ru": "Ищем курьера", "en": "Looking for a courier" },
+  "track.searchingBody": {
+    "az": "Yaxınlıqdaki kuryerlərə təklif göndərilir, bir neçə saniyə çəkir.",
+    "ru": "Предложение отправляется ближайшим курьерам, это займёт несколько секунд.",
+    "en": "The offer is going out to nearby couriers, it takes a few seconds."
+  },
+  "track.codes": { "az": "Təhvil kodları", "ru": "Коды передачи", "en": "Handover codes" },
+  "track.pickupCode": { "az": "Götürmə kodu", "ru": "Код забора", "en": "Pickup code" },
+  "track.deliveryCode": { "az": "Çatdırılma kodu", "ru": "Код доставки", "en": "Delivery code" },
+  "track.codesNote": {
+    "az": "Kodu yalnız kuryerə təhvil zamanı de.",
+    "ru": "Назовите код только курьеру при передаче.",
+    "en": "Say the code only to the courier at handover."
+  },
+  "track.priceTitle": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "track.base": { "az": "Baza tarif", "ru": "Базовый тариф", "en": "Base fare" },
+  "track.distanceWeight": { "az": "Məsafə və çəki", "ru": "Расстояние и вес", "en": "Distance and weight" },
+  "track.fragile": { "az": "Kövrək bağlama", "ru": "Хрупкая посылка", "en": "Fragile parcel" },
+  "track.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "track.cancel": { "az": "Ləğv et", "ru": "Отменить", "en": "Cancel" },
+  "track.cancelTitle": { "az": "Bağlamanı ləğv et?", "ru": "Отменить посылку?", "en": "Cancel the parcel?" },
+  "track.cancelBody": {
+    "az": "Kuryer axtarışı dayanacaq və bağlama ləğv ediləcək. Bunu geri qaytarmaq olmur.",
+    "ru": "Поиск курьера остановится, посылка будет отменена. Это нельзя отменить обратно.",
+    "en": "The courier search stops and the parcel is cancelled. This cannot be undone."
+  },
+  "track.cancelConfirm": { "az": "Bəli, ləğv et", "ru": "Да, отменить", "en": "Yes, cancel" },
+  "track.cancelDismiss": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "track.cancelledNote": {
+    "az": "Bu bağlama ləğv edilib.",
+    "ru": "Эта посылка отменена.",
+    "en": "This parcel has been cancelled."
+  },
+  "track.deliveredAt": { "az": "Çatdırıldı: {time}", "ru": "Доставлено: {time}", "en": "Delivered: {time}" },
+  "track.loading": { "az": "Bağlama yüklənir", "ru": "Посылка загружается", "en": "Loading the parcel" },
+  "track.notFoundTitle": { "az": "Bağlama tapılmadı", "ru": "Посылка не найдена", "en": "Parcel not found" },
+  "track.notFoundBody": {
+    "az": "Bu nömrə ilə bağlama yoxdur. Bağlamalarım siyahısına qayıdın.",
+    "ru": "Посылки с таким номером нет. Вернитесь к списку моих посылок.",
+    "en": "There is no parcel with this number. Go back to your parcel list."
+  },
+  "track.backToList": { "az": "Bağlamalarım", "ru": "Мои посылки", "en": "My parcels" },
+
+  "vehicle.foot": { "az": "Piyada", "ru": "Пешком", "en": "On foot" },
+  "vehicle.bicycle": { "az": "Velosiped", "ru": "Велосипед", "en": "Bicycle" },
+  "vehicle.scooter": { "az": "Skuter", "ru": "Скутер", "en": "Scooter" },
+  "vehicle.car": { "az": "Avtomobil", "ru": "Автомобиль", "en": "Car" },
+
+  "field.required": { "az": "Bu sahə vacibdir", "ru": "Это поле обязательно", "en": "This field is required" },
+  "field.phone": { "az": "Telefon nömrəsi düzgün deyil", "ru": "Неверный номер телефона", "en": "The phone number is not valid" },
+  "field.notPositive": { "az": "Sıfırdan böyük olmalıdır", "ru": "Должно быть больше нуля", "en": "Must be greater than zero" },
+  "field.sideTooLong": { "az": "Maksimum tərəf {max} sm", "ru": "Максимальная сторона {max} см", "en": "The longest side is {max} cm" },
+  "field.tooHeavy": { "az": "Maksimum çəki {max} kq", "ru": "Максимальный вес {max} кг", "en": "The maximum weight is {max} kg" },
+  "field.tooHeavyForSize": {
+    "az": "Bu ölçü üçün maksimum {max} kq",
+    "ru": "Для этого размера максимум {max} кг",
+    "en": "For this size the maximum is {max} kg"
+  },
+  "field.sameAddress": {
+    "az": "Götürmə və çatdırılma ünvanı eyni ola bilməz",
+    "ru": "Адрес забора и доставки не могут совпадать",
+    "en": "The pickup and delivery addresses cannot be the same"
+  },
+  "field.recipientCashOnly": {
+    "az": "Alıcı ödəyirsə yalnız nağd mümkündür",
+    "ru": "Если платит получатель, доступны только наличные",
+    "en": "When the recipient pays, only cash is available"
+  },
+
+  "entry.title": { "az": "Bağlama göndər", "ru": "Отправить посылку", "en": "Send a parcel" },
+  "entry.body": { "az": "Ünvandan ünvana kuryerlə", "ru": "От адреса до адреса курьером", "en": "Address to address by courier" }
+}

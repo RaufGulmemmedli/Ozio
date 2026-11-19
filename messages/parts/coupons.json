@@ -1,0 +1,155 @@
+{
+  "title": { "az": "Kuponlar", "ru": "Купоны", "en": "Coupons" },
+  "subtitle": {
+    "az": "Aktiv kuponların və qazandığın təkliflər",
+    "ru": "Твои активные купоны и полученные предложения",
+    "en": "Your active coupons and the offers you’ve earned"
+  },
+  "action.enterCode": { "az": "Kod daxil et", "ru": "Ввести код", "en": "Enter a code" },
+  "search.placeholder": { "az": "Kupon axtar", "ru": "Поиск купона", "en": "Search coupons" },
+
+  "tab.label": { "az": "Kupon filtri", "ru": "Фильтр купонов", "en": "Coupon filter" },
+  "tab.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "tab.mine": { "az": "Mənim", "ru": "Мои", "en": "Mine" },
+  "tab.active": { "az": "Aktiv", "ru": "Активные", "en": "Active" },
+  "tab.expired": { "az": "Bitmiş", "ru": "Завершённые", "en": "Finished" },
+
+  "value.discount": { "az": "endirim", "ru": "скидка", "en": "off" },
+  "value.cashback": { "az": "keşbek", "ru": "кешбэк", "en": "cashback" },
+  "value.offer": { "az": "təklif", "ru": "предложение", "en": "offer" },
+  "value.offerShort": { "az": "Təklif", "ru": "Оффер", "en": "Offer" },
+
+  "tag.popular": { "az": "Populyar", "ru": "Популярный", "en": "Popular" },
+  "tag.today": { "az": "Bugün bitir", "ru": "Истекает сегодня", "en": "Ends today" },
+  "tag.tomorrow": { "az": "Sabah bitir", "ru": "Истекает завтра", "en": "Ends tomorrow" },
+  "tag.daysLeft": {
+    "az": "{count, plural, one {# gün qalıb} other {# gün qalıb}}",
+    "ru": "{count, plural, one {остался # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{count, plural, one {# day left} other {# days left}}"
+  },
+  "tag.used": { "az": "İstifadə olunub", "ru": "Использован", "en": "Used" },
+  "tag.expired": { "az": "Bitib", "ru": "Истёк", "en": "Expired" },
+
+  "meta.until": { "az": "{date} tarixinədək", "ru": "до {date}", "en": "until {date}" },
+  "meta.noEnd": { "az": "Müddətsiz", "ru": "Без срока", "en": "No end date" },
+
+  "channel.online": { "az": "Onlayn", "ru": "Онлайн", "en": "Online" },
+  "channel.offline": { "az": "Mağazada", "ru": "В магазине", "en": "In store" },
+  "channel.both": {
+    "az": "Onlayn və mağazada",
+    "ru": "Онлайн и в магазине",
+    "en": "Online and in store"
+  },
+
+  "state.active": { "az": "Aktiv", "ru": "Активен", "en": "Active" },
+  "state.expiring": { "az": "Bitmək üzrədir", "ru": "Скоро истекает", "en": "Ending soon" },
+  "state.used": { "az": "İstifadə olunub", "ru": "Использован", "en": "Used" },
+  "state.expired": { "az": "Bitib", "ru": "Истёк", "en": "Expired" },
+
+  "empty.title": {
+    "az": "Hələ qazanılmış kupon yoxdur",
+    "ru": "Пока нет полученных купонов",
+    "en": "No coupons yet"
+  },
+  "empty.body": {
+    "az": "Lotereyada iştirak et və ya Ozio 10-lar kartını doldur — qazandığın kuponlar burada görünəcək.",
+    "ru": "Участвуй в лотерее или заполни карту Ozio 10-lar — полученные купоны появятся здесь.",
+    "en": "Join the draw or fill an Ozio 10-lar card — the coupons you earn will show up here."
+  },
+  "empty.primary": { "az": "Lotereyaya bax", "ru": "Смотреть лотерею", "en": "View the draw" },
+  "empty.secondary": { "az": "Bütün kuponlar", "ru": "Все купоны", "en": "All coupons" },
+  "empty.filtered.title": {
+    "az": "Uyğun kupon tapılmadı",
+    "ru": "Подходящих купонов нет",
+    "en": "No matching coupons"
+  },
+  "empty.filtered.body": {
+    "az": "Axtarış sözünü dəyiş və ya filtri sıfırla.",
+    "ru": "Измени запрос или сбрось фильтр.",
+    "en": "Change your search or clear the filter."
+  },
+
+  "promo.title": { "az": "Kod daxil et", "ru": "Ввести код", "en": "Enter a code" },
+  "promo.body": {
+    "az": "Promokodu yaz — səbətdə ödənişdən əvvəl tətbiq olunacaq.",
+    "ru": "Введи промокод — он применится в корзине перед оплатой.",
+    "en": "Type your promo code — it is applied in the cart before you pay."
+  },
+  "promo.label": { "az": "Promokod", "ru": "Промокод", "en": "Promo code" },
+  "promo.placeholder": { "az": "OZIO10", "ru": "OZIO10", "en": "OZIO10" },
+  "promo.helper": {
+    "az": "Böyük hərflərlə, boşluq olmadan.",
+    "ru": "Заглавными буквами, без пробелов.",
+    "en": "Capital letters, no spaces."
+  },
+  "promo.required": { "az": "Kodu yaz", "ru": "Введите код", "en": "Enter a code" },
+  "promo.sent.title": { "az": "Kod göndərildi", "ru": "Код отправлен", "en": "Code sent" },
+  "promo.sent.body": {
+    "az": "Kod səbətə köçürüldü. Endirim sifariş rəsmiləşdirilərkən hesablanır.",
+    "ru": "Код перенесён в корзину. Скидка рассчитывается при оформлении заказа.",
+    "en": "The code moved to your cart. The discount is calculated at checkout."
+  },
+
+  "detail.title": { "az": "Kupon detalı", "ru": "Детали купона", "en": "Coupon details" },
+  "detail.back": { "az": "Kuponlar", "ru": "Купоны", "en": "Coupons" },
+  "detail.fact.validUntil": { "az": "Etibarlıdır", "ru": "Действует до", "en": "Valid until" },
+  "detail.fact.channel": { "az": "İstifadə yeri", "ru": "Где действует", "en": "Where it works" },
+  "detail.fact.state": { "az": "Status", "ru": "Статус", "en": "Status" },
+  "detail.fact.code": { "az": "Kupon kodu", "ru": "Код купона", "en": "Coupon code" },
+  "detail.cashier.title": { "az": "Kassada göstər", "ru": "Покажи на кассе", "en": "Show at the till" },
+  "detail.cashier.body": {
+    "az": "Kassirə kodu de və ya onlayn ödənişdə istifadə et.",
+    "ru": "Назови код кассиру или используй его при оплате онлайн.",
+    "en": "Read the code to the cashier, or use it when you pay online."
+  },
+  "detail.cashier.bodyQr": {
+    "az": "Kassirə QR kodu oxutdur və ya kodu de.",
+    "ru": "Дай кассиру отсканировать QR-код или назови код.",
+    "en": "Let the cashier scan the QR, or read out the code."
+  },
+  "detail.qrLabel": { "az": "Kupon kodu {code}", "ru": "Код купона {code}", "en": "Coupon code {code}" },
+  "detail.noCode": {
+    "az": "Bu kupon üçün kod göndərilmir.",
+    "ru": "Для этого купона код не выдаётся.",
+    "en": "This coupon comes without a code."
+  },
+  "detail.codeCopied": { "az": "Kod kopyalandı", "ru": "Код скопирован", "en": "Code copied" },
+  "detail.codeCopyFailed": {
+    "az": "Kodu kopyalamaq alınmadı",
+    "ru": "Не удалось скопировать код",
+    "en": "We couldn’t copy the code"
+  },
+  "detail.applyInCart": { "az": "Səbətdə tətbiq et", "ru": "Применить в корзине", "en": "Apply in cart" },
+  "detail.later": { "az": "Sonra istifadə et", "ru": "Использовать позже", "en": "Use it later" },
+  "detail.redeemable": {
+    "az": "Kupon onlayn sifarişdə və kassada istifadə oluna bilər.",
+    "ru": "Купон можно использовать в онлайн-заказе и на кассе.",
+    "en": "This coupon works for online orders and at the till."
+  },
+  "detail.notRedeemable": {
+    "az": "Bu kupon onlayn ödənişdə tətbiq olunmur.",
+    "ru": "Этот купон не применяется при оплате онлайн.",
+    "en": "This coupon can’t be applied to an online payment."
+  },
+  "detail.blocked.used": {
+    "az": "Kupon artıq istifadə olunub.",
+    "ru": "Купон уже использован.",
+    "en": "This coupon has already been used."
+  },
+  "detail.blocked.expired": {
+    "az": "Kuponun müddəti bitib.",
+    "ru": "Срок действия купона истёк.",
+    "en": "This coupon has expired."
+  },
+  "detail.blocked.offline": {
+    "az": "Kupon yalnız mağazada, kassada istifadə olunur.",
+    "ru": "Купон действует только в магазине, на кассе.",
+    "en": "This coupon only works in store, at the till."
+  },
+  "detail.notFound.title": { "az": "Kupon tapılmadı", "ru": "Купон не найден", "en": "Coupon not found" },
+  "detail.notFound.body": {
+    "az": "Bu kupon artıq siyahıda deyil. Bütün aktiv kuponlara bax.",
+    "ru": "Этого купона больше нет в списке. Посмотри все активные купоны.",
+    "en": "This coupon is no longer in the list. Take a look at all the active ones."
+  }
+}

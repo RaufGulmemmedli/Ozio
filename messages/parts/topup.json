@@ -1,0 +1,275 @@
+{
+  "back": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonuses" },
+  "title": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up your balance" },
+  "subtitle": {
+    "az": "Ozio balansını kartla və ya marketin kassasında artır.",
+    "ru": "Пополни баланс Ozio картой или на кассе магазина.",
+    "en": "Top up your Ozio balance by card or at a store checkout."
+  },
+
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "error.title": {
+    "az": "Məlumat yüklənmədi",
+    "ru": "Не удалось загрузить данные",
+    "en": "Could not load the data"
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "demo.method": {
+    "az": "Real ödəniş aparılmır — məbləğ nümunə üçündür.",
+    "ru": "Реальный платёж не выполняется — сумма показана для примера.",
+    "en": "No real payment is made — the amount is a sample."
+  },
+  "demo.cashier": {
+    "az": "Barkod nümunədir, kassada işləməz.",
+    "ru": "Штрихкод демонстрационный, на кассе не сработает.",
+    "en": "This barcode is a sample and will not work at a checkout."
+  },
+  "demo.result": {
+    "az": "Bu, sınaq əməliyyatdır.",
+    "ru": "Это демонстрационная операция.",
+    "en": "This is a demo transaction."
+  },
+
+  "methods.title": { "az": "Artırma üsulu", "ru": "Способ пополнения", "en": "Top-up method" },
+  "methods.card.title": { "az": "Bank kartı ilə", "ru": "Банковской картой", "en": "With a bank card" },
+  "methods.card.tag": { "az": "Dərhal", "ru": "Сразу", "en": "Instant" },
+  "methods.card.body": {
+    "az": "Tətbiqdən çıxmadan, saxlanmış kartınla",
+    "ru": "Не выходя из приложения, сохранённой картой",
+    "en": "Without leaving the app, with your saved card"
+  },
+  "methods.cashier.title": { "az": "Kassada", "ru": "На кассе", "en": "At the checkout" },
+  "methods.cashier.body": {
+    "az": "Marketdə Ozio kartını göstər, nağd və ya kartla ödə",
+    "ru": "Покажи карту Ozio в магазине, заплати наличными или картой",
+    "en": "Show your Ozio card in store and pay by cash or card"
+  },
+
+  "limitsNote": {
+    "az": "Kartla artırma: minimum {min}, maksimum {max}",
+    "ru": "Пополнение картой: минимум {min}, максимум {max}",
+    "en": "Card top-up: minimum {min}, maximum {max}"
+  },
+  "limitsNoteMin": {
+    "az": "Kartla artırma: minimum {min}",
+    "ru": "Пополнение картой: минимум {min}",
+    "en": "Card top-up: minimum {min}"
+  },
+  "limitsNoteMax": {
+    "az": "Kartla artırma: maksimum {max}",
+    "ru": "Пополнение картой: максимум {max}",
+    "en": "Card top-up: maximum {max}"
+  },
+
+  "balance.label": { "az": "Ozio balansı", "ru": "Баланс Ozio", "en": "Ozio balance" },
+  "balance.card": { "az": "Kart {number}", "ru": "Карта {number}", "en": "Card {number}" },
+  "balance.noCard": {
+    "az": "Ozio kartı tapılmadı",
+    "ru": "Карта Ozio не найдена",
+    "en": "No Ozio card found"
+  },
+
+  "card.back": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up your balance" },
+  "card.title": { "az": "Kartla artır", "ru": "Пополнить картой", "en": "Top up by card" },
+  "card.subtitle": {
+    "az": "Cari balans: {balance}",
+    "ru": "Текущий баланс: {balance}",
+    "en": "Current balance: {balance}"
+  },
+
+  "amount.label": { "az": "Məbləğ", "ru": "Сумма", "en": "Amount" },
+  "amount.aria": {
+    "az": "Artırma məbləği, manatla",
+    "ru": "Сумма пополнения в манатах",
+    "en": "Top-up amount in manat"
+  },
+  "amount.range": {
+    "az": "Minimum {min} · maksimum {max}",
+    "ru": "Минимум {min} · максимум {max}",
+    "en": "Minimum {min} · maximum {max}"
+  },
+  "amount.rangeMin": { "az": "Minimum {min}", "ru": "Минимум {min}", "en": "Minimum {min}" },
+  "amount.rangeMax": { "az": "Maksimum {max}", "ru": "Максимум {max}", "en": "Maximum {max}" },
+  "amount.required": { "az": "Məbləği yaz", "ru": "Укажи сумму", "en": "Enter an amount" },
+  "amount.invalid": {
+    "az": "Düzgün məbləğ yaz",
+    "ru": "Укажи корректную сумму",
+    "en": "Enter a valid amount"
+  },
+  "amount.belowMin": {
+    "az": "Minimum məbləğ {min}",
+    "ru": "Минимальная сумма — {min}",
+    "en": "The minimum amount is {min}"
+  },
+  "amount.aboveMax": {
+    "az": "Maksimum məbləğ {max}",
+    "ru": "Максимальная сумма — {max}",
+    "en": "The maximum amount is {max}"
+  },
+  "amount.quickAria": {
+    "az": "Hazır məbləğlər",
+    "ru": "Быстрые суммы",
+    "en": "Quick amounts"
+  },
+
+  "cards.label": { "az": "Ödəniş kartı", "ru": "Карта оплаты", "en": "Payment card" },
+  "cards.saved": { "az": "Saxlanmış kart", "ru": "Сохранённая карта", "en": "Saved card" },
+  "cards.validUntil": { "az": "Etibarlıdır: {date}", "ru": "Действует до: {date}", "en": "Valid until: {date}" },
+  "cards.expired": {
+    "az": "Kartın müddəti bitib",
+    "ru": "Срок действия карты истёк",
+    "en": "This card has expired"
+  },
+  "cards.addCard": { "az": "Yeni kart əlavə et", "ru": "Добавить новую карту", "en": "Add a new card" },
+  "cards.addCardHint": {
+    "az": "Kart məlumatları bankın səhifəsində daxil edilir.",
+    "ru": "Данные карты вводятся на странице банка.",
+    "en": "Card details are entered on the bank's own page."
+  },
+
+  "summary.title": { "az": "Yekun", "ru": "Итого", "en": "Summary" },
+  "summary.amount": { "az": "Artırma məbləği", "ru": "Сумма пополнения", "en": "Top-up amount" },
+  "summary.fee": { "az": "Komissiya", "ru": "Комиссия", "en": "Fee" },
+  "summary.free": { "az": "Pulsuz", "ru": "Бесплатно", "en": "Free" },
+  "summary.newBalance": { "az": "Yeni balans", "ru": "Новый баланс", "en": "New balance" },
+  "summary.charged": { "az": "Kartdan çıxılacaq", "ru": "Спишется с карты", "en": "Charged to the card" },
+  "summary.pay": { "az": "{amount} ödə", "ru": "Оплатить {amount}", "en": "Pay {amount}" },
+  "summary.payEmpty": { "az": "Ödə", "ru": "Оплатить", "en": "Pay" },
+  "summary.chargedFrom": {
+    "az": "{card} kartından çıxılacaq",
+    "ru": "Спишется с карты {card}",
+    "en": "Will be charged to {card}"
+  },
+  "summary.quoteFailed": {
+    "az": "Komissiyanı hesablamaq olmadı",
+    "ru": "Не удалось рассчитать комиссию",
+    "en": "Could not calculate the fee"
+  },
+  "summary.processing": {
+    "az": "Ödəniş emal olunur",
+    "ru": "Платёж обрабатывается",
+    "en": "Processing the payment"
+  },
+  "summary.doNotClose": {
+    "az": "Səhifəni bağlama.",
+    "ru": "Не закрывай страницу.",
+    "en": "Please do not close this page."
+  },
+  "summary.needCard": {
+    "az": "Ödəniş üçün kart seç",
+    "ru": "Выбери карту для оплаты",
+    "en": "Choose a card to pay with"
+  },
+
+  "empty.cards.title": {
+    "az": "Saxlanmış kartın yoxdur",
+    "ru": "У тебя нет сохранённых карт",
+    "en": "You have no saved cards"
+  },
+  "empty.cards.body": {
+    "az": "Balansı tətbiqdən artırmaq üçün bank kartı əlavə et.",
+    "ru": "Добавь банковскую карту, чтобы пополнять баланс из приложения.",
+    "en": "Add a bank card to top up your balance from the app."
+  },
+  "empty.cards.cashier": { "az": "Kassada artır", "ru": "Пополнить на кассе", "en": "Top up at a checkout" },
+
+  "cashier.back": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up your balance" },
+  "cashier.title": { "az": "Kassada artır", "ru": "Пополнить на кассе", "en": "Top up at a checkout" },
+  "cashier.subtitle": {
+    "az": "Marketdə kassirə bu barkodu göstər.",
+    "ru": "Покажи этот штрихкод кассиру в магазине.",
+    "en": "Show this barcode to the cashier in store."
+  },
+  "cashier.cardLabel": { "az": "Ozio kartı", "ru": "Карта Ozio", "en": "Ozio card" },
+  "cashier.balance": { "az": "Balans: {balance}", "ru": "Баланс: {balance}", "en": "Balance: {balance}" },
+  "cashier.barcodeAria": {
+    "az": "Ozio kart barkodu, nömrə {number}",
+    "ru": "Штрихкод карты Ozio, номер {number}",
+    "en": "Ozio card barcode, number {number}"
+  },
+  "cashier.qrAria": {
+    "az": "Ozio kart nömrəsinin QR kodu",
+    "ru": "QR-код номера карты Ozio",
+    "en": "QR code of the Ozio card number"
+  },
+  "cashier.qrCaption": { "az": "Skan et", "ru": "Отсканируй", "en": "Scan" },
+  "cashier.steps": { "az": "Necə işləyir", "ru": "Как это работает", "en": "How it works" },
+  "cashier.nearby": { "az": "Yaxın marketlər", "ru": "Магазины рядом", "en": "Stores nearby" },
+  "cashier.nearbyEmpty": {
+    "az": "Yaxınlıqda market tapılmadı.",
+    "ru": "Рядом магазинов не найдено.",
+    "en": "No stores found nearby."
+  },
+  "cashier.distanceM": { "az": "{value} m", "ru": "{value} м", "en": "{value} m" },
+  "cashier.distanceKm": { "az": "{value} km", "ru": "{value} км", "en": "{value} km" },
+  "cashier.noCard.title": {
+    "az": "Ozio kartı tapılmadı",
+    "ru": "Карта Ozio не найдена",
+    "en": "No Ozio card found"
+  },
+  "cashier.noCard.body": {
+    "az": "Kassada artırmaq üçün Ozio kartın lazımdır.",
+    "ru": "Для пополнения на кассе нужна карта Ozio.",
+    "en": "You need an Ozio card to top up at a checkout."
+  },
+  "cashier.noCard.action": { "az": "Kartıma qayıt", "ru": "Вернуться к карте", "en": "Back to my card" },
+
+  "result.back": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up your balance" },
+  "result.success.title": { "az": "Balans artırıldı", "ru": "Баланс пополнен", "en": "Balance topped up" },
+  "result.success.body": {
+    "az": "{amount} Ozio balansına əlavə olundu.",
+    "ru": "{amount} зачислено на баланс Ozio.",
+    "en": "{amount} was added to your Ozio balance."
+  },
+  "result.success.simulated": {
+    "az": "Bu sınaq əməliyyatdır: kartından heç nə çıxılmadı və real balansın dəyişmədi.",
+    "ru": "Это демонстрационная операция: с карты ничего не списано, реальный баланс не изменился.",
+    "en": "This is a demo transaction: nothing was charged and your real balance has not changed."
+  },
+  "result.success.backToCard": { "az": "Kartıma qayıt", "ru": "Вернуться к карте", "en": "Back to my card" },
+  "result.success.transactions": { "az": "Əməliyyatlara bax", "ru": "Посмотреть операции", "en": "View transactions" },
+
+  "result.row.amount": { "az": "Artırma məbləği", "ru": "Сумма пополнения", "en": "Top-up amount" },
+  "result.row.fee": { "az": "Komissiya", "ru": "Комиссия", "en": "Fee" },
+  "result.row.card": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "result.row.charged": { "az": "Kartdan çıxıldı", "ru": "Списано с карты", "en": "Charged to the card" },
+  "result.row.date": { "az": "Tarix", "ru": "Дата", "en": "Date" },
+  "result.row.reference": { "az": "Əməliyyat №", "ru": "Операция №", "en": "Transaction no." },
+  "result.row.newBalance": { "az": "Yeni balans", "ru": "Новый баланс", "en": "New balance" },
+  "result.row.errorCode": { "az": "Xəta kodu", "ru": "Код ошибки", "en": "Error code" },
+
+  "result.failed.title": { "az": "Ödəniş alınmadı", "ru": "Платёж не прошёл", "en": "The payment failed" },
+  "result.failed.body": {
+    "az": "Ödənişi tamamlamaq mümkün olmadı. Yenidən cəhd et və ya başqa kart seç.",
+    "ru": "Не удалось завершить платёж. Попробуй снова или выбери другую карту.",
+    "en": "The payment could not be completed. Try again or choose another card."
+  },
+  "result.failed.balanceNote": {
+    "az": "Ozio balansın dəyişmədi.",
+    "ru": "Баланс Ozio не изменился.",
+    "en": "Your Ozio balance has not changed."
+  },
+  "result.failed.retry": { "az": "Yenidən cəhd et", "ru": "Попробовать снова", "en": "Try again" },
+  "result.failed.cashier": { "az": "Kassada artır", "ru": "Пополнить на кассе", "en": "Top up at a checkout" },
+  "result.failed.support": { "az": "Dəstək", "ru": "Поддержка", "en": "Support" },
+
+  "result.missing.title": {
+    "az": "Əməliyyat tapılmadı",
+    "ru": "Операция не найдена",
+    "en": "Transaction not found"
+  },
+  "result.missing.body": {
+    "az": "Bu əməliyyatın məlumatı yoxdur. Balansı yenidən artırmağa cəhd et.",
+    "ru": "Данных по этой операции нет. Попробуй пополнить баланс снова.",
+    "en": "There is no record of this transaction. Try topping up again."
+  },
+  "result.missing.action": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up your balance" },
+
+  "tile.title": { "az": "Balansı artır", "ru": "Пополнить баланс", "en": "Top up" },
+  "tile.body": {
+    "az": "Kartla və ya kassada",
+    "ru": "Картой или на кассе",
+    "en": "By card or at a checkout"
+  }
+}

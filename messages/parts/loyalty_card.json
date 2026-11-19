@@ -1,0 +1,301 @@
+{
+  "title": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "subtitle": {
+    "az": "Ozio Plus · hər alış-verişdə keşbek qazan",
+    "ru": "Ozio Plus · кешбэк с каждой покупки",
+    "en": "Ozio Plus · cashback on every purchase"
+  },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+
+  "card.balanceLabel": { "az": "Bonus balansı", "ru": "Бонусный баланс", "en": "Bonus balance" },
+  "card.tierFallback": { "az": "PLUS", "ru": "PLUS", "en": "PLUS" },
+  "card.numberLabel": { "az": "Kart nömrəsi", "ru": "Номер карты", "en": "Card number" },
+  "card.showAtCashier": { "az": "Kassada göstər", "ru": "Показать на кассе", "en": "Show at checkout" },
+  "card.barcodeAlt": {
+    "az": "{number} nömrəli Ozio kartının barkodu",
+    "ru": "Штрих-код карты Ozio номер {number}",
+    "en": "Barcode of Ozio card number {number}"
+  },
+  "card.qrAlt": {
+    "az": "{number} nömrəli Ozio kartının QR kodu",
+    "ru": "QR-код карты Ozio номер {number}",
+    "en": "QR code of Ozio card number {number}"
+  },
+  "card.flipToBack": { "az": "Kartı çevir, QR kodu göstər", "ru": "Перевернуть карту, показать QR-код", "en": "Flip the card to the QR code" },
+  "card.flipToFront": { "az": "Kartı çevir, balansı göstər", "ru": "Перевернуть карту, показать баланс", "en": "Flip the card back to the balance" },
+  "card.flippedToBack": { "az": "Kartın arxa tərəfi: QR kod", "ru": "Обратная сторона карты: QR-код", "en": "Card back: QR code" },
+  "card.flippedToFront": { "az": "Kartın ön tərəfi: bonus balansı", "ru": "Лицевая сторона карты: бонусный баланс", "en": "Card front: bonus balance" },
+  "card.noCard.title": { "az": "Hələ Ozio kartın yoxdur", "ru": "У тебя пока нет карты Ozio", "en": "You do not have an Ozio card yet" },
+  "card.noCard.body": {
+    "az": "Mağazada ilk alış-verişindən sonra kart avtomatik yaradılır.",
+    "ru": "Карта создаётся автоматически после первой покупки в магазине.",
+    "en": "The card is created automatically after your first in-store purchase."
+  },
+  "card.blocked": { "az": "Kart bloklanıb", "ru": "Карта заблокирована", "en": "Card blocked" },
+
+  "cashier.title": { "az": "Kassada göstər", "ru": "Показать на кассе", "en": "Show at checkout" },
+  "cashier.hint": {
+    "az": "Ekran parlaqlığını maksimuma qaldır — skaner barkodu belə daha tez oxuyur.",
+    "ru": "Поставь яркость экрана на максимум — сканер прочитает штрих-код быстрее.",
+    "en": "Turn screen brightness up to maximum so the scanner reads the barcode faster."
+  },
+  "cashier.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+
+  "wallet.apple": { "az": "Apple Wallet-a əlavə et", "ru": "Добавить в Apple Wallet", "en": "Add to Apple Wallet" },
+  "wallet.google": { "az": "Google Wallet-a əlavə et", "ru": "Добавить в Google Wallet", "en": "Add to Google Wallet" },
+  "wallet.appleInApp.title": { "az": "Apple Wallet mobil tətbiqdədir", "ru": "Apple Wallet — в мобильном приложении", "en": "Apple Wallet lives in the mobile app" },
+  "wallet.appleInApp.body": {
+    "az": "Ozio kartını Apple Wallet-a yalnız mobil tətbiqdən əlavə etmək olar.",
+    "ru": "Карту Ozio можно добавить в Apple Wallet только из мобильного приложения.",
+    "en": "The Ozio card can only be added to Apple Wallet from the mobile app."
+  },
+  "wallet.appleInApp.cta": { "az": "Tətbiqi endir", "ru": "Скачать приложение", "en": "Get the app" },
+  "wallet.googleError": { "az": "Wallet keçidi alınmadı", "ru": "Не удалось получить ссылку для Wallet", "en": "Could not get the Wallet link" },
+
+  "level.eyebrow": { "az": "SƏVİYYƏ", "ru": "УРОВЕНЬ", "en": "LEVEL" },
+  "level.step": { "az": "{from} → {to}", "ru": "{from} → {to}", "en": "{from} → {to}" },
+  "level.hint": {
+    "az": "{tier} səviyyəsinə {amount} alış-veriş qalıb.",
+    "ru": "До уровня {tier} осталось покупок на {amount}.",
+    "en": "{amount} more in purchases to reach {tier}."
+  },
+  "level.hintMax": {
+    "az": "Ən yüksək səviyyədəsən — hər alış-verişdə {percent} keşbek.",
+    "ru": "Ты на высшем уровне — {percent} кешбэка с каждой покупки.",
+    "en": "You are on the top level — {percent} cashback on every purchase."
+  },
+  "level.progressLabel": { "az": "Səviyyə irəliləyişi", "ru": "Прогресс уровня", "en": "Level progress" },
+  "level.seeAll": { "az": "Bütün səviyyələrə bax", "ru": "Все уровни", "en": "See all levels" },
+
+  "expiry.chip": { "az": "{amount} bonus {days} gün sonra yanır", "ru": "{amount} бонусов сгорят через {days} дн.", "en": "{amount} in bonuses expires in {days} days" },
+
+  "tx.title": { "az": "Bonus əməliyyatları", "ru": "Бонусные операции", "en": "Bonus activity" },
+  "tx.seeAll": { "az": "Hamısı", "ru": "Все", "en": "See all" },
+  "tx.sourceLabel": { "az": "Əməliyyat mənbəyi", "ru": "Источник операции", "en": "Activity source" },
+  "tx.kindLabel": { "az": "Əməliyyat növü", "ru": "Тип операции", "en": "Activity type" },
+  "tx.source.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "tx.source.offline": { "az": "Mağazada", "ru": "В магазине", "en": "In store" },
+  "tx.source.online": { "az": "Onlayn", "ru": "Онлайн", "en": "Online" },
+  "tx.kind.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "tx.kind.earned": { "az": "Qazanılan", "ru": "Начисления", "en": "Earned" },
+  "tx.kind.spent": { "az": "Xərclənən", "ru": "Списания", "en": "Spent" },
+  "tx.rowLabel": { "az": "{store}, {amount}", "ru": "{store}, {amount}", "en": "{store}, {amount}" },
+  "tx.earnedAlso": { "az": "qazanılıb {amount}", "ru": "начислено {amount}", "en": "earned {amount}" },
+  "tx.storeFallback": { "az": "Ozio Market", "ru": "Ozio Market", "en": "Ozio Market" },
+  "tx.empty.title": { "az": "Hələ əməliyyat yoxdur", "ru": "Пока нет операций", "en": "No activity yet" },
+  "tx.empty.body": {
+    "az": "Alış-veriş etdikcə keşbek burada görünəcək.",
+    "ru": "Кешбэк появится здесь после первых покупок.",
+    "en": "Cashback will show up here as you shop."
+  },
+  "tx.empty.cta": { "az": "Marketə keç", "ru": "Перейти в маркет", "en": "Go to market" },
+  "tx.type.cashback": { "az": "Keşbek", "ru": "Кешбэк", "en": "Cashback" },
+  "tx.type.partner": { "az": "Partnyor bonus", "ru": "Партнёрский бонус", "en": "Partner bonus" },
+  "tx.type.spent": { "az": "Xərclənib", "ru": "Списано", "en": "Spent" },
+  "tx.type.lottery": { "az": "Lotereya bonusu", "ru": "Лотерейный бонус", "en": "Lottery bonus" },
+  "tx.type.gift": { "az": "Hədiyyə", "ru": "Подарок", "en": "Gift" },
+
+  "transactions.title": { "az": "Əməliyyatlar", "ru": "Операции", "en": "Activity" },
+  "transactions.back": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "transactions.export": { "az": "CSV yüklə", "ru": "Скачать CSV", "en": "Download CSV" },
+  "transactions.exportName": { "az": "ozio-bonus-emeliyyatlar", "ru": "ozio-bonus-operacii", "en": "ozio-bonus-activity" },
+  "transactions.stat.balance": { "az": "Cari balans", "ru": "Текущий баланс", "en": "Current balance" },
+  "transactions.stat.earned": { "az": "{month} qazanılıb", "ru": "Начислено {month}", "en": "Earned {month}" },
+  "transactions.stat.spent": { "az": "{month} xərclənib", "ru": "Списано {month}", "en": "Spent {month}" },
+  "transactions.monthLocative": {
+    "az": "{month, select, 1 {Yanvarda} 2 {Fevralda} 3 {Martda} 4 {Aprel ayında} 5 {Mayda} 6 {İyunda} 7 {İyulda} 8 {Avqustda} 9 {Sentyabrda} 10 {Oktyabrda} 11 {Noyabrda} 12 {Dekabrda} other {Bu ayda}}",
+    "ru": "{month, select, 1 {в январе} 2 {в феврале} 3 {в марте} 4 {в апреле} 5 {в мае} 6 {в июне} 7 {в июле} 8 {в августе} 9 {в сентябре} 10 {в октябре} 11 {в ноябре} 12 {в декабре} other {в этом месяце}}",
+    "en": "{month, select, 1 {in January} 2 {in February} 3 {in March} 4 {in April} 5 {in May} 6 {in June} 7 {in July} 8 {in August} 9 {in September} 10 {in October} 11 {in November} 12 {in December} other {this month}}"
+  },
+  "transactions.col.operation": { "az": "ƏMƏLİYYAT", "ru": "ОПЕРАЦИЯ", "en": "ACTIVITY" },
+  "transactions.col.date": { "az": "TARİX", "ru": "ДАТА", "en": "DATE" },
+  "transactions.col.type": { "az": "NÖV", "ru": "ТИП", "en": "TYPE" },
+  "transactions.col.amount": { "az": "MƏBLƏĞ", "ru": "СУММА", "en": "AMOUNT" },
+  "transactions.col.balance": { "az": "BALANS", "ru": "БАЛАНС", "en": "BALANCE" },
+  "transactions.tableLabel": { "az": "Bonus əməliyyatları cədvəli", "ru": "Таблица бонусных операций", "en": "Bonus activity table" },
+  "transactions.range": {
+    "az": "{from}–{to} / {total} əməliyyat",
+    "ru": "{from}–{to} из {total} операций",
+    "en": "{from}–{to} of {total} activities"
+  },
+  "transactions.period.label": { "az": "Dövr", "ru": "Период", "en": "Period" },
+  "transactions.period.m1": { "az": "Son 1 ay", "ru": "Последний месяц", "en": "Last month" },
+  "transactions.period.m3": { "az": "Son 3 ay", "ru": "Последние 3 месяца", "en": "Last 3 months" },
+  "transactions.period.m12": { "az": "Son 12 ay", "ru": "Последние 12 месяцев", "en": "Last 12 months" },
+  "transactions.period.all": { "az": "Bütün dövr", "ru": "Всё время", "en": "All time" },
+  "transactions.empty.title": { "az": "Bu dövrdə əməliyyat yoxdur", "ru": "За этот период операций нет", "en": "No activity in this period" },
+  "transactions.empty.body": {
+    "az": "Alış-veriş etdikcə keşbek burada görünəcək. Filtri və ya tarix aralığını dəyişməyi sına.",
+    "ru": "Кешбэк появится здесь по мере покупок. Попробуй изменить фильтр или период.",
+    "en": "Cashback shows up here as you shop. Try changing the filter or the date range."
+  },
+  "transactions.empty.reset": { "az": "Filtri sıfırla", "ru": "Сбросить фильтр", "en": "Reset filter" },
+  "transactions.empty.shop": { "az": "Marketə keç", "ru": "Перейти в маркет", "en": "Go to market" },
+  "transactions.pagination": { "az": "Səhifələr", "ru": "Страницы", "en": "Pages" },
+  "transactions.prevPage": { "az": "Əvvəlki səhifə", "ru": "Предыдущая страница", "en": "Previous page" },
+  "transactions.nextPage": { "az": "Növbəti səhifə", "ru": "Следующая страница", "en": "Next page" },
+
+  "detail.title": { "az": "Əməliyyat detalı", "ru": "Детали операции", "en": "Activity details" },
+  "detail.back": { "az": "Əməliyyatlar", "ru": "Операции", "en": "Activity" },
+  "detail.status.credited": { "az": "Hesaba düşüb", "ru": "Зачислено", "en": "Credited" },
+  "detail.status.debited": { "az": "Balansdan çıxılıb", "ru": "Списано с баланса", "en": "Debited" },
+  "detail.kind.earn": { "az": "Keşbek qazanc", "ru": "Начисление кешбэка", "en": "Cashback earned" },
+  "detail.kind.spend": { "az": "Bonus ödənişi", "ru": "Оплата бонусами", "en": "Bonus payment" },
+  "detail.row.type": { "az": "Növ", "ru": "Тип", "en": "Type" },
+  "detail.row.orderAmount": { "az": "Sifariş məbləği", "ru": "Сумма заказа", "en": "Order amount" },
+  "detail.row.cashbackRate": { "az": "Keşbek faizi", "ru": "Процент кешбэка", "en": "Cashback rate" },
+  "detail.row.number": { "az": "Əməliyyat nömrəsi", "ru": "Номер операции", "en": "Activity number" },
+  "detail.row.payment": { "az": "Ödəniş üsulu", "ru": "Способ оплаты", "en": "Payment method" },
+  "detail.row.balanceBefore": { "az": "Balans əvvəl", "ru": "Баланс до", "en": "Balance before" },
+  "detail.row.balanceAfter": { "az": "Balans sonra", "ru": "Баланс после", "en": "Balance after" },
+  "detail.row.store": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "detail.row.card": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "detail.row.source": { "az": "Mənbə", "ru": "Источник", "en": "Source" },
+  "detail.row.earned": { "az": "Qazanılan bonus", "ru": "Начисленный бонус", "en": "Bonus earned" },
+  "detail.row.spent": { "az": "Xərclənən bonus", "ru": "Списанный бонус", "en": "Bonus spent" },
+  "detail.order.eyebrow": { "az": "BAĞLI SİFARİŞ", "ru": "СВЯЗАННЫЙ ЗАКАЗ", "en": "LINKED ORDER" },
+  "detail.order.title": { "az": "Sifariş #{id}", "ru": "Заказ #{id}", "en": "Order #{id}" },
+  "detail.order.cta": { "az": "Sifarişə bax", "ru": "Открыть заказ", "en": "View order" },
+  "detail.help.title": { "az": "Keşbek səhvdir?", "ru": "Кешбэк посчитан неверно?", "en": "Cashback looks wrong?" },
+  "detail.help.body": {
+    "az": "Məbləğ gözlədiyindən fərqlidirsə, dəstək komandasına yaz — 24 saat ərzində baxılır.",
+    "ru": "Если сумма отличается от ожидаемой, напиши в поддержку — ответим в течение 24 часов.",
+    "en": "If the amount differs from what you expected, write to support — we review within 24 hours."
+  },
+  "detail.help.cta": { "az": "Problem bildir", "ru": "Сообщить о проблеме", "en": "Report a problem" },
+  "detail.notFound.title": { "az": "Əməliyyat tapılmadı", "ru": "Операция не найдена", "en": "Activity not found" },
+  "detail.notFound.body": {
+    "az": "Bu əməliyyat siyahıdan silinmiş ola bilər. Əməliyyatlar siyahısına qayıt.",
+    "ru": "Возможно, эта операция больше не доступна. Вернись к списку операций.",
+    "en": "This activity may no longer be available. Go back to the activity list."
+  },
+
+  "levels.title": { "az": "Səviyyələr", "ru": "Уровни", "en": "Levels" },
+  "levels.back": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "levels.subtitle": {
+    "az": "Son 12 ayda nə qədər çox alış-veriş etsən, keşbek faizin bir o qədər yüksəlir",
+    "ru": "Чем больше покупок за последние 12 месяцев, тем выше процент кешбэка",
+    "en": "The more you spend over the last 12 months, the higher your cashback rate"
+  },
+  "levels.current": { "az": "CARİ SƏVİYYƏN", "ru": "ТВОЙ УРОВЕНЬ", "en": "YOUR LEVEL" },
+  "levels.remaining": {
+    "az": "{tier} səviyyəsinə {amount} qalıb",
+    "ru": "До уровня {tier} осталось {amount}",
+    "en": "{amount} to go to {tier}"
+  },
+  "levels.reachedTop": { "az": "Ən yüksək səviyyədəsən", "ru": "Ты на высшем уровне", "en": "You are on the top level" },
+  "levels.progressValue": { "az": "{spend} / {target}", "ru": "{spend} / {target}", "en": "{spend} / {target}" },
+  "levels.progressLabel": { "az": "Səviyyə irəliləyişi", "ru": "Прогресс уровня", "en": "Level progress" },
+  "levels.threshold": {
+    "az": "İllik {amount} alış-verişdən",
+    "ru": "От {amount} покупок в год",
+    "en": "From {amount} of yearly spend"
+  },
+  "levels.cashback": { "az": "keşbek", "ru": "кешбэк", "en": "cashback" },
+  "levels.tag.current": { "az": "Cari", "ru": "Текущий", "en": "Current" },
+  "levels.tag.next": { "az": "Növbəti", "ru": "Следующий", "en": "Next" },
+  "levels.benefits": { "az": "Üstünlüklər", "ru": "Преимущества", "en": "Benefits" },
+  "levels.note": {
+    "az": "Səviyyə hər ay yenilənir. Alış-veriş məbləği ləğv edilmiş sifarişlər çıxılmaqla hesablanır.",
+    "ru": "Уровень обновляется каждый месяц. Сумма покупок считается без отменённых заказов.",
+    "en": "Your level is refreshed every month. Cancelled orders are excluded from the spend total."
+  },
+  "levels.unavailable.title": { "az": "Səviyyələr yüklənmədi", "ru": "Уровни не загрузились", "en": "Levels did not load" },
+
+  "levelUp.eyebrow": { "az": "SƏVİYYƏ YÜKSƏLDİ", "ru": "УРОВЕНЬ ПОВЫШЕН", "en": "LEVEL UP" },
+  "levelUp.title": {
+    "az": "{tier} səviyyəsinə xoş gəldin!",
+    "ru": "Добро пожаловать на уровень {tier}!",
+    "en": "Welcome to {tier}!"
+  },
+  "levelUp.body": {
+    "az": "Bu gündən etibarən hər alış-verişdən {percent} bonus qazanırsan.",
+    "ru": "С сегодняшнего дня ты получаешь {percent} бонусов с каждой покупки.",
+    "en": "From today you earn {percent} in bonuses on every purchase."
+  },
+  "levelUp.perkBonus": { "az": "{percent} bonus", "ru": "{percent} бонусов", "en": "{percent} bonus" },
+  "levelUp.cta": { "az": "Davam et", "ru": "Продолжить", "en": "Continue" },
+  "levelUp.seeLevels": { "az": "Bütün səviyyələrə bax", "ru": "Все уровни", "en": "See all levels" },
+
+  "expiring.title": { "az": "Bonus yanır", "ru": "Бонусы сгорают", "en": "Bonuses expiring" },
+  "expiring.subtitle": {
+    "az": "Bonusların etibarlılıq müddəti məhduddur. Vaxtında xərclə.",
+    "ru": "У бонусов есть срок действия. Успей потратить.",
+    "en": "Bonuses have a limited validity. Spend them in time."
+  },
+  "expiring.bannerTitle": {
+    "az": "{amount} bonusun {days} gün sonra yanır",
+    "ru": "{amount} бонусов сгорят через {days} дн.",
+    "en": "{amount} in bonuses expires in {days} days"
+  },
+  "expiring.bannerBody": {
+    "az": "{date} tarixindən sonra bu məbləğ balansından silinəcək.",
+    "ru": "После {date} эта сумма будет списана с баланса.",
+    "en": "After {date} this amount is removed from your balance."
+  },
+  "expiring.spendNow": { "az": "İndi xərclə", "ru": "Потратить сейчас", "en": "Spend now" },
+  "expiring.batchesTitle": { "az": "Yanacaq bonuslar", "ru": "Сгорающие бонусы", "en": "Expiring bonuses" },
+  "expiring.endsOn": { "az": "{date} tarixində bitir", "ru": "Истекает {date}", "en": "Expires on {date}" },
+  "expiring.daysLeft": { "az": "{days} gün qalıb", "ru": "осталось {days} дн.", "en": "{days} days left" },
+  "expiring.batchProgress": { "az": "{amount} bonusun qalan müddəti", "ru": "Остаток срока для {amount} бонусов", "en": "Time left for {amount} in bonuses" },
+  "expiring.howTitle": { "az": "Necə xərcləmək olar", "ru": "Как потратить", "en": "How to spend them" },
+  "expiring.option.market.title": { "az": "Marketdə ödə", "ru": "Оплатить в маркете", "en": "Pay in the market" },
+  "expiring.option.market.body": { "az": "Səbətdə bonusla ödəniş et", "ru": "Оплати бонусами в корзине", "en": "Pay with bonuses in the cart" },
+  "expiring.option.lottery.title": { "az": "Lotereya bileti al", "ru": "Купить лотерейный билет", "en": "Buy a lottery ticket" },
+  "expiring.option.lottery.body": { "az": "Hər bilet {amount} bonus", "ru": "{amount} бонусов за билет", "en": "{amount} in bonuses per ticket" },
+  "expiring.option.partners.title": { "az": "Partnyorlarda xərclə", "ru": "Потратить у партнёров", "en": "Spend at partners" },
+  "expiring.option.partners.body": { "az": "Ozio Plus partnyor şəbəkəsi", "ru": "Партнёрская сеть Ozio Plus", "en": "The Ozio Plus partner network" },
+  "expiring.policy": {
+    "az": "Qazanılan bonus {days} gün ərzində etibarlıdır. Hər yeni alış-verişlə köhnə bonuslar əvvəl istifadə olunur.",
+    "ru": "Начисленные бонусы действуют {days} дней. При новой покупке сначала списываются самые старые.",
+    "en": "Earned bonuses are valid for {days} days. Each new purchase spends the oldest bonuses first."
+  },
+  "expiring.none.title": { "az": "Yanan bonus yoxdur", "ru": "Сгорающих бонусов нет", "en": "Nothing is expiring" },
+  "expiring.none.body": {
+    "az": "Bütün bonuslarının müddəti hələ uzundur.",
+    "ru": "У всех твоих бонусов срок ещё не подходит к концу.",
+    "en": "All of your bonuses still have plenty of time left."
+  },
+
+  "offline.title": { "az": "Kart oflayn", "ru": "Карта оффлайн", "en": "Card offline" },
+  "offline.subtitle": {
+    "az": "İnternet olmadan da kassada göstərmək üçün hazırdır.",
+    "ru": "Готова к показу на кассе даже без интернета.",
+    "en": "Ready to show at the checkout even without a connection."
+  },
+  "offline.banner": {
+    "az": "İnternet bağlantısı yoxdur. Son yadda saxlanan kart göstərilir.",
+    "ru": "Нет подключения к интернету. Показана последняя сохранённая карта.",
+    "en": "No internet connection. Showing the last saved card."
+  },
+  "offline.hint": {
+    "az": "Bu barkod oflayn da işləyir — kassada göstər.",
+    "ru": "Этот штрих-код работает и оффлайн — покажи его на кассе.",
+    "en": "This barcode works offline too — just show it at the checkout."
+  },
+  "offline.balanceStale": {
+    "az": "Balans son sinxronlaşma vaxtına aiddir ({date}).",
+    "ru": "Баланс показан на момент последней синхронизации ({date}).",
+    "en": "The balance is from the last sync ({date})."
+  },
+  "offline.empty.title": { "az": "Kart hələ yüklənməyib", "ru": "Карта ещё не загружена", "en": "The card has not been loaded yet" },
+  "offline.empty.body": {
+    "az": "Bir dəfə internetlə daxil ol — bundan sonra kart oflayn da açılacaq.",
+    "ru": "Зайди один раз с интернетом — после этого карта откроется и оффлайн.",
+    "en": "Open the card once while online — after that it works offline as well."
+  },
+  "offline.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+  "offline.open": { "az": "Oflayn kartı aç", "ru": "Открыть оффлайн-карту", "en": "Open the offline card" },
+
+  "guest.title": { "az": "Ozio kartı", "ru": "Карта Ozio", "en": "Ozio card" },
+  "guest.body": {
+    "az": "Kartını, bonus balansını və keşbek əməliyyatlarını görmək üçün daxil ol.",
+    "ru": "Войди, чтобы увидеть карту, бонусный баланс и операции кешбэка.",
+    "en": "Sign in to see your card, bonus balance and cashback activity."
+  },
+  "guest.cta": { "az": "Daxil ol", "ru": "Войти", "en": "Sign in" },
+
+  "error.title": { "az": "Kart yüklənmədi", "ru": "Карта не загрузилась", "en": "The card did not load" },
+  "error.txTitle": { "az": "Əməliyyatlar yüklənmədi", "ru": "Операции не загрузились", "en": "Activity did not load" },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" }
+}

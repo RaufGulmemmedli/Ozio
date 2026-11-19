@@ -1,0 +1,412 @@
+{
+  "retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  },
+  "a11y.pageDescription": {
+    "az": "Əsas səhifə: bonus kartın, aktiv sifarişin, mağazalar və sənin üçün seçilmiş məhsullar.",
+    "ru": "Главная: бонусная карта, активный заказ, магазины и товары, подобранные для вас.",
+    "en": "Home: your bonus card, active order, stores and products picked for you."
+  },
+  "greeting.title": {
+    "az": "Salam, {name}",
+    "ru": "Привет, {name}",
+    "en": "Hi, {name}"
+  },
+  "greeting.titleNoName": {
+    "az": "Salam!",
+    "ru": "Привет!",
+    "en": "Hello!"
+  },
+  "greeting.teaser": {
+    "az": "Bu gün sifariş etsən, keşbek bonus hesabına düşəcək.",
+    "ru": "Закажите сегодня — кешбэк начислится на бонусный счёт.",
+    "en": "Order today and your cashback lands on your bonus account."
+  },
+  "greeting.cta": {
+    "az": "Marketə keç",
+    "ru": "В маркет",
+    "en": "Go to Market"
+  },
+  "card.tier": {
+    "az": "PLUS",
+    "ru": "PLUS",
+    "en": "PLUS"
+  },
+  "slider.regionLabel": {
+    "az": "Kampaniyalar",
+    "ru": "Акции",
+    "en": "Campaigns"
+  },
+  "slider.emptyTitle": {
+    "az": "Aktiv sifarişin yoxdur",
+    "ru": "Активных заказов нет",
+    "en": "No active orders"
+  },
+  "slider.emptyBody": {
+    "az": "Marketdən sifariş ver, çatdırılma vəziyyətini burada izlə.",
+    "ru": "Сделайте заказ в маркете — статус доставки появится здесь.",
+    "en": "Order from Market and follow the delivery here."
+  },
+  "slider.cta": {
+    "az": "Marketə keç",
+    "ru": "В маркет",
+    "en": "Go to Market"
+  },
+  "slider.previous": {
+    "az": "Əvvəlki təklif",
+    "ru": "Предыдущее предложение",
+    "en": "Previous offer"
+  },
+  "slider.next": {
+    "az": "Növbəti təklif",
+    "ru": "Следующее предложение",
+    "en": "Next offer"
+  },
+  "stats.balance": {
+    "az": "Bonus balansı",
+    "ru": "Бонусный баланс",
+    "en": "Bonus balance"
+  },
+  "stats.cashback": {
+    "az": "Bu ay keşbek",
+    "ru": "Кешбэк за месяц",
+    "en": "Cashback this month"
+  },
+  "stats.coupons": {
+    "az": "Aktiv kuponlar",
+    "ru": "Активные купоны",
+    "en": "Active coupons"
+  },
+  "stats.tens": {
+    "az": "Ozio 10-lar",
+    "ru": "Ozio 10",
+    "en": "Ozio 10s"
+  },
+  "stats.tensValue": {
+    "az": "{current} / {steps}",
+    "ru": "{current} / {steps}",
+    "en": "{current} / {steps}"
+  },
+  "stores.title": {
+    "az": "Mağaza və restoranlar",
+    "ru": "Магазины и рестораны",
+    "en": "Stores and restaurants"
+  },
+  "stores.seeAll": {
+    "az": "Hamısına bax",
+    "ru": "Смотреть все",
+    "en": "See all"
+  },
+  "stores.emptyTitle": {
+    "az": "Yaxınlıqda mağaza tapılmadı",
+    "ru": "Рядом магазинов не найдено",
+    "en": "No stores nearby"
+  },
+  "stores.emptyBody": {
+    "az": "Çatdırılma ünvanını seç, sənə xidmət edən mağazaları göstərək.",
+    "ru": "Выберите адрес доставки — покажем магазины, которые вас обслуживают.",
+    "en": "Pick a delivery address and we will show the stores that serve it."
+  },
+  "stores.emptyCta": {
+    "az": "Ünvan seç",
+    "ru": "Выбрать адрес",
+    "en": "Choose an address"
+  },
+  "stores.guestTitle": {
+    "az": "Mağazalar üçün daxil ol",
+    "ru": "Войдите, чтобы увидеть магазины",
+    "en": "Sign in to see the stores"
+  },
+  "stores.guestBody": {
+    "az": "Yaxınlıqdaki mağazaları və çatdırılma vaxtını hesabla görə bilərsən.",
+    "ru": "Магазины рядом и время доставки доступны после входа.",
+    "en": "Nearby stores and delivery times open once you sign in."
+  },
+  "products.title": {
+    "az": "Sənin üçün",
+    "ru": "Для вас",
+    "en": "For you"
+  },
+  "products.seeAll": {
+    "az": "Hamısına bax",
+    "ru": "Смотреть все",
+    "en": "See all"
+  },
+  "products.emptyTitle": {
+    "az": "Hələ seçim hazırlanmayıb",
+    "ru": "Подборка пока не готова",
+    "en": "No picks yet"
+  },
+  "products.emptyBody": {
+    "az": "Marketdə 6000+ məhsul var — kateqoriyalardan başla.",
+    "ru": "В маркете более 6000 товаров — начните с категорий.",
+    "en": "Market has 6000+ products — start from the categories."
+  },
+  "products.emptyCta": {
+    "az": "Marketə keç",
+    "ru": "В маркет",
+    "en": "Go to Market"
+  },
+  "products.guestTitle": {
+    "az": "Seçilmiş məhsullar üçün daxil ol",
+    "ru": "Войдите, чтобы увидеть подборку",
+    "en": "Sign in to see your picks"
+  },
+  "products.guestBody": {
+    "az": "Sənə uyğun məhsulları hesaba daxil olduqdan sonra göstəririk.",
+    "ru": "Персональную подборку покажем после входа в аккаунт.",
+    "en": "We show your personal picks once you are signed in."
+  },
+  "guest.bannerTitle": {
+    "az": "Qonaq kimi baxırsınız",
+    "ru": "Вы в гостевом режиме",
+    "en": "You are browsing as a guest"
+  },
+  "guest.bannerBody": {
+    "az": "Sifariş vermək, kart və keşbek üçün daxil olun. 2 dəqiqə çəkir.",
+    "ru": "Войдите, чтобы заказывать, видеть карту и кешбэк. Это займёт 2 минуты.",
+    "en": "Sign in to order and to see your card and cashback. It takes 2 minutes."
+  },
+  "guest.signIn": {
+    "az": "Daxil ol",
+    "ru": "Войти",
+    "en": "Sign in"
+  },
+  "guest.register": {
+    "az": "Qeydiyyat",
+    "ru": "Регистрация",
+    "en": "Register"
+  },
+  "guest.cardTitle": {
+    "az": "Ozio kartı",
+    "ru": "Карта Ozio",
+    "en": "Ozio card"
+  },
+  "guest.cardBody": {
+    "az": "Bonus balansınızı və kartınızı görmək üçün daxil olun.",
+    "ru": "Войдите, чтобы увидеть бонусный баланс и карту.",
+    "en": "Sign in to see your bonus balance and card."
+  },
+  "guest.ordersTitle": {
+    "az": "Sifarişlərim",
+    "ru": "Мои заказы",
+    "en": "My orders"
+  },
+  "guest.ordersBody": {
+    "az": "Sifariş tarixçəsi və canlı izləmə daxil olduqdan sonra açılır.",
+    "ru": "История заказов и отслеживание откроются после входа.",
+    "en": "Order history and live tracking open once you sign in."
+  },
+  "guest.greeting": {
+    "az": "Salam!",
+    "ru": "Привет!",
+    "en": "Hello!"
+  },
+  "guest.greetingBody": {
+    "az": "Məhsullara və mağazalara baxa bilərsiniz.",
+    "ru": "Вы можете смотреть товары и магазины.",
+    "en": "You can browse products and stores."
+  },
+  "guest.productsTitle": {
+    "az": "Çox alınanlar",
+    "ru": "Часто покупают",
+    "en": "Most bought"
+  },
+  "coupons.title": {
+    "az": "Qlobal kuponlar",
+    "ru": "Глобальные купоны",
+    "en": "Global coupons"
+  },
+  "coupons.seeAll": {
+    "az": "Bütün kuponlarım",
+    "ru": "Все мои купоны",
+    "en": "All my coupons"
+  },
+  "coupons.code": {
+    "az": "Kupon kodu",
+    "ru": "Код купона",
+    "en": "Coupon code"
+  },
+  "coupons.expiry": {
+    "az": "Son tarix: {date}",
+    "ru": "Срок: {date}",
+    "en": "Valid until {date}"
+  },
+  "coupons.valuePercent": {
+    "az": "{value}%",
+    "ru": "{value}%",
+    "en": "{value}%"
+  },
+  "coupons.valueFixed": {
+    "az": "{value} ₼",
+    "ru": "{value} ₼",
+    "en": "{value} ₼"
+  },
+  "coupons.minOrder": {
+    "az": "{amount}-dan yuxarı sifarişə",
+    "ru": "на заказ от {amount}",
+    "en": "on orders over {amount}"
+  },
+  "coupons.emptyTitle": {
+    "az": "Aktiv kupon yoxdur",
+    "ru": "Активных купонов нет",
+    "en": "No active coupons"
+  },
+  "coupons.emptyBody": {
+    "az": "Yeni kuponlar əlavə olunanda burada görünəcək.",
+    "ru": "Новые купоны появятся здесь.",
+    "en": "New coupons will show up here."
+  },
+  "coupons.guestTitle": {
+    "az": "Kuponlar üçün daxil ol",
+    "ru": "Войдите, чтобы увидеть купоны",
+    "en": "Sign in to see coupons"
+  },
+  "coupons.guestBody": {
+    "az": "Kuponları hesaba daxil olduqdan sonra sifarişə tətbiq edə bilərsən.",
+    "ru": "Применять купоны к заказу можно после входа.",
+    "en": "Coupons can be applied to an order once you sign in."
+  },
+  "offers.title": {
+    "az": "Kampaniyalar",
+    "ru": "Акции",
+    "en": "Campaigns"
+  },
+  "offers.subtitle": {
+    "az": "{month} · {offers} aktiv təklif və {coupons} kupon səni gözləyir.",
+    "ru": "{month} · вас ждут {offers} предложений и {coupons} купонов.",
+    "en": "{month} · {offers} offers and {coupons} coupons are waiting for you."
+  },
+  "offers.monthLabel": {
+    "az": "Ay seç",
+    "ru": "Выбрать месяц",
+    "en": "Choose a month"
+  },
+  "offers.filter.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "All"
+  },
+  "offers.filter.cashback": {
+    "az": "Keşbek",
+    "ru": "Кешбэк",
+    "en": "Cashback"
+  },
+  "offers.filter.coupons": {
+    "az": "Kuponlar",
+    "ru": "Купоны",
+    "en": "Coupons"
+  },
+  "offers.filter.partner": {
+    "az": "Partnyor təklifləri",
+    "ru": "Предложения партнёров",
+    "en": "Partner offers"
+  },
+  "offers.filter.endingSoon": {
+    "az": "Tezliklə bitir",
+    "ru": "Скоро закончится",
+    "en": "Ending soon"
+  },
+  "offers.highlightsTitle": {
+    "az": "Seçilmiş kampaniyalar",
+    "ru": "Избранные акции",
+    "en": "Featured campaigns"
+  },
+  "offers.heroKicker": {
+    "az": "Ayın əsas kampaniyası",
+    "ru": "Главная акция месяца",
+    "en": "Campaign of the month"
+  },
+  "offers.heroFallbackTitle": {
+    "az": "Aktiv kampaniya",
+    "ru": "Активная акция",
+    "en": "Active campaign"
+  },
+  "offers.heroBody": {
+    "az": "Kampaniya {date} tarixinədək davam edir.",
+    "ru": "Акция действует до {date}.",
+    "en": "The campaign runs until {date}."
+  },
+  "offers.heroBodyNoDate": {
+    "az": "Kampaniya davam edir — endirimli məhsullara bax.",
+    "ru": "Акция продолжается — смотрите товары со скидкой.",
+    "en": "The campaign is running — see the discounted products."
+  },
+  "offers.heroCta": {
+    "az": "Sifariş et",
+    "ru": "Заказать",
+    "en": "Order now"
+  },
+  "offers.daysLeft": {
+    "az": "{days, plural, one {# gün qalıb} other {# gün qalıb}}",
+    "ru": "{days, plural, one {остался # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{days, plural, one {# day left} other {# days left}}"
+  },
+  "offers.highlightFallbackBody": {
+    "az": "Seçilmiş məhsullara bax.",
+    "ru": "Смотрите избранные товары.",
+    "en": "See the featured products."
+  },
+  "offers.emptyTitle": {
+    "az": "Aktiv kampaniya yoxdur",
+    "ru": "Активных акций нет",
+    "en": "No active campaigns"
+  },
+  "offers.emptyBody": {
+    "az": "Bu ay üçün kampaniya elan olunmayıb. Marketdəki endirimlərə bax.",
+    "ru": "На этот месяц акций нет. Посмотрите скидки в маркете.",
+    "en": "No campaign for this month. Take a look at the Market discounts."
+  },
+  "offers.emptyCta": {
+    "az": "Marketə keç",
+    "ru": "В маркет",
+    "en": "Go to Market"
+  },
+  "offers.guestTitle": {
+    "az": "Təkliflər üçün daxil ol",
+    "ru": "Войдите, чтобы увидеть предложения",
+    "en": "Sign in to see the offers"
+  },
+  "offers.guestBody": {
+    "az": "Kampaniyalar və partnyor təklifləri hesabla açılır.",
+    "ru": "Акции и предложения партнёров доступны после входа.",
+    "en": "Campaigns and partner offers open with an account."
+  },
+  "offers.partnerTitle": {
+    "az": "Partnyor təklifləri",
+    "ru": "Предложения партнёров",
+    "en": "Partner offers"
+  },
+  "offers.partnerSeeAll": {
+    "az": "Bütün endirimlər",
+    "ru": "Все скидки",
+    "en": "All discounts"
+  },
+  "offers.partnerEmptyTitle": {
+    "az": "Endirimli məhsul yoxdur",
+    "ru": "Товаров со скидкой нет",
+    "en": "No discounted products"
+  },
+  "offers.partnerEmptyBody": {
+    "az": "Yeni endirim kataloqu açılanda burada görünəcək.",
+    "ru": "Новый каталог скидок появится здесь.",
+    "en": "The next discount catalogue will show up here."
+  },
+  "offers.loadMore": {
+    "az": "Daha çox",
+    "ru": "Показать ещё",
+    "en": "Load more"
+  },
+  "offers.countNote": {
+    "az": "{count, plural, one {# aktiv təklif} other {# aktiv təklif}}",
+    "ru": "{count, plural, one {# активное предложение} few {# активных предложения} many {# активных предложений} other {# активных предложения}}",
+    "en": "{count, plural, one {# active offer} other {# active offers}}"
+  }
+}

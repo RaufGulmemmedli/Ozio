@@ -1,0 +1,421 @@
+{
+  "title": { "az": "Lotereya", "ru": "Лотерея", "en": "Lottery" },
+  "subtitle": {
+    "az": "Hər ay yeni çəkiliş. Alış-veriş et, bilet qazan.",
+    "ru": "Каждый месяц новый тираж. Покупай и получай билеты.",
+    "en": "A new draw every month. Shop and earn tickets."
+  },
+
+  "nav.rules": { "az": "Qaydalar", "ru": "Правила", "en": "Rules" },
+  "nav.results": { "az": "Nəticələr", "ru": "Результаты", "en": "Results" },
+  "nav.prizes": { "az": "Hədiyyələr", "ru": "Призы", "en": "Prizes" },
+
+  "draw.fallbackName": { "az": "Aktiv çəkiliş", "ru": "Текущий тираж", "en": "Current draw" },
+  "draw.topPrize": { "az": "Baş mükafat", "ru": "Главный приз", "en": "Top prize" },
+  "draw.morePrizes": {
+    "az": "{count, plural, one {+ daha # mükafat} other {+ daha # mükafat}}",
+    "ru": "{count, plural, one {+ ещё # приз} few {+ ещё # приза} many {+ ещё # призов} other {+ ещё # приза}}",
+    "en": "{count, plural, one {+ # more prize} other {+ # more prizes}}"
+  },
+  "draw.drawDate": { "az": "Çəkiliş {date}, {time}", "ru": "Тираж {date}, {time}", "en": "Draw on {date}, {time}" },
+  "draw.finished": { "az": "Çəkiliş keçirilib", "ru": "Тираж состоялся", "en": "The draw has taken place" },
+  "draw.organizer": { "az": "Təşkilatçı: {name}", "ru": "Организатор: {name}", "en": "Organiser: {name}" },
+
+  "countdown.days": { "az": "gün", "ru": "дн.", "en": "days" },
+  "countdown.hours": { "az": "saat", "ru": "час.", "en": "hrs" },
+  "countdown.minutes": { "az": "dəq", "ru": "мин.", "en": "min" },
+  "countdown.seconds": { "az": "san", "ru": "сек.", "en": "sec" },
+  "countdown.label": {
+    "az": "Çəkilişə {days} gün, {hours} saat, {minutes} dəqiqə qalıb",
+    "ru": "До тиража осталось {days} дн., {hours} час., {minutes} мин.",
+    "en": "{days} days, {hours} hours and {minutes} minutes until the draw"
+  },
+
+  "myTickets.title": { "az": "Biletlərim", "ru": "Мои билеты", "en": "My tickets" },
+  "myTickets.count": {
+    "az": "{count, plural, one {# bilet} other {# bilet}}",
+    "ru": "{count, plural, one {# билет} few {# билета} many {# билетов} other {# билета}}",
+    "en": "{count, plural, one {# ticket} other {# tickets}}"
+  },
+  "myTickets.empty": {
+    "az": "Hələ biletin yoxdur. Biletlər çek məbləğinə görə verilir.",
+    "ru": "Билетов пока нет. Билеты начисляются по сумме чека.",
+    "en": "No tickets yet. Tickets are awarded by receipt amount."
+  },
+  "myTickets.emptyWithAmount": {
+    "az": "Hələ biletin yoxdur. Hər {amount} məbləğində çek bir bilet qazandırır.",
+    "ru": "Билетов пока нет. Каждый чек на {amount} даёт один билет.",
+    "en": "No tickets yet. Every {amount} receipt earns one ticket."
+  },
+  "myTickets.seeAll": { "az": "Bütün biletlərim", "ru": "Все мои билеты", "en": "All my tickets" },
+
+  "earn.title": { "az": "Daha bilet al", "ru": "Больше билетов", "en": "Get more tickets" },
+  "earn.body": {
+    "az": "Biletlər alış-veriş çekinə görə avtomatik verilir — ayrıca almaq lazım deyil.",
+    "ru": "Билеты начисляются автоматически по чеку — покупать их не нужно.",
+    "en": "Tickets are awarded automatically from your receipt — there is nothing to buy."
+  },
+  "earn.bodyWithAmount": {
+    "az": "Hər {amount} məbləğində çek bir bilet qazandırır. Biletlər avtomatik verilir.",
+    "ru": "Каждый чек на {amount} даёт один билет. Билеты начисляются автоматически.",
+    "en": "Every {amount} receipt earns one ticket, awarded automatically."
+  },
+  "earn.action": { "az": "Alış-verişə başla", "ru": "Перейти к покупкам", "en": "Start shopping" },
+
+  "empty.title": {
+    "az": "Hazırda aktiv çəkiliş yoxdur",
+    "ru": "Сейчас нет активного тиража",
+    "en": "No draw is running right now"
+  },
+  "empty.body": {
+    "az": "Yeni çəkiliş başlayanda burada görünəcək. Qaydalara baxa bilərsən.",
+    "ru": "Как только начнётся новый тираж, он появится здесь. Пока можно почитать правила.",
+    "en": "The next draw will show up here. In the meantime, take a look at the rules."
+  },
+
+  "winners.title": { "az": "Əvvəlki qaliblər", "ru": "Прошлые победители", "en": "Previous winners" },
+  "winners.empty.title": {
+    "az": "Qaliblərin siyahısı burada paylaşılmır",
+    "ru": "Список победителей здесь не публикуется",
+    "en": "The winner list isn’t published here"
+  },
+  "winners.empty.body": {
+    "az": "Nəticələr çəkilişdən sonra təşkilatçı tərəfindən elan olunur. Öz biletlərinin statusunu Biletlərim bölməsində izlə.",
+    "ru": "Результаты объявляет организатор после тиража. Статус своих билетов смотри в разделе «Мои билеты».",
+    "en": "The organiser announces the results after the draw. Track your own tickets under My tickets."
+  },
+
+  "organizer.title": { "az": "Təşkilatçı", "ru": "Организатор", "en": "Organiser" },
+  "organizer.name": { "az": "Ad", "ru": "Название", "en": "Name" },
+  "organizer.address": { "az": "Ünvan", "ru": "Адрес", "en": "Address" },
+  "organizer.phone": { "az": "Telefon", "ru": "Телефон", "en": "Phone" },
+  "organizer.vat": { "az": "VÖEN", "ru": "ИНН", "en": "VAT number" },
+
+  "prizes.title": { "az": "Hədiyyələr", "ru": "Призы", "en": "Prizes" },
+  "prizes.subtitle": {
+    "az": "{count, plural, one {Bu çəkilişdə # hədiyyə} other {Bu çəkilişdə # hədiyyə}}",
+    "ru": "{count, plural, one {# приз в этом тираже} few {# приза в этом тираже} many {# призов в этом тираже} other {# приза в этом тираже}}",
+    "en": "{count, plural, one {# prize in this draw} other {# prizes in this draw}}"
+  },
+  "prizes.subtitleIdle": {
+    "az": "Aktiv çəkilişin hədiyyə fondu",
+    "ru": "Призовой фонд текущего тиража",
+    "en": "The prize pool of the current draw"
+  },
+  "prizes.quantity": {
+    "az": "{count, plural, one {# ədəd} other {# ədəd}}",
+    "ru": "{count, plural, one {# шт.} few {# шт.} many {# шт.} other {# шт.}}",
+    "en": "{count, plural, one {# unit} other {# units}}"
+  },
+  "prizes.unnamed": { "az": "Hədiyyə", "ru": "Приз", "en": "Prize" },
+  "prizes.empty.title": {
+    "az": "Hədiyyə siyahısı hələ yoxdur",
+    "ru": "Список призов пока не опубликован",
+    "en": "The prize list isn’t published yet"
+  },
+  "prizes.empty.body": {
+    "az": "Təşkilatçı hədiyyələri elan edəndə burada görünəcək.",
+    "ru": "Как только организатор объявит призы, они появятся здесь.",
+    "en": "As soon as the organiser announces the prizes, they will appear here."
+  },
+  "prizes.guest.title": {
+    "az": "Hədiyyələrə baxmaq üçün daxil ol",
+    "ru": "Войди, чтобы посмотреть призы",
+    "en": "Sign in to see the prizes"
+  },
+  "prizes.guest.body": {
+    "az": "Çəkilişin hədiyyə fondu yalnız hesabla görünür.",
+    "ru": "Призовой фонд тиража доступен только в аккаунте.",
+    "en": "The draw’s prize pool is only visible from your account."
+  },
+
+  "tickets.title": { "az": "Bütün biletlərim", "ru": "Все мои билеты", "en": "All my tickets" },
+  "tickets.subtitle": {
+    "az": "{count, plural, one {Sənin # biletin var} other {Sənin # biletin var}}",
+    "ru": "{count, plural, one {У тебя # билет} few {У тебя # билета} many {У тебя # билетов} other {У тебя # билета}}",
+    "en": "{count, plural, one {You hold # ticket} other {You hold # tickets}}"
+  },
+  "tickets.subtitleIdle": { "az": "Biletlərin siyahısı", "ru": "Список твоих билетов", "en": "Your tickets" },
+  "tickets.empty.title": { "az": "Hələ bilet yoxdur", "ru": "Билетов пока нет", "en": "No tickets yet" },
+  "tickets.empty.body": {
+    "az": "Biletlər alış-veriş çekinə görə avtomatik verilir. Mağazada Ozio kartı ilə ödə.",
+    "ru": "Билеты начисляются автоматически по чеку. Оплачивай картой Ozio в магазине.",
+    "en": "Tickets are awarded automatically from your receipt. Pay with your Ozio card in store."
+  },
+  "tickets.empty.bodyWithAmount": {
+    "az": "Hər {amount} məbləğində çek bir bilet qazandırır. Biletləri ayrıca almaq mümkün deyil.",
+    "ru": "Каждый чек на {amount} даёт один билет. Купить билеты отдельно нельзя.",
+    "en": "Every {amount} receipt earns one ticket. Tickets cannot be bought separately."
+  },
+
+  "ticket.numberCaption": { "az": "Bilet nömrən", "ru": "Номер твоего билета", "en": "Your ticket number" },
+  "ticket.noNumber": { "az": "Nömrə yoxdur", "ru": "Без номера", "en": "No number" },
+  "ticket.drawOn": { "az": "Çəkiliş {date}, {time}", "ru": "Тираж {date}, {time}", "en": "Draw on {date}, {time}" },
+  "ticket.fact.earnedAt": { "az": "Qazanılma tarixi", "ru": "Дата начисления", "en": "Earned on" },
+  "ticket.fact.status": { "az": "Status", "ru": "Статус", "en": "Status" },
+  "ticket.fact.code": { "az": "Bilet kodu", "ru": "Код билета", "en": "Ticket code" },
+  "ticket.fact.store": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "ticket.fact.receipt": { "az": "Çek", "ru": "Чек", "en": "Receipt" },
+  "ticket.fact.prize": { "az": "Hədiyyə", "ru": "Приз", "en": "Prize" },
+  "ticket.status.pending": { "az": "Çəkilişi gözləyir", "ru": "Ожидает тиража", "en": "Waiting for the draw" },
+  "ticket.status.won": { "az": "Qazandın", "ru": "Выигрыш", "en": "You won" },
+  "ticket.status.lost": { "az": "Qazanmadı", "ru": "Не выиграл", "en": "No win" },
+  "ticket.status.unknown": { "az": "Status bilinmir", "ru": "Статус неизвестен", "en": "Status unknown" },
+  "ticket.qrLabel": { "az": "Bilet kodu {code}", "ru": "Код билета {code}", "en": "Ticket code {code}" },
+  "ticket.shareTitle": { "az": "Ozio lotereya bileti", "ru": "Билет лотереи Ozio", "en": "Ozio lottery ticket" },
+  "ticket.shareText": {
+    "az": "Mənim biletim {number} — {draw}",
+    "ru": "Мой билет {number} — {draw}",
+    "en": "My ticket {number} — {draw}"
+  },
+  "ticket.shareCopied": { "az": "Keçid kopyalandı", "ru": "Ссылка скопирована", "en": "Link copied" },
+  "ticket.shareFailed": {
+    "az": "Paylaşmaq alınmadı",
+    "ru": "Не удалось поделиться",
+    "en": "We couldn’t share it"
+  },
+  "ticket.notFound.title": { "az": "Bilet tapılmadı", "ru": "Билет не найден", "en": "Ticket not found" },
+  "ticket.notFound.body": {
+    "az": "Bu bilet siyahıda deyil. Bütün biletlərinə bax.",
+    "ru": "Этого билета нет в списке. Посмотри все свои билеты.",
+    "en": "This ticket isn’t in the list. Take a look at all your tickets."
+  },
+
+  "timeline.title": { "az": "Çəkiliş mərhələləri", "ru": "Этапы тиража", "en": "Draw timeline" },
+  "timeline.earned": { "az": "Bilet qazanıldı", "ru": "Билет начислен", "en": "Ticket earned" },
+  "timeline.accepted": { "az": "Çəkilişə qəbul edildi", "ru": "Принят в тираж", "en": "Entered into the draw" },
+  "timeline.draw": { "az": "Çəkiliş", "ru": "Тираж", "en": "The draw" },
+  "timeline.results": { "az": "Nəticələr elan olunur", "ru": "Объявление результатов", "en": "Results announced" },
+
+  "rules.title": { "az": "Qaydalar və şərtlər", "ru": "Правила и условия", "en": "Rules and terms" },
+  "rules.subtitle": {
+    "az": "Lotereyanın rəsmi qaydaları",
+    "ru": "Официальные правила лотереи",
+    "en": "The official rules of the draw"
+  },
+  "rules.howTitle": { "az": "Necə işləyir", "ru": "Как это работает", "en": "How it works" },
+  "rules.how.shop.title": { "az": "Alış-veriş et", "ru": "Сделай покупку", "en": "Shop" },
+  "rules.how.shop.body": {
+    "az": "Mağazada Ozio kartı ilə ödə.",
+    "ru": "Оплати картой Ozio в магазине.",
+    "en": "Pay with your Ozio card in store."
+  },
+  "rules.how.earn.title": { "az": "Bilet qazan", "ru": "Получи билет", "en": "Earn a ticket" },
+  "rules.how.earn.body": {
+    "az": "Bilet çek məbləğinə görə avtomatik verilir.",
+    "ru": "Билет начисляется автоматически по сумме чека.",
+    "en": "A ticket is awarded automatically from the receipt amount."
+  },
+  "rules.how.watch.title": { "az": "Çəkilişi izlə", "ru": "Следи за тиражом", "en": "Follow the draw" },
+  "rules.how.watch.body": {
+    "az": "Nəticələr çəkilişdən sonra təşkilatçı tərəfindən elan olunur.",
+    "ru": "Результаты объявляет организатор после тиража.",
+    "en": "The organiser announces the results after the draw."
+  },
+  "rules.fullTitle": { "az": "Rəsmi qaydalar", "ru": "Официальные правила", "en": "Official rules" },
+  "rules.singleLanguage": {
+    "az": "Rəsmi qaydaların mətni serverdən yalnız bir dildə gəlir.",
+    "ru": "Текст официальных правил приходит с сервера только на одном языке.",
+    "en": "The official rules text arrives from the server in one language only."
+  },
+  "rules.empty.title": {
+    "az": "Qaydaların mətni yoxdur",
+    "ru": "Текст правил отсутствует",
+    "en": "The rules text is empty"
+  },
+  "rules.empty.body": {
+    "az": "Server hazırda qaydaların mətnini göndərmir. Bir az sonra yenidən yoxla.",
+    "ru": "Сервер сейчас не присылает текст правил. Проверь чуть позже.",
+    "en": "The server isn’t sending the rules text right now. Check again shortly."
+  },
+  "rules.guest.title": {
+    "az": "Rəsmi qaydalar üçün daxil ol",
+    "ru": "Войди, чтобы прочитать правила",
+    "en": "Sign in to read the official rules"
+  },
+  "rules.guest.body": {
+    "az": "Qaydaların tam mətni yalnız hesabla açılır.",
+    "ru": "Полный текст правил доступен только в аккаунте.",
+    "en": "The full rules text is only available from your account."
+  },
+
+  "results.title": { "az": "Tiraj nəticələri", "ru": "Результаты тиража", "en": "Draw results" },
+  "results.subtitle": {
+    "az": "Çəkiliş tarixi və hədiyyə fondu",
+    "ru": "Дата тиража и призовой фонд",
+    "en": "The draw date and the prize pool"
+  },
+  "results.done": { "az": "ÇƏKİLİŞ KEÇİRİLİB", "ru": "ТИРАЖ СОСТОЯЛСЯ", "en": "DRAW COMPLETED" },
+  "results.pending": { "az": "ÇƏKİLİŞ GÖZLƏNİLİR", "ru": "ТИРАЖ ОЖИДАЕТСЯ", "en": "DRAW PENDING" },
+  "results.noDate": {
+    "az": "Çəkiliş tarixi göndərilmir.",
+    "ru": "Дата тиража не передаётся.",
+    "en": "No draw date is sent."
+  },
+  "results.prizePool": { "az": "Hədiyyə fondu", "ru": "Призовой фонд", "en": "Prize pool" },
+  "results.guest.title": {
+    "az": "Nəticələrə baxmaq üçün daxil ol",
+    "ru": "Войди, чтобы увидеть результаты",
+    "en": "Sign in to see the results"
+  },
+  "results.guest.body": {
+    "az": "Çəkiliş məlumatları yalnız hesabla görünür.",
+    "ru": "Информация о тираже доступна только в аккаунте.",
+    "en": "Draw information is only visible from your account."
+  },
+
+  "tens.title": { "az": "Ozio 10-lar", "ru": "Ozio 10-lar", "en": "Ozio 10-lar" },
+  "tens.subtitle": { "az": "9 alırsan, 1 qazanırsan", "ru": "9 покупаешь — 1 получаешь", "en": "Buy 9, get 1" },
+  "tens.yourCard": { "az": "Sənin kartın", "ru": "Твоя карта", "en": "Your card" },
+  "tens.cardFallback": { "az": "10-lar kartı", "ru": "Карта 10-lar", "en": "10-lar card" },
+  "tens.stampSummary": {
+    "az": "{current} / {total} möhür",
+    "ru": "{current} / {total} печатей",
+    "en": "{current} / {total} stamps"
+  },
+  "tens.hero": {
+    "az": "{current} möhür yığmısan, hədiyyəyə {left} qalıb",
+    "ru": "Собрано {current} печатей, до подарка осталось {left}",
+    "en": "You’ve collected {current} stamps — {left} to go"
+  },
+  "tens.heroGiftReady": {
+    "az": "Kart doldu — hədiyyə hazırdır",
+    "ru": "Карта заполнена — подарок готов",
+    "en": "Your card is full — the gift is ready"
+  },
+  "tens.heroComplete": {
+    "az": "Bu kart tamamlanıb",
+    "ru": "Эта карта завершена",
+    "en": "This card is complete"
+  },
+  "tens.validUntil": { "az": "{date} tarixinədək etibarlıdır", "ru": "Действует до {date}", "en": "Valid until {date}" },
+  "tens.allCards": { "az": "Bütün kartlar", "ru": "Все карты", "en": "All cards" },
+  "tens.toDiscounts": { "az": "Endirimlər", "ru": "Скидки", "en": "Discounts" },
+  "tens.show": { "az": "Göstər", "ru": "Показать", "en": "Show" },
+  "tens.shown": { "az": "Göstərilir", "ru": "Показана", "en": "Shown" },
+  "tens.select.action": { "az": "Bu kartı seç", "ru": "Выбрать эту карту", "en": "Choose this card" },
+  "tens.select.sent.title": { "az": "Sorğu göndərildi", "ru": "Запрос отправлен", "en": "Request sent" },
+  "tens.select.sent.body": {
+    "az": "Kartın seçimi serverdə yenilənəndə burada görünəcək.",
+    "ru": "Как только выбор карты обновится на сервере, это отобразится здесь.",
+    "en": "The card selection will show here once the server updates it."
+  },
+  "tens.empty.title": { "az": "Hələ möhür yoxdur", "ru": "Печатей пока нет", "en": "No stamps yet" },
+  "tens.empty.body": {
+    "az": "İlk alış-verişindən sonra kart burada görünəcək.",
+    "ru": "Карта появится здесь после первой покупки.",
+    "en": "Your card will show up here after your first purchase."
+  },
+  "tens.empty.action": { "az": "Alış-verişə başla", "ru": "Перейти к покупкам", "en": "Start shopping" },
+  "tens.guest.title": {
+    "az": "Kartını görmək üçün daxil ol",
+    "ru": "Войди, чтобы увидеть свою карту",
+    "en": "Sign in to see your card"
+  },
+  "tens.guest.body": {
+    "az": "Möhürlər hesabına bağlıdır. Qaydalar hər kəs üçün açıqdır.",
+    "ru": "Печати привязаны к аккаунту. Правила доступны всем.",
+    "en": "Stamps belong to your account. The rules are open to everyone."
+  },
+  "tens.rulesTitle": { "az": "Qaydalar", "ru": "Правила", "en": "Rules" },
+  "tens.rules.earn.title": {
+    "az": "Hər alış-verişdə möhür qazan",
+    "ru": "Печать за каждую покупку",
+    "en": "Earn a stamp with every purchase"
+  },
+  "tens.rules.earn.body": {
+    "az": "Möhür avtomatik olaraq kartına düşür.",
+    "ru": "Печать начисляется на карту автоматически.",
+    "en": "The stamp lands on your card automatically."
+  },
+  "tens.rules.collect.title": { "az": "10 möhür yığ", "ru": "Собери 10 печатей", "en": "Collect 10 stamps" },
+  "tens.rules.collect.body": {
+    "az": "Hər kart üzrə möhürlər ayrıca sayılır.",
+    "ru": "Печати считаются по каждой карте отдельно.",
+    "en": "Stamps are counted separately for each card."
+  },
+  "tens.rules.claim.title": { "az": "Hədiyyəni al", "ru": "Получи подарок", "en": "Claim your gift" },
+  "tens.rules.claim.body": {
+    "az": "Kart dolduqda hədiyyə kassada verilir.",
+    "ru": "Когда карта заполнена, подарок выдают на кассе.",
+    "en": "Once the card is full, the gift is handed over at the till."
+  },
+
+  "discounts.title": { "az": "Endirimlər", "ru": "Скидки", "en": "Discounts" },
+  "discounts.subtitle": {
+    "az": "Partnyor şəbəkələrindəki aksiya qiymətləri",
+    "ru": "Акционные цены в партнёрских сетях",
+    "en": "Campaign prices across the partner chains"
+  },
+  "discounts.subtitlePeriod": {
+    "az": "Aksiya dövrü: {period}",
+    "ru": "Период акции: {period}",
+    "en": "Campaign period: {period}"
+  },
+  "discounts.chainsLabel": { "az": "Mağaza şəbəkəsi", "ru": "Сеть магазинов", "en": "Store chain" },
+  "discounts.allChains": { "az": "Bütün şəbəkələr", "ru": "Все сети", "en": "All chains" },
+  "discounts.chainUnknown": { "az": "Partnyor şəbəkə", "ru": "Партнёрская сеть", "en": "Partner chain" },
+  "discounts.count": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# product} other {# products}}"
+  },
+  "discounts.until": { "az": "{date} tarixinədək", "ru": "до {date}", "en": "until {date}" },
+  "discounts.searchPlaceholder": { "az": "Məhsul axtar", "ru": "Поиск товара", "en": "Search products" },
+  "discounts.sortLabel": { "az": "Sıralama", "ru": "Сортировка", "en": "Sort" },
+  "discounts.sort.default": { "az": "Sıralama: Standart", "ru": "Сортировка: По умолчанию", "en": "Sort: Default" },
+  "discounts.sort.discount": { "az": "Sıralama: Ən çox endirim", "ru": "Сортировка: Больше скидка", "en": "Sort: Biggest discount" },
+  "discounts.sort.priceAsc": { "az": "Sıralama: Qiymət (aşağıdan)", "ru": "Сортировка: Цена (по возрастанию)", "en": "Sort: Price (low to high)" },
+  "discounts.sort.priceDesc": { "az": "Sıralama: Qiymət (yuxarıdan)", "ru": "Сортировка: Цена (по убыванию)", "en": "Sort: Price (high to low)" },
+  "discounts.clientSideNote": {
+    "az": "Axtarış və sıralama yüklənmiş məhsullara tətbiq olunur — server axtarış dəstəkləmir.",
+    "ru": "Поиск и сортировка применяются к загруженным товарам — сервер поиск не поддерживает.",
+    "en": "Search and sorting apply to the products already loaded — the server has no search."
+  },
+  "discounts.loadMore": {
+    "az": "{count, plural, one {Daha # məhsul göstər} other {Daha # məhsul göstər}}",
+    "ru": "{count, plural, one {Показать ещё # товар} few {Показать ещё # товара} many {Показать ещё # товаров} other {Показать ещё # товара}}",
+    "en": "{count, plural, one {Show # more product} other {Show # more products}}"
+  },
+  "discounts.empty.title": {
+    "az": "Aktiv endirim kataloqu yoxdur",
+    "ru": "Активного каталога скидок нет",
+    "en": "No discount catalogue is running"
+  },
+  "discounts.empty.body": {
+    "az": "Yeni aksiya dövrü başlayanda məhsullar burada görünəcək.",
+    "ru": "Как только начнётся новый период акции, товары появятся здесь.",
+    "en": "Products will appear here when the next campaign starts."
+  },
+  "discounts.empty.action": { "az": "Markete keç", "ru": "В маркет", "en": "Go to the market" },
+  "discounts.emptyChain.title": {
+    "az": "Bu şəbəkədə endirimli məhsul yoxdur",
+    "ru": "В этой сети нет товаров со скидкой",
+    "en": "No discounted products in this chain"
+  },
+  "discounts.emptyChain.body": {
+    "az": "Başqa şəbəkəni seç və ya sonra yenidən yoxla.",
+    "ru": "Выбери другую сеть или проверь позже.",
+    "en": "Pick another chain, or check back later."
+  },
+  "discounts.noMatch.title": {
+    "az": "Uyğun məhsul tapılmadı",
+    "ru": "Подходящих товаров нет",
+    "en": "No matching products"
+  },
+  "discounts.noMatch.body": {
+    "az": "Axtarış yalnız yüklənmiş məhsullar üzrə işləyir — daha çox yüklə və ya sözü dəyiş.",
+    "ru": "Поиск работает только по загруженным товарам — загрузи ещё или измени запрос.",
+    "en": "Search only covers the products already loaded — load more, or change your words."
+  },
+  "discounts.guest.title": {
+    "az": "Endirimlərə baxmaq üçün daxil ol",
+    "ru": "Войди, чтобы посмотреть скидки",
+    "en": "Sign in to see the discounts"
+  },
+  "discounts.guest.body": {
+    "az": "Aksiya qiymətləri yalnız hesabla görünür.",
+    "ru": "Акционные цены доступны только в аккаунте.",
+    "en": "Campaign prices are only visible from your account."
+  }
+}

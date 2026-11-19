@@ -1,0 +1,327 @@
+{
+  "meta.titleTemplate": {
+    "az": "%s — Ozio",
+    "ru": "%s — Ozio",
+    "en": "%s — Ozio"
+  },
+  "nav.label": {
+    "az": "Əsas naviqasiya",
+    "ru": "Основная навигация",
+    "en": "Main navigation"
+  },
+  "nav.cashback": {
+    "az": "Keşbek",
+    "ru": "Кешбэк",
+    "en": "Cashback"
+  },
+  "nav.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "nav.ten": {
+    "az": "10-lar",
+    "ru": "10-lar",
+    "en": "10-lar"
+  },
+  "nav.partners": {
+    "az": "Partnyorlar",
+    "ru": "Партнёры",
+    "en": "Partners"
+  },
+  "nav.faq": {
+    "az": "Sual-cavab",
+    "ru": "Вопросы и ответы",
+    "en": "FAQ"
+  },
+  "nav.download": {
+    "az": "Endir",
+    "ru": "Скачать",
+    "en": "Download"
+  },
+  "skipLink": {
+    "az": "Məzmuna keç",
+    "ru": "Перейти к содержимому",
+    "en": "Skip to content"
+  },
+  "sidebar.label": {
+    "az": "Əsas menyu",
+    "ru": "Главное меню",
+    "en": "Main menu"
+  },
+  "rail.label": {
+    "az": "Əsas menyu",
+    "ru": "Главное меню",
+    "en": "Main menu"
+  },
+  "rail.expand": {
+    "az": "Menyunu genişləndir",
+    "ru": "Развернуть меню",
+    "en": "Expand the menu"
+  },
+  "bottomNav.label": {
+    "az": "Alt naviqasiya",
+    "ru": "Нижняя навигация",
+    "en": "Bottom navigation"
+  },
+  "search.placeholder": {
+    "az": "Məhsul, mağaza və ya kupon axtar",
+    "ru": "Найди товар, магазин или купон",
+    "en": "Search for a product, store or coupon"
+  },
+  "search.label": {
+    "az": "Axtar",
+    "ru": "Поиск",
+    "en": "Search"
+  },
+  "topBar.cart": {
+    "az": "Səbət",
+    "ru": "Корзина",
+    "en": "Cart"
+  },
+  "topBar.cartWithCount": {
+    "az": "{count, plural, one {Səbət, # məhsul} other {Səbət, # məhsul}}",
+    "ru": "{count, plural, one {Корзина, # товар} few {Корзина, # товара} many {Корзина, # товаров} other {Корзина, # товара}}",
+    "en": "{count, plural, one {Cart — # item} other {Cart — # items}}"
+  },
+  "topBar.notifications": {
+    "az": "Bildirişlər",
+    "ru": "Уведомления",
+    "en": "Notifications"
+  },
+  "topBar.notificationsWithCount": {
+    "az": "{count, plural, one {Bildirişlər, # oxunmamış} other {Bildirişlər, # oxunmamış}}",
+    "ru": "{count, plural, one {Уведомления, # непрочитанное} few {Уведомления, # непрочитанных} many {Уведомления, # непрочитанных} other {Уведомления, # непрочитанных}}",
+    "en": "{count, plural, one {Notifications — # unread} other {Notifications — # unread}}"
+  },
+  "topBar.account": {
+    "az": "Hesab menyusu",
+    "ru": "Меню аккаунта",
+    "en": "Account menu"
+  },
+  "topBar.accountOf": {
+    "az": "{name} — hesab menyusu",
+    "ru": "{name} — меню аккаунта",
+    "en": "{name} — account menu"
+  },
+  "topBar.city": {
+    "az": "Şəhəri dəyiş",
+    "ru": "Сменить город",
+    "en": "Change city"
+  },
+  "menu.profile": {
+    "az": "Profil",
+    "ru": "Профиль",
+    "en": "Profile"
+  },
+  "menu.addresses": {
+    "az": "Ünvanlarım",
+    "ru": "Мои адреса",
+    "en": "My addresses"
+  },
+  "menu.language": {
+    "az": "Dil: Azərbaycan",
+    "ru": "Язык: русский",
+    "en": "Language: English"
+  },
+  "menu.darkMode": {
+    "az": "Qaranlıq rejim",
+    "ru": "Тёмная тема",
+    "en": "Dark mode"
+  },
+  "menu.signOut": {
+    "az": "Çıxış",
+    "ru": "Выйти",
+    "en": "Sign out"
+  },
+  "promo.title": {
+    "az": "Ozio tətbiqi",
+    "ru": "Приложение Ozio",
+    "en": "The Ozio app"
+  },
+  "promo.body": {
+    "az": "Kartın həmişə cibində olsun",
+    "ru": "Пусть карта всегда будет в кармане",
+    "en": "Keep your card in your pocket"
+  },
+  "promo.cta": {
+    "az": "Endir",
+    "ru": "Скачать",
+    "en": "Download"
+  },
+  "pageHeader.back": {
+    "az": "Geri",
+    "ru": "Назад",
+    "en": "Back"
+  },
+  "landing.login": {
+    "az": "Daxil ol",
+    "ru": "Войти",
+    "en": "Log in"
+  },
+  "landing.download": {
+    "az": "Tətbiqi endir",
+    "ru": "Скачать приложение",
+    "en": "Download the app"
+  },
+  "landing.toApp": {
+    "az": "Tətbiqə keç",
+    "ru": "Перейти в приложение",
+    "en": "Open the app"
+  },
+  "landing.language": {
+    "az": "Dili dəyiş",
+    "ru": "Сменить язык",
+    "en": "Change language"
+  },
+  "landing.menu": {
+    "az": "Menyu",
+    "ru": "Меню",
+    "en": "Menu"
+  },
+  "landing.closeMenu": {
+    "az": "Menyunu bağla",
+    "ru": "Закрыть меню",
+    "en": "Close the menu"
+  },
+  "landing.links.cashback": {
+    "az": "Keşbek",
+    "ru": "Кешбэк",
+    "en": "Cashback"
+  },
+  "landing.links.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "landing.links.ten": {
+    "az": "10-lar",
+    "ru": "10-lar",
+    "en": "10-lar"
+  },
+  "landing.links.partners": {
+    "az": "Partnyorlar",
+    "ru": "Партнёры",
+    "en": "Partners"
+  },
+  "landing.links.faq": {
+    "az": "Sual-cavab",
+    "ru": "Вопросы и ответы",
+    "en": "FAQ"
+  },
+  "splash.loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  },
+  "footer.tagline": {
+    "az": "Ozio+ ekosistemi: keşbek, çatdırılma və hədiyyələr bir yerdə.",
+    "ru": "Экосистема Ozio+: кешбэк, доставка и подарки в одном месте.",
+    "en": "The Ozio+ ecosystem: cashback, delivery and gifts in one place."
+  },
+  "footer.columns.ozio": {
+    "az": "Ozio",
+    "ru": "Ozio",
+    "en": "Ozio"
+  },
+  "footer.columns.support": {
+    "az": "Dəstək",
+    "ru": "Поддержка",
+    "en": "Support"
+  },
+  "footer.columns.contact": {
+    "az": "Əlaqə",
+    "ru": "Контакты",
+    "en": "Contact"
+  },
+  "footer.links.contact": {
+    "az": "Əlaqə",
+    "ru": "Связаться с нами",
+    "en": "Contact us"
+  },
+  "footer.links.terms": {
+    "az": "Şərtlər",
+    "ru": "Условия",
+    "en": "Terms"
+  },
+  "footer.links.privacy": {
+    "az": "Məxfilik",
+    "ru": "Конфиденциальность",
+    "en": "Privacy"
+  },
+  "footer.contact.phone": {
+    "az": "+994 12 000 00 00",
+    "ru": "+994 12 000 00 00",
+    "en": "+994 12 000 00 00"
+  },
+  "footer.contact.email": {
+    "az": "info@ozio10.az",
+    "ru": "info@ozio10.az",
+    "en": "info@ozio10.az"
+  },
+  "footer.contact.address": {
+    "az": "Bakı, Azərbaycan",
+    "ru": "Баку, Азербайджан",
+    "en": "Baku, Azerbaijan"
+  },
+  "footer.copyright": {
+    "az": "© 2026 Ozio. Bütün hüquqlar qorunur.",
+    "ru": "© 2026 Ozio. Все права защищены.",
+    "en": "© 2026 Ozio. All rights reserved."
+  },
+  "auth.tagline": {
+    "az": "Hər alış-verişdə qazan. Qapında təhvil al.",
+    "ru": "Получай выгоду с каждой покупки. Забирай у своей двери.",
+    "en": "Earn on every purchase. Get it at your door."
+  },
+  "notFound.title": {
+    "az": "Bu səhifə tapılmadı",
+    "ru": "Страница не найдена",
+    "en": "Page not found"
+  },
+  "notFound.text": {
+    "az": "Axtardığınız səhifə köçürülüb və ya silinib. Ana səhifəyə qayıdın və ya mağazalara baxın.",
+    "ru": "Страница перенесена или удалена. Вернитесь на главную или посмотрите магазины.",
+    "en": "The page you're looking for was moved or deleted. Go home or browse the stores."
+  },
+  "notFound.primary": {
+    "az": "Ana səhifəyə qayıt",
+    "ru": "На главную",
+    "en": "Back home"
+  },
+  "notFound.secondary": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "error.title": {
+    "az": "Bir şey səhv getdi",
+    "ru": "Что-то пошло не так",
+    "en": "Something went wrong"
+  },
+  "error.text": {
+    "az": "Serverdə gözlənilməz xəta baş verdi. Komandamız artıq bunun üzərindədir, bir azdan yenidən cəhd edin.",
+    "ru": "На сервере произошла непредвиденная ошибка. Команда уже работает над этим, повторите чуть позже.",
+    "en": "An unexpected server error occurred. Our team is on it — please try again shortly."
+  },
+  "error.support": {
+    "az": "Dəstəyə yaz",
+    "ru": "Написать в поддержку",
+    "en": "Contact support"
+  },
+  "error.requestId": {
+    "az": "Sorğu ID: {id}",
+    "ru": "ID запроса: {id}",
+    "en": "Request ID: {id}"
+  },
+  "offline.message": {
+    "az": "İnternet bağlantısı yoxdur. Son yadda saxlanan məlumat göstərilir.",
+    "ru": "Нет подключения к интернету. Показаны последние сохранённые данные.",
+    "en": "No internet connection. Showing last saved data."
+  },
+  "offline.retry": {
+    "az": "Yenilə",
+    "ru": "Обновить",
+    "en": "Retry"
+  }
+}

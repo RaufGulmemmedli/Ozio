@@ -1,0 +1,2112 @@
+{
+  "cta.download": {
+    "az": "Tətbiqi endir",
+    "ru": "Скачать приложение",
+    "en": "Download the app"
+  },
+  "cta.webStart": {
+    "az": "Vebdə başla",
+    "ru": "Начать в браузере",
+    "en": "Start on the web"
+  },
+  "cta.openWeb": {
+    "az": "Veb versiyada aç",
+    "ru": "Открыть веб-версию",
+    "en": "Open the web version"
+  },
+  "cta.appStore": {
+    "az": "App Store",
+    "ru": "App Store",
+    "en": "App Store"
+  },
+  "cta.googlePlay": {
+    "az": "Google Play",
+    "ru": "Google Play",
+    "en": "Google Play"
+  },
+  "cta.appStoreAria": {
+    "az": "Ozio tətbiqini App Store-dan endir",
+    "ru": "Скачать приложение Ozio в App Store",
+    "en": "Download the Ozio app on the App Store"
+  },
+  "cta.googlePlayAria": {
+    "az": "Ozio tətbiqini Google Play-dən endir",
+    "ru": "Скачать приложение Ozio в Google Play",
+    "en": "Get the Ozio app on Google Play"
+  },
+  "download.title": {
+    "az": "Xoşbəxtlik qapında. İndi endir.",
+    "ru": "Счастье у твоей двери. Скачай сейчас.",
+    "en": "Happiness at your door. Download it now."
+  },
+  "download.qr": {
+    "az": "Skan et",
+    "ru": "Сканируй",
+    "en": "Scan it"
+  },
+  "download.qrAlt": {
+    "az": "Ozio tətbiqini endirmək üçün QR kod",
+    "ru": "QR-код для скачивания приложения Ozio",
+    "en": "QR code for downloading the Ozio app"
+  },
+  "visual.label": {
+    "az": "Ozio kartı və tətbiq ekranları — nümunə",
+    "ru": "Карта Ozio и экраны приложения — пример",
+    "en": "The Ozio card and app screens — a sample"
+  },
+  "card.tier": {
+    "az": "PLUS",
+    "ru": "PLUS",
+    "en": "PLUS"
+  },
+  "card.balanceLabel": {
+    "az": "Bonus balansı",
+    "ru": "Бонусный баланс",
+    "en": "Bonus balance"
+  },
+  "card.balance": {
+    "az": "24,80 ₼",
+    "ru": "24,80 ₼",
+    "en": "24,80 ₼"
+  },
+  "card.number": {
+    "az": "•••• 4821",
+    "ru": "•••• 4821",
+    "en": "•••• 4821"
+  },
+  "sample": {
+    "az": "nümunə məlumat",
+    "ru": "пример данных",
+    "en": "sample data"
+  },
+  "home.hero.eyebrow": {
+    "az": "Ozio+ ekosistemi",
+    "ru": "Экосистема Ozio+",
+    "en": "The Ozio+ ecosystem"
+  },
+  "home.hero.title": {
+    "az": "Hər alış-verişdə qazan. Qapında təhvil al.",
+    "ru": "Получай выгоду с каждой покупки. Забирай у своей двери.",
+    "en": "Earn on every purchase. Get it at your door."
+  },
+  "home.hero.lead": {
+    "az": "Keşbek, onlayn market və “10-lar” hədiyyə proqramı — hamısı bir tətbiqdə. 100+ partnyorda keşbek, 6000+ məhsul qapınıza çatdırılır.",
+    "ru": "Кешбэк, онлайн-маркет и подарочная программа «10-ки» — всё в одном приложении. Кешбэк у 100+ партнёров, 6000+ товаров с доставкой до двери.",
+    "en": "Cashback, an online market and the “Tens” gift programme — all in one app. Cashback at 100+ partners and 6000+ products delivered to your door."
+  },
+  "home.hero.trust": {
+    "az": "600 000+ istifadəçi artıq Ozio ilə qazanır",
+    "ru": "600 000+ пользователей уже экономят с Ozio",
+    "en": "600,000+ people are already earning with Ozio"
+  },
+  "home.chip.order.title": {
+    "az": "Sifarişin yolda",
+    "ru": "Заказ в пути",
+    "en": "Your order is on its way"
+  },
+  "home.chip.order.meta": {
+    "az": "Təxmini 12 dəq",
+    "ru": "Примерно 12 мин",
+    "en": "About 12 min"
+  },
+  "home.chip.cashback.value": {
+    "az": "+1,5%",
+    "ru": "+1,5%",
+    "en": "+1.5%"
+  },
+  "home.chip.cashback.label": {
+    "az": "keşbek",
+    "ru": "кешбэк",
+    "en": "cashback"
+  },
+  "home.chip.ten.value": {
+    "az": "9 + 1",
+    "ru": "9 + 1",
+    "en": "9 + 1"
+  },
+  "home.chip.ten.title": {
+    "az": "Hədiyyə sənindir",
+    "ru": "Подарок твой",
+    "en": "The gift is yours"
+  },
+  "home.chip.ten.meta": {
+    "az": "9 alırsan, 1 qazanırsan",
+    "ru": "Покупаешь 9 — получаешь 1",
+    "en": "Buy 9, get 1 free"
+  },
+  "home.stats.label": {
+    "az": "Ozio rəqəmlərlə",
+    "ru": "Ozio в цифрах",
+    "en": "Ozio in numbers"
+  },
+  "home.stats.users.value": {
+    "az": "600 000+",
+    "ru": "600 000+",
+    "en": "600,000+"
+  },
+  "home.stats.users.label": {
+    "az": "Cəmi istifadəçi",
+    "ru": "Всего пользователей",
+    "en": "Total users"
+  },
+  "home.stats.users.short": {
+    "az": "İstifadəçi",
+    "ru": "Пользователи",
+    "en": "Users"
+  },
+  "home.stats.monthly.value": {
+    "az": "750 000+",
+    "ru": "750 000+",
+    "en": "750,000+"
+  },
+  "home.stats.monthly.label": {
+    "az": "Aylıq istifadəçi",
+    "ru": "Пользователей в месяц",
+    "en": "Monthly users"
+  },
+  "home.stats.monthly.short": {
+    "az": "Aylıq",
+    "ru": "За месяц",
+    "en": "Monthly"
+  },
+  "home.stats.partners.value": {
+    "az": "100+",
+    "ru": "100+",
+    "en": "100+"
+  },
+  "home.stats.partners.label": {
+    "az": "Partnyor",
+    "ru": "Партнёров",
+    "en": "Partners"
+  },
+  "home.stats.partners.short": {
+    "az": "Partnyor",
+    "ru": "Партнёры",
+    "en": "Partners"
+  },
+  "home.stats.downloads.value": {
+    "az": "800 000+",
+    "ru": "800 000+",
+    "en": "800,000+"
+  },
+  "home.stats.downloads.label": {
+    "az": "Yükləmə",
+    "ru": "Загрузок",
+    "en": "Downloads"
+  },
+  "home.stats.downloads.short": {
+    "az": "Yükləmə",
+    "ru": "Загрузки",
+    "en": "Downloads"
+  },
+  "home.ecosystem.eyebrow": {
+    "az": "OZIO+ DÜNYASI",
+    "ru": "МИР OZIO+",
+    "en": "THE OZIO+ WORLD"
+  },
+  "home.ecosystem.title": {
+    "az": "Keşbekdən daha artığına sahib ol",
+    "ru": "Получай больше, чем просто кешбэк",
+    "en": "Get more than just cashback"
+  },
+  "home.ecosystem.lead": {
+    "az": "Üç layihə, bir kart, bir tətbiq. Hamısı sənin gündəlik alış-verişini daha sərfəli edir.",
+    "ru": "Три проекта, одна карта, одно приложение. Всё, чтобы повседневные покупки были выгоднее.",
+    "en": "Three products, one card, one app — all of it makes your everyday shopping pay off."
+  },
+  "home.bento.cashback.kicker": {
+    "az": "OZIO KEŞBEK",
+    "ru": "OZIO КЕШБЭК",
+    "en": "OZIO CASHBACK"
+  },
+  "home.bento.cashback.title": {
+    "az": "Bütün alış-verişlərdə keşbek qazan",
+    "ru": "Получай кешбэк за любые покупки",
+    "en": "Earn cashback on everything you buy"
+  },
+  "home.bento.cashback.text": {
+    "az": "100-lərlə partnyor şəbəkəsində 1,5%-dən 10%-ə qədər keşbek. Hər ay yeni aksiyalar.",
+    "ru": "От 1,5% до 10% кешбэка в сети из сотен партнёров. Каждый месяц — новые акции.",
+    "en": "1.5% to 10% cashback across a network of hundreds of partners, with new offers every month."
+  },
+  "home.bento.market.kicker": {
+    "az": "OZIO MARKET",
+    "ru": "OZIO МАРКЕТ",
+    "en": "OZIO MARKET"
+  },
+  "home.bento.market.title": {
+    "az": "6000+ çeşid, qapında",
+    "ru": "6000+ товаров до двери",
+    "en": "6000+ products at your door"
+  },
+  "home.bento.market.text": {
+    "az": "Onlayn supermarket. Sifariş et, qısa zamanda təhvil al və hər sifarişdə 1,5% keşbek qazan.",
+    "ru": "Онлайн-супермаркет. Заказывай, получай быстро и забирай 1,5% кешбэка с каждого заказа.",
+    "en": "An online supermarket. Order, get it quickly and earn 1.5% cashback on every order."
+  },
+  "home.bento.ten.kicker": {
+    "az": "OZIO 10-LAR",
+    "ru": "OZIO 10-КИ",
+    "en": "OZIO TENS"
+  },
+  "home.bento.ten.title": {
+    "az": "9 alırsan, 1 qazanırsan",
+    "ru": "Покупаешь 9 — получаешь 1",
+    "en": "Buy 9, get 1 free"
+  },
+  "home.bento.ten.text": {
+    "az": "Hər ay 10-larla hədiyyə, endirim kartı və hər 10-cu alış-verişdə fürsətlər.",
+    "ru": "Каждый месяц — десятки подарков, карта скидок и бонусы на каждой 10-й покупке.",
+    "en": "Dozens of gifts every month, a discount card and a reward on every 10th purchase."
+  },
+  "home.bento.discounts.kicker": {
+    "az": "ENDİRİMLƏR",
+    "ru": "СКИДКИ",
+    "en": "DISCOUNTS"
+  },
+  "home.bento.discounts.title": {
+    "az": "Aksiyalar bir yerdə",
+    "ru": "Все акции в одном месте",
+    "en": "Every promotion in one place"
+  },
+  "home.bento.discounts.text": {
+    "az": "Partnyor mağazaların aylıq kampaniyaları və endirimləri onlayn kataloqda.",
+    "ru": "Ежемесячные кампании и скидки магазинов-партнёров в онлайн-каталоге.",
+    "en": "The monthly campaigns and discounts of our partner stores, in one online catalogue."
+  },
+  "home.how.eyebrow": {
+    "az": "NECƏ İŞLƏYİR",
+    "ru": "КАК ЭТО РАБОТАЕТ",
+    "en": "HOW IT WORKS"
+  },
+  "home.how.title": {
+    "az": "Üç addımda başla",
+    "ru": "Начни в три шага",
+    "en": "Get started in three steps"
+  },
+  "home.how.step1.title": {
+    "az": "Tətbiqi endir",
+    "ru": "Скачай приложение",
+    "en": "Download the app"
+  },
+  "home.how.step1.text": {
+    "az": "App Store və ya Google Play-dən yüklə, telefon nömrənlə daxil ol.",
+    "ru": "Установи из App Store или Google Play и войди по номеру телефона.",
+    "en": "Install it from the App Store or Google Play and sign in with your phone number."
+  },
+  "home.how.step2.title": {
+    "az": "Alış-veriş et",
+    "ru": "Делай покупки",
+    "en": "Go shopping"
+  },
+  "home.how.step2.text": {
+    "az": "Partnyorlarda kartını göstər və ya Ozio Marketdən sifariş ver.",
+    "ru": "Покажи карту у партнёров или сделай заказ в Ozio Маркете.",
+    "en": "Show your card at a partner or order from Ozio Market."
+  },
+  "home.how.step3.title": {
+    "az": "Qazan",
+    "ru": "Получай выгоду",
+    "en": "Earn"
+  },
+  "home.how.step3.text": {
+    "az": "Keşbek balansına düşür, 10-lar tamamlandıqca hədiyyə açılır.",
+    "ru": "Кешбэк приходит на баланс, а как только «10-ка» заполнена — открывается подарок.",
+    "en": "Cashback lands on your balance, and a gift unlocks as soon as a Ten is complete."
+  },
+  "home.ten.eyebrow": {
+    "az": "OZIO 10-LAR",
+    "ru": "OZIO 10-КИ",
+    "en": "OZIO TENS"
+  },
+  "home.ten.title": {
+    "az": "9 alırsan, 1 qazanırsan",
+    "ru": "Покупаешь 9 — получаешь 1",
+    "en": "Buy 9, get 1 free"
+  },
+  "home.ten.text": {
+    "az": "Pərakəndə bazarında bir ilk. Hər alış-verişdə möhür yığ, 10-cu möhürdə hədiyyə və ya endirim sənindir.",
+    "ru": "Первое в розничном рынке. Собирай штамп с каждой покупки, а на 10-м получай подарок или скидку.",
+    "en": "A first for retail here. Collect a stamp with every purchase, and the 10th one is a gift or a discount."
+  },
+  "home.ten.cta": {
+    "az": "Elə indi başla",
+    "ru": "Начать сейчас",
+    "en": "Start right now"
+  },
+  "home.ten.cardTitle": {
+    "az": "Sənin kartın",
+    "ru": "Твоя карта",
+    "en": "Your card"
+  },
+  "home.ten.progress": {
+    "az": "7 / 10",
+    "ru": "7 / 10",
+    "en": "7 / 10"
+  },
+  "home.ten.stampsLabel": {
+    "az": "10 möhürdən 7-si yığılıb — nümunə kart",
+    "ru": "Собрано 7 из 10 штампов — пример карты",
+    "en": "7 of 10 stamps collected — a sample card"
+  },
+  "home.market.eyebrow": {
+    "az": "OZIO MARKET",
+    "ru": "OZIO МАРКЕТ",
+    "en": "OZIO MARKET"
+  },
+  "home.market.title": {
+    "az": "Supermarket telefonunda",
+    "ru": "Супермаркет в телефоне",
+    "en": "A supermarket in your phone"
+  },
+  "home.market.chips.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "All"
+  },
+  "home.market.chips.fruit": {
+    "az": "Meyvə-tərəvəz",
+    "ru": "Фрукты и овощи",
+    "en": "Fruit and veg"
+  },
+  "home.market.chips.dairy": {
+    "az": "Süd məhsulları",
+    "ru": "Молочное",
+    "en": "Dairy"
+  },
+  "home.market.chips.bread": {
+    "az": "Çörək",
+    "ru": "Хлеб",
+    "en": "Bread"
+  },
+  "home.market.chips.drinks": {
+    "az": "İçkilər",
+    "ru": "Напитки",
+    "en": "Drinks"
+  },
+  "home.products.apple.name": {
+    "az": "Qırmızı alma",
+    "ru": "Красные яблоки",
+    "en": "Red apples"
+  },
+  "home.products.apple.meta": {
+    "az": "1 kq · Ozio Market",
+    "ru": "1 кг · Ozio Маркет",
+    "en": "1 kg · Ozio Market"
+  },
+  "home.products.apple.price": {
+    "az": "2,49 ₼",
+    "ru": "2,49 ₼",
+    "en": "2,49 ₼"
+  },
+  "home.products.croissant.name": {
+    "az": "Kruasan",
+    "ru": "Круассан",
+    "en": "Croissant"
+  },
+  "home.products.croissant.meta": {
+    "az": "2 ədəd · Ozio Market",
+    "ru": "2 шт · Ozio Маркет",
+    "en": "2 pcs · Ozio Market"
+  },
+  "home.products.croissant.price": {
+    "az": "1,95 ₼",
+    "ru": "1,95 ₼",
+    "en": "1,95 ₼"
+  },
+  "home.products.bread.name": {
+    "az": "Təzə çörək",
+    "ru": "Свежий хлеб",
+    "en": "Fresh bread"
+  },
+  "home.products.bread.meta": {
+    "az": "400 q · Ozio Market",
+    "ru": "400 г · Ozio Маркет",
+    "en": "400 g · Ozio Market"
+  },
+  "home.products.bread.price": {
+    "az": "0,80 ₼",
+    "ru": "0,80 ₼",
+    "en": "0,80 ₼"
+  },
+  "home.products.tomato.name": {
+    "az": "Pomidor",
+    "ru": "Помидоры",
+    "en": "Tomatoes"
+  },
+  "home.products.tomato.meta": {
+    "az": "1 kq · Ozio Market",
+    "ru": "1 кг · Ozio Маркет",
+    "en": "1 kg · Ozio Market"
+  },
+  "home.products.tomato.price": {
+    "az": "3,10 ₼",
+    "ru": "3,10 ₼",
+    "en": "3,10 ₼"
+  },
+  "home.products.discount": {
+    "az": "-20%",
+    "ru": "-20%",
+    "en": "-20%"
+  },
+  "home.products.openInApp": {
+    "az": "Tətbiqdə aç",
+    "ru": "Открыть в приложении",
+    "en": "Open in the app"
+  },
+  "home.faq.eyebrow": {
+    "az": "CAVABSIZ QALMA",
+    "ru": "НЕ ОСТАВАЙСЯ БЕЗ ОТВЕТА",
+    "en": "DON’T BE LEFT GUESSING"
+  },
+  "home.faq.title": {
+    "az": "Tez-tez verilən suallar",
+    "ru": "Частые вопросы",
+    "en": "Frequently asked questions"
+  },
+  "home.faq.q1": {
+    "az": "Ozio Plus keşbek kartı harada keçərlidir?",
+    "ru": "Где действует кешбэк-карта Ozio Plus?",
+    "en": "Where can I use the Ozio Plus cashback card?"
+  },
+  "home.faq.a1": {
+    "az": "Kart 100+ partnyor mağazada keçərlidir. Kassada kartın barkodunu göstərmək kifayətdir.",
+    "ru": "Карта действует в 100+ магазинах-партнёрах. На кассе достаточно показать штрих-код карты.",
+    "en": "The card works at 100+ partner stores. At the till it is enough to show the card’s barcode."
+  },
+  "home.faq.q2": {
+    "az": "Çatdırılma haqqı nə qədərdir?",
+    "ru": "Сколько стоит доставка?",
+    "en": "How much does delivery cost?"
+  },
+  "home.faq.a2": {
+    "az": "Çatdırılma haqqı ünvandan və sifariş vaxtından asılıdır. Dəqiq məbləğ ünvanı seçdikdən sonra səbətdə göstərilir; müəyyən məbləğdən yuxarı sifarişlərdə çatdırılma pulsuz olur.",
+    "ru": "Стоимость доставки зависит от адреса и времени заказа. Точная сумма показывается в корзине после выбора адреса, а от определённой суммы заказа доставка бесплатна.",
+    "en": "Delivery depends on your address and the time of the order. The exact amount appears in the cart once you pick an address, and above a certain order total it is free."
+  },
+  "home.faq.q3": {
+    "az": "Keşbek necə xərclənir?",
+    "ru": "Как потратить кешбэк?",
+    "en": "How do I spend my cashback?"
+  },
+  "home.faq.a3": {
+    "az": "Yığılan keşbek bonus balansına düşür. Balansı Ozio Marketdə sifarişi ödəyərkən və ya partnyor mağazada kassada kartı göstərərək endirim kimi istifadə edə bilərsən.",
+    "ru": "Накопленный кешбэк попадает на бонусный баланс. Его можно потратить при оплате заказа в Ozio Маркете или использовать как скидку на кассе магазина-партнёра.",
+    "en": "The cashback you collect lands on your bonus balance. You can spend it when paying for an Ozio Market order, or use it as a discount at a partner’s till."
+  },
+  "home.faq.q4": {
+    "az": "Ozio 10-lar necə işləyir?",
+    "ru": "Как работают Ozio 10-ки?",
+    "en": "How do Ozio Tens work?"
+  },
+  "home.faq.a4": {
+    "az": "Minimum məbləği ödəyən hər alış kartına bir möhür yazır. 9 möhür yığıldıqdan sonra 10-cu açılır və aylıq siyahıdan hədiyyə və ya endirim seçirsən. Möhürlər 90 gün keçərlidir.",
+    "ru": "Каждая покупка выше минимальной суммы добавляет на карту один штамп. После 9 штампов открывается 10-й: выбираешь подарок или скидку из месячного списка. Штампы действуют 90 дней.",
+    "en": "Every purchase above the minimum adds one stamp to your card. After 9 stamps the 10th unlocks and you pick a gift or a discount from that month’s list. Stamps stay valid for 90 days."
+  },
+  "cashback.hero.eyebrow": {
+    "az": "OZIO KEŞBEK",
+    "ru": "OZIO КЕШБЭК",
+    "en": "OZIO CASHBACK"
+  },
+  "cashback.hero.title": {
+    "az": "Hər alışdan 1,5%-dən 10%-dək geri qayıdır",
+    "ru": "С каждой покупки возвращается от 1,5% до 10%",
+    "en": "1.5% to 10% comes back on every purchase"
+  },
+  "cashback.hero.lead": {
+    "az": "Ozio kartını kassada göstər — market, kafe, geyim və aptek partnyorlarımızda keşbek avtomatik balansına yazılır. Sonra növbəti alışda xərclə.",
+    "ru": "Покажи карту Ozio на кассе — кешбэк у наших партнёров (маркеты, кафе, одежда, аптеки) автоматически попадает на баланс. Потрать его на следующей покупке.",
+    "en": "Show your Ozio card at the till — cashback at our grocery, café, fashion and pharmacy partners lands on your balance automatically. Spend it on your next purchase."
+  },
+  "cashback.hero.secondary": {
+    "az": "Necə işləyir",
+    "ru": "Как это работает",
+    "en": "How it works"
+  },
+  "cashback.toast.value": {
+    "az": "+3,42 ₼ keşbek",
+    "ru": "+3,42 ₼ кешбэка",
+    "en": "+3,42 ₼ cashback"
+  },
+  "cashback.toast.meta": {
+    "az": "Alış: 34,20 ₼ · 10%",
+    "ru": "Покупка: 34,20 ₼ · 10%",
+    "en": "Purchase: 34,20 ₼ · 10%"
+  },
+  "cashback.checkout.eyebrow": {
+    "az": "KASSADA NECƏ İŞLƏYİR",
+    "ru": "КАК ЭТО РАБОТАЕТ НА КАССЕ",
+    "en": "HOW IT WORKS AT THE TILL"
+  },
+  "cashback.checkout.title": {
+    "az": "Üç addım. Üç saniyə.",
+    "ru": "Три шага. Три секунды.",
+    "en": "Three steps. Three seconds."
+  },
+  "cashback.checkout.step1.title": {
+    "az": "Kartı aç",
+    "ru": "Открой карту",
+    "en": "Open your card"
+  },
+  "cashback.checkout.step1.text": {
+    "az": "Tətbiqdə Ozio kartına toxun. Şəxsi barkod və QR kod dərhal ekranda görünür.",
+    "ru": "Нажми на карту Ozio в приложении. Личный штрих-код и QR-код сразу появятся на экране.",
+    "en": "Tap the Ozio card in the app. Your personal barcode and QR code appear on screen right away."
+  },
+  "cashback.checkout.step2.title": {
+    "az": "Kassirə göstər",
+    "ru": "Покажи кассиру",
+    "en": "Show it to the cashier"
+  },
+  "cashback.checkout.step2.text": {
+    "az": "Kassir kodu skan edir. Parol, SMS və ya plastik kart lazım deyil.",
+    "ru": "Кассир сканирует код. Ни пароля, ни SMS, ни пластиковой карты не нужно.",
+    "en": "The cashier scans the code. No password, no SMS, no plastic card needed."
+  },
+  "cashback.checkout.step3.title": {
+    "az": "Keşbek yazılır",
+    "ru": "Кешбэк начисляется",
+    "en": "Cashback is credited"
+  },
+  "cashback.checkout.step3.text": {
+    "az": "Ödənişdən sonra keşbek balansına düşür və bildiriş alırsan.",
+    "ru": "После оплаты кешбэк попадает на баланс, и ты получаешь уведомление.",
+    "en": "After payment the cashback lands on your balance and you get a notification."
+  },
+  "cashback.card.number": {
+    "az": "2000 4817 3359",
+    "ru": "2000 4817 3359",
+    "en": "2000 4817 3359"
+  },
+  "cashback.card.numberLabel": {
+    "az": "Kart nömrən",
+    "ru": "Номер твоей карты",
+    "en": "Your card number"
+  },
+  "cashback.rates.eyebrow": {
+    "az": "KEŞBEK DƏRƏCƏLƏRİ",
+    "ru": "СТАВКИ КЕШБЭКА",
+    "en": "CASHBACK RATES"
+  },
+  "cashback.rates.title": {
+    "az": "Kateqoriyaya görə keşbek faizi",
+    "ru": "Процент кешбэка по категориям",
+    "en": "Cashback rate by category"
+  },
+  "cashback.rates.head.category": {
+    "az": "Kateqoriya",
+    "ru": "Категория",
+    "en": "Category"
+  },
+  "cashback.rates.head.partners": {
+    "az": "Nümunə partnyorlar",
+    "ru": "Примеры партнёров",
+    "en": "Example partners"
+  },
+  "cashback.rates.head.rate": {
+    "az": "Keşbek",
+    "ru": "Кешбэк",
+    "en": "Cashback"
+  },
+  "cashback.rates.market.name": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Grocery"
+  },
+  "cashback.rates.market.partners": {
+    "az": "Ozio Market, yerli süpermarketlər",
+    "ru": "Ozio Маркет, местные супермаркеты",
+    "en": "Ozio Market, local supermarkets"
+  },
+  "cashback.rates.market.rate": {
+    "az": "1,5%",
+    "ru": "1,5%",
+    "en": "1.5%"
+  },
+  "cashback.rates.fashion.name": {
+    "az": "Geyim və ayaqqabı",
+    "ru": "Одежда и обувь",
+    "en": "Clothing and shoes"
+  },
+  "cashback.rates.fashion.partners": {
+    "az": "Moda mağazaları, idman geyimi",
+    "ru": "Магазины моды, спортивная одежда",
+    "en": "Fashion stores, sportswear"
+  },
+  "cashback.rates.fashion.rate": {
+    "az": "5%",
+    "ru": "5%",
+    "en": "5%"
+  },
+  "cashback.rates.electronics.name": {
+    "az": "Elektronika",
+    "ru": "Электроника",
+    "en": "Electronics"
+  },
+  "cashback.rates.electronics.partners": {
+    "az": "Telefon, məişət texnikası",
+    "ru": "Телефоны, бытовая техника",
+    "en": "Phones, home appliances"
+  },
+  "cashback.rates.electronics.rate": {
+    "az": "3%",
+    "ru": "3%",
+    "en": "3%"
+  },
+  "cashback.rates.cafe.name": {
+    "az": "Kafe və restoran",
+    "ru": "Кафе и рестораны",
+    "en": "Cafés and restaurants"
+  },
+  "cashback.rates.cafe.partners": {
+    "az": "Qəhvəxanalar, fast-food, çatdırılma",
+    "ru": "Кофейни, фастфуд, доставка",
+    "en": "Coffee shops, fast food, delivery"
+  },
+  "cashback.rates.cafe.rate": {
+    "az": "7%",
+    "ru": "7%",
+    "en": "7%"
+  },
+  "cashback.rates.pharmacy.name": {
+    "az": "Aptek və sağlamlıq",
+    "ru": "Аптеки и здоровье",
+    "en": "Pharmacy and health"
+  },
+  "cashback.rates.pharmacy.partners": {
+    "az": "Apteklər, optika, kosmetika",
+    "ru": "Аптеки, оптика, косметика",
+    "en": "Pharmacies, opticians, cosmetics"
+  },
+  "cashback.rates.pharmacy.rate": {
+    "az": "4%",
+    "ru": "4%",
+    "en": "4%"
+  },
+  "cashback.rates.special.name": {
+    "az": "Xüsusi kampaniya",
+    "ru": "Специальная кампания",
+    "en": "Special campaign"
+  },
+  "cashback.rates.special.partners": {
+    "az": "Seçilmiş partnyorlarda ayın təklifi",
+    "ru": "Предложение месяца у избранных партнёров",
+    "en": "The offer of the month at selected partners"
+  },
+  "cashback.rates.special.rate": {
+    "az": "10%",
+    "ru": "10%",
+    "en": "10%"
+  },
+  "cashback.rates.note": {
+    "az": "Faizlər nümunə məqsədilə göstərilib; aktual dərəcə partnyor səhifəsində və tətbiqdə yenilənir.",
+    "ru": "Проценты приведены для примера; актуальная ставка обновляется на странице партнёра и в приложении.",
+    "en": "The percentages are examples; the live rate is kept up to date on the partner’s page and in the app."
+  },
+  "cashback.campaigns.eyebrow": {
+    "az": "AYIN KAMPANİYALARI",
+    "ru": "КАМПАНИИ МЕСЯЦА",
+    "en": "THIS MONTH’S CAMPAIGNS"
+  },
+  "cashback.campaigns.title": {
+    "az": "Noyabr: daha çox geri qayıdır",
+    "ru": "Ноябрь: возвращается больше",
+    "en": "November: more comes back"
+  },
+  "cashback.campaigns.note": {
+    "az": "Kampaniyalar 30 Noyabradək",
+    "ru": "Кампании действуют до 30 ноября",
+    "en": "Campaigns run until 30 November"
+  },
+  "cashback.campaigns.cafe.value": {
+    "az": "10%",
+    "ru": "10%",
+    "en": "10%"
+  },
+  "cashback.campaigns.cafe.title": {
+    "az": "Kafe həftəsi",
+    "ru": "Неделя кафе",
+    "en": "Café week"
+  },
+  "cashback.campaigns.cafe.text": {
+    "az": "Seçilmiş qəhvəxanalarda hər sifarişdən",
+    "ru": "С каждого заказа в избранных кофейнях",
+    "en": "On every order at selected coffee shops"
+  },
+  "cashback.campaigns.cafe.period": {
+    "az": "14 – 20 Noy",
+    "ru": "14 – 20 ноя",
+    "en": "14 – 20 Nov"
+  },
+  "cashback.campaigns.friday.value": {
+    "az": "7%",
+    "ru": "7%",
+    "en": "7%"
+  },
+  "cashback.campaigns.friday.title": {
+    "az": "Qara Cümə",
+    "ru": "Чёрная пятница",
+    "en": "Black Friday"
+  },
+  "cashback.campaigns.friday.text": {
+    "az": "Elektronika partnyorlarında",
+    "ru": "У партнёров по электронике",
+    "en": "At our electronics partners"
+  },
+  "cashback.campaigns.friday.period": {
+    "az": "24 – 30 Noy",
+    "ru": "24 – 30 ноя",
+    "en": "24 – 30 Nov"
+  },
+  "cashback.campaigns.double.value": {
+    "az": "2x",
+    "ru": "2x",
+    "en": "2x"
+  },
+  "cashback.campaigns.double.title": {
+    "az": "İkiqat keşbek",
+    "ru": "Двойной кешбэк",
+    "en": "Double cashback"
+  },
+  "cashback.campaigns.double.text": {
+    "az": "Ozio Market-də ilk sifarişdə",
+    "ru": "На первый заказ в Ozio Маркете",
+    "en": "On your first Ozio Market order"
+  },
+  "cashback.campaigns.double.period": {
+    "az": "Bütün ay",
+    "ru": "Весь месяц",
+    "en": "All month"
+  },
+  "cashback.campaigns.pharmacy.value": {
+    "az": "5%",
+    "ru": "5%",
+    "en": "5%"
+  },
+  "cashback.campaigns.pharmacy.title": {
+    "az": "Aptek günləri",
+    "ru": "Аптечные дни",
+    "en": "Pharmacy days"
+  },
+  "cashback.campaigns.pharmacy.text": {
+    "az": "Aptek şəbəkəsində hər çərşənbə",
+    "ru": "В сети аптек каждую среду",
+    "en": "Across the pharmacy network every Wednesday"
+  },
+  "cashback.campaigns.pharmacy.period": {
+    "az": "Hər çərşənbə",
+    "ru": "Каждую среду",
+    "en": "Every Wednesday"
+  },
+  "cashback.faq.eyebrow": {
+    "az": "CAVABSIZ QALMA",
+    "ru": "НЕ ОСТАВАЙСЯ БЕЗ ОТВЕТА",
+    "en": "DON’T BE LEFT GUESSING"
+  },
+  "cashback.faq.title": {
+    "az": "Keşbek haqqında suallar",
+    "ru": "Вопросы о кешбэке",
+    "en": "Questions about cashback"
+  },
+  "cashback.faq.q1": {
+    "az": "Keşbek nə vaxt balansıma düşür?",
+    "ru": "Когда кешбэк попадает на баланс?",
+    "en": "When does cashback reach my balance?"
+  },
+  "cashback.faq.a1": {
+    "az": "Ödənişdən dərhal sonra gözləmə statusunda görünür, partnyor təsdiq etdikdən sonra (adətən 1–3 gün) aktiv olur.",
+    "ru": "Сразу после оплаты он виден в статусе ожидания, а после подтверждения партнёром (обычно 1–3 дня) становится активным.",
+    "en": "It shows as pending right after payment and becomes active once the partner confirms it — usually within 1–3 days."
+  },
+  "cashback.faq.q2": {
+    "az": "Keşbeki necə xərcləyə bilərəm?",
+    "ru": "Как я могу потратить кешбэк?",
+    "en": "How can I spend my cashback?"
+  },
+  "cashback.faq.a2": {
+    "az": "Aktiv keşbek bonus balansındadır. Ozio Marketdə sifarişi ödəyərkən balansı tətbiq edə, partnyor mağazada isə kassada kartı göstərib endirim kimi istifadə edə bilərsən.",
+    "ru": "Активный кешбэк лежит на бонусном балансе. Его можно применить при оплате заказа в Ozio Маркете или использовать как скидку на кассе магазина-партнёра.",
+    "en": "Active cashback sits on your bonus balance. Apply it when paying for an Ozio Market order, or show your card at a partner’s till to use it as a discount."
+  },
+  "cashback.faq.q3": {
+    "az": "Kartı unutsam nə olacaq?",
+    "ru": "Что если я забуду карту?",
+    "en": "What if I forget my card?"
+  },
+  "cashback.faq.a3": {
+    "az": "Plastik kart lazım deyil — kart tətbiqin içindədir. İnternet olmasa da kart ekranı offline rejimdə barkodu göstərir.",
+    "ru": "Пластиковая карта не нужна — карта находится в приложении. Даже без интернета экран карты показывает штрих-код в офлайн-режиме.",
+    "en": "You don’t need a plastic card — the card lives in the app. Even without a connection the card screen shows your barcode offline."
+  },
+  "cashback.faq.q4": {
+    "az": "Keşbekin müddəti bitirmi?",
+    "ru": "Истекает ли срок действия кешбэка?",
+    "en": "Does cashback expire?"
+  },
+  "cashback.faq.a4": {
+    "az": "Balansdaki keşbekin müddəti və şərtləri kampaniyadan asılıdır; dəqiq tarix tətbiqdəki bonus tarixçəsində hər əməliyyat üçün göstərilir.",
+    "ru": "Срок и условия кешбэка на балансе зависят от кампании; точная дата указана для каждой операции в истории бонусов в приложении.",
+    "en": "How long cashback stays on your balance depends on the campaign; the exact date is shown per transaction in the bonus history in the app."
+  },
+  "partners.hero.eyebrow": {
+    "az": "PARTNYORLAR",
+    "ru": "ПАРТНЁРЫ",
+    "en": "PARTNERS"
+  },
+  "partners.hero.title": {
+    "az": "Sevdiyin brendlərdə hər alışdan keşbek qazan",
+    "ru": "Получай кешбэк с каждой покупки в любимых брендах",
+    "en": "Earn cashback on every purchase at the brands you love"
+  },
+  "partners.hero.lead": {
+    "az": "120-dən çox partnyor: market, geyim, elektronika, kafe və aptek. Ozio kartını göstər, qalanını biz edirik.",
+    "ru": "Более 120 партнёров: маркеты, одежда, электроника, кафе и аптеки. Покажи карту Ozio — остальное сделаем мы.",
+    "en": "More than 120 partners across groceries, fashion, electronics, cafés and pharmacies. Show your Ozio card and we do the rest."
+  },
+  "partners.categories.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "All"
+  },
+  "partners.categories.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Grocery"
+  },
+  "partners.categories.fashion": {
+    "az": "Geyim",
+    "ru": "Одежда",
+    "en": "Fashion"
+  },
+  "partners.categories.electronics": {
+    "az": "Elektronika",
+    "ru": "Электроника",
+    "en": "Electronics"
+  },
+  "partners.categories.cafe": {
+    "az": "Kafe",
+    "ru": "Кафе",
+    "en": "Cafés"
+  },
+  "partners.categories.pharmacy": {
+    "az": "Aptek",
+    "ru": "Аптеки",
+    "en": "Pharmacies"
+  },
+  "partners.categories.beauty": {
+    "az": "Gözəllik",
+    "ru": "Красота",
+    "en": "Beauty"
+  },
+  "partners.categories.home": {
+    "az": "Ev və bağ",
+    "ru": "Дом и сад",
+    "en": "Home and garden"
+  },
+  "partners.grid.title": {
+    "az": "Bütün partnyorlar",
+    "ru": "Все партнёры",
+    "en": "All partners"
+  },
+  "partners.grid.meta": {
+    "az": "{count} partnyor göstərilir · keşbek faizi alış məbləğinə tətbiq olunur",
+    "ru": "Показано партнёров: {count} · процент кешбэка применяется к сумме покупки",
+    "en": "Showing {count} partners · the cashback rate applies to the purchase total"
+  },
+  "partners.grid.sort": {
+    "az": "Sırala: Ən yüksək keşbek",
+    "ru": "Сортировка: самый высокий кешбэк",
+    "en": "Sorted by: highest cashback"
+  },
+  "partners.grid.inApp": {
+    "az": "Bütün partnyorlar tətbiqdə",
+    "ru": "Все партнёры — в приложении",
+    "en": "Every partner, in the app"
+  },
+  "partners.card.cashback": {
+    "az": "{rate} keşbek",
+    "ru": "{rate} кешбэка",
+    "en": "{rate} cashback"
+  },
+  "partners.card.meta": {
+    "az": "{category} · {branches} filial",
+    "ru": "{category} · филиалов: {branches}",
+    "en": "{category} · {branches} branches"
+  },
+  "partners.list.bazarPlus": {
+    "az": "Bazar Plus",
+    "ru": "Bazar Plus",
+    "en": "Bazar Plus"
+  },
+  "partners.list.modaStudio": {
+    "az": "Moda Studio",
+    "ru": "Moda Studio",
+    "en": "Moda Studio"
+  },
+  "partners.list.texnoHub": {
+    "az": "TexnoHub",
+    "ru": "TexnoHub",
+    "en": "TexnoHub"
+  },
+  "partners.list.kafeShirin": {
+    "az": "Kafe Şirin",
+    "ru": "Kafe Şirin",
+    "en": "Kafe Şirin"
+  },
+  "partners.list.aptekSaglam": {
+    "az": "Aptek Sağlam",
+    "ru": "Aptek Sağlam",
+    "en": "Aptek Sağlam"
+  },
+  "partners.list.yashilMarket": {
+    "az": "Yaşıl Market",
+    "ru": "Yaşıl Market",
+    "en": "Yaşıl Market"
+  },
+  "partners.list.sportZone": {
+    "az": "Sport Zone",
+    "ru": "Sport Zone",
+    "en": "Sport Zone"
+  },
+  "partners.list.demirElektro": {
+    "az": "Dəmir Elektro",
+    "ru": "Dəmir Elektro",
+    "en": "Dəmir Elektro"
+  },
+  "partners.list.qehveEvi": {
+    "az": "Qəhvə Evi",
+    "ru": "Qəhvə Evi",
+    "en": "Qəhvə Evi"
+  },
+  "partners.list.nurOptika": {
+    "az": "Nur Optika",
+    "ru": "Nur Optika",
+    "en": "Nur Optika"
+  },
+  "partners.list.lalButik": {
+    "az": "Lal Butik",
+    "ru": "Lal Butik",
+    "en": "Lal Butik"
+  },
+  "partners.list.evDunyasi": {
+    "az": "Ev Dünyası",
+    "ru": "Ev Dünyası",
+    "en": "Ev Dünyası"
+  },
+  "partners.cta.eyebrow": {
+    "az": "BİZNESİN ÜÇÜN",
+    "ru": "ДЛЯ ТВОЕГО БИЗНЕСА",
+    "en": "FOR YOUR BUSINESS"
+  },
+  "partners.cta.title": {
+    "az": "Partnyor ol və yeni müştərilər qazan",
+    "ru": "Стань партнёром и получи новых клиентов",
+    "en": "Become a partner and win new customers"
+  },
+  "partners.cta.text": {
+    "az": "Ozio-nun 400 mindən çox istifadəçisi sənin mağazanda keşbek qazanmaq üçün gözləyir. Qoşulma pulsuzdur, ödəniş yalnız satışdan.",
+    "ru": "Более 400 тысяч пользователей Ozio ждут возможности получать кешбэк в твоём магазине. Подключение бесплатное, плата — только с продаж.",
+    "en": "Over 400,000 Ozio users are waiting to earn cashback at your store. Joining is free and you only pay on sales."
+  },
+  "partners.cta.submit": {
+    "az": "Müraciət göndər",
+    "ru": "Отправить заявку",
+    "en": "Send an application"
+  },
+  "partners.cta.hint": {
+    "az": "Cavab 1 iş günü ərzində.",
+    "ru": "Ответ в течение 1 рабочего дня.",
+    "en": "We reply within 1 business day."
+  },
+  "partners.cta.note": {
+    "az": "Partnyor müraciətləri hazırda əlaqə formu ilə qəbul olunur — mövzu kimi “Partnyorluq” seçin.",
+    "ru": "Заявки партнёров пока принимаются через форму связи — выберите тему «Партнёрство».",
+    "en": "Partner applications currently come in through the contact form — pick “Partnership” as the subject."
+  },
+  "delivery.hero.eyebrow": {
+    "az": "OZIO MARKET",
+    "ru": "OZIO МАРКЕТ",
+    "en": "OZIO MARKET"
+  },
+  "delivery.hero.title": {
+    "az": "Bazar qapına qədər gəlir",
+    "ru": "Базар приезжает к твоей двери",
+    "en": "The market comes to your door"
+  },
+  "delivery.hero.lead": {
+    "az": "6000-dən çox məhsul, təzə meyvə-tərəvəz, süd məhsulları və gündəlik ehtiyaclar. Sifariş ver, 30–45 dəqiqəyə qapında olsun, hər alışdan +1,5% keşbek qazan.",
+    "ru": "Более 6000 товаров: свежие фрукты и овощи, молочное и всё на каждый день. Заказывай — привезём за 30–45 минут, и +1,5% кешбэка с каждой покупки.",
+    "en": "More than 6000 products: fresh fruit and veg, dairy and everyday essentials. Order it, get it in 30–45 minutes, and earn +1.5% cashback every time."
+  },
+  "delivery.hero.order": {
+    "az": "Sifariş et",
+    "ru": "Заказать",
+    "en": "Order now"
+  },
+  "delivery.hero.catalog": {
+    "az": "Kataloqa bax",
+    "ru": "Смотреть каталог",
+    "en": "Browse the catalogue"
+  },
+  "delivery.hero.badge": {
+    "az": "30–45 dəq çatdırılma",
+    "ru": "Доставка 30–45 мин",
+    "en": "Delivery in 30–45 min"
+  },
+  "delivery.stats.products.value": {
+    "az": "6000+",
+    "ru": "6000+",
+    "en": "6000+"
+  },
+  "delivery.stats.products.label": {
+    "az": "məhsul bir tətbiqdə",
+    "ru": "товаров в одном приложении",
+    "en": "products in one app"
+  },
+  "delivery.stats.time.value": {
+    "az": "30–45 dəq",
+    "ru": "30–45 мин",
+    "en": "30–45 min"
+  },
+  "delivery.stats.time.label": {
+    "az": "orta çatdırılma vaxtı",
+    "ru": "среднее время доставки",
+    "en": "average delivery time"
+  },
+  "delivery.stats.cashback.value": {
+    "az": "+1,5%",
+    "ru": "+1,5%",
+    "en": "+1.5%"
+  },
+  "delivery.stats.cashback.label": {
+    "az": "keşbek hər alışdan",
+    "ru": "кешбэка с каждой покупки",
+    "en": "cashback on every purchase"
+  },
+  "delivery.categories.eyebrow": {
+    "az": "KATEQORİYALAR",
+    "ru": "КАТЕГОРИИ",
+    "en": "CATEGORIES"
+  },
+  "delivery.categories.title": {
+    "az": "Lazım olan hər şey, rəf-rəf",
+    "ru": "Всё, что нужно, полка за полкой",
+    "en": "Everything you need, shelf by shelf"
+  },
+  "delivery.categories.count": {
+    "az": "{count} məhsul",
+    "ru": "товаров: {count}",
+    "en": "{count} products"
+  },
+  "delivery.categories.fruit": {
+    "az": "Meyvə və tərəvəz",
+    "ru": "Фрукты и овощи",
+    "en": "Fruit and vegetables"
+  },
+  "delivery.categories.dairy": {
+    "az": "Süd məhsulları",
+    "ru": "Молочные продукты",
+    "en": "Dairy"
+  },
+  "delivery.categories.meat": {
+    "az": "Ət və quş əti",
+    "ru": "Мясо и птица",
+    "en": "Meat and poultry"
+  },
+  "delivery.categories.bakery": {
+    "az": "Çörək və qənnadı",
+    "ru": "Хлеб и кондитерские изделия",
+    "en": "Bakery and confectionery"
+  },
+  "delivery.categories.drinks": {
+    "az": "İçkilər",
+    "ru": "Напитки",
+    "en": "Drinks"
+  },
+  "delivery.categories.frozen": {
+    "az": "Dondurulmuş",
+    "ru": "Замороженное",
+    "en": "Frozen"
+  },
+  "delivery.categories.cleaning": {
+    "az": "Təmizlik",
+    "ru": "Чистота",
+    "en": "Cleaning"
+  },
+  "delivery.categories.baby": {
+    "az": "Uşaq məhsulları",
+    "ru": "Детские товары",
+    "en": "Baby products"
+  },
+  "delivery.zone.eyebrow": {
+    "az": "ÇATDIRILMA ZONASI",
+    "ru": "ЗОНА ДОСТАВКИ",
+    "en": "DELIVERY ZONE"
+  },
+  "delivery.zone.title": {
+    "az": "Bakının əksər rayonlarına çatırıq",
+    "ru": "Доставляем в большинство районов Баку",
+    "en": "We reach most districts of Baku"
+  },
+  "delivery.zone.text": {
+    "az": "Ünvanını daxil et, zona və çatdırılma vaxtını dərhal görərsən.",
+    "ru": "Введи адрес — и сразу увидишь зону и время доставки.",
+    "en": "Enter your address and you will see the zone and the delivery time straight away."
+  },
+  "delivery.zone.hours.days": {
+    "az": "Bazar ertəsi – Bazar",
+    "ru": "Понедельник – воскресенье",
+    "en": "Monday – Sunday"
+  },
+  "delivery.zone.hours.daysValue": {
+    "az": "09:00 – 23:00",
+    "ru": "09:00 – 23:00",
+    "en": "09:00 – 23:00"
+  },
+  "delivery.zone.hours.intake": {
+    "az": "Sifarişin qəbulu",
+    "ru": "Приём заказов",
+    "en": "Orders accepted"
+  },
+  "delivery.zone.hours.intakeValue": {
+    "az": "08:30 – 22:30",
+    "ru": "08:30 – 22:30",
+    "en": "08:30 – 22:30"
+  },
+  "delivery.zone.hours.average": {
+    "az": "Orta çatdırılma",
+    "ru": "Средняя доставка",
+    "en": "Average delivery"
+  },
+  "delivery.zone.hours.averageValue": {
+    "az": "30–45 dəq",
+    "ru": "30–45 мин",
+    "en": "30–45 min"
+  },
+  "delivery.zone.districts.narimanov": {
+    "az": "Nərimanov",
+    "ru": "Нариманов",
+    "en": "Narimanov"
+  },
+  "delivery.zone.districts.yasamal": {
+    "az": "Yasamal",
+    "ru": "Ясамал",
+    "en": "Yasamal"
+  },
+  "delivery.zone.districts.nasimi": {
+    "az": "Nəsimi",
+    "ru": "Насими",
+    "en": "Nasimi"
+  },
+  "delivery.zone.districts.binagadi": {
+    "az": "Binəqədi",
+    "ru": "Бинагади",
+    "en": "Binagadi"
+  },
+  "delivery.zone.districts.khatai": {
+    "az": "Xətai",
+    "ru": "Хатаи",
+    "en": "Khatai"
+  },
+  "delivery.zone.legend.warehouse": {
+    "az": "Mərkəzi anbar",
+    "ru": "Центральный склад",
+    "en": "Central warehouse"
+  },
+  "delivery.zone.legend.near": {
+    "az": "20 dəq zonası",
+    "ru": "Зона 20 мин",
+    "en": "20-minute zone"
+  },
+  "delivery.zone.legend.far": {
+    "az": "45 dəq zonası",
+    "ru": "Зона 45 мин",
+    "en": "45-minute zone"
+  },
+  "delivery.zone.mapNote": {
+    "az": "Sxematik xəritə · nümunə",
+    "ru": "Схематичная карта · пример",
+    "en": "Schematic map · sample"
+  },
+  "delivery.how.eyebrow": {
+    "az": "NECƏ İŞLƏYİR",
+    "ru": "КАК ЭТО РАБОТАЕТ",
+    "en": "HOW IT WORKS"
+  },
+  "delivery.how.title": {
+    "az": "Dörd addımda qapında",
+    "ru": "Четыре шага — и у двери",
+    "en": "At your door in four steps"
+  },
+  "delivery.how.step1.title": {
+    "az": "Ünvanı seç",
+    "ru": "Выбери адрес",
+    "en": "Pick an address"
+  },
+  "delivery.how.step1.text": {
+    "az": "Çatdırılma ünvanını əlavə et, zonanı yoxla.",
+    "ru": "Добавь адрес доставки и проверь зону.",
+    "en": "Add your delivery address and check the zone."
+  },
+  "delivery.how.step2.title": {
+    "az": "Səbəti yığ",
+    "ru": "Собери корзину",
+    "en": "Fill your cart"
+  },
+  "delivery.how.step2.text": {
+    "az": "Kataloqdan seç, miqdarı və qeydi yaz.",
+    "ru": "Выбирай из каталога, укажи количество и комментарий.",
+    "en": "Choose from the catalogue, set quantities and add a note."
+  },
+  "delivery.how.step3.title": {
+    "az": "Ödə",
+    "ru": "Оплати",
+    "en": "Pay"
+  },
+  "delivery.how.step3.text": {
+    "az": "Kartla və ya qapıda nağd, bonusla endirim.",
+    "ru": "Картой или наличными у двери, со скидкой за бонусы.",
+    "en": "By card or cash at the door, with a discount from your bonuses."
+  },
+  "delivery.how.step4.title": {
+    "az": "Qəbul et",
+    "ru": "Получи",
+    "en": "Receive it"
+  },
+  "delivery.how.step4.text": {
+    "az": "Kuryeri xəritədə izlə, keşbek hesabına düşür.",
+    "ru": "Следи за курьером на карте, а кешбэк придёт на счёт.",
+    "en": "Follow the courier on the map, and the cashback lands on your account."
+  },
+  "delivery.featured.eyebrow": {
+    "az": "SEÇİLMİŞ MƏHSULLAR",
+    "ru": "ИЗБРАННЫЕ ТОВАРЫ",
+    "en": "FEATURED PRODUCTS"
+  },
+  "delivery.featured.title": {
+    "az": "Bu həftənin sevimliləri",
+    "ru": "Любимцы этой недели",
+    "en": "This week’s favourites"
+  },
+  "delivery.featured.chips.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "All"
+  },
+  "delivery.featured.chips.fresh": {
+    "az": "Təzə",
+    "ru": "Свежее",
+    "en": "Fresh"
+  },
+  "delivery.featured.chips.discount": {
+    "az": "Endirimli",
+    "ru": "Со скидкой",
+    "en": "On offer"
+  },
+  "delivery.featured.tagNew": {
+    "az": "Yeni",
+    "ru": "Новинка",
+    "en": "New"
+  },
+  "delivery.featured.tagDiscount": {
+    "az": "-15%",
+    "ru": "-15%",
+    "en": "-15%"
+  },
+  "delivery.products.strawberry.name": {
+    "az": "Çiyələk",
+    "ru": "Земляника",
+    "en": "Strawberries"
+  },
+  "delivery.products.strawberry.meta": {
+    "az": "500 q · Ozio Market",
+    "ru": "500 г · Ozio Маркет",
+    "en": "500 g · Ozio Market"
+  },
+  "delivery.products.strawberry.price": {
+    "az": "5,90 ₼",
+    "ru": "5,90 ₼",
+    "en": "5,90 ₼"
+  },
+  "delivery.products.greenApple.name": {
+    "az": "Yaşıl alma",
+    "ru": "Зелёные яблоки",
+    "en": "Green apples"
+  },
+  "delivery.products.greenApple.meta": {
+    "az": "1 kq · Ozio Market",
+    "ru": "1 кг · Ozio Маркет",
+    "en": "1 kg · Ozio Market"
+  },
+  "delivery.products.greenApple.price": {
+    "az": "2,29 ₼",
+    "ru": "2,29 ₼",
+    "en": "2,29 ₼"
+  },
+  "delivery.products.cheeseCroissant.name": {
+    "az": "Pendirli kruasan",
+    "ru": "Круассан с сыром",
+    "en": "Cheese croissant"
+  },
+  "delivery.products.cheeseCroissant.meta": {
+    "az": "2 ədəd · Ozio Market",
+    "ru": "2 шт · Ozio Маркет",
+    "en": "2 pcs · Ozio Market"
+  },
+  "delivery.products.cheeseCroissant.price": {
+    "az": "2,40 ₼",
+    "ru": "2,40 ₼",
+    "en": "2,40 ₼"
+  },
+  "delivery.products.tandir.name": {
+    "az": "Tandır çörəyi",
+    "ru": "Тандырный хлеб",
+    "en": "Tandoor bread"
+  },
+  "delivery.products.tandir.meta": {
+    "az": "500 q · Ozio Market",
+    "ru": "500 г · Ozio Маркет",
+    "en": "500 g · Ozio Market"
+  },
+  "delivery.products.tandir.price": {
+    "az": "1,10 ₼",
+    "ru": "1,10 ₼",
+    "en": "1,10 ₼"
+  },
+  "delivery.fees.eyebrow": {
+    "az": "NÜMUNƏ MƏLUMAT",
+    "ru": "ПРИМЕР ДАННЫХ",
+    "en": "SAMPLE DATA"
+  },
+  "delivery.fees.title": {
+    "az": "Çatdırılma haqqı və minimum sifariş",
+    "ru": "Стоимость доставки и минимальный заказ",
+    "en": "Delivery fee and minimum order"
+  },
+  "delivery.fees.note": {
+    "az": "Rəqəmlər zonadan və vaxtdan asılıdır. Dəqiq məbləğ ünvanı seçəndən sonra tətbiqdə göstərilir.",
+    "ru": "Цифры зависят от зоны и времени. Точная сумма показывается в приложении после выбора адреса.",
+    "en": "The figures depend on the zone and the time. The exact amount is shown in the app once you pick an address."
+  },
+  "delivery.fees.min.label": {
+    "az": "Minimum sifariş",
+    "ru": "Минимальный заказ",
+    "en": "Minimum order"
+  },
+  "delivery.fees.min.value": {
+    "az": "10,00 ₼",
+    "ru": "10,00 ₼",
+    "en": "10,00 ₼"
+  },
+  "delivery.fees.fee.label": {
+    "az": "Çatdırılma haqqı",
+    "ru": "Стоимость доставки",
+    "en": "Delivery fee"
+  },
+  "delivery.fees.fee.value": {
+    "az": "1,99 ₼",
+    "ru": "1,99 ₼",
+    "en": "1,99 ₼"
+  },
+  "delivery.fees.free.label": {
+    "az": "Pulsuz çatdırılma",
+    "ru": "Бесплатная доставка",
+    "en": "Free delivery"
+  },
+  "delivery.fees.free.value": {
+    "az": "30,00 ₼-dən",
+    "ru": "от 30,00 ₼",
+    "en": "from 30,00 ₼"
+  },
+  "delivery.cta.title": {
+    "az": "Bazar telefonunda, hər an",
+    "ru": "Базар в телефоне, в любой момент",
+    "en": "The market in your phone, any time"
+  },
+  "delivery.cta.text": {
+    "az": "Tətbiqi endir və ya veb versiyada sifariş ver. Hesabın və keşbekin hər yerdə eynidir.",
+    "ru": "Скачай приложение или заказывай в веб-версии. Аккаунт и кешбэк везде одни и те же.",
+    "en": "Download the app or order on the web. Your account and your cashback are the same everywhere."
+  },
+  "ten.hero.eyebrow": {
+    "az": "OZIO 10-LAR",
+    "ru": "OZIO 10-КИ",
+    "en": "OZIO TENS"
+  },
+  "ten.hero.title": {
+    "az": "9 alırsan, 1 qazanırsan",
+    "ru": "Покупаешь 9 — получаешь 1",
+    "en": "Buy 9, get 1 free"
+  },
+  "ten.hero.lead": {
+    "az": "Pərakəndə bazarında bir ilk. Hər alış-verişdə möhür yığ, 10-cu möhürdə hədiyyə və ya endirim sənindir.",
+    "ru": "Первое в розничном рынке. Собирай штамп с каждой покупки, а на 10-м получай подарок или скидку.",
+    "en": "A first for retail here. Collect a stamp with every purchase, and the 10th one is a gift or a discount."
+  },
+  "ten.hero.start": {
+    "az": "Elə indi başla",
+    "ru": "Начать сейчас",
+    "en": "Start right now"
+  },
+  "ten.hero.rules": {
+    "az": "Qaydalara bax",
+    "ru": "Посмотреть правила",
+    "en": "See the rules"
+  },
+  "ten.card.title": {
+    "az": "Sənin kartın",
+    "ru": "Твоя карта",
+    "en": "Your card"
+  },
+  "ten.card.progress": {
+    "az": "7 / 10",
+    "ru": "7 / 10",
+    "en": "7 / 10"
+  },
+  "ten.card.hint": {
+    "az": "3 alışdan sonra hədiyyən açılır",
+    "ru": "Подарок откроется через 3 покупки",
+    "en": "Your gift unlocks after 3 more purchases"
+  },
+  "ten.gifts.eyebrow": {
+    "az": "AYIN HƏDİYYƏLƏRİ",
+    "ru": "ПОДАРКИ МЕСЯЦА",
+    "en": "THIS MONTH’S GIFTS"
+  },
+  "ten.gifts.title": {
+    "az": "Hər ay yeni hədiyyələr",
+    "ru": "Каждый месяц — новые подарки",
+    "en": "New gifts every month"
+  },
+  "ten.gifts.note": {
+    "az": "Noyabr · nümunə siyahı",
+    "ru": "Ноябрь · пример списка",
+    "en": "November · a sample list"
+  },
+  "ten.gifts.freeDelivery.title": {
+    "az": "Pulsuz çatdırılma həftəsi",
+    "ru": "Неделя бесплатной доставки",
+    "en": "Free-delivery week"
+  },
+  "ten.gifts.freeDelivery.text": {
+    "az": "10-cu möhürdə 7 gün ərzində bütün sifarişlər üçün çatdırılma haqqı yoxdur.",
+    "ru": "На 10-м штампе — 7 дней без платы за доставку по всем заказам.",
+    "en": "On the 10th stamp, no delivery fee on any order for 7 days."
+  },
+  "ten.gifts.discount.title": {
+    "az": "5 ₼ endirim",
+    "ru": "Скидка 5 ₼",
+    "en": "5 ₼ off"
+  },
+  "ten.gifts.discount.text": {
+    "az": "Növbəti alışda",
+    "ru": "На следующую покупку",
+    "en": "On your next purchase"
+  },
+  "ten.gifts.coffee.title": {
+    "az": "Qəhvə hədiyyəsi",
+    "ru": "Кофе в подарок",
+    "en": "A coffee on us"
+  },
+  "ten.gifts.coffee.text": {
+    "az": "Partnyor kafelərdə",
+    "ru": "В кафе-партнёрах",
+    "en": "At partner cafés"
+  },
+  "ten.gifts.coupon.title": {
+    "az": "Ozio kuponu",
+    "ru": "Купон Ozio",
+    "en": "An Ozio coupon"
+  },
+  "ten.gifts.coupon.text": {
+    "az": "20 ₼-lik alışa",
+    "ru": "На покупку от 20 ₼",
+    "en": "On a 20 ₼ purchase"
+  },
+  "ten.gifts.double.title": {
+    "az": "2× keşbek günü",
+    "ru": "День двойного кешбэка",
+    "en": "Double-cashback day"
+  },
+  "ten.gifts.double.text": {
+    "az": "Seçilmiş gündə",
+    "ru": "В выбранный день",
+    "en": "On a day you choose"
+  },
+  "ten.gifts.lottery.title": {
+    "az": "Lotereya bileti",
+    "ru": "Лотерейный билет",
+    "en": "A lottery ticket"
+  },
+  "ten.gifts.lottery.text": {
+    "az": "Aylıq çəkilişə",
+    "ru": "На ежемесячный розыгрыш",
+    "en": "For the monthly draw"
+  },
+  "ten.rules.eyebrow": {
+    "az": "QAYDALAR",
+    "ru": "ПРАВИЛА",
+    "en": "THE RULES"
+  },
+  "ten.rules.title": {
+    "az": "Üç addım, bir hədiyyə",
+    "ru": "Три шага, один подарок",
+    "en": "Three steps, one gift"
+  },
+  "ten.rules.lead": {
+    "az": "Kartını bir dəfə aktivləşdir, qalanını Ozio özü hesablayır.",
+    "ru": "Активируй карту один раз — остальное Ozio считает сам.",
+    "en": "Activate your card once; Ozio counts the rest for you."
+  },
+  "ten.rules.step1.title": {
+    "az": "Alış et",
+    "ru": "Сделай покупку",
+    "en": "Make a purchase"
+  },
+  "ten.rules.step1.text": {
+    "az": "Ozio Market və ya partnyor mağazada minimum məbləğdə hər alış 1 möhür verir.",
+    "ru": "Каждая покупка от минимальной суммы в Ozio Маркете или у партнёра даёт 1 штамп.",
+    "en": "Every purchase above the minimum at Ozio Market or a partner store earns 1 stamp."
+  },
+  "ten.rules.step2.title": {
+    "az": "Möhür yığ",
+    "ru": "Собирай штампы",
+    "en": "Collect stamps"
+  },
+  "ten.rules.step2.text": {
+    "az": "Möhürlər kartında avtomatik görünür. 9 möhürdən sonra 10-cu açılır.",
+    "ru": "Штампы появляются на карте автоматически. После 9 штампов открывается 10-й.",
+    "en": "Stamps appear on your card automatically. After 9 of them the 10th unlocks."
+  },
+  "ten.rules.step3.title": {
+    "az": "Hədiyyəni seç",
+    "ru": "Выбери подарок",
+    "en": "Choose your gift"
+  },
+  "ten.rules.step3.text": {
+    "az": "10-cu möhürdə aylıq siyahıdan hədiyyə və ya endirim seç. Möhürlər 90 gün keçərlidir.",
+    "ru": "На 10-м штампе выбери подарок или скидку из месячного списка. Штампы действуют 90 дней.",
+    "en": "On the 10th stamp, pick a gift or a discount from that month’s list. Stamps stay valid for 90 days."
+  },
+  "ten.lottery.eyebrow": {
+    "az": "LOTEREYA",
+    "ru": "ЛОТЕРЕЯ",
+    "en": "LOTTERY"
+  },
+  "ten.lottery.title": {
+    "az": "Hər bilet bir şansdır",
+    "ru": "Каждый билет — это шанс",
+    "en": "Every ticket is a chance"
+  },
+  "ten.lottery.text": {
+    "az": "Aktiv 10-lar iştirakçıları aylıq Ozio lotereyasında avtomatik iştirak edir. Çəkiliş nəticələri tətbiqdə elan olunur.",
+    "ru": "Активные участники 10-ок автоматически попадают в ежемесячную лотерею Ozio. Результаты розыгрыша публикуются в приложении.",
+    "en": "Active Tens participants automatically enter the monthly Ozio lottery. Draw results are announced in the app."
+  },
+  "ten.lottery.cta": {
+    "az": "Lotereya haqqında",
+    "ru": "О лотерее",
+    "en": "About the lottery"
+  },
+  "ten.ticket.brand": {
+    "az": "OZIO LOTEREYA",
+    "ru": "OZIO ЛОТЕРЕЯ",
+    "en": "OZIO LOTTERY"
+  },
+  "ten.ticket.draw": {
+    "az": "Noyabr çəkilişi",
+    "ru": "Ноябрьский розыгрыш",
+    "en": "November draw"
+  },
+  "ten.ticket.number": {
+    "az": "№ 0042 7781",
+    "ru": "№ 0042 7781",
+    "en": "No. 0042 7781"
+  },
+  "ten.ticket.stubLabel": {
+    "az": "Çəkiliş",
+    "ru": "Розыгрыш",
+    "en": "Draw"
+  },
+  "ten.ticket.stubDate": {
+    "az": "30 Noy",
+    "ru": "30 ноя",
+    "en": "30 Nov"
+  },
+  "ten.ticket.stubNote": {
+    "az": "nümunə tarix",
+    "ru": "пример даты",
+    "en": "sample date"
+  },
+  "ten.faq.eyebrow": {
+    "az": "CAVABSIZ QALMA",
+    "ru": "НЕ ОСТАВАЙСЯ БЕЗ ОТВЕТА",
+    "en": "DON’T BE LEFT GUESSING"
+  },
+  "ten.faq.title": {
+    "az": "10-lar haqqında suallar",
+    "ru": "Вопросы о 10-ках",
+    "en": "Questions about Tens"
+  },
+  "ten.faq.q1": {
+    "az": "Möhür hər alışda verilir?",
+    "ru": "Штамп даётся за каждую покупку?",
+    "en": "Do I get a stamp for every purchase?"
+  },
+  "ten.faq.a1": {
+    "az": "Yalnız minimum məbləği ödəyən sifarişlər 1 möhür verir. Məbləğ tətbiqdə göstərilir.",
+    "ru": "Штамп даётся только за заказы от минимальной суммы. Сумма указана в приложении.",
+    "en": "Only orders above the minimum amount earn a stamp. The amount is shown in the app."
+  },
+  "ten.faq.q2": {
+    "az": "Möhürlərin müddəti bitir?",
+    "ru": "Истекает ли срок действия штампов?",
+    "en": "Do stamps expire?"
+  },
+  "ten.faq.a2": {
+    "az": "Hər möhür yazıldığı gündən 90 gün keçərlidir. Kartda hər möhürün yanında qalan müddət göstərilir.",
+    "ru": "Каждый штамп действует 90 дней со дня начисления. На карте рядом с каждым штампом видно, сколько осталось.",
+    "en": "Each stamp is valid for 90 days from the day it was earned. The card shows the time left next to every stamp."
+  },
+  "ten.faq.q3": {
+    "az": "Hədiyyəni necə alıram?",
+    "ru": "Как я получаю подарок?",
+    "en": "How do I claim the gift?"
+  },
+  "ten.faq.a3": {
+    "az": "10-cu möhür yığılanda tətbiqdə aylıq hədiyyə siyahısı açılır. Seçdiyin hədiyyə kupon kimi hesabına yazılır və kassada ya da səbətdə tətbiq olunur.",
+    "ru": "Когда собран 10-й штамп, в приложении открывается месячный список подарков. Выбранный подарок зачисляется как купон и применяется на кассе или в корзине.",
+    "en": "Once the 10th stamp lands, the monthly gift list opens in the app. The gift you pick is added as a coupon and applied at the till or in the cart."
+  },
+  "ten.faq.q4": {
+    "az": "Partnyor mağazalarda da keçərlidir?",
+    "ru": "Действует ли это в магазинах-партнёрах?",
+    "en": "Does it work at partner stores too?"
+  },
+  "ten.faq.a4": {
+    "az": "Bəli. 10-lar proqramına qoşulmuş partnyor mağazalarda kartı göstərmək kifayətdir; iştirakçı partnyorların siyahısı tətbiqdə göstərilir.",
+    "ru": "Да. В магазинах-партнёрах, подключённых к программе 10-ок, достаточно показать карту; список участников есть в приложении.",
+    "en": "Yes. At partner stores that have joined the Tens programme it is enough to show your card; the list of participants is in the app."
+  },
+  "ten.cta.title": {
+    "az": "İlk möhürünü bu gün vur",
+    "ru": "Получи первый штамп уже сегодня",
+    "en": "Earn your first stamp today"
+  },
+  "ten.cta.text": {
+    "az": "Tətbiqi endir, kartını aktivləşdir və ilk sifarişindən möhür yığmağa başla.",
+    "ru": "Скачай приложение, активируй карту и собирай штампы с первого же заказа.",
+    "en": "Download the app, activate your card and start collecting stamps with your first order."
+  },
+  "contact.tag": {
+    "az": "Dəstək",
+    "ru": "Поддержка",
+    "en": "Support"
+  },
+  "contact.title": {
+    "az": "Bizimlə əlaqə saxlayın",
+    "ru": "Свяжитесь с нами",
+    "en": "Get in touch with us"
+  },
+  "contact.sub": {
+    "az": "Sualınız, təklifiniz və ya problem varsa, yazın. Orta cavab müddəti 15 dəqiqədir.",
+    "ru": "Есть вопрос, предложение или проблема — напишите. Среднее время ответа — 15 минут.",
+    "en": "If you have a question, an idea or a problem, write to us. We reply in about 15 minutes."
+  },
+  "contact.form.title": {
+    "az": "Mesaj göndərin",
+    "ru": "Отправьте сообщение",
+    "en": "Send a message"
+  },
+  "contact.form.name": {
+    "az": "Ad və soyad",
+    "ru": "Имя и фамилия",
+    "en": "Full name"
+  },
+  "contact.form.namePlaceholder": {
+    "az": "Aysel Məmmədova",
+    "ru": "Айсель Мамедова",
+    "en": "Aysel Mammadova"
+  },
+  "contact.form.phone": {
+    "az": "Telefon",
+    "ru": "Телефон",
+    "en": "Phone"
+  },
+  "contact.form.phonePlaceholder": {
+    "az": "+994 50 000 00 00",
+    "ru": "+994 50 000 00 00",
+    "en": "+994 50 000 00 00"
+  },
+  "contact.form.topic": {
+    "az": "Mövzu",
+    "ru": "Тема",
+    "en": "Subject"
+  },
+  "contact.form.topics.order": {
+    "az": "Sifariş",
+    "ru": "Заказ",
+    "en": "Order"
+  },
+  "contact.form.topics.cashback": {
+    "az": "Keşbek",
+    "ru": "Кешбэк",
+    "en": "Cashback"
+  },
+  "contact.form.topics.payment": {
+    "az": "Ödəniş",
+    "ru": "Оплата",
+    "en": "Payment"
+  },
+  "contact.form.topics.partnership": {
+    "az": "Partnyorluq",
+    "ru": "Партнёрство",
+    "en": "Partnership"
+  },
+  "contact.form.topics.other": {
+    "az": "Digər",
+    "ru": "Другое",
+    "en": "Other"
+  },
+  "contact.form.message": {
+    "az": "Mesajınız",
+    "ru": "Ваше сообщение",
+    "en": "Your message"
+  },
+  "contact.form.messagePlaceholder": {
+    "az": "Sifariş nömrəsini və problemi qısaca yazın…",
+    "ru": "Коротко укажите номер заказа и проблему…",
+    "en": "Briefly give your order number and the problem…"
+  },
+  "contact.form.consent": {
+    "az": "Göndərməklə <link>məxfilik şərtləri</link> ilə razılaşırsınız.",
+    "ru": "Отправляя сообщение, вы соглашаетесь с <link>политикой конфиденциальности</link>.",
+    "en": "By sending this you agree to our <link>privacy policy</link>."
+  },
+  "contact.form.submit": {
+    "az": "Göndər",
+    "ru": "Отправить",
+    "en": "Send"
+  },
+  "contact.form.success.title": {
+    "az": "Mesajınız göndərildi",
+    "ru": "Сообщение отправлено",
+    "en": "Your message was sent"
+  },
+  "contact.form.success.text": {
+    "az": "Komandamız 24 saat ərzində sizinlə əlaqə saxlayacaq.",
+    "ru": "Наша команда свяжется с вами в течение 24 часов.",
+    "en": "Our team will get back to you within 24 hours."
+  },
+  "contact.form.success.again": {
+    "az": "Yeni mesaj yaz",
+    "ru": "Написать ещё",
+    "en": "Write another message"
+  },
+  "contact.form.error.title": {
+    "az": "Mesaj göndərilmədi",
+    "ru": "Сообщение не отправлено",
+    "en": "The message wasn’t sent"
+  },
+  "contact.form.error.text": {
+    "az": "Bir az sonra yenidən cəhd edin və ya info@ozio10.az ünvanına yazın.",
+    "ru": "Попробуйте чуть позже или напишите на info@ozio10.az.",
+    "en": "Try again shortly, or write to info@ozio10.az."
+  },
+  "contact.form.error.rate": {
+    "az": "Çox sayda müraciət göndərildi. Bir neçə dəqiqə sonra yenidən cəhd edin.",
+    "ru": "Отправлено слишком много обращений. Повторите через несколько минут.",
+    "en": "Too many messages were sent. Please try again in a few minutes."
+  },
+  "contact.form.messageMin": {
+    "az": "Mesaj ən azı 10 simvol olmalıdır",
+    "ru": "Сообщение должно содержать минимум 10 символов",
+    "en": "The message must be at least 10 characters"
+  },
+  "contact.channels.phone.label": {
+    "az": "TELEFON",
+    "ru": "ТЕЛЕФОН",
+    "en": "PHONE"
+  },
+  "contact.channels.phone.value": {
+    "az": "+994 12 000 00 00",
+    "ru": "+994 12 000 00 00",
+    "en": "+994 12 000 00 00"
+  },
+  "contact.channels.phone.meta": {
+    "az": "Zəng mərkəzi · hər gün 08:00–23:00",
+    "ru": "Колл-центр · ежедневно 08:00–23:00",
+    "en": "Call centre · daily 08:00–23:00"
+  },
+  "contact.channels.email.label": {
+    "az": "E-POÇT",
+    "ru": "ЭЛ. ПОЧТА",
+    "en": "EMAIL"
+  },
+  "contact.channels.email.value": {
+    "az": "info@ozio10.az",
+    "ru": "info@ozio10.az",
+    "en": "info@ozio10.az"
+  },
+  "contact.channels.email.meta": {
+    "az": "Cavab 24 saat ərzində",
+    "ru": "Ответ в течение 24 часов",
+    "en": "A reply within 24 hours"
+  },
+  "contact.channels.address.label": {
+    "az": "ÜNVAN",
+    "ru": "АДРЕС",
+    "en": "ADDRESS"
+  },
+  "contact.channels.address.value": {
+    "az": "Bakı, Nizami küç. 90",
+    "ru": "Баку, ул. Низами 90",
+    "en": "Baku, 90 Nizami St."
+  },
+  "contact.channels.address.meta": {
+    "az": "Ozio ofisi · 4-cü mərtəbə",
+    "ru": "Офис Ozio · 4-й этаж",
+    "en": "The Ozio office · 4th floor"
+  },
+  "contact.hours.title": {
+    "az": "İş saatları",
+    "ru": "Часы работы",
+    "en": "Opening hours"
+  },
+  "contact.hours.open": {
+    "az": "İndi açıqdır",
+    "ru": "Сейчас открыто",
+    "en": "Open now"
+  },
+  "contact.hours.weekdays": {
+    "az": "Bazar ertəsi – Cümə",
+    "ru": "Понедельник – пятница",
+    "en": "Monday – Friday"
+  },
+  "contact.hours.weekdaysValue": {
+    "az": "08:00 – 23:00",
+    "ru": "08:00 – 23:00",
+    "en": "08:00 – 23:00"
+  },
+  "contact.hours.saturday": {
+    "az": "Şənbə",
+    "ru": "Суббота",
+    "en": "Saturday"
+  },
+  "contact.hours.saturdayValue": {
+    "az": "09:00 – 23:00",
+    "ru": "09:00 – 23:00",
+    "en": "09:00 – 23:00"
+  },
+  "contact.hours.sunday": {
+    "az": "Bazar",
+    "ru": "Воскресенье",
+    "en": "Sunday"
+  },
+  "contact.hours.sundayValue": {
+    "az": "10:00 – 22:00",
+    "ru": "10:00 – 22:00",
+    "en": "10:00 – 22:00"
+  },
+  "contact.map.title": {
+    "az": "Ozio ofisi",
+    "ru": "Офис Ozio",
+    "en": "The Ozio office"
+  },
+  "contact.map.address": {
+    "az": "Bakı, Nizami küç. 90",
+    "ru": "Баку, ул. Низами 90",
+    "en": "Baku, 90 Nizami St."
+  },
+  "contact.map.route": {
+    "az": "Yol tap",
+    "ru": "Построить маршрут",
+    "en": "Get directions"
+  },
+  "contact.faq.title": {
+    "az": "Cavabı axtarırsınız?",
+    "ru": "Ищете ответ?",
+    "en": "Looking for an answer?"
+  },
+  "contact.faq.text": {
+    "az": "Çatdırılma, keşbek və ödəniş haqqında ən çox verilən suallar.",
+    "ru": "Самые частые вопросы о доставке, кешбэке и оплате.",
+    "en": "The most common questions about delivery, cashback and payment."
+  },
+  "contact.faq.cta": {
+    "az": "Sual-cavaba keç",
+    "ru": "Перейти к вопросам и ответам",
+    "en": "Go to the FAQ"
+  },
+  "legal.updatedAt": {
+    "az": "Son yenilənmə: {date}",
+    "ru": "Последнее обновление: {date}",
+    "en": "Last updated: {date}"
+  },
+  "legal.updatedDate": {
+    "az": "12 Noy 2026",
+    "ru": "12 ноя 2026",
+    "en": "12 Nov 2026"
+  },
+  "legal.toc": {
+    "az": "MÜNDƏRİCAT",
+    "ru": "СОДЕРЖАНИЕ",
+    "en": "CONTENTS"
+  },
+  "legal.tocLabel": {
+    "az": "Sənədin bölmələri",
+    "ru": "Разделы документа",
+    "en": "Sections of this document"
+  },
+  "legal.offline": {
+    "az": "Sənədin ən son versiyası hazırda yüklənə bilmədi; aşağıda saxlanmış mətn göstərilir.",
+    "ru": "Последнюю версию документа сейчас загрузить не удалось; ниже показан сохранённый текст.",
+    "en": "The latest version of this document could not be loaded right now; the stored text is shown below."
+  },
+  "legal.terms.title": {
+    "az": "İstifadə şərtləri",
+    "ru": "Условия использования",
+    "en": "Terms of use"
+  },
+  "legal.terms.sub": {
+    "az": "Ozio+ xidmətlərindən istifadə qaydaları: hesab, sifariş, çatdırılma, keşbek və bonuslar.",
+    "ru": "Правила использования сервисов Ozio+: аккаунт, заказ, доставка, кешбэк и бонусы.",
+    "en": "The rules for using Ozio+ services: your account, orders, delivery, cashback and bonuses."
+  },
+  "legal.privacy.title": {
+    "az": "Məxfilik siyasəti",
+    "ru": "Политика конфиденциальности",
+    "en": "Privacy policy"
+  },
+  "legal.privacy.sub": {
+    "az": "Şəxsi məlumatlarınızın necə toplandığı, emal olunduğu və qorunduğu barədə.",
+    "ru": "О том, как собираются, обрабатываются и защищаются ваши персональные данные.",
+    "en": "How your personal data is collected, processed and protected."
+  },
+  "legal.sections.general.title": {
+    "az": "Ümumi müddəalar",
+    "ru": "Общие положения",
+    "en": "General provisions"
+  },
+  "legal.sections.general.p1": {
+    "az": "Bu şərtlər Ozio+ tətbiqindən və ozio10.az saytından istifadə qaydalarını müəyyən edir. Xidmətdən istifadə etməklə siz aşağıdakı müddəalarla razılaşmış sayılırsınız.",
+    "ru": "Эти условия определяют правила использования приложения Ozio+ и сайта ozio10.az. Пользуясь сервисом, вы соглашаетесь с изложенными ниже положениями.",
+    "en": "These terms set out the rules for using the Ozio+ app and the ozio10.az website. By using the service you agree to the provisions below."
+  },
+  "legal.sections.general.p2": {
+    "az": "Ozio+ Azərbaycan Respublikasının qanunvericiliyinə uyğun fəaliyyət göstərir. Xidmət şərtləri dəyişdikdə yeni versiya bu səhifədə dərc olunur və tətbiqdə bildiriş göndərilir.",
+    "ru": "Ozio+ работает в соответствии с законодательством Азербайджанской Республики. При изменении условий новая версия публикуется на этой странице, а в приложении отправляется уведомление.",
+    "en": "Ozio+ operates in line with the laws of the Republic of Azerbaijan. When the terms change, the new version is published on this page and a notification is sent in the app."
+  },
+  "legal.sections.account.title": {
+    "az": "Hesab və qeydiyyat",
+    "ru": "Аккаунт и регистрация",
+    "en": "Account and sign-up"
+  },
+  "legal.sections.account.p1": {
+    "az": "Hesab telefon nömrəsi ilə yaradılır və birdəfəlik kodla təsdiqlənir. Hesabın təhlükəsizliyi üçün nömrəyə çıxışı başqası ilə bölüşməyin.",
+    "ru": "Аккаунт создаётся по номеру телефона и подтверждается одноразовым кодом. Для безопасности аккаунта не передавайте доступ к номеру другим.",
+    "en": "An account is created with a phone number and confirmed with a one-time code. To keep your account safe, do not share access to that number."
+  },
+  "legal.sections.account.p2": {
+    "az": "Bir istifadəçi bir hesaba sahib ola bilər. Hesabı silmək istədiyinizi tətbiqdəki hesab bölməsindən və ya dəstək vasitəsilə bildirə bilərsiniz.",
+    "ru": "Один пользователь может иметь один аккаунт. Удалить аккаунт можно в разделе аккаунта в приложении или через поддержку.",
+    "en": "One person may hold one account. You can ask for your account to be deleted from the account section in the app or through support."
+  },
+  "legal.sections.orders.title": {
+    "az": "Sifariş və çatdırılma",
+    "ru": "Заказ и доставка",
+    "en": "Orders and delivery"
+  },
+  "legal.sections.orders.p1": {
+    "az": "Sifariş təsdiqləndikdən sonra məhsulun mövcudluğu yoxlanılır. Məhsul anbarda olmadıqda sifariş dəyişdirilir və ya məbləğ geri qaytarılır.",
+    "ru": "После подтверждения заказа проверяется наличие товара. Если товара нет на складе, заказ корректируется или сумма возвращается.",
+    "en": "After an order is confirmed we check availability. If an item is out of stock the order is adjusted or the amount is refunded."
+  },
+  "legal.sections.orders.p2": {
+    "az": "Çatdırılma haqqı, minimum sifariş məbləği və zonalar tətbiqdə göstərilir; bu dəyərlər ünvandan və sifariş vaxtından asılı olaraq dəyişir.",
+    "ru": "Стоимость доставки, минимальная сумма заказа и зоны указаны в приложении; эти значения зависят от адреса и времени заказа.",
+    "en": "The delivery fee, the minimum order value and the zones are shown in the app; they vary with your address and the time of the order."
+  },
+  "legal.sections.bonus.title": {
+    "az": "Keşbek və bonuslar",
+    "ru": "Кешбэк и бонусы",
+    "en": "Cashback and bonuses"
+  },
+  "legal.sections.bonus.p1": {
+    "az": "Keşbek faizi partnyordan və kampaniyadan asılıdır. Ödəniş təsdiqləndikdən sonra keşbek bonus balansına yazılır.",
+    "ru": "Процент кешбэка зависит от партнёра и кампании. После подтверждения оплаты кешбэк зачисляется на бонусный баланс.",
+    "en": "The cashback rate depends on the partner and the campaign. Once payment is confirmed the cashback is credited to your bonus balance."
+  },
+  "legal.sections.bonus.p2": {
+    "az": "Bonus balansı nağd pula çevrilmir; yalnız Ozio+ xidmətlərində və partnyor mağazalarda endirim kimi istifadə olunur.",
+    "ru": "Бонусный баланс не обменивается на наличные; он используется только как скидка в сервисах Ozio+ и у партнёров.",
+    "en": "Your bonus balance cannot be converted to cash; it is only used as a discount within Ozio+ services and at partner stores."
+  },
+  "legal.sections.bonus.note": {
+    "az": "Keşbek məbləğləri və müddətləri tətbiqdə göstərilir və kampaniyadan asılı olaraq dəyişə bilər.",
+    "ru": "Суммы и сроки кешбэка указаны в приложении и могут меняться в зависимости от кампании.",
+    "en": "Cashback amounts and validity periods are shown in the app and can change with the campaign."
+  },
+  "legal.sections.collect.title": {
+    "az": "Şəxsi məlumatların toplanması",
+    "ru": "Сбор персональных данных",
+    "en": "Collecting personal data"
+  },
+  "legal.sections.collect.p1": {
+    "az": "Xidməti göstərmək üçün telefon nömrəsi, ad, çatdırılma ünvanı və sifariş tarixçəsi toplanır. Bu məlumatlar olmadan sifariş və keşbek hesablanması mümkün deyil.",
+    "ru": "Для оказания услуги собираются номер телефона, имя, адрес доставки и история заказов. Без этих данных заказ и расчёт кешбэка невозможны.",
+    "en": "To provide the service we collect your phone number, name, delivery address and order history. Without them an order and a cashback calculation are not possible."
+  },
+  "legal.sections.collect.p2": {
+    "az": "Ödəniş kartının tam məlumatları Ozio tərəfindən saxlanılmır; ödənişlər lisenziyalı ödəniş provayderi vasitəsilə həyata keçirilir.",
+    "ru": "Полные данные платёжной карты Ozio не хранит; платежи проходят через лицензированного платёжного провайдера.",
+    "en": "Ozio does not store full payment-card details; payments are handled by a licensed payment provider."
+  },
+  "legal.sections.protect.title": {
+    "az": "Məlumatların qorunması",
+    "ru": "Защита данных",
+    "en": "Protecting your data"
+  },
+  "legal.sections.protect.p1": {
+    "az": "Məlumatlar şifrələnmiş kanallarla ötürülür və yalnız xidmətin göstərilməsi üçün zəruri olan işçilərə açıqdır.",
+    "ru": "Данные передаются по зашифрованным каналам и доступны только сотрудникам, которым это необходимо для оказания услуги.",
+    "en": "Data travels over encrypted channels and is only available to staff who need it to deliver the service."
+  },
+  "legal.sections.protect.p2": {
+    "az": "Məlumatlarınıza baxmaq, düzəltmək və silinməsini tələb etmək hüququnuz var; müraciət üçün info@ozio10.az ünvanına yazın.",
+    "ru": "Вы имеете право просматривать, исправлять и требовать удаления своих данных; напишите на info@ozio10.az.",
+    "en": "You have the right to see, correct and request deletion of your data; write to info@ozio10.az."
+  },
+  "legal.sections.cookies.title": {
+    "az": "Kukilər",
+    "ru": "Файлы cookie",
+    "en": "Cookies"
+  },
+  "legal.sections.cookies.p1": {
+    "az": "Sayt sessiyanı, dil və tema seçimini saxlamaq üçün zəruri kukilərdən istifadə edir. Bu kukilər olmadan giriş və seçimlərin yadda saxlanması işləməz.",
+    "ru": "Сайт использует необходимые cookie для хранения сессии, выбора языка и темы. Без них вход и запоминание настроек не работают.",
+    "en": "The site uses essential cookies to keep your session and your language and theme choices. Without them signing in and remembering preferences would not work."
+  },
+  "legal.sections.cookies.p2": {
+    "az": "Marketinq məqsədli izləmə kukiləri yalnız razılığınızla aktivləşir və brauzer parametrlərindən söndürülə bilər.",
+    "ru": "Маркетинговые трекинг-cookie включаются только с вашего согласия и могут быть отключены в настройках браузера.",
+    "en": "Marketing tracking cookies are only switched on with your consent and can be turned off in your browser settings."
+  },
+  "legal.sections.contact.title": {
+    "az": "Əlaqə",
+    "ru": "Контакты",
+    "en": "Contact"
+  },
+  "legal.sections.contact.p1": {
+    "az": "Şərtlər və məxfilik haqqında suallarınızı info@ozio10.az ünvanına və ya +994 12 000 00 00 nömrəsinə ünvanlayın.",
+    "ru": "Вопросы об условиях и конфиденциальности направляйте на info@ozio10.az или по номеру +994 12 000 00 00.",
+    "en": "Send questions about these terms and about privacy to info@ozio10.az or call +994 12 000 00 00."
+  },
+  "legal.sections.contact.p2": {
+    "az": "Zəng mərkəzi hər gün 08:00–23:00 saatları arasında işləyir; yazılı müraciətlərə 24 saat ərzində cavab verilir.",
+    "ru": "Колл-центр работает ежедневно с 08:00 до 23:00; на письменные обращения отвечаем в течение 24 часов.",
+    "en": "The call centre is open daily 08:00–23:00; written enquiries are answered within 24 hours."
+  }
+}

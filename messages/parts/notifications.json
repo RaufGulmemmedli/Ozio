@@ -1,0 +1,49 @@
+{
+  "title": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "subtitle": {
+    "az": "Sifariş, bonus və kampaniya xəbərləri.",
+    "ru": "Новости о заказах, бонусах и акциях.",
+    "en": "Order, bonus and campaign updates."
+  },
+  "subtitleUnread": {
+    "az": "{count, plural, one {# yeni bildiriş} other {# yeni bildiriş}}",
+    "ru": "{count, plural, one {# новое уведомление} few {# новых уведомления} many {# новых уведомлений} other {# новых уведомления}}",
+    "en": "{count, plural, one {# new notification} other {# new notifications}}"
+  },
+  "close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+  "unread": { "az": "Oxunmamış", "ru": "Непрочитанное", "en": "Unread" },
+  "loadMore": { "az": "Daha çox", "ru": "Показать ещё", "en": "Load more" },
+
+  "markAllRead": { "az": "Hamısını oxunmuş et", "ru": "Отметить все прочитанными", "en": "Mark all as read" },
+  "markedRead": { "az": "Bildirişlər oxunmuş kimi işarələndi", "ru": "Уведомления отмечены прочитанными", "en": "Notifications marked as read" },
+  "markReadFailed": {
+    "az": "Oxunmuş kimi işarələmək alınmadı. Yenidən cəhd et.",
+    "ru": "Не удалось отметить прочитанными. Попробуйте снова.",
+    "en": "Could not mark them as read. Try again."
+  },
+  "clearAll": { "az": "Hamısını sil", "ru": "Удалить все", "en": "Delete all" },
+  "cleared": { "az": "Bildirişlər silindi", "ru": "Уведомления удалены", "en": "Notifications deleted" },
+  "clearFailed": {
+    "az": "Silmək alınmadı. Yenidən cəhd et.",
+    "ru": "Не удалось удалить. Попробуйте снова.",
+    "en": "Could not delete them. Try again."
+  },
+  "clearConfirm.title": { "az": "Bildirişlər silinsin?", "ru": "Удалить уведомления?", "en": "Delete notifications?" },
+  "clearConfirm.body": {
+    "az": "Bütün bildirişlər silinəcək. Bu əməliyyat geri qaytarılmır.",
+    "ru": "Все уведомления будут удалены. Действие нельзя отменить.",
+    "en": "All notifications will be deleted. This cannot be undone."
+  },
+  "clearConfirm.confirm": { "az": "Sil", "ru": "Удалить", "en": "Delete" },
+  "clearConfirm.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+
+  "empty.title": { "az": "Bildiriş yoxdur", "ru": "Уведомлений нет", "en": "No notifications" },
+  "empty.body": {
+    "az": "Sifariş və bonus xəbərləri burada görünəcək.",
+    "ru": "Новости о заказах и бонусах появятся здесь.",
+    "en": "Order and bonus updates will show up here."
+  },
+  "empty.cta": { "az": "Əsas səhifəyə qayıt", "ru": "Вернуться на главную", "en": "Back to home" }
+}

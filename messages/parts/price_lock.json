@@ -1,0 +1,427 @@
+{
+  "meta.title": {
+    "az": "Sabit qiymət zəmanəti",
+    "ru": "Гарантия фиксированной цены",
+    "en": "Fixed-price guarantee"
+  },
+  "demo.module": {
+    "az": "Qiymət zəmanəti",
+    "ru": "Гарантия цены",
+    "en": "Price guarantee"
+  },
+  "breadcrumb": {
+    "az": "Profil",
+    "ru": "Профиль",
+    "en": "Profile"
+  },
+  "guarantee.title": {
+    "az": "Sabit qiymət zəmanəti",
+    "ru": "Гарантия фиксированной цены",
+    "en": "Fixed-price guarantee"
+  },
+  "guarantee.subtitle": {
+    "az": "Pensiya kartı ilə 8 əsas məhsulun qiyməti 6 ay sabit qalır",
+    "ru": "С пенсионной картой цены на 8 основных товаров держатся 6 месяцев",
+    "en": "With a pension card the price of 8 staples stays fixed for 6 months"
+  },
+  "guarantee.unlink": {
+    "az": "Kartı ayır",
+    "ru": "Отвязать карту",
+    "en": "Unlink the card"
+  },
+  "guarantee.unlinkConfirm.title": {
+    "az": "Kartı ayırmaq?",
+    "ru": "Отвязать карту?",
+    "en": "Unlink the card?"
+  },
+  "guarantee.unlinkConfirm.body": {
+    "az": "Zəmanət dayanacaq və qiymətlər bazar qiymətinə qayıdacaq.",
+    "ru": "Гарантия остановится, и цены вернутся к рыночным.",
+    "en": "The guarantee stops and prices go back to the market price."
+  },
+  "guarantee.unlinkConfirm.cancel": {
+    "az": "İmtina",
+    "ru": "Отмена",
+    "en": "Cancel"
+  },
+  "hero.tag": {
+    "az": "Aktiv · {card}",
+    "ru": "Активно · {card}",
+    "en": "Active · {card}"
+  },
+  "hero.daysLeft": {
+    "az": "{days, plural, one {# gün qalıb} other {# gün qalıb}}",
+    "ru": "{days, plural, one {осталось # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{days, plural, one {# day left} other {# days left}}"
+  },
+  "hero.elapsed": {
+    "az": "{days} gün keçib · müddət {months} ay",
+    "ru": "прошло {days} дн. · срок {months} мес.",
+    "en": "{days} days in · {months}-month window"
+  },
+  "hero.platformPaid": {
+    "az": "Platforma bu dövrdə ödəyib",
+    "ru": "Платформа оплатила за этот период",
+    "en": "The platform covered in this period"
+  },
+  "hero.platformAmount": {
+    "az": "+{amount}",
+    "ru": "+{amount}",
+    "en": "+{amount}"
+  },
+  "hero.perUnit": {
+    "az": "hər məhsul vahidi üçün",
+    "ru": "за единицу товара",
+    "en": "per product unit"
+  },
+  "hero.progressLabel": {
+    "az": "Zəmanət müddətinin gedişi",
+    "ru": "Ход срока гарантии",
+    "en": "Guarantee window progress"
+  },
+  "hero.progressValue": {
+    "az": "{total} gündən {elapsed} gün keçib",
+    "ru": "прошло {elapsed} из {total} дней",
+    "en": "{elapsed} of {total} days elapsed"
+  },
+  "staples.title": {
+    "az": "Zəmanətli məhsullar",
+    "ru": "Товары под гарантией",
+    "en": "Guaranteed products"
+  },
+  "staples.product": {
+    "az": "Məhsul",
+    "ru": "Товар",
+    "en": "Product"
+  },
+  "staples.locked": {
+    "az": "Kilidli qiymət",
+    "ru": "Фиксированная цена",
+    "en": "Locked price"
+  },
+  "staples.market": {
+    "az": "Bazar qiyməti",
+    "ru": "Рыночная цена",
+    "en": "Market price"
+  },
+  "staples.platformPays": {
+    "az": "Platforma ödəyir",
+    "ru": "Платит платформа",
+    "en": "The platform pays"
+  },
+  "staples.platformPaysTag": {
+    "az": "Platforma ödəyir: +{amount}",
+    "ru": "Платит платформа: +{amount}",
+    "en": "The platform pays: +{amount}"
+  },
+  "staples.noDifference": {
+    "az": "Fərq yoxdur",
+    "ru": "Разницы нет",
+    "en": "No difference"
+  },
+  "link.title": {
+    "az": "Pensiya kartını bağla",
+    "ru": "Привяжите пенсионную карту",
+    "en": "Link your pension card"
+  },
+  "link.body": {
+    "az": "Kart nömrəsini daxil et — zəmanət dərhal aktivləşir. Kart yalnız yoxlama üçündür.",
+    "ru": "Введите номер карты — гарантия включится сразу. Карта нужна только для проверки.",
+    "en": "Enter the card number and the guarantee starts at once. The card is used only for the check."
+  },
+  "link.label": {
+    "az": "Kart nömrəsi",
+    "ru": "Номер карты",
+    "en": "Card number"
+  },
+  "link.placeholder": {
+    "az": "0000 0000 0000 0000",
+    "ru": "0000 0000 0000 0000",
+    "en": "0000 0000 0000 0000"
+  },
+  "link.submit": {
+    "az": "Kartı bağla",
+    "ru": "Привязать карту",
+    "en": "Link the card"
+  },
+  "link.previewTitle": {
+    "az": "Bağladıqdan sonra bu məhsullar zəmanətə düşür",
+    "ru": "После привязки под гарантию попадут эти товары",
+    "en": "Once linked, these products are covered"
+  },
+  "link.previewMore": {
+    "az": "+ daha {count} məhsul",
+    "ru": "+ ещё {count} товара",
+    "en": "+ {count} more products"
+  },
+  "linking.title": {
+    "az": "Kart bağlanır…",
+    "ru": "Карта привязывается…",
+    "en": "Linking the card…"
+  },
+  "linking.body": {
+    "az": "Pensiya kartı yoxlanılır, bir neçə saniyə çəkə bilər.",
+    "ru": "Пенсионная карта проверяется, это займёт несколько секунд.",
+    "en": "The pension card is being checked, this takes a few seconds."
+  },
+  "linkError.title": {
+    "az": "Kart bağlanmadı",
+    "ru": "Карта не привязана",
+    "en": "The card was not linked"
+  },
+  "linkError.body": {
+    "az": "Kart nömrəsi yanlışdır. Yenidən yoxla.",
+    "ru": "Номер карты неверный. Проверьте ещё раз.",
+    "en": "The card number is wrong. Please check it again."
+  },
+  "guaranteeExpired.title": {
+    "az": "Zəmanətin müddəti bitdi",
+    "ru": "Срок гарантии истёк",
+    "en": "The guarantee window has ended"
+  },
+  "guaranteeExpired.body": {
+    "az": "6 ay tamamlandı. Kartı yenidən bağlayaraq zəmanəti uzada bilərsən.",
+    "ru": "6 месяцев прошли. Привяжите карту снова, чтобы продлить гарантию.",
+    "en": "The six months are up. Link the card again to extend the guarantee."
+  },
+  "guaranteeExpired.cta": {
+    "az": "Kartı yenidən bağla",
+    "ru": "Привязать карту снова",
+    "en": "Link the card again"
+  },
+  "guaranteeError.title": {
+    "az": "Zəmanət yüklənmədi",
+    "ru": "Гарантия не загрузилась",
+    "en": "The guarantee did not load"
+  },
+  "locks.title": {
+    "az": "Qiymət kilidləri",
+    "ru": "Фиксации цены",
+    "en": "Price locks"
+  },
+  "locks.subtitle": {
+    "az": "Sevdiyin məhsulun qiymətini {days} gün dondur",
+    "ru": "Заморозьте цену любимого товара на {days} дней",
+    "en": "Freeze a product's price for {days} days"
+  },
+  "locks.freeze": {
+    "az": "Qiyməti dondur",
+    "ru": "Заморозить цену",
+    "en": "Freeze the price"
+  },
+  "locks.tabsLabel": {
+    "az": "Kilid siyahısı",
+    "ru": "Список фиксаций",
+    "en": "Lock lists"
+  },
+  "locks.tabActive": {
+    "az": "Aktiv",
+    "ru": "Активные",
+    "en": "Active"
+  },
+  "locks.tabHistory": {
+    "az": "Tarixçə",
+    "ru": "История",
+    "en": "History"
+  },
+  "locks.depositNote": {
+    "az": "Qiyməti dondurmaq üçün {deposit} depozit tutulur. Kilidi istifadə etdikdə depozit alış məbləğindən çıxılır.",
+    "ru": "За фиксацию цены удерживается депозит {deposit}. При использовании фиксации депозит вычитается из суммы покупки.",
+    "en": "A {deposit} deposit is held to freeze a price. When you use the lock it is taken off the purchase."
+  },
+  "card.daysLeft": {
+    "az": "{days, plural, one {# gün qalıb} other {# gün qalıb}}",
+    "ru": "{days, plural, one {осталось # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{days, plural, one {# day left} other {# days left}}"
+  },
+  "card.daysTag": {
+    "az": "{days, plural, one {# gün} other {# gün}}",
+    "ru": "{days, plural, one {# день} few {# дня} many {# дней} other {# дня}}",
+    "en": "{days, plural, one {# day} other {# days}}"
+  },
+  "card.locked": {
+    "az": "Kilidli qiymət",
+    "ru": "Фиксированная цена",
+    "en": "Locked price"
+  },
+  "card.market": {
+    "az": "Bazar qiyməti",
+    "ru": "Рыночная цена",
+    "en": "Market price"
+  },
+  "card.savings": {
+    "az": "Qənaət {amount}",
+    "ru": "Экономия {amount}",
+    "en": "You save {amount}"
+  },
+  "card.deposit": {
+    "az": "Depozit {amount}",
+    "ru": "Депозит {amount}",
+    "en": "Deposit {amount}"
+  },
+  "card.use": {
+    "az": "İstifadə et",
+    "ru": "Использовать",
+    "en": "Use it"
+  },
+  "card.used": {
+    "az": "İstifadə edildi",
+    "ru": "Использована",
+    "en": "Used"
+  },
+  "card.usedSub": {
+    "az": "İstifadə olunub",
+    "ru": "Уже использована",
+    "en": "Already used"
+  },
+  "card.expiredTag": {
+    "az": "Bitib",
+    "ru": "Истекла",
+    "en": "Ended"
+  },
+  "card.expiredSub": {
+    "az": "Vaxtı bitib",
+    "ru": "Срок истёк",
+    "en": "The window closed"
+  },
+  "card.useFailed": {
+    "az": "Kilid istifadə olunmadı. Yenidən cəhd et.",
+    "ru": "Фиксацию применить не удалось. Попробуйте снова.",
+    "en": "The lock could not be used. Please try again."
+  },
+  "card.mockOnly": {
+    "az": "Demo: kilid istifadə olundu, səbətə heç nə əlavə edilmədi.",
+    "ru": "Демо: фиксация отмечена использованной, в корзину ничего не добавлено.",
+    "en": "Demo: the lock is marked used, nothing was added to the cart."
+  },
+  "freeze.title": {
+    "az": "Qiyməti dondur",
+    "ru": "Заморозить цену",
+    "en": "Freeze the price"
+  },
+  "freeze.productLabel": {
+    "az": "Məhsul",
+    "ru": "Товар",
+    "en": "Product"
+  },
+  "freeze.period": {
+    "az": "Müddət",
+    "ru": "Срок",
+    "en": "Window"
+  },
+  "freeze.periodValue": {
+    "az": "{days, plural, one {# gün} other {# gün}}",
+    "ru": "{days, plural, one {# день} few {# дня} many {# дней} other {# дня}}",
+    "en": "{days, plural, one {# day} other {# days}}"
+  },
+  "freeze.deposit": {
+    "az": "Depozit",
+    "ru": "Депозит",
+    "en": "Deposit"
+  },
+  "freeze.submit": {
+    "az": "Dondur",
+    "ru": "Заморозить",
+    "en": "Freeze"
+  },
+  "freeze.submitting": {
+    "az": "Dondurulur…",
+    "ru": "Замораживается…",
+    "en": "Freezing…"
+  },
+  "freeze.failed": {
+    "az": "Dondurmaq alınmadı. Yenidən cəhd et.",
+    "ru": "Заморозить не удалось. Попробуйте снова.",
+    "en": "Freezing failed. Please try again."
+  },
+  "freeze.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "freeze.successTitle": {
+    "az": "Qiymət donduruldu",
+    "ru": "Цена заморожена",
+    "en": "The price is frozen"
+  },
+  "freeze.successBody": {
+    "az": "{product} üçün {price} qiyməti {days} gün qorunur.",
+    "ru": "Цена {price} на {product} сохраняется {days} дней.",
+    "en": "The {price} price for {product} is held for {days} days."
+  },
+  "freeze.successCta": {
+    "az": "Kilidlərimə bax",
+    "ru": "Мои фиксации",
+    "en": "View my locks"
+  },
+  "freeze.pickProduct": {
+    "az": "Dondurmaq üçün məhsul adı",
+    "ru": "Название товара для фиксации",
+    "en": "Product to freeze"
+  },
+  "freeze.pricePlaceholder": {
+    "az": "Qiymət",
+    "ru": "Цена",
+    "en": "Price"
+  },
+  "empty.title": {
+    "az": "Aktiv kilid yoxdur",
+    "ru": "Активных фиксаций нет",
+    "en": "No active locks"
+  },
+  "empty.body": {
+    "az": "Qiyməti artacağını düşündüyün məhsulu dondur.",
+    "ru": "Заморозьте цену товара, который, по вашему мнению, подорожает.",
+    "en": "Freeze the price of a product you expect to get more expensive."
+  },
+  "emptyHistory.title": {
+    "az": "Tarixçə boşdur",
+    "ru": "История пуста",
+    "en": "Nothing in the history"
+  },
+  "emptyHistory.body": {
+    "az": "İstifadə edilmiş və vaxtı bitmiş kilidlər burada görünəcək.",
+    "ru": "Использованные и истекшие фиксации появятся здесь.",
+    "en": "Used and expired locks will show up here."
+  },
+  "error.title": {
+    "az": "Kilidlər yüklənmədi",
+    "ru": "Фиксации не загрузились",
+    "en": "The locks did not load"
+  },
+  "error.body": {
+    "az": "Bağlantı xətası. Yenidən cəhd et.",
+    "ru": "Ошибка соединения. Попробуйте снова.",
+    "en": "Connection error. Please try again."
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "loading": {
+    "az": "Yüklənir",
+    "ru": "Загрузка",
+    "en": "Loading"
+  },
+  "entry.freeze": {
+    "az": "Qiyməti dondur",
+    "ru": "Заморозить цену",
+    "en": "Freeze the price"
+  },
+  "entry.freezeHint": {
+    "az": "{days} gün, {deposit} depozit",
+    "ru": "{days} дней, депозит {deposit}",
+    "en": "{days} days, {deposit} deposit"
+  },
+  "demo.body": {
+    "az": "Bu bölmə hələ real serverə qoşulmayıb — göstərilən məlumatlar nümunədir.",
+    "ru": "Этот раздел пока не подключён к реальному серверу — показанные данные являются примером.",
+    "en": "This section is not connected to a real server yet — the data shown is sample data."
+  }
+}

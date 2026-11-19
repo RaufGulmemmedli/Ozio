@@ -1,0 +1,140 @@
+{
+  "crumb.root": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "crumb.jar": { "az": "Qənaət sandığı", "ru": "Копилка", "en": "Savings jar" },
+  "crumb.settings": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+  "demo.module": { "az": "Qənaət sandığı", "ru": "Копилка", "en": "Savings jar" },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "title": { "az": "Qənaət sandığı", "ru": "Копилка", "en": "Savings jar" },
+  "subtitle": {
+    "az": "Hər sifarişin yuvarlaqlaşdırılmış qalığı sandığa yığılır.",
+    "ru": "Остаток от округления каждого заказа попадает в копилку.",
+    "en": "The round-up left over from every order goes into the jar."
+  },
+  "subtitleError": { "az": "Məlumat yüklənmədi.", "ru": "Данные не загружены.", "en": "Data didn’t load." },
+  "settingsAction": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+
+  "month.1": { "az": "Yanvar", "ru": "Январь", "en": "January" },
+  "month.2": { "az": "Fevral", "ru": "Февраль", "en": "February" },
+  "month.3": { "az": "Mart", "ru": "Март", "en": "March" },
+  "month.4": { "az": "Aprel", "ru": "Апрель", "en": "April" },
+  "month.5": { "az": "May", "ru": "Май", "en": "May" },
+  "month.6": { "az": "İyun", "ru": "Июнь", "en": "June" },
+  "month.7": { "az": "İyul", "ru": "Июль", "en": "July" },
+  "month.8": { "az": "Avqust", "ru": "Август", "en": "August" },
+  "month.9": { "az": "Sentyabr", "ru": "Сентябрь", "en": "September" },
+  "month.10": { "az": "Oktyabr", "ru": "Октябрь", "en": "October" },
+  "month.11": { "az": "Noyabr", "ru": "Ноябрь", "en": "November" },
+  "month.12": { "az": "Dekabr", "ru": "Декабрь", "en": "December" },
+
+  "balance.label": { "az": "Ailə sandığı · {month}", "ru": "Семейная копилка · {month}", "en": "Family jar · {month}" },
+  "balance.aria": {
+    "az": "Aylıq limitin {percent}-i yığılıb",
+    "ru": "Накоплено {percent} месячного лимита",
+    "en": "{percent} of the monthly limit collected"
+  },
+  "cap.progress": { "az": "Aylıq limitin {percent}-i", "ru": "{percent} месячного лимита", "en": "{percent} of the monthly limit" },
+  "cap.full": { "az": "Limit dolub", "ru": "Лимит исчерпан", "en": "Limit reached" },
+  "cap.none": { "az": "Aylıq limit yoxdur", "ru": "Месячного лимита нет", "en": "No monthly limit" },
+  "cap.value": { "az": "Limit {amount}", "ru": "Лимит {amount}", "en": "Limit {amount}" },
+
+  "bonus.label": { "az": "+10% bonus", "ru": "+10% бонус", "en": "+10% bonus" },
+  "bonus.hint": { "az": "Ay sonunda hesaba keçir", "ru": "Зачисляется в конце месяца", "en": "Credited at the end of the month" },
+  "bonus.daysLeft": { "az": "Ay sonuna {days} gün", "ru": "До конца месяца {days} дн.", "en": "{days} days to month end" },
+  "bonus.monthEnded": { "az": "Ay bitdi", "ru": "Месяц закончился", "en": "The month has ended" },
+
+  "members.title": { "az": "Üzvlər", "ru": "Участники", "en": "Members" },
+  "members.thisMonth": { "az": "bu ay", "ru": "этот месяц", "en": "this month" },
+
+  "history.title": { "az": "Yuvarlaqlaşdırma tarixçəsi", "ru": "История округлений", "en": "Round-up history" },
+  "history.order": { "az": "Sifariş #{order}", "ru": "Заказ #{order}", "en": "Order #{order}" },
+  "history.meta": { "az": "{member} · {date}", "ru": "{member} · {date}", "en": "{member} · {date}" },
+
+  "claim.banner.title": { "az": "Bonus hazırdır", "ru": "Бонус готов", "en": "Your bonus is ready" },
+  "claim.banner.body": {
+    "az": "Ay bitdi. Sandığındakı {balance} üçün {bonus} bonusu götür.",
+    "ru": "Месяц закончился. Забирайте {bonus} бонуса за {balance} в копилке.",
+    "en": "The month is over. Claim {bonus} for the {balance} in your jar."
+  },
+  "claim.banner.cta": { "az": "Bonusu götür", "ru": "Забрать бонус", "en": "Claim bonus" },
+  "claim.modal.title": { "az": "Bonusu götürürsən?", "ru": "Забрать бонус?", "en": "Claim your bonus?" },
+  "claim.modal.body": {
+    "az": "{bonus} bonus Ozio balansına keçəcək, sandıq yeni ay üçün sıfırlanacaq.",
+    "ru": "{bonus} бонуса перейдёт на баланс Ozio, копилка обнулится на новый месяц.",
+    "en": "{bonus} will move to your Ozio balance and the jar resets for the new month."
+  },
+  "claim.modal.confirm": { "az": "Bəli, götür", "ru": "Да, забрать", "en": "Yes, claim it" },
+  "claim.modal.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "claim.success.title": { "az": "Təbriklər!", "ru": "Поздравляем!", "en": "Congratulations!" },
+  "claim.success.body": {
+    "az": "{bonus} bonus balansına əlavə olundu. Sandıq yeni ay üçün sıfırlandı.",
+    "ru": "{bonus} начислено на бонусный баланс. Копилка обнулена на новый месяц.",
+    "en": "{bonus} was added to your bonus balance. The jar is reset for the new month."
+  },
+  "claim.success.ok": { "az": "Əla", "ru": "Отлично", "en": "Great" },
+  "claim.failed": {
+    "az": "Bonus götürülmədi. Yenidən cəhd et.",
+    "ru": "Не удалось забрать бонус. Попробуйте снова.",
+    "en": "Couldn’t claim the bonus. Try again."
+  },
+
+  "empty.title": { "az": "Sandıq hələ boşdur", "ru": "Копилка пока пуста", "en": "The jar is still empty" },
+  "empty.body": {
+    "az": "Növbəti sifarişdə yuvarlaqlaşdırmanı aç — qalıq qəpiklər sandığa yığılacaq, ay sonunda +10% bonus alacaqsan.",
+    "ru": "Включите округление в следующем заказе — остаток копеек пойдёт в копилку, а в конце месяца вы получите +10% бонуса.",
+    "en": "Turn round-up on for your next order — the spare qəpik go into the jar and you get a +10% bonus at month end."
+  },
+  "empty.cta": { "az": "Yuvarlaqlaşdırmanı aç", "ru": "Включить округление", "en": "Turn on round-up" },
+  "error.title": { "az": "Sandıq yüklənmədi", "ru": "Копилка не загрузилась", "en": "The jar didn’t load" },
+  "error.body": {
+    "az": "Serverlə əlaqə qurulmadı. Yenidən cəhd et.",
+    "ru": "Нет связи с сервером. Попробуйте снова.",
+    "en": "Couldn’t reach the server. Try again."
+  },
+
+  "settings.title": { "az": "Sandıq parametrləri", "ru": "Настройки копилки", "en": "Jar settings" },
+  "settings.subtitle": {
+    "az": "Yuvarlaqlaşdırmanı və aylıq limiti seç.",
+    "ru": "Выберите округление и месячный лимит.",
+    "en": "Choose the round-up step and the monthly limit."
+  },
+  "settings.enable.title": { "az": "Yuvarlaqlaşdırma", "ru": "Округление", "en": "Round-up" },
+  "settings.enable.body": {
+    "az": "Sifariş məbləği növbəti addıma yuvarlaqlaşır, qalıq sandığa gedir.",
+    "ru": "Сумма заказа округляется до следующего шага, остаток идёт в копилку.",
+    "en": "The order total rounds up to the next step and the remainder goes into the jar."
+  },
+  "settings.step.title": { "az": "Yuvarlaqlaşdırma addımı", "ru": "Шаг округления", "en": "Round-up step" },
+  "settings.cap.title": { "az": "Aylıq limit", "ru": "Месячный лимит", "en": "Monthly limit" },
+  "settings.cap.unlimited": { "az": "Limitsiz", "ru": "Без лимита", "en": "No limit" },
+  "settings.cap.hint": {
+    "az": "Limit dolduqda yuvarlaqlaşdırma ay sonuna qədər dayanır.",
+    "ru": "Когда лимит исчерпан, округление останавливается до конца месяца.",
+    "en": "Once the limit is reached, round-up pauses until the month ends."
+  },
+  "settings.save": { "az": "Yadda saxla", "ru": "Сохранить", "en": "Save" },
+  "settings.saved": { "az": "Parametrlər yadda saxlanıldı.", "ru": "Настройки сохранены.", "en": "Settings saved." },
+  "settings.saveFailed": {
+    "az": "Parametrlər yadda saxlanılmadı. Yenidən cəhd et.",
+    "ru": "Не удалось сохранить настройки. Попробуйте снова.",
+    "en": "Couldn’t save the settings. Try again."
+  },
+  "settings.preview.label": { "az": "Nümunə", "ru": "Пример", "en": "Example" },
+  "settings.preview.amount": { "az": "{total} → {rounded}", "ru": "{total} → {rounded}", "en": "{total} → {rounded}" },
+  "settings.preview.extra": { "az": "{extra} sandığa", "ru": "{extra} в копилку", "en": "{extra} to the jar" },
+  "settings.preview.hint": {
+    "az": "Ay sonunda sandığın 10% bonusla qaytarılır.",
+    "ru": "В конце месяца копилка возвращается с бонусом 10%.",
+    "en": "At month end your jar comes back with a 10% bonus."
+  },
+
+  "tile.title": { "az": "Qənaət sandığına yuvarlaqlaşdır", "ru": "Округлить в копилку", "en": "Round up into the savings jar" },
+  "tile.on": { "az": "{total} → {rounded} · {extra} sandığa", "ru": "{total} → {rounded} · {extra} в копилку", "en": "{total} → {rounded} · {extra} to the jar" },
+  "tile.off": {
+    "az": "Qalıq qəpikləri sandıqda yığ, +10% bonus al",
+    "ru": "Собирайте остаток копеек в копилке и получайте +10% бонуса",
+    "en": "Collect the spare qəpik in the jar and earn a +10% bonus"
+  },
+  "tile.toggle": { "az": "Yuvarlaqlaşdırmanı aç və ya bağla", "ru": "Включить или выключить округление", "en": "Turn round-up on or off" }
+}

@@ -1,0 +1,99 @@
+{
+  "back": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "title": { "az": "Dostunu gətir", "ru": "Приведи друга", "en": "Bring a friend" },
+  "subtitle": {
+    "az": "Kodunu dostlarınla paylaş.",
+    "ru": "Поделись своим кодом с друзьями.",
+    "en": "Share your code with your friends."
+  },
+
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "error.title": {
+    "az": "Məlumat yüklənmədi",
+    "ru": "Не удалось загрузить данные",
+    "en": "Could not load the data"
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "demo.body": {
+    "az": "Dəvət proqramı hələ qoşulmayıb, bu nümunə koddur.",
+    "ru": "Программа приглашений пока не подключена, это демонстрационный код.",
+    "en": "The referral programme is not live yet — this is a sample code."
+  },
+
+  "code.label": { "az": "Sənin kodun", "ru": "Твой код", "en": "Your code" },
+  "code.aria": { "az": "Dəvət kodun: {code}", "ru": "Твой пригласительный код: {code}", "en": "Your invite code: {code}" },
+  "code.copy": { "az": "Kopyala", "ru": "Копировать", "en": "Copy" },
+  "code.copied": { "az": "Kopyalandı", "ru": "Скопировано", "en": "Copied" },
+  "code.copiedToast": { "az": "Kopyalandı", "ru": "Скопировано", "en": "Copied" },
+  "code.copyFailed": {
+    "az": "Kopyalamaq olmadı",
+    "ru": "Не удалось скопировать",
+    "en": "Could not copy"
+  },
+  "code.share": { "az": "Paylaş", "ru": "Поделиться", "en": "Share" },
+  "code.shareAria": {
+    "az": "Dəvət kodunu paylaş",
+    "ru": "Поделиться пригласительным кодом",
+    "en": "Share your invite code"
+  },
+  "code.shareMessage": {
+    "az": "Ozio-ya qoşul! Dəvət kodum: {code}",
+    "ru": "Присоединяйся к Ozio! Мой пригласительный код: {code}",
+    "en": "Join Ozio! My invite code: {code}"
+  },
+  "code.shareTitle": { "az": "Ozio", "ru": "Ozio", "en": "Ozio" },
+
+  "steps.one": {
+    "az": "Kodunu dostuna göndər",
+    "ru": "Отправь свой код другу",
+    "en": "Send your code to a friend"
+  },
+  "steps.two": {
+    "az": "Dost Ozio-da qeydiyyatdan keçir",
+    "ru": "Друг регистрируется в Ozio",
+    "en": "Your friend signs up for Ozio"
+  },
+  "steps.three": {
+    "az": "İlk alışdan sonra ikinizə {reward}",
+    "ru": "После первой покупки вы оба получите {reward}",
+    "en": "After the first purchase you both get {reward}"
+  },
+
+  "invited.title": { "az": "Dəvət etdiklərin", "ru": "Твои приглашения", "en": "Your invites" },
+  "invited.countAria": {
+    "az": "{count, plural, one {# dəvət} other {# dəvət}}",
+    "ru": "{count, plural, one {# приглашение} few {# приглашения} many {# приглашений} other {# приглашения}}",
+    "en": "{count, plural, one {# invite} other {# invites}}"
+  },
+  "invited.earned": { "az": "{reward} qazandın", "ru": "Ты получил {reward}", "en": "You earned {reward}" },
+  "invited.pending": {
+    "az": "İlk alış gözlənilir",
+    "ru": "Ожидается первая покупка",
+    "en": "Waiting for the first purchase"
+  },
+  "invited.empty": {
+    "az": "Hələ kimsə qoşulmayıb.",
+    "ru": "Пока никто не присоединился.",
+    "en": "Nobody has joined yet."
+  },
+
+  "unavailable.title": {
+    "az": "Dəvət kodun hələ hazır deyil",
+    "ru": "Твой пригласительный код пока не готов",
+    "en": "Your invite code is not ready yet"
+  },
+  "unavailable.body": {
+    "az": "Bir az sonra yenidən yoxla.",
+    "ru": "Проверь ещё раз немного позже.",
+    "en": "Check again a little later."
+  },
+  "unavailable.action": { "az": "Yenilə", "ru": "Обновить", "en": "Refresh" },
+
+  "tile.title": { "az": "Dostunu gətir", "ru": "Приведи друга", "en": "Bring a friend" },
+  "tile.body": {
+    "az": "Kodunu paylaş, ikiniz də qazanın",
+    "ru": "Поделись кодом — выиграете оба",
+    "en": "Share your code and you both win"
+  }
+}

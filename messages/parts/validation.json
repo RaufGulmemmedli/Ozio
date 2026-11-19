@@ -1,0 +1,44 @@
+{
+  "required": { "az": "Bu sahə mütləqdir", "ru": "Обязательное поле", "en": "This field is required" },
+  "phone": {
+    "az": "Nömrə tam deyil. 9 rəqəm daxil edin.",
+    "ru": "Номер неполный. Введите 9 цифр.",
+    "en": "The number is incomplete. Enter 9 digits."
+  },
+  "phoneValid": { "az": "Nömrə düzgündür", "ru": "Номер верный", "en": "The number is valid" },
+  "otp": {
+    "az": "Kod səhvdir. Yenidən yoxlayın.",
+    "ru": "Неверный код. Проверьте и попробуйте снова.",
+    "en": "Wrong code. Check it and try again."
+  },
+  "email": {
+    "az": "E-poçt ünvanı düzgün deyil",
+    "ru": "Неверный адрес эл. почты",
+    "en": "Enter a valid email address"
+  },
+  "name": {
+    "az": "Ad və soyadınızı tam yazın",
+    "ru": "Укажите имя и фамилию полностью",
+    "en": "Enter your first and last name"
+  },
+  "birthDate": {
+    "az": "Doğum tarixi düzgün deyil",
+    "ru": "Неверная дата рождения",
+    "en": "Enter a valid date of birth"
+  },
+  "min": {
+    "az": "Ən azı {min} simvol olmalıdır",
+    "ru": "Минимум {min} символов",
+    "en": "Must be at least {min} characters"
+  },
+  "max": {
+    "az": "Ən çoxu {max} simvol ola bilər",
+    "ru": "Максимум {max} символов",
+    "en": "Must be at most {max} characters"
+  },
+  "generic": {
+    "az": "Məlumatları yoxlayın",
+    "ru": "Проверьте введённые данные",
+    "en": "Check the details you entered"
+  }
+}

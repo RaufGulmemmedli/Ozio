@@ -1,0 +1,32 @@
+/*
+ * Print rules for the digital receipt (N5).
+ *
+ * Local classes only. Turbopack parses CSS modules with Lightning CSS, which refuses `:global(...)`
+ * here ("Parsing CSS source code failed"), so this file cannot reach outside the component — and
+ * `src/app/globals.css` and `@/shared/layout` belong to other agents.
+ *
+ * TODO(shared): the shell's chrome therefore still prints. One line in `<AppShell>` fixes it —
+ * `print:hidden` on the sidebar / icon rail / top bar / bottom pill wrappers. Everything the
+ * receipt itself owns is already hidden in print (`print:hidden` on the demo banner, breadcrumb,
+ * demo pill and the Print button).
+ *
+ * Nothing outside `@media print` changes how the screen looks.
+ */
+
+.sheet {
+  width: 100%;
+}
+
+@media print {
+  .sheet {
+    max-width: none;
+    border-radius: 0;
+    padding: 0;
+    /* the page is white; the sheet keeps its own token surface so text stays readable */
+    background: var(--oz-surface);
+  }
+
+  .row {
+    break-inside: avoid;
+  }
+}

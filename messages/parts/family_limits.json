@@ -1,0 +1,154 @@
+{
+  "title": { "az": "Üzv limitləri", "ru": "Лимиты участников", "en": "Member limits" },
+  "subtitle": {
+    "az": "Ailə üzvlərinin xərclərinə həftəlik və ya aylıq limit qoy.",
+    "ru": "Установите недельный или месячный лимит расходов для членов семьи.",
+    "en": "Set a weekly or monthly spending limit for each family member."
+  },
+  "demo.body": {
+    "az": "· Limitlər nümunə məlumatdır və real ödənişlərə tətbiq olunmur.",
+    "ru": "· Лимиты — примерные данные и к реальным платежам не применяются.",
+    "en": "· The limits are sample data and are not applied to real payments."
+  },
+
+  "breadcrumb.label": { "az": "Naviqasiya", "ru": "Навигация", "en": "Breadcrumb" },
+  "breadcrumb.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "breadcrumb.familyCard": { "az": "Ailə kartı", "ru": "Семейная карта", "en": "Family card" },
+
+  "period.weekly": { "az": "həftəlik", "ru": "в неделю", "en": "weekly" },
+  "period.monthly": { "az": "aylıq", "ru": "в месяц", "en": "monthly" },
+
+  "summary.spend": { "az": "Bu ay ailə xərci", "ru": "Расходы семьи за месяц", "en": "Family spend this month" },
+  "summary.active": { "az": "Aktiv limit", "ru": "Активных лимитов", "en": "Active limits" },
+  "summary.exhausted": { "az": "Limiti dolan", "ru": "Лимит исчерпан", "en": "Limits reached" },
+
+  "card.roleAge": {
+    "az": "{role} · {age} yaş",
+    "ru": "{role} · {age} лет",
+    "en": "{role} · {age} years old"
+  },
+  "card.of": { "az": "/ {limit} ₼ {period}", "ru": "/ {limit} ₼ {period}", "en": "/ {limit} ₼ {period}" },
+  "card.remaining": { "az": "Qalıb {amount}", "ru": "Осталось {amount}", "en": "{amount} left" },
+  "card.full": { "az": "Limit dolub", "ru": "Лимит исчерпан", "en": "Limit reached" },
+  "card.noLimit": { "az": "Limit yoxdur", "ru": "Лимита нет", "en": "No limit" },
+  "card.noLimitBody": {
+    "az": "Bu üzv üçün xərc limiti təyin edilməyib.",
+    "ru": "Для этого участника лимит расходов не задан.",
+    "en": "No spending limit is set for this member."
+  },
+  "card.progressLabel": {
+    "az": "{name} · {period} limit",
+    "ru": "{name} · лимит {period}",
+    "en": "{name} · {period} limit"
+  },
+  "card.progressValue": {
+    "az": "{spent} / {limit} ₼",
+    "ru": "{spent} / {limit} ₼",
+    "en": "{spent} / {limit} ₼"
+  },
+
+  "empty.title": { "az": "Ailə üzvü yoxdur", "ru": "Членов семьи нет", "en": "No family members" },
+  "empty.body": {
+    "az": "Limit qoymaq üçün əvvəlcə Ailə kartına üzv əlavə et.",
+    "ru": "Чтобы задать лимит, сначала добавьте участника в семейную карту.",
+    "en": "Add a member to the family card before setting a limit."
+  },
+  "empty.action": { "az": "Üzv əlavə et", "ru": "Добавить участника", "en": "Add a member" },
+
+  "error.title": { "az": "Limitlər yüklənmədi", "ru": "Лимиты не загрузились", "en": "The limits did not load" },
+
+  "category.stationery": { "az": "Dəftərxana", "ru": "Канцелярия", "en": "Stationery" },
+  "category.books": { "az": "Kitab", "ru": "Книги", "en": "Books" },
+  "category.food": { "az": "Qida", "ru": "Продукты", "en": "Food" },
+  "category.toys": { "az": "Oyuncaq", "ru": "Игрушки", "en": "Toys" },
+  "category.snacks": { "az": "Qəlyanaltı", "ru": "Снеки", "en": "Snacks" },
+  "category.hygiene": { "az": "Gigiyena", "ru": "Гигиена", "en": "Hygiene" },
+  "category.allowed": { "az": "icazə verilir", "ru": "разрешено", "en": "allowed" },
+  "category.notAllowed": { "az": "icazə verilmir", "ru": "не разрешено", "en": "not allowed" },
+
+  "member.fallback": { "az": "Ailə üzvü", "ru": "Член семьи", "en": "Family member" },
+  "member.edit": { "az": "Limiti dəyiş", "ru": "Изменить лимит", "en": "Change the limit" },
+  "member.spentIn.weekly": { "az": "Bu həftə xərclənib", "ru": "Потрачено на этой неделе", "en": "Spent this week" },
+  "member.spentIn.monthly": { "az": "Bu ay xərclənib", "ru": "Потрачено в этом месяце", "en": "Spent this month" },
+  "member.remainingLine": {
+    "az": "Qalıb {amount} · {renewal}",
+    "ru": "Осталось {amount} · {renewal}",
+    "en": "{amount} left · {renewal}"
+  },
+  "member.renewal.weekly": {
+    "az": "Limit bazar ertəsi yenilənir.",
+    "ru": "Лимит обновляется в понедельник.",
+    "en": "The limit renews on Monday."
+  },
+  "member.renewal.monthly": {
+    "az": "Limit ayın 1-i yenilənir.",
+    "ru": "Лимит обновляется 1-го числа.",
+    "en": "The limit renews on the 1st."
+  },
+  "member.categories": {
+    "az": "İcazə verilən kateqoriyalar",
+    "ru": "Разрешённые категории",
+    "en": "Allowed categories"
+  },
+  "member.purchases": { "az": "Son alışlar", "ru": "Последние покупки", "en": "Recent purchases" },
+  "member.noPurchases.title": { "az": "Alış yoxdur", "ru": "Покупок нет", "en": "No purchases" },
+  "member.noPurchases.body": {
+    "az": "Bu dövrdə bu üzv heç nə almayıb.",
+    "ru": "В этом периоде участник ничего не покупал.",
+    "en": "This member has not bought anything this period."
+  },
+  "member.missing.title": { "az": "Üzv tapılmadı", "ru": "Участник не найден", "en": "Member not found" },
+  "member.missing.body": {
+    "az": "Bu üzv ailə kartından çıxarılıb və ya ünvan səhvdir.",
+    "ru": "Этот участник удалён из семейной карты, либо адрес неверный.",
+    "en": "This member was removed from the family card, or the address is wrong."
+  },
+  "member.missing.action": { "az": "Limitlərə qayıt", "ru": "Вернуться к лимитам", "en": "Back to the limits" },
+  "member.error.title": { "az": "Üzv yüklənmədi", "ru": "Участник не загрузился", "en": "The member did not load" },
+
+  "purchase.meta": { "az": "{category} · {date}", "ru": "{category} · {date}", "en": "{category} · {date}" },
+
+  "editor.title": { "az": "Limiti tənzimlə", "ru": "Настроить лимит", "en": "Adjust the limit" },
+  "editor.subtitle": { "az": "{name} · {role}", "ru": "{name} · {role}", "en": "{name} · {role}" },
+  "editor.enabled": { "az": "Limit aktivdir", "ru": "Лимит включён", "en": "Limit is on" },
+  "editor.enabledHint": {
+    "az": "Söndürsən, xərclər məhdudlaşdırılmır.",
+    "ru": "Если выключить, расходы не ограничиваются.",
+    "en": "Switch it off and spending is not capped."
+  },
+  "editor.controls": { "az": "Limit parametrləri", "ru": "Параметры лимита", "en": "Limit settings" },
+  "editor.period": { "az": "Dövr", "ru": "Период", "en": "Period" },
+  "editor.amount": { "az": "Məbləğ (addım {step} ₼)", "ru": "Сумма (шаг {step} ₼)", "en": "Amount (in {step} ₼ steps)" },
+  "editor.amountValue": { "az": "{amount} ₼", "ru": "{amount} ₼", "en": "{amount} ₼" },
+  "editor.decrease": { "az": "{step} ₼ azalt", "ru": "Уменьшить на {step} ₼", "en": "Decrease by {step} ₼" },
+  "editor.increase": { "az": "{step} ₼ artır", "ru": "Увеличить на {step} ₼", "en": "Increase by {step} ₼" },
+  "editor.categories": { "az": "Kateqoriyalar", "ru": "Категории", "en": "Categories" },
+  "editor.toast": {
+    "az": "{name} üçün limit yadda saxlanıldı",
+    "ru": "Лимит для {name} сохранён",
+    "en": "The limit for {name} was saved"
+  },
+  "editor.demoNote": {
+    "az": "Demo rejim: limit yalnız bu nümunə məlumatına yazılır.",
+    "ru": "Демо-режим: лимит сохраняется только в этих примерных данных.",
+    "en": "Demo mode: the limit is only written to this sample data."
+  },
+  "editor.errors.step": {
+    "az": "Məbləğ {step} ₼-ın tam qatı olmalıdır.",
+    "ru": "Сумма должна быть кратна {step} ₼.",
+    "en": "The amount must be a multiple of {step} ₼."
+  },
+  "editor.errors.max": {
+    "az": "Məbləğ {max} ₼-dan çox ola bilməz.",
+    "ru": "Сумма не может превышать {max} ₼.",
+    "en": "The amount cannot exceed {max} ₼."
+  },
+
+  "entry.title": { "az": "Üzv limitləri", "ru": "Лимиты участников", "en": "Member limits" },
+  "entry.active": {
+    "az": "{count, plural, one {# aktiv limit} other {# aktiv limit}}",
+    "ru": "{count, plural, one {# активный лимит} few {# активных лимита} many {# активных лимитов} other {# активных лимита}}",
+    "en": "{count, plural, one {# active limit} other {# active limits}}"
+  },
+  "entry.none": { "az": "Aktiv limit yoxdur", "ru": "Активных лимитов нет", "en": "No active limits" }
+}

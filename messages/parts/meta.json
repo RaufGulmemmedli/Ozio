@@ -1,0 +1,92 @@
+{
+  "home.title": {
+    "az": "Ozio — Bakıda market, keşbek, lotereya",
+    "ru": "Ozio — маркет, кешбэк и лотерея в Баку",
+    "en": "Ozio — grocery delivery, cashback and lottery in Baku"
+  },
+  "home.description": {
+    "az": "Hər alış-verişdə keşbek qazan, 6000+ məhsulu 30–45 dəqiqəyə qapında təhvil al və 9 alıb 1 qazan. Keşbek, market və 10-lar bir tətbiqdə.",
+    "ru": "Получай кешбэк с каждой покупки, заказывай 6000+ товаров с доставкой за 30–45 минут и забирай 10-й подарок. Кешбэк, маркет и «10-ки» в одном приложении.",
+    "en": "Earn cashback on every purchase, get 6000+ products delivered in 30–45 minutes and claim every 10th as a gift. Cashback, market and Tens in one app."
+  },
+  "cashback.title": {
+    "az": "Ozio Keşbek — hər alışdan 1,5%-dən 10%-dək geri qayıdır",
+    "ru": "Ozio Кешбэк — от 1,5% до 10% возвращается с каждой покупки",
+    "en": "Ozio Cashback — 1.5% to 10% back on every purchase"
+  },
+  "cashback.description": {
+    "az": "100+ partnyorda kartını göstər, keşbek qazan. Kateqoriyalar üzrə dərəcələr və aylıq kampaniyalar.",
+    "ru": "Покажи карту у 100+ партнёров и получай кешбэк. Ставки по категориям и ежемесячные кампании.",
+    "en": "Show your card at 100+ partners and earn cashback. Rates by category and monthly campaigns."
+  },
+  "partners.title": {
+    "az": "Ozio partnyorları — 120+ brenddə keşbek",
+    "ru": "Партнёры Ozio — кешбэк в 120+ брендах",
+    "en": "Ozio partners — cashback at 120+ brands"
+  },
+  "partners.description": {
+    "az": "Market, geyim, elektronika, kafe və aptek partnyorlarımızı axtar, keşbek faizlərini gör və partnyor ol.",
+    "ru": "Ищи наших партнёров среди магазинов, одежды, электроники, кафе и аптек, смотри проценты кешбэка и становись партнёром.",
+    "en": "Search our grocery, fashion, electronics, café and pharmacy partners, see cashback rates and apply to become one."
+  },
+  "delivery.title": {
+    "az": "Ozio Market — 6000+ məhsul qapında",
+    "ru": "Ozio Маркет — 6000+ товаров до двери",
+    "en": "Ozio Market — 6000+ products to your door"
+  },
+  "delivery.description": {
+    "az": "Təzə meyvə-tərəvəz, süd məhsulları və gündəlik ehtiyac malları. 30–45 dəq çatdırılma, hər sifarişdən keşbek.",
+    "ru": "Свежие фрукты и овощи, молочные продукты и товары на каждый день. Доставка 30–45 мин, кешбэк с каждого заказа.",
+    "en": "Fresh fruit and vegetables, dairy and everyday essentials. Delivery in 30–45 minutes, cashback on every order."
+  },
+  "ten.title": {
+    "az": "Ozio 10-lar — 9 alırsan, 1 qazanırsan",
+    "ru": "Ozio 10-ки — покупаешь 9, получаешь 1",
+    "en": "Ozio Tens — buy 9, get 1 free"
+  },
+  "ten.description": {
+    "az": "Hər alış-verişdə möhür yığ, 10-cu möhürdə hədiyyə seç. Aylıq hədiyyələr və lotereya.",
+    "ru": "Собирай штампы с каждой покупки и выбирай подарок на 10-м. Ежемесячные подарки и лотерея.",
+    "en": "Collect a stamp with every purchase and pick a gift on the 10th. Monthly gifts and a lottery."
+  },
+  "contact.title": {
+    "az": "Əlaqə — Ozio dəstək",
+    "ru": "Контакты — поддержка Ozio",
+    "en": "Contact — Ozio support"
+  },
+  "contact.description": {
+    "az": "Sualınız varsa yazın. Zəng mərkəzi hər gün 08:00–23:00. +994 12 000 00 00, info@ozio10.az.",
+    "ru": "Есть вопрос — напишите нам. Колл-центр работает ежедневно с 08:00 до 23:00. +994 12 000 00 00, info@ozio10.az.",
+    "en": "Got a question? Write to us. Our call centre is open daily 08:00–23:00. +994 12 000 00 00, info@ozio10.az."
+  },
+  "terms.title": {
+    "az": "Şərtlər — Ozio+",
+    "ru": "Условия — Ozio+",
+    "en": "Terms — Ozio+"
+  },
+  "terms.description": {
+    "az": "Ozio+ xidmətlərindən istifadə qaydaları: hesab və qeydiyyat, sifariş və çatdırılma, keşbek və bonuslar.",
+    "ru": "Правила использования сервисов Ozio+: аккаунт и регистрация, заказ и доставка, кешбэк и бонусы.",
+    "en": "The rules for using Ozio+ services: account and sign-up, orders and delivery, cashback and bonuses."
+  },
+  "privacy.title": {
+    "az": "Məxfilik siyasəti — Ozio+",
+    "ru": "Политика конфиденциальности — Ozio+",
+    "en": "Privacy policy — Ozio+"
+  },
+  "privacy.description": {
+    "az": "Şəxsi məlumatların toplanması, emalı və qorunması haqqında Ozio+ siyasəti.",
+    "ru": "Политика Ozio+ о сборе, обработке и защите персональных данных.",
+    "en": "How Ozio+ collects, processes and protects your personal data."
+  },
+  "notFound.title": {
+    "az": "Səhifə tapılmadı",
+    "ru": "Страница не найдена",
+    "en": "Page not found"
+  },
+  "notFound.description": {
+    "az": "Axtardığınız səhifə mövcud deyil və ya köçürülüb. Əsas səhifəyə qayıdın.",
+    "ru": "Страница, которую вы ищете, не существует или была перемещена. Вернитесь на главную.",
+    "en": "The page you’re looking for doesn’t exist or has moved. Head back to the home page."
+  }
+}

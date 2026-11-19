@@ -1,0 +1,280 @@
+{
+  "title": { "az": "Sorğular", "ru": "Запросы", "en": "Requests" },
+  "subtitle": {
+    "az": "Ailə üzvlərindən gələn və göndərdiyin sorğular.",
+    "ru": "Запросы от членов семьи и отправленные вами.",
+    "en": "Requests from your family and the ones you sent."
+  },
+  "demo.body": {
+    "az": "· Bu bölmə nümunə məlumatlarla işləyir, real sifariş və ödəniş yaradılmır.",
+    "ru": "· Этот раздел работает на примерных данных, реальный заказ и платёж не создаются.",
+    "en": "· This section runs on sample data; no real order or payment is created."
+  },
+
+  "breadcrumb.label": { "az": "Naviqasiya", "ru": "Навигация", "en": "Breadcrumb" },
+  "breadcrumb.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "breadcrumb.module": { "az": "Al deyim", "ru": "Попроси купить", "en": "Ask to buy" },
+
+  "action.new": { "az": "Yeni sorğu", "ru": "Новый запрос", "en": "New request" },
+
+  "tab.label": { "az": "Sorğu siyahıları", "ru": "Списки запросов", "en": "Request lists" },
+  "tab.incoming": { "az": "Gələn", "ru": "Входящие", "en": "Received" },
+  "tab.outgoing": { "az": "Göndərdiyim", "ru": "Отправленные", "en": "Sent" },
+  "tab.pendingCount": {
+    "az": "{count, plural, one {# gözləyən sorğu} other {# gözləyən sorğu}}",
+    "ru": "{count, plural, one {# ожидающий запрос} few {# ожидающих запроса} many {# ожидающих запросов} other {# ожидающих запроса}}",
+    "en": "{count, plural, one {# request waiting} other {# requests waiting}}"
+  },
+  "tab.announce": {
+    "az": "{tab}: {count, plural, =0 {sorğu yoxdur} one {# sorğu} other {# sorğu}}",
+    "ru": "{tab}: {count, plural, =0 {нет запросов} one {# запрос} few {# запроса} many {# запросов} other {# запроса}}",
+    "en": "{tab}: {count, plural, =0 {no requests} one {# request} other {# requests}}"
+  },
+
+  "status.pending": { "az": "Gözləyir", "ru": "Ожидает", "en": "Waiting" },
+  "status.approved": { "az": "Təsdiqləndi", "ru": "Подтверждён", "en": "Approved" },
+  "status.declined": { "az": "İmtina edildi", "ru": "Отклонён", "en": "Declined" },
+  "status.expired": { "az": "Vaxtı bitdi", "ru": "Срок истёк", "en": "Expired" },
+
+  "role.label": { "az": "Demo tərəfi", "ru": "Сторона демо", "en": "Demo side" },
+  "role.parent": { "az": "Valideyn", "ru": "Родитель", "en": "Parent" },
+  "role.child": { "az": "Övlad", "ru": "Ребёнок", "en": "Child" },
+  "role.hint.parent": {
+    "az": "Valideyn kimi baxırsan: sorğuları təsdiq edə bilərsən.",
+    "ru": "Вы смотрите как родитель: можете подтверждать запросы.",
+    "en": "You are viewing as the parent: you can approve requests."
+  },
+  "role.hint.child": {
+    "az": "Övlad kimi baxırsan: sorğu göndərə bilərsən.",
+    "ru": "Вы смотрите как ребёнок: можете отправлять запросы.",
+    "en": "You are viewing as the child: you can send requests."
+  },
+  "role.pinned": {
+    "az": "Tərəf ünvandaki preview parametri ilə təyin edilib.",
+    "ru": "Сторона задана параметром preview в адресе.",
+    "en": "The side is pinned by the preview parameter in the address."
+  },
+
+  "row.title": {
+    "az": "{name} · {count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{name} · {count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{name} · {count, plural, one {# item} other {# items}}"
+  },
+  "row.aria": {
+    "az": "{title}, {total}, {status}",
+    "ru": "{title}, {total}, {status}",
+    "en": "{title}, {total}, {status}"
+  },
+
+  "time.yesterday": { "az": "Dünən, {time}", "ru": "Вчера, {time}", "en": "Yesterday, {time}" },
+
+  "how.title": { "az": "Necə işləyir?", "ru": "Как это работает?", "en": "How it works" },
+  "how.step1.title": { "az": "Səbəti hazırla", "ru": "Соберите корзину", "en": "Fill your basket" },
+  "how.step1.body": {
+    "az": "Lazım olan məhsulları səbətə at.",
+    "ru": "Добавьте нужные товары в корзину.",
+    "en": "Add the products you need to the basket."
+  },
+  "how.step2.title": {
+    "az": "Valideynə göndər",
+    "ru": "Отправьте родителю",
+    "en": "Send it to a parent"
+  },
+  "how.step2.body": {
+    "az": "Sorğu ailə üzvünün telefonuna düşür.",
+    "ru": "Запрос приходит на телефон члена семьи.",
+    "en": "The request lands on your family member's phone."
+  },
+  "how.step3.title": {
+    "az": "Təsdiq və çatdırılma",
+    "ru": "Подтверждение и доставка",
+    "en": "Approval and delivery"
+  },
+  "how.step3.body": {
+    "az": "Təsdiq edən ödəyir, sifariş yola çıxır.",
+    "ru": "Кто подтвердил — платит, заказ отправляется.",
+    "en": "Whoever approves pays, and the order sets off."
+  },
+
+  "empty.incoming.title": {
+    "az": "Gələn sorğu yoxdur",
+    "ru": "Входящих запросов нет",
+    "en": "No requests received"
+  },
+  "empty.incoming.body": {
+    "az": "Ailə üzvləri sorğu göndərəndə burada görünəcək.",
+    "ru": "Когда члены семьи отправят запрос, он появится здесь.",
+    "en": "When a family member sends a request, it will appear here."
+  },
+  "empty.outgoing.title": {
+    "az": "Hələ sorğun yoxdur",
+    "ru": "У вас пока нет запросов",
+    "en": "You have no requests yet"
+  },
+  "empty.outgoing.body": {
+    "az": "Səbətini hazırla və valideynindən almasını xahiş et.",
+    "ru": "Соберите корзину и попросите родителя её оплатить.",
+    "en": "Fill your basket and ask a parent to buy it."
+  },
+
+  "error.title": { "az": "Sorğular yüklənmədi", "ru": "Запросы не загрузились", "en": "Requests did not load" },
+
+  "send.title": { "az": "Valideynə göndər", "ru": "Отправить родителю", "en": "Send to a parent" },
+  "send.subtitle": {
+    "az": "Səbətindəki məhsulları ailə üzvündən almasını xahiş et.",
+    "ru": "Попросите члена семьи купить товары из вашей корзины.",
+    "en": "Ask a family member to buy what is in your basket."
+  },
+  "send.recipient": { "az": "Kimə göndərəsən?", "ru": "Кому отправить?", "en": "Who should it go to?" },
+  "send.noteTitle": {
+    "az": "Qeyd (istəyə bağlı)",
+    "ru": "Примечание (необязательно)",
+    "en": "Note (optional)"
+  },
+  "send.notePlaceholder": {
+    "az": "Məsələn: Dərsdən sonra lazım olacaq",
+    "ru": "Например: понадобится после уроков",
+    "en": "For example: needed after school"
+  },
+  "send.noteCounter": { "az": "{count} / {max}", "ru": "{count} / {max}", "en": "{count} / {max}" },
+  "send.basket": { "az": "Səbətin", "ru": "Ваша корзина", "en": "Your basket" },
+  "send.submit": { "az": "Sorğunu göndər", "ru": "Отправить запрос", "en": "Send request" },
+  "send.expiry": {
+    "az": "Sorğu 24 saat ərzində cavablanmasa vaxtı bitir.",
+    "ru": "Если на запрос не ответят в течение 24 часов, срок истечёт.",
+    "en": "A request expires if it is not answered within 24 hours."
+  },
+  "send.toast": {
+    "az": "Sorğu göndərildi · {reference}",
+    "ru": "Запрос отправлен · {reference}",
+    "en": "Request sent · {reference}"
+  },
+  "send.errors.parent": {
+    "az": "Ailə üzvü seç.",
+    "ru": "Выберите члена семьи.",
+    "en": "Choose a family member."
+  },
+  "send.errors.noteTooLong": {
+    "az": "Qeyd ən çoxu {max} simvol ola bilər.",
+    "ru": "Примечание не длиннее {max} символов.",
+    "en": "The note can be at most {max} characters."
+  },
+  "send.error.title": { "az": "Səbət yüklənmədi", "ru": "Корзина не загрузилась", "en": "The basket did not load" },
+  "send.empty.title": { "az": "Səbət boşdur", "ru": "Корзина пуста", "en": "Your basket is empty" },
+  "send.empty.body": {
+    "az": "Sorğu göndərmək üçün əvvəlcə səbətə məhsul at.",
+    "ru": "Чтобы отправить запрос, сначала добавьте товары в корзину.",
+    "en": "Add something to your basket before sending a request."
+  },
+  "send.empty.action": { "az": "Səbətə keç", "ru": "Перейти в корзину", "en": "Open the basket" },
+
+  "summary.title": { "az": "Ümumi", "ru": "Итого", "en": "Summary" },
+  "summary.items": { "az": "Məhsullar ({count})", "ru": "Товары ({count})", "en": "Items ({count})" },
+  "summary.delivery": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "summary.free": { "az": "Pulsuz", "ru": "Бесплатно", "en": "Free" },
+  "summary.total": { "az": "Cəmi", "ru": "Всего", "en": "Total" },
+
+  "detail.title": { "az": "Sorğu #{reference}", "ru": "Запрос #{reference}", "en": "Request #{reference}" },
+  "detail.fromChild": {
+    "az": "{name} sənə sorğu göndərdi",
+    "ru": "{name} отправил вам запрос",
+    "en": "{name} sent you a request"
+  },
+  "detail.toParent": {
+    "az": "{name} ({relation})-ya göndərdin",
+    "ru": "Вы отправили {name} ({relation})",
+    "en": "You sent it to {name} ({relation})"
+  },
+  "detail.awaiting": {
+    "az": "24 saat ərzində cavab gözlənilir",
+    "ru": "Ответ ожидается в течение 24 часов",
+    "en": "An answer is expected within 24 hours"
+  },
+  "detail.items": { "az": "Məhsullar", "ru": "Товары", "en": "Items" },
+  "detail.note": { "az": "“{note}”", "ru": "«{note}»", "en": "“{note}”" },
+  "detail.approve": { "az": "Təsdiq et", "ru": "Подтвердить", "en": "Approve" },
+  "detail.decline": { "az": "İmtina et", "ru": "Отклонить", "en": "Decline" },
+  "detail.resend": { "az": "Yenidən göndər", "ru": "Отправить снова", "en": "Send again" },
+  "detail.openOrder": { "az": "Sifarişə bax", "ru": "Открыть заказ", "en": "View the order" },
+  "detail.backToInbox": { "az": "Sorğulara qayıt", "ru": "Вернуться к запросам", "en": "Back to requests" },
+  "detail.waitingHint": {
+    "az": "Sorğunu yalnız göndərildiyi ailə üzvü təsdiq edə bilər.",
+    "ru": "Подтвердить запрос может только тот член семьи, которому он отправлен.",
+    "en": "Only the family member it was sent to can approve this request."
+  },
+  "detail.banner.approved": {
+    "az": "{name} sorğunu təsdiq etdi və {card} ilə ödədi. Sifariş hazırlanır.",
+    "ru": "{name} подтвердил запрос и оплатил картой {card}. Заказ готовится.",
+    "en": "{name} approved the request and paid with {card}. The order is being prepared."
+  },
+  "detail.banner.declined": {
+    "az": "Sorğu təsdiq edilmədi. Yeni səbətlə yenidən cəhd edə bilərsən.",
+    "ru": "Запрос не подтверждён. Можно попробовать снова с новой корзиной.",
+    "en": "The request was not approved. You can try again with a new basket."
+  },
+  "detail.banner.expired": {
+    "az": "Sorğu 24 saat ərzində cavablanmadı və vaxtı bitdi.",
+    "ru": "На запрос не ответили в течение 24 часов, и срок истёк.",
+    "en": "The request went unanswered for 24 hours and expired."
+  },
+  "detail.missing.title": { "az": "Sorğu tapılmadı", "ru": "Запрос не найден", "en": "Request not found" },
+  "detail.missing.body": {
+    "az": "Bu sorğu silinib və ya ünvan səhvdir.",
+    "ru": "Этот запрос удалён, либо адрес неверный.",
+    "en": "This request was removed, or the address is wrong."
+  },
+  "detail.missing.action": { "az": "Sorğulara qayıt", "ru": "Вернуться к запросам", "en": "Back to requests" },
+  "detail.error.title": { "az": "Sorğu yüklənmədi", "ru": "Запрос не загрузился", "en": "The request did not load" },
+
+  "tracker.label": { "az": "Sorğunun gedişi", "ru": "Ход запроса", "en": "Request progress" },
+  "tracker.sent": { "az": "Göndərildi", "ru": "Отправлен", "en": "Sent" },
+  "tracker.review": { "az": "Baxılır", "ru": "На рассмотрении", "en": "Under review" },
+  "tracker.result": { "az": "Nəticə", "ru": "Результат", "en": "Result" },
+  "tracker.done": { "az": "tamamlandı", "ru": "выполнено", "en": "done" },
+  "tracker.pending": { "az": "gözləyir", "ru": "ожидает", "en": "pending" },
+
+  "pay.title": { "az": "Ödənişi təsdiq et", "ru": "Подтвердите оплату", "en": "Confirm the payment" },
+  "pay.body": {
+    "az": "{name} göndərdiyi {count, plural, one {# məhsulluq} other {# məhsulluq}} sorğusunu ödəyirsən. Kartı seç:",
+    "ru": "Вы оплачиваете запрос {name} на {count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}. Выберите карту:",
+    "en": "You are paying {name}'s request for {count, plural, one {# item} other {# items}}. Choose a card:"
+  },
+  "pay.cardsLabel": { "az": "Kartlar", "ru": "Карты", "en": "Cards" },
+  "pay.amount": { "az": "Ödəniləcək məbləğ", "ru": "Сумма к оплате", "en": "Amount to pay" },
+  "pay.confirm": { "az": "Təsdiq et və ödə", "ru": "Подтвердить и оплатить", "en": "Approve and pay" },
+  "pay.demoNote": {
+    "az": "Demo rejim: kart yoxlanmır və heç bir məbləğ silinmir.",
+    "ru": "Демо-режим: карта не проверяется и никакая сумма не списывается.",
+    "en": "Demo mode: the card is not checked and nothing is charged."
+  },
+
+  "decline.title": {
+    "az": "Sorğudan imtina edilsin?",
+    "ru": "Отклонить запрос?",
+    "en": "Decline this request?"
+  },
+  "decline.body": {
+    "az": "{name} sorğunun imtina edildiyini görəcək. Bu əməliyyat geri qaytarıla bilməz.",
+    "ru": "{name} получит уведомление об отклонении запроса. Это действие нельзя отменить.",
+    "en": "{name} will be told the request was declined. This cannot be undone."
+  },
+  "decline.back": { "az": "Geri qayıt", "ru": "Назад", "en": "Go back" },
+  "decline.confirm": { "az": "İmtina et", "ru": "Отклонить", "en": "Decline" },
+  "decline.demoNote": {
+    "az": "nümunə sorğudur, heç kimə bildiriş getmir.",
+    "ru": "это примерный запрос, уведомление никому не уходит.",
+    "en": "this is a sample request; nobody is notified."
+  },
+
+  "entry.title": { "az": "Al deyim", "ru": "Попроси купить", "en": "Ask to buy" },
+  "entry.body": {
+    "az": "Səbəti ailə üzvünə göndər, o ödəsin.",
+    "ru": "Отправьте корзину члену семьи, пусть оплатит он.",
+    "en": "Send your basket to a family member to pay."
+  },
+  "entry.pending": {
+    "az": "{count, plural, one {# sorğu gözləyir} other {# sorğu gözləyir}}",
+    "ru": "{count, plural, one {# запрос ожидает} few {# запроса ожидают} many {# запросов ожидают} other {# запроса ожидают}}",
+    "en": "{count, plural, one {# request waiting} other {# requests waiting}}"
+  }
+}

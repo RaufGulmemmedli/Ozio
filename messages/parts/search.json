@@ -1,0 +1,332 @@
+{
+  "meta.title": {
+    "az": "Axtarış",
+    "ru": "Поиск",
+    "en": "Search"
+  },
+  "field.label": {
+    "az": "Axtarış",
+    "ru": "Поиск",
+    "en": "Search"
+  },
+  "field.placeholder": {
+    "az": "Məhsul, mağaza və ya kupon axtar",
+    "ru": "Найти товар, магазин или купон",
+    "en": "Search for a product, store or coupon"
+  },
+  "field.submit": {
+    "az": "Axtar",
+    "ru": "Найти",
+    "en": "Search"
+  },
+  "field.cancel": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "field.clear": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "field.photo": {
+    "az": "Şəkil ilə axtar",
+    "ru": "Поиск по фото",
+    "en": "Search by photo"
+  },
+  "recent.title": {
+    "az": "Son axtarışlar",
+    "ru": "Недавние запросы",
+    "en": "Recent searches"
+  },
+  "recent.clear": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "recent.remove": {
+    "az": "“{term}” sorğusunu sil",
+    "ru": "Удалить запрос «{term}»",
+    "en": "Remove “{term}”"
+  },
+  "recent.empty": {
+    "az": "Hələ axtarış etməmisən.",
+    "ru": "Ты ещё ничего не искал.",
+    "en": "You have not searched yet."
+  },
+  "popular.title": {
+    "az": "Populyar axtarışlar",
+    "ru": "Популярные запросы",
+    "en": "Popular searches"
+  },
+  "categories.title": {
+    "az": "Kateqoriyalar üzrə",
+    "ru": "По категориям",
+    "en": "By category"
+  },
+  "categories.empty": {
+    "az": "Kateqoriyalar yüklənmədi.",
+    "ru": "Категории не загрузились.",
+    "en": "Categories did not load."
+  },
+  "frequent.title": {
+    "az": "Tez-tez aldıqların",
+    "ru": "Ты часто покупаешь",
+    "en": "You buy often"
+  },
+  "frequent.subtitle": {
+    "az": "Son sifarişlərindən",
+    "ru": "Из последних заказов",
+    "en": "From your recent orders"
+  },
+  "frequent.unavailable": {
+    "az": "Sifariş tarixçən hazırlandıqca burada görünəcək.",
+    "ru": "Появится, как только будет история заказов.",
+    "en": "This fills up once you have order history."
+  },
+  "frequent.add": {
+    "az": "{name} məhsulunu səbətə at",
+    "ru": "Добавить {name} в корзину",
+    "en": "Add {name} to the cart"
+  },
+  "results.title": {
+    "az": "“{query}” üçün {count} nəticə",
+    "ru": "{count} результатов по «{query}»",
+    "en": "{count} results for “{query}”"
+  },
+  "results.subtitle": {
+    "az": "{store} və {count} partnyor mağazadan",
+    "ru": "Из {store} и ещё {count} магазинов-партнёров",
+    "en": "From {store} and {count} partner stores"
+  },
+  "results.subtitleSingle": {
+    "az": "{store} mağazasından",
+    "ru": "Из магазина {store}",
+    "en": "From {store}"
+  },
+  "results.announce": {
+    "az": "{count} nəticə tapıldı",
+    "ru": "Найдено результатов: {count}",
+    "en": "{count} results found"
+  },
+  "tabs.label": {
+    "az": "Nəticə növü",
+    "ru": "Тип результатов",
+    "en": "Result type"
+  },
+  "tabs.products": {
+    "az": "Məhsullar",
+    "ru": "Товары",
+    "en": "Products"
+  },
+  "tabs.stores": {
+    "az": "Mağazalar",
+    "ru": "Магазины",
+    "en": "Stores"
+  },
+  "tabs.categories": {
+    "az": "Kateqoriyalar",
+    "ru": "Категории",
+    "en": "Categories"
+  },
+  "filters.label": {
+    "az": "Filtrlər",
+    "ru": "Фильтры",
+    "en": "Filters"
+  },
+  "filters.price": {
+    "az": "Qiymət",
+    "ru": "Цена",
+    "en": "Price"
+  },
+  "filters.store": {
+    "az": "Mağaza",
+    "ru": "Магазин",
+    "en": "Store"
+  },
+  "filters.discountOnly": {
+    "az": "Yalnız endirimli",
+    "ru": "Только со скидкой",
+    "en": "Discounted only"
+  },
+  "sort.aria": {
+    "az": "Sırala",
+    "ru": "Сортировка",
+    "en": "Sort"
+  },
+  "sort.label": {
+    "az": "Sırala: {value}",
+    "ru": "Сортировка: {value}",
+    "en": "Sort: {value}"
+  },
+  "sort.relevance": {
+    "az": "Uyğunluq",
+    "ru": "Релевантность",
+    "en": "Relevance"
+  },
+  "sort.priceAsc": {
+    "az": "Qiymət (aşağıdan yuxarı)",
+    "ru": "Цена (по возрастанию)",
+    "en": "Price (low to high)"
+  },
+  "sort.priceDesc": {
+    "az": "Qiymət (yuxarıdan aşağı)",
+    "ru": "Цена (по убыванию)",
+    "en": "Price (high to low)"
+  },
+  "loadMore": {
+    "az": "Daha çox göstər ({count})",
+    "ru": "Показать ещё ({count})",
+    "en": "Show more ({count})"
+  },
+  "loading": {
+    "az": "Axtarılır…",
+    "ru": "Ищем…",
+    "en": "Searching…"
+  },
+  "notFound.title": {
+    "az": "“{query}” üçün nəticə tapılmadı",
+    "ru": "По «{query}» ничего не нашлось",
+    "en": "No results for “{query}”"
+  },
+  "notFound.body": {
+    "az": "Yazılışı yoxlayın, daha qısa söz yazın və ya kateqoriyalara baxın.",
+    "ru": "Проверь написание, напиши короче или посмотри категории.",
+    "en": "Check the spelling, try a shorter word, or browse the categories."
+  },
+  "notFound.didYouMean": {
+    "az": "Bəlkə bunu nəzərdə tutdunuz:",
+    "ru": "Возможно, ты имел в виду:",
+    "en": "Did you mean:"
+  },
+  "notFound.browseAll": {
+    "az": "Bütün məhsullara bax",
+    "ru": "Смотреть все товары",
+    "en": "Browse all products"
+  },
+  "notFound.clear": {
+    "az": "Axtarışı təmizlə",
+    "ru": "Очистить поиск",
+    "en": "Clear the search"
+  },
+  "suggested.title": {
+    "az": "Populyar məhsullar",
+    "ru": "Популярные товары",
+    "en": "Popular products"
+  },
+  "suggested.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "See all"
+  },
+  "stores.empty": {
+    "az": "Bu sorğuya uyğun mağaza yoxdur.",
+    "ru": "Магазинов по этому запросу нет.",
+    "en": "No store matches this search."
+  },
+  "point.title": {
+    "az": "Çatdırılma ünvanı seçilməyib",
+    "ru": "Адрес доставки не выбран",
+    "en": "No delivery address selected"
+  },
+  "point.body": {
+    "az": "Axtarış sənə çatdırılan mağazalar üzrə aparılır. Ünvan seçəndən sonra nəticələr dəqiqləşəcək.",
+    "ru": "Поиск идёт по магазинам, которые доставляют тебе. Выбери адрес — и результаты станут точнее.",
+    "en": "Search runs over the stores that deliver to you. Pick an address for exact results."
+  },
+  "point.action": {
+    "az": "Ünvan seç",
+    "ru": "Выбрать адрес",
+    "en": "Choose an address"
+  },
+  "error.title": {
+    "az": "Axtarış alınmadı",
+    "ru": "Поиск не удался",
+    "en": "The search failed"
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Попробовать снова",
+    "en": "Try again"
+  },
+  "favorites.meta.title": {
+    "az": "Sevimlilər",
+    "ru": "Избранное",
+    "en": "Favourites"
+  },
+  "favorites.title": {
+    "az": "Sevimlilər",
+    "ru": "Избранное",
+    "en": "Favourites"
+  },
+  "favorites.summary": {
+    "az": "{products} · {stores}",
+    "ru": "{products} · {stores}",
+    "en": "{products} · {stores}"
+  },
+  "favorites.productCount": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# product} other {# products}}"
+  },
+  "favorites.storeCount": {
+    "az": "{count, plural, one {# mağaza} other {# mağaza}}",
+    "ru": "{count, plural, one {# магазин} few {# магазина} many {# магазинов} other {# магазина}}",
+    "en": "{count, plural, one {# store} other {# stores}}"
+  },
+  "favorites.addAll": {
+    "az": "Hamısını səbətə at",
+    "ru": "Добавить всё в корзину",
+    "en": "Add everything to the cart"
+  },
+  "favorites.hint": {
+    "az": "Sevimli məhsulların qiyməti düşəndə sənə bildiriş göndərəcəyik.",
+    "ru": "Когда цена на избранное упадёт, мы пришлём уведомление.",
+    "en": "We will let you know when a favourite drops in price."
+  },
+  "favorites.emptySubtitle": {
+    "az": "Hələ heç nə əlavə edilməyib",
+    "ru": "Пока ничего не добавлено",
+    "en": "Nothing added yet"
+  },
+  "favorites.empty.title": {
+    "az": "Sevimlilər siyahın boşdur",
+    "ru": "Список избранного пуст",
+    "en": "Your favourites list is empty"
+  },
+  "favorites.empty.body": {
+    "az": "Məhsulun üzərindəki ürək işarəsinə toxun — sevdiklərin burada toplanacaq və tez sifariş verə biləcəksən.",
+    "ru": "Нажми на сердечко у товара — всё любимое соберётся здесь, и заказывать станет быстрее.",
+    "en": "Tap the heart on a product — everything you love collects here for faster reordering."
+  },
+  "favorites.empty.cta": {
+    "az": "Marketə keç",
+    "ru": "Перейти в маркет",
+    "en": "Go to the market"
+  },
+  "favorites.suggested.title": {
+    "az": "Sənə maraqlı ola bilər",
+    "ru": "Может быть интересно",
+    "en": "You might like"
+  },
+  "favorites.unavailable.title": {
+    "az": "Sevimlilər hazırda açılmır",
+    "ru": "Избранное пока недоступно",
+    "en": "Favourites are not available yet"
+  },
+  "favorites.unavailable.body": {
+    "az": "Sevimlilər siyahısı serverdə hazır deyil. Məhsulun üzərindəki ürək işarəsi işləyir — siyahı hazır olan kimi burada görünəcək.",
+    "ru": "Список избранного ещё не готов на сервере. Сердечко на товаре работает — список появится здесь, как только сервер его отдаст.",
+    "en": "The favourites list is not served by the backend yet. The heart on a product still works — the list will appear here as soon as it ships."
+  },
+  "favorites.unavailable.action": {
+    "az": "Marketə keç",
+    "ru": "Перейти в маркет",
+    "en": "Go to the market"
+  },
+  "favorites.tabsLabel": {
+    "az": "Sevimlilər növü",
+    "ru": "Тип избранного",
+    "en": "Favourites type"
+  }
+}

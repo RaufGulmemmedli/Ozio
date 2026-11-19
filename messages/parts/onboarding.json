@@ -1,0 +1,84 @@
+{
+  "meta.splash.title": { "az": "Yüklənir — Ozio", "ru": "Загрузка — Ozio", "en": "Loading — Ozio" },
+  "meta.intro.title": { "az": "Ozio ilə tanış ol", "ru": "Знакомство с Ozio", "en": "Meet Ozio" },
+  "meta.permissionNotifications.title": {
+    "az": "Bildiriş icazəsi — Ozio",
+    "ru": "Разрешение на уведомления — Ozio",
+    "en": "Notification permission — Ozio"
+  },
+  "meta.permissionLocation.title": {
+    "az": "Məkan icazəsi — Ozio",
+    "ru": "Разрешение на геолокацию — Ozio",
+    "en": "Location permission — Ozio"
+  },
+
+  "splash.loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+
+  "intro.skip": { "az": "Keç", "ru": "Пропустить", "en": "Skip" },
+  "intro.next": { "az": "Növbəti", "ru": "Далее", "en": "Next" },
+  "intro.start": { "az": "Başla", "ru": "Начать", "en": "Get started" },
+  "intro.progress": {
+    "az": "{total} addımdan {step}-ci",
+    "ru": "Шаг {step} из {total}",
+    "en": "Step {step} of {total}"
+  },
+  "intro.card.title": { "az": "Kart", "ru": "Карта", "en": "Card" },
+  "intro.card.body": {
+    "az": "Hər alışda keşbek yığ, kartını kassada göstər.",
+    "ru": "Копи кешбэк с каждой покупки — показывай карту на кассе.",
+    "en": "Earn cashback on every purchase — show your card at the till."
+  },
+  "intro.lottery.title": { "az": "Lotereya", "ru": "Лотерея", "en": "Lottery" },
+  "intro.lottery.body": {
+    "az": "Hər alış bilet qazandırır, həftəlik hədiyyələr var.",
+    "ru": "Каждая покупка даёт билет, призы розыгрываются каждую неделю.",
+    "en": "Every purchase earns a ticket, with prizes drawn every week."
+  },
+  "intro.delivery.title": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "intro.delivery.body": {
+    "az": "Sifarişin təxminən 30 dəqiqəyə qapında.",
+    "ru": "Заказ у двери примерно за 30 минут.",
+    "en": "Your order at the door in about 30 minutes."
+  },
+
+  "permission.step": {
+    "az": "İcazələr · {step}/{total}",
+    "ru": "Разрешения · {step}/{total}",
+    "en": "Permissions · {step}/{total}"
+  },
+  "permission.title": {
+    "az": "Daha yaxşı təcrübə üçün",
+    "ru": "Чтобы было удобнее",
+    "en": "For a better experience"
+  },
+  "permission.subtitle": {
+    "az": "İstəsən, bu icazələri indi ver. Hər birini sonradan Parametrlərdən dəyişə bilərsən.",
+    "ru": "Можешь выдать эти разрешения сейчас. Любое из них позже меняется в Настройках.",
+    "en": "Grant these now if you like. You can change any of them later in Settings."
+  },
+  "permission.grant": { "az": "İcazə ver", "ru": "Разрешить", "en": "Allow" },
+  "permission.granted": { "az": "İcazə verildi", "ru": "Разрешено", "en": "Allowed" },
+  "permission.denied": {
+    "az": "İcazə verilməyib. Brauzer parametrlərindən aça bilərsən.",
+    "ru": "Доступ запрещён. Его можно включить в настройках браузера.",
+    "en": "Access was refused. You can turn it on in your browser settings."
+  },
+  "permission.continue": { "az": "Davam et", "ru": "Продолжить", "en": "Continue" },
+  "permission.skip": {
+    "az": "İndi yox, sonra ayarlayaram",
+    "ru": "Не сейчас, настрою позже",
+    "en": "Not now, I’ll set it up later"
+  },
+  "permission.notifications.title": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "permission.notifications.body": {
+    "az": "Sifariş statusu, bonus yığılması və kampaniyalar haqqında anında xəbər al.",
+    "ru": "Мгновенно узнавай о статусе заказа, начислении бонусов и акциях.",
+    "en": "Get instant news about your order status, bonuses and campaigns."
+  },
+  "permission.location.title": { "az": "Məkan", "ru": "Местоположение", "en": "Location" },
+  "permission.location.body": {
+    "az": "Ən yaxın mağazanı və dəqiq çatdırılma ünvanını avtomatik tapaq.",
+    "ru": "Найдём ближайший магазин и точный адрес доставки автоматически.",
+    "en": "We’ll find the nearest store and your exact delivery address automatically."
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "title": {
+    "az": "Səbətim",
+    "ru": "Моя корзина",
+    "en": "My cart"
+  },
+  "titleShort": {
+    "az": "Səbət",
+    "ru": "Корзина",
+    "en": "Cart"
+  },
+  "header.summary": {
+    "az": "{storeCount} mağazadan {itemCount} məhsul",
+    "ru": "{itemCount} товаров из {storeCount} магазинов",
+    "en": "{itemCount} items from {storeCount} stores"
+  },
+  "header.clear": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "count": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# item} other {# items}}"
+  },
+  "line.meta": {
+    "az": "{quantity} · {store}",
+    "ru": "{quantity} · {store}",
+    "en": "{quantity} · {store}"
+  },
+  "line.increase": {
+    "az": "Artır",
+    "ru": "Увеличить",
+    "en": "Increase"
+  },
+  "line.decrease": {
+    "az": "Azalt",
+    "ru": "Уменьшить",
+    "en": "Decrease"
+  },
+  "line.remove": {
+    "az": "Məhsulu sil",
+    "ru": "Удалить товар",
+    "en": "Remove item"
+  },
+  "line.quantityAnnouncement": {
+    "az": "Miqdar: {value}",
+    "ru": "Количество: {value}",
+    "en": "Quantity: {value}"
+  },
+  "line.add": {
+    "az": "Səbətə əlavə et",
+    "ru": "Добавить в корзину",
+    "en": "Add to cart"
+  },
+  "remove.title": {
+    "az": "Məhsulu silmək?",
+    "ru": "Удалить товар?",
+    "en": "Remove this item?"
+  },
+  "remove.body": {
+    "az": "«{name}» səbətdən çıxarılacaq.",
+    "ru": "«{name}» будет удалён из корзины.",
+    "en": "“{name}” will be removed from your cart."
+  },
+  "remove.confirm": {
+    "az": "Sil",
+    "ru": "Удалить",
+    "en": "Remove"
+  },
+  "remove.done": {
+    "az": "«{name}» səbətdən silindi",
+    "ru": "«{name}» удалён из корзины",
+    "en": "“{name}” removed from your cart"
+  },
+  "remove.undo": {
+    "az": "Geri qaytar",
+    "ru": "Вернуть",
+    "en": "Undo"
+  },
+  "clear.title": {
+    "az": "Səbəti təmizləmək?",
+    "ru": "Очистить корзину?",
+    "en": "Clear the cart?"
+  },
+  "clear.body": {
+    "az": "Bu mağazanın bütün məhsulları səbətdən çıxarılacaq.",
+    "ru": "Все товары этого магазина будут удалены из корзины.",
+    "en": "Every item from this store will be removed from your cart."
+  },
+  "clear.confirm": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "summary.title": {
+    "az": "Ödəniş",
+    "ru": "Оплата",
+    "en": "Payment"
+  },
+  "summary.forStore": {
+    "az": "{store} sifarişi",
+    "ru": "Заказ · {store}",
+    "en": "{store} order"
+  },
+  "summary.address.label": {
+    "az": "Çatdırılma ünvanı",
+    "ru": "Адрес доставки",
+    "en": "Delivery address"
+  },
+  "summary.address.empty": {
+    "az": "Ünvan seçilməyib",
+    "ru": "Адрес не выбран",
+    "en": "No address selected"
+  },
+  "summary.time.label": {
+    "az": "Çatdırılma vaxtı",
+    "ru": "Время доставки",
+    "en": "Delivery time"
+  },
+  "summary.time.asap": {
+    "az": "Ən qısa",
+    "ru": "Как можно скорее",
+    "en": "As soon as possible"
+  },
+  "summary.time.asapEstimate": {
+    "az": "Ən qısa · {minutes} dəq",
+    "ru": "Как можно скорее · {minutes} мин",
+    "en": "As soon as possible · {minutes} min"
+  },
+  "summary.payment.label": {
+    "az": "Ödəniş üsulu",
+    "ru": "Способ оплаты",
+    "en": "Payment method"
+  },
+  "summary.payment.cash": {
+    "az": "Nağd",
+    "ru": "Наличные",
+    "en": "Cash"
+  },
+  "summary.payment.card": {
+    "az": "Kart",
+    "ru": "Карта",
+    "en": "Card"
+  },
+  "summary.payment.manageCards": {
+    "az": "Kartları idarə et",
+    "ru": "Управлять картами",
+    "en": "Manage cards"
+  },
+  "summary.promo.placeholder": {
+    "az": "Promokod daxil et",
+    "ru": "Введите промокод",
+    "en": "Enter a promo code"
+  },
+  "summary.bonus.title": {
+    "az": "Bonusdan istifadə et",
+    "ru": "Использовать бонусы",
+    "en": "Use your bonus"
+  },
+  "summary.bonus.balance": {
+    "az": "Balans: {amount}",
+    "ru": "Баланс: {amount}",
+    "en": "Balance: {amount}"
+  },
+  "summary.bonus.applied": {
+    "az": "Bu sifarişə {amount} bonus işlənir",
+    "ru": "К заказу применено {amount} бонусов",
+    "en": "{amount} of bonus applied to this order"
+  },
+  "summary.bonus.hint": {
+    "az": "Bonusunu bu sifarişə işlət",
+    "ru": "Потратьте бонусы на этот заказ",
+    "en": "Spend your bonus on this order"
+  },
+  "rows.items": {
+    "az": "Məhsullar",
+    "ru": "Товары",
+    "en": "Items"
+  },
+  "rows.itemsWithCount": {
+    "az": "Məhsullar ({count})",
+    "ru": "Товары ({count})",
+    "en": "Items ({count})"
+  },
+  "rows.discount": {
+    "az": "Endirim",
+    "ru": "Скидка",
+    "en": "Discount"
+  },
+  "rows.delivery": {
+    "az": "Çatdırılma",
+    "ru": "Доставка",
+    "en": "Delivery"
+  },
+  "rows.deliveryFree": {
+    "az": "Pulsuz",
+    "ru": "Бесплатно",
+    "en": "Free"
+  },
+  "rows.serviceFee": {
+    "az": "Xidmət haqqı",
+    "ru": "Сервисный сбор",
+    "en": "Service fee"
+  },
+  "rows.packetFee": {
+    "az": "Qablaşdırma",
+    "ru": "Упаковка",
+    "en": "Packaging"
+  },
+  "rows.minimumOrderFee": {
+    "az": "Kiçik sifariş haqqı",
+    "ru": "Сбор за малый заказ",
+    "en": "Small order fee"
+  },
+  "rows.tip": {
+    "az": "Bəxşiş",
+    "ru": "Чай курьеру",
+    "en": "Tip"
+  },
+  "rows.bonus": {
+    "az": "Bonus",
+    "ru": "Бонус",
+    "en": "Bonus"
+  },
+  "rows.bonusUsed": {
+    "az": "Bonusdan istifadə",
+    "ru": "Списано бонусов",
+    "en": "Bonus used"
+  },
+  "rows.earnedBonus": {
+    "az": "Qazanılacaq bonus",
+    "ru": "Будет начислено",
+    "en": "Bonus you'll earn"
+  },
+  "rows.total": {
+    "az": "Cəmi",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "cta.confirm": {
+    "az": "Sifarişi təsdiqlə",
+    "ru": "Подтвердить заказ",
+    "en": "Confirm order"
+  },
+  "cta.confirmWithAmount": {
+    "az": "Sifarişi təsdiq et · {amount}",
+    "ru": "Подтвердить заказ · {amount}",
+    "en": "Confirm order · {amount}"
+  },
+  "cta.checkout": {
+    "az": "Sifarişi rəsmiləşdir",
+    "ru": "Оформить заказ",
+    "en": "Checkout"
+  },
+  "cta.continueShopping": {
+    "az": "Alış-verişə davam et",
+    "ru": "Продолжить покупки",
+    "en": "Keep shopping"
+  },
+  "cashback": {
+    "az": "Bu sifarişdən {amount} keşbek qazanacaqsan",
+    "ru": "За этот заказ вы получите {amount} кэшбэка",
+    "en": "You'll earn {amount} cashback on this order"
+  },
+  "freeDeliveryProgress": {
+    "az": "Pulsuz çatdırılmaya {amount} qalıb",
+    "ru": "До бесплатной доставки осталось {amount}",
+    "en": "{amount} away from free delivery"
+  },
+  "empty.heading": {
+    "az": "Hələ heç nə əlavə etməmisiniz",
+    "ru": "Вы пока ничего не добавили",
+    "en": "You haven’t added anything yet"
+  },
+  "empty.title": {
+    "az": "Səbətiniz boşdur",
+    "ru": "Корзина пуста",
+    "en": "Your cart is empty"
+  },
+  "empty.body": {
+    "az": "Sevdiyiniz məhsulları əlavə edin, hər sifarişdən keşbek qazanın.",
+    "ru": "Добавьте любимые товары и получайте кэшбэк с каждого заказа.",
+    "en": "Add the products you love and earn cashback on every order."
+  },
+  "empty.cta": {
+    "az": "Marketə keç",
+    "ru": "Перейти в маркет",
+    "en": "Go to the market"
+  },
+  "empty.suggestions": {
+    "az": "Çox alınanlar",
+    "ru": "Часто покупают",
+    "en": "Most bought"
+  },
+  "error.title": {
+    "az": "Səbət yüklənmədi",
+    "ru": "Корзина не загрузилась",
+    "en": "We couldn’t load your cart"
+  },
+  "error.summaryTitle": {
+    "az": "Məbləği hesablamaq mümkün olmadı",
+    "ru": "Не удалось рассчитать сумму",
+    "en": "We couldn’t calculate the total"
+  },
+  "notice.closed.title": {
+    "az": "Mağaza hazırda bağlıdır",
+    "ru": "Магазин сейчас закрыт",
+    "en": "The store is closed right now"
+  },
+  "notice.closed.body": {
+    "az": "Məhsulları səbətə əlavə edə bilərsiniz — sifariş mağaza açılandan sonra hazırlanacaq və çatdırılacaq.",
+    "ru": "Товары можно добавлять в корзину — заказ соберут и доставят после открытия магазина.",
+    "en": "You can keep adding items — the order will be prepared and delivered once the store opens."
+  },
+  "notice.outOfZone.title": {
+    "az": "Bu ünvana çatdırılma yoxdur",
+    "ru": "Доставки на этот адрес нет",
+    "en": "We don’t deliver to this address"
+  },
+  "notice.outOfZone.body": {
+    "az": "Seçdiyin nöqtə Ozio çatdırılma zonasından kənardır. Zonadakı ünvan seç və ya sifarişi mağazadan götür.",
+    "ru": "Выбранная точка вне зоны доставки Ozio. Выберите адрес в зоне или заберите заказ из магазина.",
+    "en": "The point you picked is outside Ozio’s delivery zone. Choose an address inside it or pick the order up in store."
+  },
+  "notice.outOfZone.action": {
+    "az": "Başqa ünvan seç",
+    "ru": "Выбрать другой адрес",
+    "en": "Choose another address"
+  },
+  "notice.outOfStock.title": {
+    "az": "Stokda yoxdur",
+    "ru": "Нет в наличии",
+    "en": "Out of stock"
+  },
+  "notice.outOfStock.body": {
+    "az": "«{name}» hazırda mağazada yoxdur. Sifarişi davam etmək üçün onu səbətdən çıxar.",
+    "ru": "«{name}» сейчас нет в магазине. Удалите товар, чтобы продолжить оформление.",
+    "en": "“{name}” is not in the store right now. Remove it to continue."
+  },
+  "notice.cartUpdated": {
+    "az": "Mağaza səbətini yeniləyib — qiymətləri yoxla.",
+    "ru": "Магазин обновил корзину — проверьте цены.",
+    "en": "The store updated your cart — check the prices."
+  },
+  "notice.addressRequired": {
+    "az": "Məbləği hesablamaq üçün çatdırılma ünvanı seç.",
+    "ru": "Выберите адрес доставки, чтобы рассчитать сумму.",
+    "en": "Choose a delivery address to see the total."
+  },
+  "promo.title": {
+    "az": "Promokod",
+    "ru": "Промокод",
+    "en": "Promo code"
+  },
+  "promo.subtitle": {
+    "az": "Kodu daxil et və endirim dərhal tətbiq olunsun",
+    "ru": "Введите код — скидка применится сразу",
+    "en": "Enter a code and the discount applies right away"
+  },
+  "promo.placeholder": {
+    "az": "Promokod",
+    "ru": "Промокод",
+    "en": "Promo code"
+  },
+  "promo.apply": {
+    "az": "Tətbiq et",
+    "ru": "Применить",
+    "en": "Apply"
+  },
+  "promo.remove": {
+    "az": "Kodu çıxar",
+    "ru": "Убрать код",
+    "en": "Remove the code"
+  },
+  "promo.valid": {
+    "az": "ETİBARLI KOD",
+    "ru": "КОД ДЕЙСТВУЕТ",
+    "en": "VALID CODE"
+  },
+  "promo.invalid": {
+    "az": "ETİBARSIZ KOD",
+    "ru": "НЕВЕРНЫЙ КОД",
+    "en": "INVALID CODE"
+  },
+  "promo.appliedTitle": {
+    "az": "{code} tətbiq olundu",
+    "ru": "{code} применён",
+    "en": "{code} applied"
+  },
+  "promo.appliedBody": {
+    "az": "Səbətindən {amount} endirim çıxıldı",
+    "ru": "Из корзины вычтена скидка {amount}",
+    "en": "{amount} was taken off your cart"
+  },
+  "promo.invalidTitle": {
+    "az": "Bu promokod etibarsızdır",
+    "ru": "Этот промокод недействителен",
+    "en": "This promo code isn’t valid"
+  },
+  "promo.invalidBody": {
+    "az": "Kodun müddəti bitib və ya minimum sifariş məbləği ödənilmir. Kodu yoxla və yenidən cəhd et.",
+    "ru": "Срок кода истёк или не достигнута минимальная сумма заказа. Проверьте код и попробуйте снова.",
+    "en": "The code has expired or the order minimum isn’t met. Check it and try again."
+  },
+  "promo.myCoupons": {
+    "az": "Aktiv kuponlarım",
+    "ru": "Мои активные купоны",
+    "en": "My active coupons"
+  },
+  "promo.seeCoupons": {
+    "az": "Kuponlarıma bax",
+    "ru": "Мои купоны",
+    "en": "View my coupons"
+  },
+  "promo.select": {
+    "az": "Seç",
+    "ru": "Выбрать",
+    "en": "Select"
+  },
+  "promo.expires": {
+    "az": "Bitir: {date}",
+    "ru": "До {date}",
+    "en": "Ends {date}"
+  },
+  "promo.emptyList": {
+    "az": "Hazırda aktiv promokod yoxdur",
+    "ru": "Активных промокодов пока нет",
+    "en": "No active promo codes yet"
+  },
+  "time.title": {
+    "az": "Çatdırılma vaxtı",
+    "ru": "Время доставки",
+    "en": "Delivery time"
+  },
+  "time.subtitle": {
+    "az": "Sifarişini sənə uyğun vaxtda çatdıraq",
+    "ru": "Доставим заказ в удобное для вас время",
+    "en": "We’ll deliver your order when it suits you"
+  },
+  "time.today": {
+    "az": "Bu gün · {date}",
+    "ru": "Сегодня · {date}",
+    "en": "Today · {date}"
+  },
+  "time.tomorrow": {
+    "az": "Sabah · {date}",
+    "ru": "Завтра · {date}",
+    "en": "Tomorrow · {date}"
+  },
+  "time.asapTitle": {
+    "az": "Ən tez vaxtda",
+    "ru": "Как можно скорее",
+    "en": "As soon as possible"
+  },
+  "time.asapBody": {
+    "az": "Təxminən {minutes} dəq",
+    "ru": "Примерно {minutes} мин",
+    "en": "About {minutes} min"
+  },
+  "time.asapBodyUnknown": {
+    "az": "Mağaza hazır olan kimi yola salırıq",
+    "ru": "Отправим, как только магазин соберёт заказ",
+    "en": "We send it off as soon as the store is ready"
+  },
+  "time.orPick": {
+    "az": "Və ya vaxt seç",
+    "ru": "Или выберите время",
+    "en": "Or pick a time"
+  },
+  "time.hint": {
+    "az": "Dolu vaxtlar boz rənglə göstərilir. Seçim 22:00-dək mümkündür.",
+    "ru": "Занятые интервалы показаны серым. Выбрать можно до 22:00.",
+    "en": "Busy slots are greyed out. You can choose up to 22:00."
+  },
+  "time.noBackend": {
+    "az": "Vaxt seçimi hazırda yalnız bu cihazda saxlanılır.",
+    "ru": "Выбор времени пока сохраняется только на этом устройстве.",
+    "en": "Your time choice is kept on this device for now."
+  },
+  "time.confirm": {
+    "az": "Vaxtı təsdiq et",
+    "ru": "Подтвердить время",
+    "en": "Confirm the time"
+  },
+  "time.slot": {
+    "az": "{from} – {to}",
+    "ru": "{from} – {to}",
+    "en": "{from} – {to}"
+  },
+  "drawer.title": {
+    "az": "Səbət",
+    "ru": "Корзина",
+    "en": "Cart"
+  }
+}

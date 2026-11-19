@@ -1,0 +1,347 @@
+{
+  "meta.title": {
+    "az": "Şəkillə axtar",
+    "ru": "Поиск по фото",
+    "en": "Search by photo"
+  },
+  "title": {
+    "az": "Şəkillə axtar",
+    "ru": "Поиск по фото",
+    "en": "Search by photo"
+  },
+  "subtitle": {
+    "az": "Süni intellekt şəkildəki məhsulu tanıyır və yaxın mağazalarda axtarır.",
+    "ru": "Искусственный интеллект распознаёт товар на фото и ищет его в ближайших магазинах.",
+    "en": "AI recognises the product in your photo and looks for it in nearby stores."
+  },
+  "back.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "back.self": {
+    "az": "Şəkillə axtar",
+    "ru": "Поиск по фото",
+    "en": "Search by photo"
+  },
+  "ai": {
+    "az": "AI",
+    "ru": "AI",
+    "en": "AI"
+  },
+  "demo.body": {
+    "az": "Tanıma nümunə rejimdədir — nəticələr real şəkildən asılı deyil.",
+    "ru": "Распознавание работает в демо-режиме — результат не зависит от самого фото.",
+    "en": "Recognition runs in demo mode — the result does not depend on the actual photo."
+  },
+  "drop.title": {
+    "az": "Şəkli bura sürüklə",
+    "ru": "Перетащи фото сюда",
+    "en": "Drag your photo here"
+  },
+  "drop.hint": {
+    "az": "və ya kompüterdən seç · JPG, PNG, WEBP · 10 MB-dək",
+    "ru": "или выбери с компьютера · JPG, PNG, WEBP · до 10 МБ",
+    "en": "or pick one from your computer · JPG, PNG, WEBP · up to 10 MB"
+  },
+  "drop.active": {
+    "az": "Buraxanda şəkil götürülür",
+    "ru": "Отпусти, чтобы загрузить фото",
+    "en": "Drop to use this photo"
+  },
+  "action.pick": {
+    "az": "Şəkil seç",
+    "ru": "Выбрать фото",
+    "en": "Choose a photo"
+  },
+  "action.camera": {
+    "az": "Kameradan çək",
+    "ru": "Снять камерой",
+    "en": "Use the camera"
+  },
+  "action.cancel": {
+    "az": "Ləğv et",
+    "ru": "Отменить",
+    "en": "Cancel"
+  },
+  "action.edit": {
+    "az": "Düzəlt",
+    "ru": "Изменить",
+    "en": "Edit"
+  },
+  "action.retake": {
+    "az": "Yenidən çək",
+    "ru": "Снять заново",
+    "en": "Retake"
+  },
+  "action.editQuery": {
+    "az": "Sorğunu düzəlt",
+    "ru": "Изменить запрос",
+    "en": "Edit the query"
+  },
+  "action.anotherPhoto": {
+    "az": "Başqa şəkil",
+    "ru": "Другое фото",
+    "en": "Another photo"
+  },
+  "action.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Попробовать снова",
+    "en": "Try again"
+  },
+  "action.search": {
+    "az": "Axtar",
+    "ru": "Найти",
+    "en": "Search"
+  },
+  "action.close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "tips.title": {
+    "az": "Daha dəqiq nəticə üçün",
+    "ru": "Чтобы результат был точнее",
+    "en": "For a more accurate result"
+  },
+  "tips.light": {
+    "az": "Yaxşı işıqda çək",
+    "ru": "Снимай при хорошем свете",
+    "en": "Shoot in good light"
+  },
+  "tips.single": {
+    "az": "Kadrda bir məhsul olsun",
+    "ru": "В кадре должен быть один товар",
+    "en": "Keep one product in the frame"
+  },
+  "tips.label": {
+    "az": "Etiket və ad görünsün",
+    "ru": "Этикетка и название должны быть видны",
+    "en": "Make the label and name visible"
+  },
+  "textSearch": {
+    "az": "Mətnlə axtar",
+    "ru": "Искать текстом",
+    "en": "Search by text"
+  },
+  "analyzing.title": {
+    "az": "Şəkil analiz olunur",
+    "ru": "Фото анализируется",
+    "en": "Analysing the photo"
+  },
+  "analyzing.subtitle": {
+    "az": "Süni intellekt şəkildəki məhsulu tanıyır…",
+    "ru": "Искусственный интеллект распознаёт товар на фото…",
+    "en": "AI is recognising the product in the photo…"
+  },
+  "analyzing.heading": {
+    "az": "Analiz gedir",
+    "ru": "Идёт анализ",
+    "en": "Analysis in progress"
+  },
+  "analyzing.photoAlt": {
+    "az": "Analiz olunan şəkil",
+    "ru": "Фото, которое анализируется",
+    "en": "The photo being analysed"
+  },
+  "analyzing.recognizeTitle": {
+    "az": "Tanıma",
+    "ru": "Распознавание",
+    "en": "Recognition"
+  },
+  "analyzing.recognizeRunning": {
+    "az": "Şəkil emal olunur",
+    "ru": "Фото обрабатывается",
+    "en": "Processing the photo"
+  },
+  "analyzing.recognizeDone": {
+    "az": "Şəkildəki məhsul tanındı",
+    "ru": "Товар на фото распознан",
+    "en": "The product in the photo was recognised"
+  },
+  "analyzing.searchTitle": {
+    "az": "Axtarış",
+    "ru": "Поиск",
+    "en": "Search"
+  },
+  "analyzing.searchWaiting": {
+    "az": "Tanımanı gözləyir",
+    "ru": "Ожидает распознавания",
+    "en": "Waiting for recognition"
+  },
+  "analyzing.searchRunning": {
+    "az": "Mağazalarda axtarılır",
+    "ru": "Идёт поиск по магазинам",
+    "en": "Searching the stores"
+  },
+  "results.title": {
+    "az": "Axtarış nəticəsi",
+    "ru": "Результат поиска",
+    "en": "Search result"
+  },
+  "results.count": {
+    "az": "{count, plural, one {# məhsul tapıldı} other {# məhsul tapıldı}}",
+    "ru": "{count, plural, one {Найден # товар} few {Найдено # товара} many {Найдено # товаров} other {Найдено # товара}}",
+    "en": "{count, plural, one {# product found} other {# products found}}"
+  },
+  "results.scope": {
+    "az": "Ən yaxın mağazalar üzrə",
+    "ru": "По ближайшим магазинам",
+    "en": "Across the nearest stores"
+  },
+  "recognized.label": {
+    "az": "AI tanıdı",
+    "ru": "AI распознал",
+    "en": "Recognised by AI"
+  },
+  "recognized.confidence": {
+    "az": "{percent}% əminlik",
+    "ru": "уверенность {percent}%",
+    "en": "{percent}% confidence"
+  },
+  "recognized.summary": {
+    "az": "AI tanıdı · {percent}% əminlik",
+    "ru": "AI распознал · уверенность {percent}%",
+    "en": "Recognised by AI · {percent}% confidence"
+  },
+  "recognized.photoAlt": {
+    "az": "Çəkdiyin şəkil",
+    "ru": "Твоё фото",
+    "en": "Your photo"
+  },
+  "recognized.chip": {
+    "az": "{name} · {percent}%",
+    "ru": "{name} · {percent}%",
+    "en": "{name} · {percent}%"
+  },
+  "recognized.chipsLabel": {
+    "az": "Tanınan etiketlər",
+    "ru": "Распознанные метки",
+    "en": "Recognised labels"
+  },
+  "recognized.custom": {
+    "az": "Sənin sorğun",
+    "ru": "Твой запрос",
+    "en": "Your query"
+  },
+  "noProducts.title": {
+    "az": "Məhsul tapılmadı",
+    "ru": "Товар не найден",
+    "en": "No products found"
+  },
+  "noProducts.body": {
+    "az": "“{query}” yaxın mağazalarda yoxdur. Başqa etiketi seç, sorğunu düzəlt və ya şəkli yenidən çək.",
+    "ru": "«{query}» нет в ближайших магазинах. Выбери другую метку, измени запрос или сними фото заново.",
+    "en": "“{query}” is not in the nearby stores. Pick another label, edit the query or retake the photo."
+  },
+  "notRecognized.title": {
+    "az": "Məhsulu tanıya bilmədik",
+    "ru": "Не удалось распознать товар",
+    "en": "We could not recognise the product"
+  },
+  "notRecognized.body": {
+    "az": "Şəkildə məhsul aydın görünmür. Daha yaxından və yaxşı işıqda yenidən çək.",
+    "ru": "Товар на фото видно нечётко. Сними ближе и при хорошем свете.",
+    "en": "The product is not clear in the photo. Shoot closer and in better light."
+  },
+  "error.title": {
+    "az": "Analiz alınmadı",
+    "ru": "Анализ не удался",
+    "en": "The analysis failed"
+  },
+  "error.body": {
+    "az": "Şəkli emal etmək mümkün olmadı. Yenidən cəhd et və ya başqa şəkil seç.",
+    "ru": "Не удалось обработать фото. Попробуй снова или выбери другое фото.",
+    "en": "The photo could not be processed. Try again or pick another photo."
+  },
+  "dialog.title": {
+    "az": "Sorğunu düzəlt",
+    "ru": "Изменить запрос",
+    "en": "Edit the query"
+  },
+  "dialog.hint": {
+    "az": "AI səhv tanıyıbsa, məhsulun adını özün yaz.",
+    "ru": "Если AI распознал неверно, напиши название товара сам.",
+    "en": "If the AI got it wrong, type the product name yourself."
+  },
+  "dialog.label": {
+    "az": "Sənin sorğun",
+    "ru": "Твой запрос",
+    "en": "Your query"
+  },
+  "dialog.placeholder": {
+    "az": "Məhsulun adı",
+    "ru": "Название товара",
+    "en": "Product name"
+  },
+  "camera.title": {
+    "az": "Kameradan çək",
+    "ru": "Снять камерой",
+    "en": "Use the camera"
+  },
+  "camera.shoot": {
+    "az": "Çək",
+    "ru": "Снять",
+    "en": "Capture"
+  },
+  "camera.starting": {
+    "az": "Kamera açılır…",
+    "ru": "Камера запускается…",
+    "en": "Starting the camera…"
+  },
+  "camera.denied.title": {
+    "az": "Kameraya icazə verilmədi",
+    "ru": "Доступ к камере не разрешён",
+    "en": "Camera access was not allowed"
+  },
+  "camera.denied.body": {
+    "az": "Brauzer kameranı bloklayıb. Ayarlardan icazə ver və ya kompüterdən şəkil seç.",
+    "ru": "Браузер заблокировал камеру. Разреши доступ в настройках или выбери фото с компьютера.",
+    "en": "The browser blocked the camera. Allow it in the settings or pick a photo instead."
+  },
+  "camera.unavailable.title": {
+    "az": "Kamera tapılmadı",
+    "ru": "Камера не найдена",
+    "en": "No camera found"
+  },
+  "camera.unavailable.body": {
+    "az": "Bu cihazda kamera yoxdur. Kompüterdən şəkil seç.",
+    "ru": "На этом устройстве нет камеры. Выбери фото с компьютера.",
+    "en": "This device has no camera. Pick a photo instead."
+  },
+  "file.tooLarge": {
+    "az": "Şəkil 10 MB-dan böyükdür",
+    "ru": "Фото больше 10 МБ",
+    "en": "The photo is larger than 10 MB"
+  },
+  "file.wrongType": {
+    "az": "Yalnız JPG, PNG və ya WEBP",
+    "ru": "Только JPG, PNG или WEBP",
+    "en": "Only JPG, PNG or WEBP"
+  },
+  "file.unreadable": {
+    "az": "Şəkli oxumaq mümkün olmadı",
+    "ru": "Не удалось прочитать фото",
+    "en": "The photo could not be read"
+  },
+  "mockOff.title": {
+    "az": "Tanıma əlçatmazdır",
+    "ru": "Распознавание недоступно",
+    "en": "Recognition is unavailable"
+  },
+  "mockOff.body": {
+    "az": "Demo tanıma bu quruluşda sönülüdür. Mətnlə axtarışdan istifadə et.",
+    "ru": "Демо-распознавание в этой сборке отключено. Воспользуйся поиском по тексту.",
+    "en": "Demo recognition is switched off in this build. Use the text search instead."
+  },
+  "entry.label": {
+    "az": "Şəkillə axtar",
+    "ru": "Поиск по фото",
+    "en": "Search by photo"
+  },
+  "loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  }
+}

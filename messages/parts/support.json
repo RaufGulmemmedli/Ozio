@@ -1,0 +1,167 @@
+{
+  "meta.title": {
+    "az": "Ozio dəstək",
+    "ru": "Поддержка Ozio",
+    "en": "Ozio support"
+  },
+  "title": {
+    "az": "Ozio dəstək",
+    "ru": "Поддержка Ozio",
+    "en": "Ozio support"
+  },
+  "subtitle": {
+    "az": "Suallarını yaz, operator cavab versin.",
+    "ru": "Напиши свой вопрос — оператор ответит.",
+    "en": "Write your question and an operator will reply."
+  },
+  "back": {
+    "az": "Profil",
+    "ru": "Профиль",
+    "en": "Profile"
+  },
+  "demo.body": {
+    "az": "Çat real operatora qoşulmayıb — cavablar nümunədir.",
+    "ru": "Чат не подключён к реальному оператору — ответы демонстрационные.",
+    "en": "The chat is not connected to a real operator — the replies are samples."
+  },
+  "agent.name": {
+    "az": "Ozio dəstək",
+    "ru": "Поддержка Ozio",
+    "en": "Ozio support"
+  },
+  "agent.status": {
+    "az": "Onlayn · ~2 dəq cavab",
+    "ru": "Онлайн · ответ ~2 мин",
+    "en": "Online · replies in ~2 min"
+  },
+  "day.today": {
+    "az": "Bu gün",
+    "ru": "Сегодня",
+    "en": "Today"
+  },
+  "log.label": {
+    "az": "Dəstək söhbəti",
+    "ru": "Чат с поддержкой",
+    "en": "Support conversation"
+  },
+  "empty.title": {
+    "az": "Nə ilə kömək edək?",
+    "ru": "Чем помочь?",
+    "en": "How can we help?"
+  },
+  "empty.body": {
+    "az": "Mövzu seç və ya mesaj yaz.",
+    "ru": "Выбери тему или напиши сообщение.",
+    "en": "Pick a topic or write a message."
+  },
+  "composer.label": {
+    "az": "Mesaj",
+    "ru": "Сообщение",
+    "en": "Message"
+  },
+  "composer.placeholder": {
+    "az": "Mesaj yaz…",
+    "ru": "Напиши сообщение…",
+    "en": "Write a message…"
+  },
+  "composer.send": {
+    "az": "Göndər",
+    "ru": "Отправить",
+    "en": "Send"
+  },
+  "composer.hint": {
+    "az": "Enter — göndər, Shift+Enter — yeni sətir",
+    "ru": "Enter — отправить, Shift+Enter — новая строка",
+    "en": "Enter to send, Shift+Enter for a new line"
+  },
+  "typing": {
+    "az": "Yazır…",
+    "ru": "Печатает…",
+    "en": "Typing…"
+  },
+  "sentAt": {
+    "az": "Saat {time}",
+    "ru": "в {time}",
+    "en": "at {time}"
+  },
+  "from.me": {
+    "az": "Sən",
+    "ru": "Ты",
+    "en": "You"
+  },
+  "topics.title": {
+    "az": "Nə ilə kömək edək?",
+    "ru": "Чем помочь?",
+    "en": "How can we help?"
+  },
+  "topic.orderLate": {
+    "az": "Sifarişim gecikir",
+    "ru": "Мой заказ задерживается",
+    "en": "My order is late"
+  },
+  "topic.bonusMissing": {
+    "az": "Bonusum yazılmayıb",
+    "ru": "Бонус не начислен",
+    "en": "My bonus is missing"
+  },
+  "topic.lottery": {
+    "az": "Lotereya bileti haqqında",
+    "ru": "О лотерейном билете",
+    "en": "About a lottery ticket"
+  },
+  "faq": {
+    "az": "Tez-tez verilən suallar",
+    "ru": "Частые вопросы",
+    "en": "Frequently asked questions"
+  },
+  "unavailable.title": {
+    "az": "Çat hələ işləmir",
+    "ru": "Чат пока не работает",
+    "en": "The chat is not working yet"
+  },
+  "unavailable.body": {
+    "az": "Bir az sonra yenidən yoxla və ya zəng et.",
+    "ru": "Проверь чуть позже или позвони нам.",
+    "en": "Check again a little later, or give us a call."
+  },
+  "action.refresh": {
+    "az": "Yenilə",
+    "ru": "Обновить",
+    "en": "Refresh"
+  },
+  "action.call": {
+    "az": "Zəng et",
+    "ru": "Позвонить",
+    "en": "Call"
+  },
+  "action.clear": {
+    "az": "Söhbəti təmizlə",
+    "ru": "Очистить чат",
+    "en": "Clear the conversation"
+  },
+  "fallback.help": {
+    "az": "Qaydalar və gizlilik",
+    "ru": "Правила и конфиденциальность",
+    "en": "Terms and privacy"
+  },
+  "entry.label": {
+    "az": "Dəstək",
+    "ru": "Поддержка",
+    "en": "Support"
+  },
+  "phone": {
+    "az": "*0101",
+    "ru": "*0101",
+    "en": "*0101"
+  },
+  "error.title": {
+    "az": "Çat yüklənmədi",
+    "ru": "Чат не загрузился",
+    "en": "The chat did not load"
+  },
+  "loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  }
+}

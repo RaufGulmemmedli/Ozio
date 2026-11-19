@@ -1,0 +1,236 @@
+{
+  "title": { "az": "Partnyorlar", "ru": "Партнёры", "en": "Partners" },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+
+  "subtitle.all": {
+    "az": "{count} kateqoriyada alış-veriş et, hər alışdan keşbek qazan.",
+    "ru": "Покупай в {count} категориях и получай кешбэк с каждой покупки.",
+    "en": "Shop across {count} categories and earn cashback on every purchase."
+  },
+  "subtitle.category": {
+    "az": "{category} kateqoriyasındaki partnyorlar.",
+    "ru": "Партнёры в категории «{category}».",
+    "en": "Partners in the {category} category."
+  },
+
+  "toggle.label": { "az": "Görünüş", "ru": "Вид", "en": "View" },
+  "toggle.grid": { "az": "Şəbəkə", "ru": "Сетка", "en": "Grid" },
+  "toggle.map": { "az": "Xəritə", "ru": "Карта", "en": "Map" },
+
+  "chips.label": { "az": "Kateqoriyalar", "ru": "Категории", "en": "Categories" },
+  "chips.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+
+  "featured.tag": { "az": "Ayın partnyoru", "ru": "Партнёр месяца", "en": "Partner of the month" },
+  "featured.body": {
+    "az": "Noyabr boyu bütün məhsullara artırılmış keşbek",
+    "ru": "Повышенный кешбэк на все товары в течение ноября",
+    "en": "Increased cashback on everything through November"
+  },
+  "featured.cta": { "az": "Ətraflı bax", "ru": "Подробнее", "en": "See details" },
+  "featured.fallbackName": { "az": "Partnyor şəbəkəsi", "ru": "Сеть партнёров", "en": "Partner network" },
+  "featured.rateCaption": { "az": "hər alışdan keşbek", "ru": "кешбэк с каждой покупки", "en": "cashback on every purchase" },
+  "featured.branchCaption": { "az": "filial", "ru": "филиалов", "en": "branches" },
+  "featured.categoryCaption": { "az": "kateqoriya", "ru": "категорий", "en": "categories" },
+
+  "campaignPromo.title": {
+    "az": "Bu ay {count} aktiv kampaniya",
+    "ru": "{count} активных кампаний в этом месяце",
+    "en": "{count} active campaigns this month"
+  },
+  "campaignPromo.body": {
+    "az": "Partnyorların xüsusi təkliflərini qaçırma.",
+    "ru": "Не пропусти специальные предложения партнёров.",
+    "en": "Don't miss our partners' special offers."
+  },
+
+  "list.brands": { "az": "Bütün partnyorlar", "ru": "Все партнёры", "en": "All partners" },
+  "list.categories": { "az": "Partnyor kateqoriyaları", "ru": "Категории партнёров", "en": "Partner categories" },
+
+  "sort.label": { "az": "Sırala:", "ru": "Сортировать:", "en": "Sort:" },
+  "sort.cashback": { "az": "Ən yüksək keşbek", "ru": "Самый высокий кешбэк", "en": "Highest cashback" },
+  "sort.name": { "az": "Ad (A-Z)", "ru": "Название (А-Я)", "en": "Name (A-Z)" },
+
+  "cashbackTag": { "az": "{rate} keşbek", "ru": "кешбэк {rate}", "en": "{rate} cashback" },
+  "cashbackUnknown": { "az": "Keşbek dərəcəsi filiala görə", "ru": "Кешбэк зависит от филиала", "en": "Cashback varies by branch" },
+
+  "empty.all.title": { "az": "Partnyor yoxdur", "ru": "Партнёров нет", "en": "No partners" },
+  "empty.all.body": {
+    "az": "Partnyor kataloqu hazırda boşdur. Bir az sonra yenidən yoxla.",
+    "ru": "Каталог партнёров пока пуст. Проверь чуть позже.",
+    "en": "The partner catalog is empty right now. Check back a little later."
+  },
+  "empty.category.title": {
+    "az": "Bu kateqoriyada partnyor yoxdur",
+    "ru": "В этой категории нет партнёров",
+    "en": "No partners in this category"
+  },
+  "empty.category.body": {
+    "az": "Başqa kateqoriya seç və ya bütün partnyorlara bax.",
+    "ru": "Выбери другую категорию или посмотри всех партнёров.",
+    "en": "Pick another category or browse every partner."
+  },
+  "empty.category.action": { "az": "Bütün kateqoriyalar", "ru": "Все категории", "en": "All categories" },
+
+  "error.title": { "az": "Partnyorlar yüklənmədi", "ru": "Не удалось загрузить партнёров", "en": "Partners could not be loaded" },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "branch.open": { "az": "Açıqdır", "ru": "Открыто", "en": "Open" },
+  "branch.openUntil": { "az": "Açıqdır, {time}-dək", "ru": "Открыто до {time}", "en": "Open until {time}" },
+  "branch.closed": { "az": "Bağlıdır", "ru": "Закрыто", "en": "Closed" },
+  "branch.opensAt": { "az": "{time}-da açılır", "ru": "Откроется в {time}", "en": "Opens at {time}" },
+  "branch.distanceKm": { "az": "{value} km", "ru": "{value} км", "en": "{value} km" },
+  "branch.noAddress": { "az": "Ünvan göstərilməyib", "ru": "Адрес не указан", "en": "No address given" },
+  "branch.noLocation": { "az": "Xəritədə yoxdur", "ru": "Нет на карте", "en": "Not on the map" },
+
+  "detail.breadcrumbLabel": { "az": "Naviqasiya yolu", "ru": "Навигация", "en": "Breadcrumb" },
+  "detail.meta": {
+    "az": "{category} · {branches} filial",
+    "ru": "{category} · {branches} филиалов",
+    "en": "{category} · {branches} branches"
+  },
+  "detail.rateCaption": { "az": "hər alışdan keşbek", "ru": "кешбэк с каждой покупки", "en": "cashback on every purchase" },
+  "detail.ratePerBranch": {
+    "az": "filiallar üzrə ən yüksək keşbek",
+    "ru": "самый высокий кешбэк среди филиалов",
+    "en": "highest cashback across the branches"
+  },
+  "detail.rateUnknown": { "az": "Keşbek dərəcəsi göstərilməyib", "ru": "Ставка кешбэка не указана", "en": "Cashback rate not published" },
+  "detail.website": { "az": "Saytına keç", "ru": "Перейти на сайт", "en": "Visit the website" },
+  "detail.allBranches": { "az": "Bütün filiallar", "ru": "Все филиалы", "en": "All branches" },
+  "detail.backToList": { "az": "Partnyorlara qayıt", "ru": "Назад к партнёрам", "en": "Back to partners" },
+  "detail.notFound.title": { "az": "Partnyor tapılmadı", "ru": "Партнёр не найден", "en": "Partner not found" },
+  "detail.notFound.body": {
+    "az": "Bu partnyor artıq kataloqda yoxdur.",
+    "ru": "Этого партнёра больше нет в каталоге.",
+    "en": "This partner is no longer in the catalog."
+  },
+
+  "detail.howTo.title": { "az": "Necə keşbek qazanırsan", "ru": "Как получить кешбэк", "en": "How you earn cashback" },
+  "detail.howTo.step1.title": { "az": "1. Kartı göstər", "ru": "1. Покажи карту", "en": "1. Show your card" },
+  "detail.howTo.step1.body": {
+    "az": "Kassada Ozio kartının QR kodunu oxut.",
+    "ru": "На кассе дай отсканировать QR-код карты Ozio.",
+    "en": "Let the cashier scan your Ozio card's QR code."
+  },
+  "detail.howTo.step2.title": { "az": "2. Alış-veriş et", "ru": "2. Делай покупки", "en": "2. Make a purchase" },
+  "detail.howTo.step2.body": {
+    "az": "Minimum məbləğ yoxdur, bütün məhsullara keşbek.",
+    "ru": "Минимальной суммы нет, кешбэк на все товары.",
+    "en": "No minimum amount — cashback on everything."
+  },
+  "detail.howTo.step3.title": { "az": "3. Bonus hesabına düşür", "ru": "3. Бонус зачисляется", "en": "3. The bonus lands" },
+  "detail.howTo.step3.body": {
+    "az": "Keşbek 24 saat ərzində bonus balansına əlavə olunur.",
+    "ru": "Кешбэк зачисляется на бонусный баланс в течение 24 часов.",
+    "en": "Cashback is added to your bonus balance within 24 hours."
+  },
+
+  "detail.campaigns.title": { "az": "Aktiv kampaniyalar", "ru": "Активные кампании", "en": "Active campaigns" },
+  "detail.campaigns.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "detail.campaigns.empty": {
+    "az": "Hazırda aktiv kampaniya yoxdur.",
+    "ru": "Сейчас активных кампаний нет.",
+    "en": "There are no active campaigns right now."
+  },
+  "detail.campaigns.errorTitle": { "az": "Kampaniyalar yüklənmədi", "ru": "Кампании не загрузились", "en": "Campaigns could not be loaded" },
+
+  "detail.branches.title": { "az": "Filiallar", "ru": "Филиалы", "en": "Branches" },
+  "detail.branches.count": { "az": "{count} filial", "ru": "{count} филиалов", "en": "{count} branches" },
+  "detail.branches.emptyTitle": { "az": "Filial göstərilməyib", "ru": "Филиалы не указаны", "en": "No branches listed" },
+  "detail.branches.emptyBody": {
+    "az": "Bu partnyor üçün filial məlumatı hələ yoxdur.",
+    "ru": "Данных о филиалах этого партнёра пока нет.",
+    "en": "There is no branch information for this partner yet."
+  },
+  "detail.branches.errorTitle": { "az": "Filiallar yüklənmədi", "ru": "Филиалы не загрузились", "en": "Branches could not be loaded" },
+  "detail.branches.noMapTitle": { "az": "Filiallar xəritədə göstərilə bilmir", "ru": "Филиалы нельзя показать на карте", "en": "Branches cannot be shown on the map" },
+  "detail.branches.noMapBody": {
+    "az": "Partnyor filiallarının koordinatları sistemdə yoxdur, ona görə də siyahıda ünvan və iş saatları göstərilir.",
+    "ru": "Координат филиалов партнёра в системе нет, поэтому в списке показаны адрес и часы работы.",
+    "en": "The partner branches carry no coordinates, so the list shows the address and opening hours instead."
+  },
+
+  "detail.hours.title": { "az": "İş saatları", "ru": "Часы работы", "en": "Opening hours" },
+  "detail.hours.openNow": { "az": "İndi açıqdır", "ru": "Сейчас открыто", "en": "Open now" },
+  "detail.hours.closedNow": { "az": "İndi bağlıdır", "ru": "Сейчас закрыто", "en": "Closed now" },
+  "detail.hours.unknown": {
+    "az": "İş saatları göstərilməyib.",
+    "ru": "Часы работы не указаны.",
+    "en": "Opening hours are not published."
+  },
+
+  "detail.contact.title": { "az": "Əlaqə", "ru": "Контакты", "en": "Contact" },
+  "detail.contact.unknown": {
+    "az": "Əlaqə məlumatı göstərilməyib.",
+    "ru": "Контактные данные не указаны.",
+    "en": "No contact details are published."
+  },
+
+  "detail.rules.title": { "az": "Keşbek qaydaları", "ru": "Правила кешбэка", "en": "Cashback rules" },
+  "detail.rules.one": {
+    "az": "Keşbek ödənişdən sonra 24 saat ərzində yüklənir.",
+    "ru": "Кешбэк начисляется в течение 24 часов после оплаты.",
+    "en": "Cashback is credited within 24 hours of payment."
+  },
+  "detail.rules.two": {
+    "az": "Resepti dərmanlara keşbek tətbiq olunmur.",
+    "ru": "На рецептурные лекарства кешбэк не распространяется.",
+    "en": "Cashback does not apply to prescription medicine."
+  },
+  "detail.rules.three": {
+    "az": "Bonus balansı 90 gün ərzində istifadə olunmalıdır.",
+    "ru": "Бонусный баланс нужно использовать в течение 90 дней.",
+    "en": "The bonus balance must be used within 90 days."
+  },
+
+  "campaign.daysUnit": { "az": "gün", "ru": "дн.", "en": "days" },
+  "campaign.until": { "az": "{date}-dək", "ru": "до {date}", "en": "until {date}" },
+  "campaign.fallbackTitle": { "az": "Endirim kampaniyası", "ru": "Кампания скидок", "en": "Discount campaign" },
+  "campaign.noPeriod": { "az": "Dövr göstərilməyib", "ru": "Период не указан", "en": "No period given" },
+
+  "branches.title": { "az": "Filiallar", "ru": "Филиалы", "en": "Branches" },
+  "branches.subtitle": {
+    "az": "{count} filial · {mapped} filialın xəritə nöqtəsi var.",
+    "ru": "{count} филиалов · у {mapped} есть точка на карте.",
+    "en": "{count} branches · {mapped} have a point on the map."
+  },
+  "branches.openMap": { "az": "Xəritədə aç", "ru": "Открыть на карте", "en": "Open the map" },
+  "branches.mapLabel": { "az": "{partner} filiallarının xəritəsi", "ru": "Карта филиалов {partner}", "en": "Map of {partner} branches" },
+  "branches.mapListLabel": { "az": "Xəritədəki filiallar", "ru": "Филиалы на карте", "en": "Branches on the map" },
+  "branches.distanceHint": {
+    "az": "Məsafələr seçilmiş şəhərin mərkəzinə görə hesablanır. Ünvan əlavə et ki, dəqiq olsun.",
+    "ru": "Расстояния считаются от центра выбранного города. Добавь адрес для точности.",
+    "en": "Distances are measured from the selected city's centre. Add an address for exact values."
+  },
+
+  "map.subtitle": {
+    "az": "Yaxınlıqdakı filiallar xəritədə. Pin seç, ünvanı və keşbeki gör.",
+    "ru": "Филиалы поблизости на карте. Выбери пин, посмотри адрес и кешбэк.",
+    "en": "Nearby branches on the map. Pick a pin to see the address and the cashback."
+  },
+  "map.scopeNote": {
+    "az": "Xəritə bir partnyorun filiallarını göstərir: sistemdə bütün partnyorların filiallarını birlikdə qaytaran sorğu yoxdur.",
+    "ru": "Карта показывает филиалы одного партнёра: запроса, который возвращает филиалы всех партнёров сразу, в системе нет.",
+    "en": "The map shows one partner's branches: there is no call that returns every partner's branches at once."
+  },
+  "map.brandLabel": { "az": "Partnyor seç", "ru": "Выбери партнёра", "en": "Choose a partner" },
+  "map.listHeader": { "az": "Yaxınlıqda · {count} filial", "ru": "Поблизости · {count} филиалов", "en": "Nearby · {count} branches" },
+  "map.sortDistance": { "az": "Məsafəyə görə", "ru": "По расстоянию", "en": "By distance" },
+  "map.sortName": { "az": "Ada görə", "ru": "По названию", "en": "By name" },
+  "map.mapLabel": { "az": "Filial xəritəsi", "ru": "Карта филиалов", "en": "Branch map" },
+  "map.mapListLabel": { "az": "Xəritədəki nöqtələr", "ru": "Точки на карте", "en": "Points on the map" },
+  "map.noPoints": {
+    "az": "Xəritədə göstəriləcək nöqtə yoxdur.",
+    "ru": "Точек для показа на карте нет.",
+    "en": "There are no points to show on the map."
+  },
+  "map.detailCta": { "az": "Ətraflı", "ru": "Подробнее", "en": "Details" },
+  "map.emptyTitle": { "az": "Filial tapılmadı", "ru": "Филиалы не найдены", "en": "No branches found" },
+  "map.emptyBody": {
+    "az": "Başqa partnyor və ya kateqoriya seç.",
+    "ru": "Выбери другого партнёра или категорию.",
+    "en": "Pick another partner or category."
+  },
+  "map.yourAddress": { "az": "Sənin ünvanın", "ru": "Твой адрес", "en": "Your address" },
+  "map.cityPoint": { "az": "Şəhərin mərkəzi", "ru": "Центр города", "en": "City centre" }
+}

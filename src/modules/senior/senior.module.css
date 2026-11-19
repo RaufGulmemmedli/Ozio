@@ -1,0 +1,135 @@
+/*
+ * Sadə rejim (senior mode) — the real accessibility layer, not a skin.
+ *
+ * `useSeniorMode()` writes three things on `<html>`:
+ *   data-senior="1"              senior mode is on
+ *   data-senior-contrast="1"     the high-contrast option is on
+ *   --oz-senior-pref-scale       the chosen text scale, 1.0…1.6 (default 1.3)
+ *
+ * This file is the only place that reacts to them, and it is scoped to `.scope`, which
+ * `<SeniorScreen>` puts on the root of each senior screen — so turning senior mode on cannot
+ * disturb another module's layout. `src/app/globals.css` is untouched.
+ *
+ * How the scaling works: every Tailwind type utility in this project reads a theme variable
+ * (`text-body` → `font-size: var(--text-body)`), so redefining those variables on a subtree
+ * scales all of its text at once, with no per-element overrides and no hard-coded sizes. Same for
+ * the colour tokens under high contrast: `--color-ink2` is pointed at a darker/ lighter ink that
+ * is already AA against `surface` in both themes, so contrast only ever improves.
+ *
+ * Targets: the design system already guarantees 44×44. In senior mode every control in scope gets
+ * at least 56×56 and a roomier hit area, which is comfortably above the 44 floor at every width.
+ */
+
+.scope {
+  --oz-senior-scale: 1;
+  --oz-senior-target: 44px;
+}
+
+/* ---------------------------------------------------------------- type scale */
+
+:global(html[data-senior='1']) .scope {
+  --oz-senior-scale: var(--oz-senior-pref-scale, 1.3);
+  --oz-senior-target: 56px;
+
+  --text-nano: calc(11px * var(--oz-senior-scale));
+  --text-micro: calc(12px * var(--oz-senior-scale));
+  --text-caption: calc(13px * var(--oz-senior-scale));
+  --text-label: calc(14px * var(--oz-senior-scale));
+  --text-body-sm: calc(15px * var(--oz-senior-scale));
+  --text-body: calc(16px * var(--oz-senior-scale));
+  --text-body-l: calc(19px * var(--oz-senior-scale));
+  --text-h4: calc(20px * var(--oz-senior-scale));
+  --text-h3: calc(24px * var(--oz-senior-scale));
+  --text-h2: calc(32px * var(--oz-senior-scale));
+  --text-h1-app: calc(36px * var(--oz-senior-scale));
+
+  /* Longer lines need more leading once the type grows. */
+  --text-body--line-height: 1.6;
+  --text-body-l--line-height: 1.6;
+  --text-caption--line-height: 1.5;
+}
+
+/*
+ * The one hand-set display size on these screens: the payday countdown is 56px in the export,
+ * which sits between `--text-h2` (32) and `--text-h1` (48) and so has no token of its own.
+ * It scales with the rest in Sadə rejim.
+ */
+.display {
+  /* 56 at 1440, down to 34 at 390 — the ru string is the longest and must not overflow. */
+  font-size: calc(clamp(34px, 7vw, 56px) * var(--oz-senior-scale));
+  line-height: 1.05;
+}
+
+/* ---------------------------------------------------------------- targets */
+
+:global(html[data-senior='1'])
+  .scope
+  :is(button, [role='button'], [role='radio'], [role='switch'], [role='tab'], select, textarea, input:not([type='checkbox']):not([type='radio'])) {
+  min-height: var(--oz-senior-target);
+}
+
+:global(html[data-senior='1'])
+  .scope
+  :is(button, [role='button'], [role='radio'], [role='switch'], [role='tab']) {
+  min-width: var(--oz-senior-target);
+}
+
+/* Inline links sit in running text, so they grow their hit area rather than their box. */
+:global(html[data-senior='1']) .scope a {
+  padding-block: 2px;
+}
+
+/* ---------------------------------------------------------------- contrast (AA) */
+
+/*
+ * Two pairings from the export clear AA only as *large* text, and Sadə rejim is exactly where
+ * that is not good enough. Both fixes are token-only and scoped, and both move in the safe
+ * direction in light **and** dark.
+ *
+ * 1. The payday banner is white on `brand`: 3.9:1 in light, 3.2:1 in dark. Its 16/600 and 14/400
+ *    lines need 4.5:1, so in senior mode the fill moves to `brand-dark` (#c81f4f in both themes),
+ *    which gives 5.6:1 against white. The default rendering stays pixel-faithful to the export.
+ */
+:global(html[data-senior='1']) .scope .onBrand {
+  background-color: var(--oz-brand-dark);
+}
+
+/*
+ * 2. The "Tamamlandı" pill is `success` on `success-soft`: 3.0:1 in light. Mixing 30 % of the ink
+ *    into the green darkens it in light and lightens it in dark — 5.1:1 and 8.7:1 respectively —
+ *    while keeping it recognisably green. The soft fill is untouched.
+ */
+:global(html[data-senior='1']) .scope {
+  --color-success: color-mix(in srgb, var(--oz-success) 70%, var(--oz-ink));
+}
+
+/* ---------------------------------------------------------------- high contrast */
+
+:global(html[data-senior-contrast='1']) .scope {
+  /* Secondary ink becomes primary ink, hairlines become a visible border. */
+  --color-ink2: var(--oz-ink);
+  --color-ink3: var(--oz-ink-2);
+  --color-line: var(--oz-ink-3);
+}
+
+:global(html[data-senior-contrast='1']) .scope :is([data-senior-outline]) {
+  border-width: 2px;
+}
+
+/* ---------------------------------------------------------------- preview swatch */
+
+/*
+ * The `/senior/mode` screen previews the chosen scale on a live sample. It reads its own
+ * `--oz-senior-sample-scale` rather than the document variable, so the sample shows what the
+ * slider would give even while Sadə rejim is still switched off. A declaration on the element
+ * itself beats the value inherited from `.scope`, so this works with senior mode on too.
+ */
+.sample {
+  --oz-senior-scale: var(--oz-senior-sample-scale, 1);
+
+  --text-label: calc(14px * var(--oz-senior-scale));
+  --text-body: calc(16px * var(--oz-senior-scale));
+  --text-h4: calc(20px * var(--oz-senior-scale));
+  --text-h3: calc(24px * var(--oz-senior-scale));
+  --text-body--line-height: 1.6;
+}

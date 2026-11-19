@@ -1,0 +1,347 @@
+{
+  "title": {
+    "az": "Restoranlar",
+    "ru": "Рестораны",
+    "en": "Restaurants"
+  },
+  "subtitle": {
+    "az": "{count, plural, one {# restoran} other {# restoran}}",
+    "ru": "{count, plural, one {# ресторан} few {# ресторана} many {# ресторанов} other {# ресторана}}",
+    "en": "{count, plural, one {# restaurant} other {# restaurants}}"
+  },
+  "seeAll": {
+    "az": "Hamısına bax",
+    "ru": "Смотреть все",
+    "en": "See all"
+  },
+  "demo.title": {
+    "az": "Demo rejim",
+    "ru": "Демо-режим",
+    "en": "Demo mode"
+  },
+  "demo.body": {
+    "az": "Restoranlar və menyular nümunə datadır — sifariş hələ işləmir.",
+    "ru": "Рестораны и меню — демонстрационные данные, заказ пока не работает.",
+    "en": "Restaurants and menus are sample data — ordering is not live yet."
+  },
+  "open": {
+    "az": "Açıqdır",
+    "ru": "Открыто",
+    "en": "Open"
+  },
+  "closed": {
+    "az": "Bağlıdır",
+    "ru": "Закрыто",
+    "en": "Closed"
+  },
+  "opensAt": {
+    "az": "Saat {time}-da açılır",
+    "ru": "Откроется в {time}",
+    "en": "Opens at {time}"
+  },
+  "deliveryTime": {
+    "az": "{min}–{max} dəq",
+    "ru": "{min}–{max} мин",
+    "en": "{min}–{max} min"
+  },
+  "freeDelivery": {
+    "az": "Pulsuz çatdırılma",
+    "ru": "Бесплатная доставка",
+    "en": "Free delivery"
+  },
+  "deliveryFee": {
+    "az": "Çatdırılma {fee}",
+    "ru": "Доставка {fee}",
+    "en": "Delivery {fee}"
+  },
+  "minOrder": {
+    "az": "Min. {amount}",
+    "ru": "Мин. {amount}",
+    "en": "Min. {amount}"
+  },
+  "bonus": {
+    "az": "{percent} keşbek",
+    "ru": "{percent} кешбэк",
+    "en": "{percent} cashback"
+  },
+  "ratingCount": {
+    "az": "({count})",
+    "ru": "({count})",
+    "en": "({count})"
+  },
+  "fromPrice": {
+    "az": "{price}-dən",
+    "ru": "от {price}",
+    "en": "from {price}"
+  },
+  "itemCount": {
+    "az": "{count, plural, one {# yemək} other {# yemək}}",
+    "ru": "{count, plural, one {# блюдо} few {# блюда} many {# блюд} other {# блюда}}",
+    "en": "{count, plural, one {# dish} other {# dishes}}"
+  },
+  "cuisine.burger": {
+    "az": "Burger",
+    "ru": "Бургеры",
+    "en": "Burgers"
+  },
+  "cuisine.chicken": {
+    "az": "Toyuq",
+    "ru": "Курица",
+    "en": "Chicken"
+  },
+  "cuisine.pizza": {
+    "az": "Pizza",
+    "ru": "Пицца",
+    "en": "Pizza"
+  },
+  "cuisine.sushi": {
+    "az": "Suşi",
+    "ru": "Суши",
+    "en": "Sushi"
+  },
+  "cuisine.national": {
+    "az": "Milli mətbəx",
+    "ru": "Национальная кухня",
+    "en": "Local cuisine"
+  },
+  "cuisine.breakfast": {
+    "az": "Səhər yeməyi",
+    "ru": "Завтраки",
+    "en": "Breakfast"
+  },
+  "cuisine.dessert": {
+    "az": "Desert",
+    "ru": "Десерты",
+    "en": "Desserts"
+  },
+  "cuisine.coffee": {
+    "az": "Qəhvə",
+    "ru": "Кофе",
+    "en": "Coffee"
+  },
+  "filters.title": {
+    "az": "Filtrlər",
+    "ru": "Фильтры",
+    "en": "Filters"
+  },
+  "filters.cuisine": {
+    "az": "MƏTBƏX",
+    "ru": "КУХНЯ",
+    "en": "CUISINE"
+  },
+  "filters.delivery": {
+    "az": "ÇATDIRILMA",
+    "ru": "ДОСТАВКА",
+    "en": "DELIVERY"
+  },
+  "filters.rating": {
+    "az": "REYTİNQ",
+    "ru": "РЕЙТИНГ",
+    "en": "RATING"
+  },
+  "filters.openOnly": {
+    "az": "Yalnız açıq olanlar",
+    "ru": "Только открытые",
+    "en": "Open now only"
+  },
+  "filters.freeOnly": {
+    "az": "Pulsuz çatdırılma",
+    "ru": "Бесплатная доставка",
+    "en": "Free delivery"
+  },
+  "filters.anyRating": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "Any"
+  },
+  "filters.ratingFrom": {
+    "az": "{value}+",
+    "ru": "{value}+",
+    "en": "{value}+"
+  },
+  "filters.anyTime": {
+    "az": "İstənilən vaxt",
+    "ru": "Любое время",
+    "en": "Any time"
+  },
+  "filters.upToMinutes": {
+    "az": "{minutes} dəqiqəyədək",
+    "ru": "до {minutes} мин",
+    "en": "Up to {minutes} min"
+  },
+  "filters.clear": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "filters.button": {
+    "az": "Filtr",
+    "ru": "Фильтр",
+    "en": "Filter"
+  },
+  "filters.buttonCount": {
+    "az": "Filtr ({count})",
+    "ru": "Фильтр ({count})",
+    "en": "Filter ({count})"
+  },
+  "filters.apply": {
+    "az": "Göstər",
+    "ru": "Показать",
+    "en": "Show"
+  },
+  "sort.label": {
+    "az": "Sırala",
+    "ru": "Сортировка",
+    "en": "Sort"
+  },
+  "sort.recommended": {
+    "az": "Tövsiyə olunan",
+    "ru": "Рекомендуемые",
+    "en": "Recommended"
+  },
+  "sort.rating": {
+    "az": "Reytinq üzrə",
+    "ru": "По рейтингу",
+    "en": "By rating"
+  },
+  "sort.deliveryTime": {
+    "az": "Çatdırılma sürəti",
+    "ru": "По скорости доставки",
+    "en": "By delivery time"
+  },
+  "sort.minOrder": {
+    "az": "Minimum sifariş",
+    "ru": "По минимальному заказу",
+    "en": "By minimum order"
+  },
+  "tag.popular": {
+    "az": "Populyar",
+    "ru": "Популярное",
+    "en": "Popular"
+  },
+  "tag.new": {
+    "az": "Yeni",
+    "ru": "Новинка",
+    "en": "New"
+  },
+  "tag.spicy": {
+    "az": "Acı",
+    "ru": "Острое",
+    "en": "Spicy"
+  },
+  "tag.vegetarian": {
+    "az": "Vegetarian",
+    "ru": "Вегетарианское",
+    "en": "Vegetarian"
+  },
+  "menu.title": {
+    "az": "Menyu",
+    "ru": "Меню",
+    "en": "Menu"
+  },
+  "menu.add": {
+    "az": "Səbətə at",
+    "ru": "В корзину",
+    "en": "Add"
+  },
+  "menu.addNamed": {
+    "az": "{name} yeməyini səbətə at",
+    "ru": "Добавить «{name}» в корзину",
+    "en": "Add {name} to the basket"
+  },
+  "menu.increase": {
+    "az": "Artır",
+    "ru": "Больше",
+    "en": "Increase"
+  },
+  "menu.decrease": {
+    "az": "Azalt",
+    "ru": "Меньше",
+    "en": "Decrease"
+  },
+  "menu.remove": {
+    "az": "Sil",
+    "ru": "Удалить",
+    "en": "Remove"
+  },
+  "basket.summary": {
+    "az": "{count, plural, one {# yemək} other {# yemək}} seçildi",
+    "ru": "Выбрано {count, plural, one {# блюдо} few {# блюда} many {# блюд} other {# блюда}}",
+    "en": "{count, plural, one {# dish} other {# dishes}} selected"
+  },
+  "basket.localOnly": {
+    "az": "Demo səbət — əsas səbətə düşmür",
+    "ru": "Демо-корзина — в основную корзину не попадает",
+    "en": "Demo basket — it does not reach the real cart"
+  },
+  "basket.clear": {
+    "az": "Təmizlə",
+    "ru": "Очистить",
+    "en": "Clear"
+  },
+  "empty.title": {
+    "az": "Nəticə tapılmadı",
+    "ru": "Ничего не найдено",
+    "en": "Nothing found"
+  },
+  "empty.body": {
+    "az": "Filtrləri yüngülləşdir və ya təmizlə.",
+    "ru": "Смягчите или сбросьте фильтры.",
+    "en": "Loosen or clear the filters."
+  },
+  "empty.clear": {
+    "az": "Filtrləri təmizlə",
+    "ru": "Сбросить фильтры",
+    "en": "Clear filters"
+  },
+  "notFound.title": {
+    "az": "Restoran tapılmadı",
+    "ru": "Ресторан не найден",
+    "en": "Restaurant not found"
+  },
+  "notFound.body": {
+    "az": "Bu restoran artıq siyahıda deyil.",
+    "ru": "Этого ресторана больше нет в списке.",
+    "en": "This restaurant is no longer listed."
+  },
+  "notFound.back": {
+    "az": "Restoranlara qayıt",
+    "ru": "К ресторанам",
+    "en": "Back to restaurants"
+  },
+  "error.title": {
+    "az": "Restoranlar yüklənmədi",
+    "ru": "Не удалось загрузить рестораны",
+    "en": "Could not load restaurants"
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "breadcrumb.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "breadcrumb.label": {
+    "az": "Naviqasiya yolu",
+    "ru": "Хлебные крошки",
+    "en": "Breadcrumb"
+  },
+  "basket.checkout": {
+    "az": "Təsdiqlə",
+    "ru": "Подтвердить",
+    "en": "Confirm"
+  },
+  "basket.inCart": {
+    "az": "Restoran seçimin səbətdədir",
+    "ru": "Ваш выбор из ресторана в корзине",
+    "en": "Your restaurant picks are in the cart"
+  },
+  "basket.goToCart": {
+    "az": "Səbətə bax",
+    "ru": "Перейти в корзину",
+    "en": "Go to the cart"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "demo.body": {
+    "az": "Bu bölmə hələ real serverə qoşulmayıb — göstərilən məlumatlar nümunədir.",
+    "ru": "Этот раздел ещё не подключён к реальному серверу — показанные данные являются примером.",
+    "en": "This section is not connected to a real server yet — the data shown is sample data."
+  },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+
+  "crumb.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "crumb.school": { "az": "Təhsil mərkəzi", "ru": "Образовательный центр", "en": "Education centre" },
+
+  "hub.title": { "az": "Təhsil mərkəzi", "ru": "Образовательный центр", "en": "Education centre" },
+  "hub.subtitle": {
+    "az": "Məktəbli və tələbələr üçün bonuslar",
+    "ru": "Бонусы для школьников и студентов",
+    "en": "Bonuses for pupils and students"
+  },
+  "hub.open": { "az": "Aç", "ru": "Открыть", "en": "Open" },
+  "hub.grades.title": {
+    "az": "Qiymətlərini Bonusla Dəyiş",
+    "ru": "Меняй оценки на бонусы",
+    "en": "Swap your grades for bonuses"
+  },
+  "hub.grades.body": {
+    "az": "Qiymətləri yüklə, Təhsil xalları qazan",
+    "ru": "Загружай оценки и получай образовательные баллы",
+    "en": "Upload your grades and earn education points"
+  },
+  "hub.lists.title": {
+    "az": "Sinif və Məktəb Siyahıları",
+    "ru": "Списки класса и школы",
+    "en": "Class and school lists"
+  },
+  "hub.lists.body": {
+    "az": "Bütün siyahı 1 kliklə səbətdə",
+    "ru": "Весь список в корзине одним нажатием",
+    "en": "The whole list in your basket in one tap"
+  },
+  "hub.card.title": {
+    "az": "Tələbə təqaüd kartı",
+    "ru": "Студенческая стипендиальная карта",
+    "en": "Student grant card"
+  },
+  "hub.card.body": {
+    "az": "22:00-dan sonra gecə endirimi",
+    "ru": "Ночная скидка после 22:00",
+    "en": "Night discount after 22:00"
+  },
+
+  "points": {
+    "az": "{count, plural, other {# xal}}",
+    "ru": "{count, plural, one {# балл} few {# балла} many {# баллов} other {# балла}}",
+    "en": "{count, plural, one {# point} other {# points}}"
+  },
+  "lists.count": {
+    "az": "{count, plural, other {# siyahı}}",
+    "ru": "{count, plural, one {# список} few {# списка} many {# списков} other {# списка}}",
+    "en": "{count, plural, one {# list} other {# lists}}"
+  },
+
+  "card.state.none": { "az": "Bağlı deyil", "ru": "Не привязана", "en": "Not linked" },
+  "card.state.pending": { "az": "Yoxlanılır", "ru": "Проверяется", "en": "Verifying" },
+  "card.state.linked": { "az": "Aktiv", "ru": "Активна", "en": "Active" },
+
+  "error.title": { "az": "Yüklənmədi", "ru": "Не загрузилось", "en": "Could not load" },
+  "error.body": {
+    "az": "Məlumat alınmadı. Yenidən cəhd et.",
+    "ru": "Данные не получены. Попробуй снова.",
+    "en": "No data received. Try again."
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Попробовать снова", "en": "Try again" },
+
+  "grades.title": {
+    "az": "Qiymətlər → xal",
+    "ru": "Оценки → баллы",
+    "en": "Grades → points"
+  },
+  "grades.subtitle": {
+    "az": "Qiymətləri yüklə, xal qazan, endirimə dəyiş",
+    "ru": "Загружай оценки, получай баллы, меняй на скидки",
+    "en": "Upload grades, earn points, swap them for discounts"
+  },
+  "grades.balanceLabel": {
+    "az": "Təhsil xalları",
+    "ru": "Образовательные баллы",
+    "en": "Education points"
+  },
+  "grades.balanceBody": {
+    "az": "Kitab, idman və aksesuar endirimlərinə dəyiş",
+    "ru": "Меняй на скидки на книги, спорттовары и аксессуары",
+    "en": "Swap them for book, sports and accessory discounts"
+  },
+  "grades.upload.title": {
+    "az": "Qiymət cədvəlini yüklə",
+    "ru": "Загрузи табель оценок",
+    "en": "Upload your grade sheet"
+  },
+  "grades.upload.body": {
+    "az": "Gündəlik və ya e-gündəlik ekran görüntüsü",
+    "ru": "Фото дневника или скриншот электронного дневника",
+    "en": "A photo of the diary or a screenshot of the e-diary"
+  },
+  "grades.upload.action": { "az": "Şəkil seç", "ru": "Выбрать фото", "en": "Choose a photo" },
+  "grades.listTitle": { "az": "Qiymətlərim", "ru": "Мои оценки", "en": "My grades" },
+  "grades.points": {
+    "az": "{count, plural, other {+# xal}}",
+    "ru": "{count, plural, one {+# балл} few {+# балла} many {+# баллов} other {+# балла}}",
+    "en": "{count, plural, one {+# point} other {+# points}}"
+  },
+  "grades.table.caption": {
+    "az": "Qiymətlər, tarixlər və qazanılan xallar",
+    "ru": "Оценки, даты и начисленные баллы",
+    "en": "Grades, dates and the points earned"
+  },
+  "grades.table.score": { "az": "Qiymət", "ru": "Оценка", "en": "Grade" },
+  "grades.table.subject": { "az": "Fənn", "ru": "Предмет", "en": "Subject" },
+  "grades.table.date": { "az": "Tarix", "ru": "Дата", "en": "Date" },
+  "grades.table.points": { "az": "Xal", "ru": "Баллы", "en": "Points" },
+  "grades.empty.title": {
+    "az": "Hələ qiymət yoxdur",
+    "ru": "Оценок пока нет",
+    "en": "No grades yet"
+  },
+  "grades.empty.body": {
+    "az": "Hələ qiymət yoxdur. İlk şəkli yüklə.",
+    "ru": "Оценок пока нет. Загрузи первое фото.",
+    "en": "No grades yet. Upload your first photo."
+  },
+
+  "rewards.title": { "az": "Mükafatlar", "ru": "Награды", "en": "Rewards" },
+  "rewards.cost": {
+    "az": "{count, plural, other {# xal}}",
+    "ru": "{count, plural, one {# балл} few {# балла} many {# баллов} other {# балла}}",
+    "en": "{count, plural, one {# point} other {# points}}"
+  },
+  "rewards.redeem": { "az": "Dəyiş", "ru": "Обменять", "en": "Swap" },
+  "rewards.notEnough": { "az": "Xal çatmır", "ru": "Баллов не хватает", "en": "Not enough points" },
+
+  "redeem.title": { "az": "Xalları dəyişək?", "ru": "Обменяем баллы?", "en": "Swap the points?" },
+  "redeem.body": {
+    "az": "{cost} xal xərclənəcək: {title}.",
+    "ru": "Будет списано {cost} баллов: {title}.",
+    "en": "{cost} points will be spent: {title}."
+  },
+  "redeem.confirm": { "az": "Təsdiqlə", "ru": "Подтвердить", "en": "Confirm" },
+  "redeem.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "redeem.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "redeem.success": {
+    "az": "Endirim kuponu əlavə olundu",
+    "ru": "Купон на скидку добавлен",
+    "en": "The discount coupon has been added"
+  },
+
+  "lists.title": { "az": "Sinif siyahısı", "ru": "Список класса", "en": "Class list" },
+  "lists.subtitle": {
+    "az": "Məktəb ləvazimatları — ən ucuz satıcılarla",
+    "ru": "Школьные принадлежности — у самых дешёвых продавцов",
+    "en": "School supplies — from the cheapest sellers"
+  },
+  "lists.create": { "az": "Siyahı yarat", "ru": "Создать список", "en": "Create a list" },
+  "lists.header.meta": {
+    "az": "{school} · Paylaşdı: {person}",
+    "ru": "{school} · Поделился: {person}",
+    "en": "{school} · Shared by {person}"
+  },
+  "lists.tag.items": {
+    "az": "{count, plural, other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# item} other {# items}}"
+  },
+  "lists.tag.savings": {
+    "az": "Qənaət {amount}",
+    "ru": "Экономия {amount}",
+    "en": "Saves {amount}"
+  },
+  "lists.table.caption": {
+    "az": "{title} siyahısının məhsulları və qiymətləri",
+    "ru": "Товары и цены списка «{title}»",
+    "en": "Products and prices in the {title} list"
+  },
+  "lists.table.product": { "az": "Məhsul", "ru": "Товар", "en": "Product" },
+  "lists.table.seller": { "az": "Ən ucuz satıcı", "ru": "Самый дешёвый продавец", "en": "Cheapest seller" },
+  "lists.table.qty": { "az": "Say", "ru": "Кол-во", "en": "Qty" },
+  "lists.table.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "lists.item.cheapest": {
+    "az": "Ən ucuz: {seller} · {price} / ədəd",
+    "ru": "Самый дешёвый: {seller} · {price} / шт.",
+    "en": "Cheapest: {seller} · {price} each"
+  },
+  "lists.item.qty": {
+    "az": "{count, plural, other {# ədəd}}",
+    "ru": "{count, plural, one {# шт.} few {# шт.} many {# шт.} other {# шт.}}",
+    "en": "{count, plural, one {# pc} other {# pcs}}"
+  },
+  "lists.summary.title": { "az": "Xülasə", "ru": "Сводка", "en": "Summary" },
+  "lists.summary.items": {
+    "az": "{count, plural, other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# item} other {# items}}"
+  },
+  "lists.summary.savings": { "az": "Qənaət", "ru": "Экономия", "en": "Savings" },
+  "lists.summary.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "lists.addToCart": {
+    "az": "Hamısını səbətə at",
+    "ru": "Добавить всё в корзину",
+    "en": "Add everything to the basket"
+  },
+  "lists.addToCartNote": {
+    "az": "Demo rejimdə heç nə səbətə əlavə olunmur və sifariş verilmir.",
+    "ru": "В демо-режиме ничего не добавляется в корзину и заказ не оформляется.",
+    "en": "In demo mode nothing is added to the basket and no order is placed."
+  },
+  "lists.addedDemo": {
+    "az": "{count, plural, other {# məhsul — demo rejimdə səbətə əlavə edilmədi}}",
+    "ru": "{count, plural, one {# товар — в демо-режиме не добавлен в корзину} few {# товара — в демо-режиме не добавлены в корзину} many {# товаров — в демо-режиме не добавлены в корзину} other {# товара — в демо-режиме не добавлены в корзину}}",
+    "en": "{count, plural, one {# item — not added to the basket in demo mode} other {# items — not added to the basket in demo mode}}"
+  },
+  "lists.share": { "az": "Paylaş", "ru": "Поделиться", "en": "Share" },
+  "lists.shareText": {
+    "az": "{title} ({school}) siyahısı Ozio-da hazırdır",
+    "ru": "Список «{title}» ({school}) готов в Ozio",
+    "en": "The {title} list ({school}) is ready in Ozio"
+  },
+  "lists.shared": { "az": "Paylaşıldı", "ru": "Отправлено", "en": "Shared" },
+  "lists.copied": { "az": "Link kopyalandı", "ru": "Ссылка скопирована", "en": "Link copied" },
+  "lists.shareFailed": {
+    "az": "Link kopyalanmadı",
+    "ru": "Ссылку скопировать не удалось",
+    "en": "The link could not be copied"
+  },
+  "lists.empty.title": {
+    "az": "Hələ siyahı yoxdur",
+    "ru": "Списков пока нет",
+    "en": "No lists yet"
+  },
+  "lists.empty.body": {
+    "az": "Hələ siyahı yoxdur. İlk siyahını yarat.",
+    "ru": "Списков пока нет. Создай первый список.",
+    "en": "No lists yet. Create your first list."
+  },
+
+  "delete.action": { "az": "{title} siyahısını sil", "ru": "Удалить список «{title}»", "en": "Delete the {title} list" },
+  "delete.title": { "az": "Siyahını siləkmi?", "ru": "Удалить список?", "en": "Delete the list?" },
+  "delete.body": {
+    "az": "{title} siyahısı silinəcək. Bu geri qaytarılmır.",
+    "ru": "Список «{title}» будет удалён. Это нельзя отменить.",
+    "en": "The {title} list will be deleted. This cannot be undone."
+  },
+  "delete.confirm": { "az": "Sil", "ru": "Удалить", "en": "Delete" },
+  "delete.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "delete.done": { "az": "Siyahı silindi", "ru": "Список удалён", "en": "The list was deleted" },
+
+  "create.title": { "az": "Siyahı yarat", "ru": "Создать список", "en": "Create a list" },
+  "create.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "create.class": { "az": "Sinif", "ru": "Класс", "en": "Class" },
+  "create.classPlaceholder": {
+    "az": "məs. 3-cü sinif A",
+    "ru": "напр. 3-й класс А",
+    "en": "e.g. Grade 3A"
+  },
+  "create.school": { "az": "Məktəb", "ru": "Школа", "en": "School" },
+  "create.schoolPlaceholder": {
+    "az": "məs. Məktəb №132",
+    "ru": "напр. Школа №132",
+    "en": "e.g. School No. 132"
+  },
+  "create.products": {
+    "az": "Məhsullar (hər sətirdə biri)",
+    "ru": "Товары (по одному в строке)",
+    "en": "Products (one per line)"
+  },
+  "create.productsPlaceholder": {
+    "az": "Dəftər 48 vərəq\nRəsm albomu",
+    "ru": "Тетрадь 48 листов\nАльбом для рисования",
+    "en": "Notebook, 48 sheets\nDrawing pad"
+  },
+  "create.submit": { "az": "Yarat və paylaş", "ru": "Создать и поделиться", "en": "Create and share" },
+  "create.done": { "az": "Siyahı yaradıldı", "ru": "Список создан", "en": "The list was created" },
+
+  "card.title": { "az": "Tələbə kartı", "ru": "Студенческая карта", "en": "Student card" },
+  "card.subtitle": {
+    "az": "Gecə endirimi və tələbə bonusları",
+    "ru": "Ночная скидка и студенческие бонусы",
+    "en": "Night discount and student bonuses"
+  },
+  "card.unlink": { "az": "Kartı ayır", "ru": "Отвязать карту", "en": "Unlink the card" },
+  "card.numberLabel": { "az": "Kart {number}", "ru": "Карта {number}", "en": "Card {number}" },
+  "card.scan.title": { "az": "Kartı göstər", "ru": "Показать карту", "en": "Show the card" },
+  "card.scan.fullscreen": { "az": "Kassada göstər", "ru": "Показать на кассе", "en": "Show at the till" },
+  "card.scan.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "card.scan.caption": {
+    "az": "Kassada barkodu göstər",
+    "ru": "Покажи штрих-код на кассе",
+    "en": "Show the barcode at the till"
+  },
+  "card.barcode.label": {
+    "az": "Tələbə kartının barkodu {number}",
+    "ru": "Штрих-код студенческой карты {number}",
+    "en": "Student card barcode {number}"
+  },
+  "card.qr.label": {
+    "az": "Tələbə kartının QR kodu {number}",
+    "ru": "QR-код студенческой карты {number}",
+    "en": "Student card QR code {number}"
+  },
+  "card.qr.caption": { "az": "Girişdə skan et", "ru": "Отсканируй на входе", "en": "Scan at the entrance" },
+
+  "night.title": {
+    "az": "Gecə endirimi {start}-dan",
+    "ru": "Ночная скидка с {start}",
+    "en": "Night discount from {start}"
+  },
+  "night.activeTitle": {
+    "az": "İndi aktivdir: {percent}% endirim",
+    "ru": "Действует сейчас: скидка {percent}%",
+    "en": "Active now: {percent}% off"
+  },
+  "night.in": {
+    "az": "{hours} saat {minutes} dəq",
+    "ru": "{hours} ч {minutes} мин",
+    "en": "{hours} h {minutes} min"
+  },
+  "night.body.pending": {
+    "az": "Başlayır: {time} sonra ({start}–{end}). Aktiv olanda seçilmiş kateqoriyalarda −{percent}%.",
+    "ru": "Начнётся через {time} ({start}–{end}). Когда активна — −{percent}% в выбранных категориях.",
+    "en": "Starts in {time} ({start}–{end}). While active it is −{percent}% in the selected categories."
+  },
+  "night.body.active": {
+    "az": "Seçilmiş kateqoriyalarda −{percent}%. Bitir: {time} sonra.",
+    "ru": "−{percent}% в выбранных категориях. Закончится через {time}.",
+    "en": "−{percent}% in the selected categories. Ends in {time}."
+  },
+  "night.body.activeNoEnd": {
+    "az": "Seçilmiş kateqoriyalarda −{percent}%.",
+    "ru": "−{percent}% в выбранных категориях.",
+    "en": "−{percent}% in the selected categories."
+  },
+  "night.body.none": {
+    "az": "Aktiv etmək üçün kartı bağla",
+    "ru": "Привяжи карту, чтобы активировать",
+    "en": "Link the card to activate it"
+  },
+  "night.live.pending": {
+    "az": "{minutes, plural, other {Gecə endirimi # dəqiqə sonra başlayır}}",
+    "ru": "{minutes, plural, one {Ночная скидка начнётся через # минуту} few {Ночная скидка начнётся через # минуты} many {Ночная скидка начнётся через # минут} other {Ночная скидка начнётся через # минуты}}",
+    "en": "{minutes, plural, one {The night discount starts in # minute} other {The night discount starts in # minutes}}"
+  },
+  "night.live.active": {
+    "az": "{minutes, plural, other {Gecə endirimi # dəqiqə sonra bitir}}",
+    "ru": "{minutes, plural, one {Ночная скидка закончится через # минуту} few {Ночная скидка закончится через # минуты} many {Ночная скидка закончится через # минут} other {Ночная скидка закончится через # минуты}}",
+    "en": "{minutes, plural, one {The night discount ends in # minute} other {The night discount ends in # minutes}}"
+  },
+
+  "categories.title": {
+    "az": "Endirimli kateqoriyalar",
+    "ru": "Категории со скидкой",
+    "en": "Discounted categories"
+  },
+  "categories.percent": { "az": "-{percent}%", "ru": "-{percent}%", "en": "-{percent}%" },
+
+  "link.title": { "az": "Kartı bağla", "ru": "Привязать карту", "en": "Link the card" },
+  "link.body": {
+    "az": "Tələbə bileti nömrəni daxil et",
+    "ru": "Введи номер студенческого билета",
+    "en": "Enter your student ID number"
+  },
+  "link.numberLabel": { "az": "Tələbə bileti №", "ru": "Студенческий билет №", "en": "Student ID no." },
+  "link.numberPlaceholder": { "az": "məs. {sample}", "ru": "напр. {sample}", "en": "e.g. {sample}" },
+  "link.submit": { "az": "Kartı bağla", "ru": "Привязать карту", "en": "Link the card" },
+  "link.hint": {
+    "az": "Aktiv etmək üçün kartı bağla",
+    "ru": "Привяжи карту, чтобы активировать",
+    "en": "Link the card to activate it"
+  },
+
+  "pending.tag": { "az": "Yoxlanılır", "ru": "Проверяется", "en": "Verifying" },
+  "pending.body": {
+    "az": "Kart yoxlanılır, bir neçə saniyə çəkə bilər",
+    "ru": "Карта проверяется, это займёт несколько секунд",
+    "en": "The card is being verified, this may take a few seconds"
+  },
+
+  "unlink.title": { "az": "Kartı ayıraqmı?", "ru": "Отвязать карту?", "en": "Unlink the card?" },
+  "unlink.body": {
+    "az": "Gecə endirimi dayanacaq. Nömrəni yenidən bağlaya bilərsən.",
+    "ru": "Ночная скидка перестанет действовать. Номер можно привязать снова.",
+    "en": "The night discount will stop. You can link the number again later."
+  },
+  "unlink.confirm": { "az": "Ayır", "ru": "Отвязать", "en": "Unlink" },
+  "unlink.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "unlink.done": { "az": "Kart ayrıldı", "ru": "Карта отвязана", "en": "The card was unlinked" }
+}

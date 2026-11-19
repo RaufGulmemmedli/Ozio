@@ -1,0 +1,757 @@
+{
+  "title": {
+    "az": "Sifarişlərim",
+    "ru": "Мои заказы",
+    "en": "My orders"
+  },
+  "loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  },
+  "loadingMore": {
+    "az": "Daha çox sifariş yüklənir…",
+    "ru": "Загружаются другие заказы…",
+    "en": "Loading more orders…"
+  },
+  "activeCount": {
+    "az": "{count, plural, =0 {Aktiv sifarişin yoxdur} one {# aktiv sifariş} other {# aktiv sifariş}}",
+    "ru": "{count, plural, =0 {Нет активных заказов} one {# активный заказ} few {# активных заказа} many {# активных заказов} other {# активных заказа}}",
+    "en": "{count, plural, =0 {No active orders} one {# active order} other {# active orders}}"
+  },
+  "storeClosed": {
+    "az": "Mağaza indi bağlıdır",
+    "ru": "Магазин сейчас закрыт",
+    "en": "The store is closed right now"
+  },
+  "tabs.label": {
+    "az": "Sifariş filtri",
+    "ru": "Фильтр заказов",
+    "en": "Order filter"
+  },
+  "tabs.active": {
+    "az": "Aktiv",
+    "ru": "Активные",
+    "en": "Active"
+  },
+  "tabs.past": {
+    "az": "Keçmiş",
+    "ru": "Прошлые",
+    "en": "Past"
+  },
+  "status.waiting": {
+    "az": "Gözləyir",
+    "ru": "Ожидает",
+    "en": "Waiting"
+  },
+  "status.accepted": {
+    "az": "Qəbul edildi",
+    "ru": "Принят",
+    "en": "Accepted"
+  },
+  "status.preparing": {
+    "az": "Hazırlanır",
+    "ru": "Готовится",
+    "en": "Preparing"
+  },
+  "status.ready": {
+    "az": "Hazırdır",
+    "ru": "Готов",
+    "en": "Ready"
+  },
+  "status.pickedUp": {
+    "az": "Yoldadır",
+    "ru": "В пути",
+    "en": "On the way"
+  },
+  "status.delivered": {
+    "az": "Çatdırıldı",
+    "ru": "Доставлен",
+    "en": "Delivered"
+  },
+  "status.cancelled": {
+    "az": "Ləğv edildi",
+    "ru": "Отменён",
+    "en": "Cancelled"
+  },
+  "status.notFound": {
+    "az": "Tapılmadı",
+    "ru": "Не найден",
+    "en": "Not found"
+  },
+  "status.unknown": {
+    "az": "İcrada",
+    "ru": "В обработке",
+    "en": "In progress"
+  },
+  "steps.label": {
+    "az": "Sifarişin vəziyyəti",
+    "ru": "Статус заказа",
+    "en": "Order status"
+  },
+  "steps.accepted": {
+    "az": "Qəbul",
+    "ru": "Принят",
+    "en": "Accepted"
+  },
+  "steps.preparing": {
+    "az": "Hazırlanır",
+    "ru": "Готовится",
+    "en": "Packing"
+  },
+  "steps.onTheWay": {
+    "az": "Yoldadır",
+    "ru": "В пути",
+    "en": "On the way"
+  },
+  "steps.delivered": {
+    "az": "Çatdırıldı",
+    "ru": "Доставлен",
+    "en": "Delivered"
+  },
+  "tracker.eta": {
+    "az": "Təxmini çatdırılma",
+    "ru": "Примерная доставка",
+    "en": "Estimated delivery"
+  },
+  "tracker.minutes": {
+    "az": "{count} dəq",
+    "ru": "{count} мин",
+    "en": "{count} min"
+  },
+  "tracker.asap": {
+    "az": "Ən tez vaxtda",
+    "ru": "Как можно скорее",
+    "en": "As soon as possible"
+  },
+  "tracker.track": {
+    "az": "Sifarişi izlə",
+    "ru": "Отследить заказ",
+    "en": "Track order"
+  },
+  "tracker.courierIs": {
+    "az": "{name} kuryerdir",
+    "ru": "{name} — ваш курьер",
+    "en": "{name} is your courier"
+  },
+  "tracker.collecting": {
+    "az": "{count, plural, one {Sifarişin yığılır · # məhsul} other {Sifarişin yığılır · # məhsul}}",
+    "ru": "{count, plural, one {Заказ собирается · # товар} few {Заказ собирается · # товара} many {Заказ собирается · # товаров} other {Заказ собирается · # товара}}",
+    "en": "{count, plural, one {Your order is being packed · # item} other {Your order is being packed · # items}}"
+  },
+  "tracker.storeFallback": {
+    "az": "Mağaza",
+    "ru": "Магазин",
+    "en": "Store"
+  },
+  "row.items": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# item} other {# items}}"
+  },
+  "row.open": {
+    "az": "{no} sifarişini aç",
+    "ru": "Открыть заказ {no}",
+    "en": "Open order {no}"
+  },
+  "empty.title": {
+    "az": "Hələ sifarişin yoxdur",
+    "ru": "У вас пока нет заказов",
+    "en": "No orders yet"
+  },
+  "empty.body": {
+    "az": "İlk sifarişini ver, çatdırılma izini burada izlə və hər alışdan keşbək qazan.",
+    "ru": "Сделайте первый заказ — здесь можно следить за доставкой и получать кешбэк с каждой покупки.",
+    "en": "Place your first order — track the delivery here and earn cashback on every purchase."
+  },
+  "empty.subtitle": {
+    "az": "Sifariş tarixçən burada görünəcək",
+    "ru": "История заказов появится здесь",
+    "en": "Your order history will appear here"
+  },
+  "empty.cta": {
+    "az": "Alış-verişə başla",
+    "ru": "Начать покупки",
+    "en": "Start shopping"
+  },
+  "empty.secondary": {
+    "az": "Kuponlara bax",
+    "ru": "Смотреть купоны",
+    "en": "View coupons"
+  },
+  "noActive.title": {
+    "az": "Aktiv sifariş yoxdur",
+    "ru": "Активных заказов нет",
+    "en": "No active orders"
+  },
+  "noActive.body": {
+    "az": "Yeni sifariş verəndə çatdırılma burada izlənəcək.",
+    "ru": "Когда вы сделаете заказ, доставку можно будет отследить здесь.",
+    "en": "When you place an order, its delivery will be tracked here."
+  },
+  "noPast.title": {
+    "az": "Keçmiş sifariş yoxdur",
+    "ru": "Прошлых заказов нет",
+    "en": "No past orders"
+  },
+  "noPast.body": {
+    "az": "Çatdırılmış sifarişlər bu bölmədə saxlanılır.",
+    "ru": "Доставленные заказы хранятся в этом разделе.",
+    "en": "Delivered orders are kept in this tab."
+  },
+  "error.title": {
+    "az": "Sifarişlər yüklənmədi",
+    "ru": "Не удалось загрузить заказы",
+    "en": "Orders could not be loaded"
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "notFound.title": {
+    "az": "Sifariş tapılmadı",
+    "ru": "Заказ не найден",
+    "en": "Order not found"
+  },
+  "notFound.body": {
+    "az": "Bu sifariş artıq mövcud deyil. Sifarişlərim siyahısına qaytarıldın.",
+    "ru": "Этого заказа больше нет. Мы вернули вас к списку заказов.",
+    "en": "This order no longer exists. You have been returned to your orders."
+  },
+  "panel.title": {
+    "az": "Aktiv çatdırılma",
+    "ru": "Активная доставка",
+    "en": "Active delivery"
+  },
+  "panel.mapLabel": {
+    "az": "Çatdırılma xəritəsi",
+    "ru": "Карта доставки",
+    "en": "Delivery map"
+  },
+  "panel.mapAlt": {
+    "az": "Xəritədə göstərilənlər",
+    "ru": "Что показано на карте",
+    "en": "What the map shows"
+  },
+  "panel.home": {
+    "az": "Çatdırılma ünvanı",
+    "ru": "Адрес доставки",
+    "en": "Delivery address"
+  },
+  "panel.courier": {
+    "az": "Kuryer",
+    "ru": "Курьер",
+    "en": "Courier"
+  },
+  "panel.items": {
+    "az": "Sifarişin məhsulları",
+    "ru": "Товары заказа",
+    "en": "Order items"
+  },
+  "panel.total": {
+    "az": "Cəmi",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "panel.idleTitle": {
+    "az": "İzlənəcək sifariş yoxdur",
+    "ru": "Нет заказа для отслеживания",
+    "en": "Nothing to track"
+  },
+  "panel.idleBody": {
+    "az": "Market-dən sifariş ver, çatdırılma bu paneldə canlı görünəcək.",
+    "ru": "Сделайте заказ в маркете — доставка появится в этой панели.",
+    "en": "Order from the market and the delivery will show up in this panel."
+  },
+  "detail.title": {
+    "az": "Sifariş detalı",
+    "ru": "Детали заказа",
+    "en": "Order detail"
+  },
+  "detail.titlePrefix": {
+    "az": "Sifariş",
+    "ru": "Заказ",
+    "en": "Order"
+  },
+  "items.title": {
+    "az": "Məhsullar",
+    "ru": "Товары",
+    "en": "Items"
+  },
+  "items.counts": {
+    "az": "{kinds} çeşid · {pieces} ədəd",
+    "ru": "{kinds} наименований · {pieces} шт.",
+    "en": "{kinds} kinds · {pieces} pcs"
+  },
+  "items.pieces": {
+    "az": "{count, plural, one {# ədəd} other {# ədəd}}",
+    "ru": "{count, plural, one {# шт.} few {# шт.} many {# шт.} other {# шт.}}",
+    "en": "{count, plural, one {# pc} other {# pcs}}"
+  },
+  "items.unnamed": {
+    "az": "Məhsul",
+    "ru": "Товар",
+    "en": "Item"
+  },
+  "items.replaced": {
+    "az": "Dəyişdirildi",
+    "ru": "Заменён",
+    "en": "Replaced"
+  },
+  "items.none": {
+    "az": "Bu sifarişin məhsul siyahısı göstərilə bilmədi.",
+    "ru": "Список товаров этого заказа недоступен.",
+    "en": "The item list for this order is not available."
+  },
+  "timeline.title": {
+    "az": "Sifarişin gedişatı",
+    "ru": "Ход заказа",
+    "en": "Order progress"
+  },
+  "totals.paid": {
+    "az": "Ödənilən məbləğ",
+    "ru": "Оплаченная сумма",
+    "en": "Amount paid"
+  },
+  "totals.total": {
+    "az": "Cəmi",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "totals.items": {
+    "az": "Məhsullar",
+    "ru": "Товары",
+    "en": "Items"
+  },
+  "totals.delivery": {
+    "az": "Çatdırılma",
+    "ru": "Доставка",
+    "en": "Delivery"
+  },
+  "totals.free": {
+    "az": "Pulsuz",
+    "ru": "Бесплатно",
+    "en": "Free"
+  },
+  "totals.service": {
+    "az": "Xidmət haqqı",
+    "ru": "Сервисный сбор",
+    "en": "Service fee"
+  },
+  "totals.packet": {
+    "az": "Qablaşdırma",
+    "ru": "Упаковка",
+    "en": "Packaging"
+  },
+  "totals.tip": {
+    "az": "Kuryerə bəxşiş",
+    "ru": "Чай курьеру",
+    "en": "Courier tip"
+  },
+  "totals.discount": {
+    "az": "Endirim",
+    "ru": "Скидка",
+    "en": "Discount"
+  },
+  "totals.bonus": {
+    "az": "Bonusla ödəniş",
+    "ru": "Оплата бонусами",
+    "en": "Paid with bonus"
+  },
+  "totals.cashbackAdded": {
+    "az": "+{amount} keşbək hesabına əlavə olundu",
+    "ru": "+{amount} кешбэка зачислено на счёт",
+    "en": "+{amount} cashback added to your balance"
+  },
+  "info.payment": {
+    "az": "Ödəniş",
+    "ru": "Оплата",
+    "en": "Payment"
+  },
+  "info.address": {
+    "az": "Ünvan",
+    "ru": "Адрес",
+    "en": "Address"
+  },
+  "info.deliveryTime": {
+    "az": "Çatdırılma vaxtı",
+    "ru": "Время доставки",
+    "en": "Delivery time"
+  },
+  "info.courier": {
+    "az": "Kuryer",
+    "ru": "Курьер",
+    "en": "Courier"
+  },
+  "actions.reorder": {
+    "az": "Təkrar sifariş",
+    "ru": "Повторить заказ",
+    "en": "Reorder"
+  },
+  "actions.reorderUnavailable": {
+    "az": "Təkrar sifariş hələ mümkün deyil",
+    "ru": "Повтор заказа пока недоступен",
+    "en": "Reordering is not available yet"
+  },
+  "courier.role": {
+    "az": "Kuryer",
+    "ru": "Курьер",
+    "en": "Courier"
+  },
+  "courier.call": {
+    "az": "{name} ilə əlaqə saxla",
+    "ru": "Позвонить {name}",
+    "en": "Call {name}"
+  },
+  "courier.message": {
+    "az": "{name} adlı kuryerə mesaj yaz",
+    "ru": "Написать {name}",
+    "en": "Message {name}"
+  },
+  "courier.noPhone": {
+    "az": "Nömrə yoxdur",
+    "ru": "Номера нет",
+    "en": "No number"
+  },
+  "track.title": {
+    "az": "Sifariş izləmə",
+    "ru": "Отслеживание заказа",
+    "en": "Order tracking"
+  },
+  "track.eta": {
+    "az": "Təxmini çatma: {count} dəq",
+    "ru": "Примерное время: {count} мин",
+    "en": "Arriving in about {count} min"
+  },
+  "track.etaUnknown": {
+    "az": "Təxmini çatma hesablanır",
+    "ru": "Время прибытия уточняется",
+    "en": "Arrival time is being calculated"
+  },
+  "track.distance": {
+    "az": "{km} km məsafədə",
+    "ru": "В {km} км от вас",
+    "en": "{km} km away"
+  },
+  "track.mapLabel": {
+    "az": "Kuryerin canlı xəritəsi",
+    "ru": "Карта курьера в реальном времени",
+    "en": "Live courier map"
+  },
+  "track.mapAlt": {
+    "az": "Xəritənin mətn alternativi",
+    "ru": "Текстовая альтернатива карты",
+    "en": "Text alternative for the map"
+  },
+  "track.statusTitle": {
+    "az": "Sifariş vəziyyəti",
+    "ru": "Статус заказа",
+    "en": "Order status"
+  },
+  "track.itemsTitle": {
+    "az": "Sifariş tərkibi",
+    "ru": "Состав заказа",
+    "en": "Order contents"
+  },
+  "track.toDetail": {
+    "az": "Ətraflı",
+    "ru": "Подробнее",
+    "en": "Details"
+  },
+  "track.offline": {
+    "az": "Bağlantı yoxdur",
+    "ru": "Нет соединения",
+    "en": "No connection"
+  },
+  "track.offlineBody": {
+    "az": "Son yadda saxlanan vəziyyət göstərilir. Bağlantı qayıdanda izləmə davam edəcək.",
+    "ru": "Показан последний сохранённый статус. Отслеживание продолжится при появлении связи.",
+    "en": "Showing the last saved status. Tracking resumes when the connection is back."
+  },
+  "track.paused": {
+    "az": "İzləmə dayandırıldı",
+    "ru": "Отслеживание приостановлено",
+    "en": "Tracking paused"
+  },
+  "track.finished.delivered": {
+    "az": "Sifariş çatdırıldı",
+    "ru": "Заказ доставлен",
+    "en": "Order delivered"
+  },
+  "track.finished.cancelled": {
+    "az": "Sifariş ləğv edildi",
+    "ru": "Заказ отменён",
+    "en": "Order cancelled"
+  },
+  "track.finished.notFound": {
+    "az": "Sifariş tapılmadı",
+    "ru": "Заказ не найден",
+    "en": "Order not found"
+  },
+  "track.finishedBody": {
+    "az": "İzləmə bitdi. Bütün detalları sifariş səhifəsində görə bilərsən.",
+    "ru": "Отслеживание завершено. Все детали — на странице заказа.",
+    "en": "Tracking has finished. All the details are on the order page."
+  },
+  "rating.title": {
+    "az": "Sifarişini qiymətləndir",
+    "ru": "Оцените заказ",
+    "en": "Rate your order"
+  },
+  "rating.close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "rating.cancel": {
+    "az": "İmtina",
+    "ru": "Отмена",
+    "en": "Cancel"
+  },
+  "rating.submit": {
+    "az": "Rəyi göndər",
+    "ru": "Отправить отзыв",
+    "en": "Send review"
+  },
+  "rating.cta": {
+    "az": "Sifarişi qiymətləndir",
+    "ru": "Оценить заказ",
+    "en": "Rate this order"
+  },
+  "rating.editCta": {
+    "az": "Rəyini yenilə",
+    "ru": "Обновить отзыв",
+    "en": "Update your review"
+  },
+  "rating.sent": {
+    "az": "Rəyin üçün təşəkkürlər",
+    "ru": "Спасибо за отзыв",
+    "en": "Thanks for your review"
+  },
+  "rating.failed": {
+    "az": "Rəy göndərilmədi",
+    "ru": "Отзыв не отправлен",
+    "en": "Review was not sent"
+  },
+  "rating.alreadyRated": {
+    "az": "Bu sifarişi artıq qiymətləndirmisən. Yenidən göndərmək nəticəni dəyişə bilər.",
+    "ru": "Вы уже оценили этот заказ. Повторная отправка может изменить результат.",
+    "en": "You have already rated this order. Sending again may replace your rating."
+  },
+  "rating.orderTitle": {
+    "az": "Sifariş necə idi?",
+    "ru": "Как прошёл заказ?",
+    "en": "How was your order?"
+  },
+  "rating.orderSubtitle": {
+    "az": "Məhsulların keyfiyyəti və qablaşdırma",
+    "ru": "Качество товаров и упаковка",
+    "en": "Product quality and packaging"
+  },
+  "rating.courierTitle": {
+    "az": "Kuryeri necə qiymətləndirirsən?",
+    "ru": "Как вы оцените курьера?",
+    "en": "How would you rate the courier?"
+  },
+  "rating.courierName": {
+    "az": "Kuryer {name}",
+    "ru": "Курьер {name}",
+    "en": "Courier {name}"
+  },
+  "rating.deliveredIn": {
+    "az": "Çatdırılma {count} dəq",
+    "ru": "Доставка {count} мин",
+    "en": "Delivered in {count} min"
+  },
+  "rating.commentLabel": {
+    "az": "Əlavə rəy (istəyə bağlı)",
+    "ru": "Дополнительный отзыв (необязательно)",
+    "en": "Extra comment (optional)"
+  },
+  "rating.commentPlaceholder": {
+    "az": "Rəyini yaz...",
+    "ru": "Напишите отзыв...",
+    "en": "Write your review..."
+  },
+  "rating.stars": {
+    "az": "{count, plural, one {# ulduz} other {# ulduz}}",
+    "ru": "{count, plural, one {# звезда} few {# звезды} many {# звёзд} other {# звезды}}",
+    "en": "{count, plural, one {# star} other {# stars}}"
+  },
+  "rating.orderTags.fresh": {
+    "az": "Təzə məhsullar",
+    "ru": "Свежие продукты",
+    "en": "Fresh products"
+  },
+  "rating.orderTags.packaging": {
+    "az": "Düzgün qablaşdırma",
+    "ru": "Хорошая упаковка",
+    "en": "Good packaging"
+  },
+  "rating.orderTags.value": {
+    "az": "Qiymət/keyfiyyət",
+    "ru": "Цена/качество",
+    "en": "Value for money"
+  },
+  "rating.orderTags.complete": {
+    "az": "Tam komplekt",
+    "ru": "Полный комплект",
+    "en": "Complete order"
+  },
+  "rating.orderTags.missing": {
+    "az": "Əskik məhsul",
+    "ru": "Не хватает товара",
+    "en": "Missing item"
+  },
+  "rating.courierTags.polite": {
+    "az": "Nəzakətli",
+    "ru": "Вежливый",
+    "en": "Polite"
+  },
+  "rating.courierTags.onTime": {
+    "az": "Vaxtında",
+    "ru": "Вовремя",
+    "en": "On time"
+  },
+  "rating.courierTags.careful": {
+    "az": "Ehtiyatla daşıdı",
+    "ru": "Аккуратно доставил",
+    "en": "Handled with care"
+  },
+  "rating.courierTags.contact": {
+    "az": "Əlaqə yaxşı idi",
+    "ru": "Хорошо держал связь",
+    "en": "Good communication"
+  },
+  "success.title": {
+    "az": "Sifarişin qəbul olundu!",
+    "ru": "Заказ принят!",
+    "en": "Your order is confirmed!"
+  },
+  "success.body": {
+    "az": "Mağaza sifarişini hazırlamağa başladı. Kuryer yola çıxanda bildiriş göndərəcəyik.",
+    "ru": "Магазин начал собирать заказ. Мы пришлём уведомление, когда курьер выедет.",
+    "en": "The store has started packing your order. We will notify you when the courier sets off."
+  },
+  "success.etaLabel": {
+    "az": "TƏXMİNİ ÇATDIRILMA",
+    "ru": "ПРИМЕРНАЯ ДОСТАВКА",
+    "en": "ESTIMATED DELIVERY"
+  },
+  "success.etaRange": {
+    "az": "{min}–{max} dəq",
+    "ru": "{min}–{max} мин",
+    "en": "{min}–{max} min"
+  },
+  "success.noLabel": {
+    "az": "SİFARİŞ NÖMRƏSİ",
+    "ru": "НОМЕР ЗАКАЗА",
+    "en": "ORDER NUMBER"
+  },
+  "success.cashbackTitle": {
+    "az": "Keşbək qazandın",
+    "ru": "Вы получили кешбэк",
+    "en": "You earned cashback"
+  },
+  "success.cashbackBody": {
+    "az": "Sifariş çatdırıldıqdan sonra Ozio+ balansına əlavə olunacaq",
+    "ru": "Будет зачислено на баланс Ozio+ после доставки заказа",
+    "en": "It will be added to your Ozio+ balance once the order is delivered"
+  },
+  "success.addressLabel": {
+    "az": "Çatdırılma ünvanı",
+    "ru": "Адрес доставки",
+    "en": "Delivery address"
+  },
+  "success.unknownTitle": {
+    "az": "Sifarişi tapmaq mümkün olmadı",
+    "ru": "Не удалось найти заказ",
+    "en": "The order could not be found"
+  },
+  "success.unknownBody": {
+    "az": "Sifariş nömrəsi məlum deyil. Sifarişlərim siyahısında ən son sifarişini yoxlaya bilərsən.",
+    "ru": "Номер заказа неизвестен. Проверьте последний заказ в списке «Мои заказы».",
+    "en": "The order number is unknown. Check your most recent order in My orders."
+  },
+  "success.readbackTitle": {
+    "az": "Sifariş detalı yüklənmədi",
+    "ru": "Детали заказа не загрузились",
+    "en": "Order details could not be loaded"
+  },
+  "success.orderNo": {
+    "az": "N° {no}",
+    "ru": "№ {no}",
+    "en": "No. {no}"
+  },
+  "success.etaSoon": {
+    "az": "Ən qısa zamanda",
+    "ru": "В ближайшее время",
+    "en": "As soon as possible"
+  },
+  "success.step.accepted": {
+    "az": "Qəbul",
+    "ru": "Принят",
+    "en": "Accepted"
+  },
+  "success.step.packing": {
+    "az": "Yığılır",
+    "ru": "Собирается",
+    "en": "Packing"
+  },
+  "success.step.onTheWay": {
+    "az": "Yolda",
+    "ru": "В пути",
+    "en": "On the way"
+  },
+  "success.step.delivered": {
+    "az": "Çatdı",
+    "ru": "Доставлен",
+    "en": "Delivered"
+  },
+  "success.progressLabel": {
+    "az": "Sifarişin vəziyyəti",
+    "ru": "Статус заказа",
+    "en": "Order status"
+  },
+  "success.bonusStrip": {
+    "az": "+{amount} bonus çatdırılandan sonra kartına yazılacaq",
+    "ru": "+{amount} бонуса начислим на карту после доставки",
+    "en": "+{amount} bonus will be credited to your card after delivery"
+  },
+  "success.payableCash": {
+    "az": "Ödəniləcək · Nağd",
+    "ru": "К оплате · Наличными",
+    "en": "To pay · Cash"
+  },
+  "success.payableCard": {
+    "az": "Ödəniləcək · Kart",
+    "ru": "К оплате · Картой",
+    "en": "To pay · Card"
+  },
+  "success.streak": {
+    "az": "Ardıcıllıq {weeks} həftə!",
+    "ru": "Серия {weeks} недели!",
+    "en": "{weeks}-week streak!"
+  },
+  "success.sendToFriend": {
+    "az": "Dostuna göndər",
+    "ru": "Отправить другу",
+    "en": "Send to a friend"
+  },
+  "success.track": {
+    "az": "Sifarişi izlə",
+    "ru": "Отследить заказ",
+    "en": "Track the order"
+  },
+  "success.backHome": {
+    "az": "Əsas səhifəyə qayıt",
+    "ru": "Вернуться на главную",
+    "en": "Back to home"
+  },
+  "success.demoNote": {
+    "az": "Demo təsdiq — sifariş serverə göndərilmədi.",
+    "ru": "Демо-подтверждение — заказ не отправлен на сервер.",
+    "en": "Demo confirmation — the order was not sent to the server."
+  }
+}

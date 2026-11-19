@@ -1,0 +1,347 @@
+{
+  "demo.title": { "az": "Demo rejim:", "ru": "Демо-режим:", "en": "Demo mode:" },
+  "demo.body": {
+    "az": "Yolüstü kuryer hələ işləmir, bağlamalar və qazanc nümunədir",
+    "ru": "«Попутный курьер» ещё не работает, посылки и заработок — примеры",
+    "en": "On-the-way courier is not live yet; the parcels and earnings are samples"
+  },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "crumb.label": { "az": "Naviqasiya yolu", "ru": "Навигационная цепочка", "en": "Breadcrumb" },
+  "crumb.root": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "crumb.module": { "az": "Yolüstü kuryer", "ru": "Попутный курьер", "en": "On-the-way courier" },
+  "crumb.route": { "az": "Marşrut", "ru": "Маршрут", "en": "Route" },
+  "crumb.matches": { "az": "Bağlamalar", "ru": "Посылки", "en": "Parcels" },
+  "crumb.earnings": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "crumb.hub": { "az": "Qonşu anbar", "ru": "Соседний пункт", "en": "Neighbour hub" },
+  "crumb.hubPanel": { "az": "Anbar", "ru": "Пункт", "en": "Hub" },
+
+  "transport.walk": { "az": "Piyada", "ru": "Пешком", "en": "Walking" },
+  "transport.metro": { "az": "Metro", "ru": "Метро", "en": "Metro" },
+  "transport.bus": { "az": "Avtobus", "ru": "Автобус", "en": "Bus" },
+  "transport.car": { "az": "Avtomobil", "ru": "Автомобиль", "en": "Car" },
+  "transport.bike": { "az": "Velosiped", "ru": "Велосипед", "en": "Bicycle" },
+
+  "home.title": { "az": "Yolüstü kuryer", "ru": "Попутный курьер", "en": "On-the-way courier" },
+  "home.subtitle": {
+    "az": "Gündəlik yolunun üstündən bağlama götür, əlavə qazan",
+    "ru": "Берите посылку по пути и зарабатывайте дополнительно",
+    "en": "Take a parcel along your daily route and earn extra"
+  },
+  "home.balance": { "az": "Balans", "ru": "Баланс", "en": "Balance" },
+  "home.monthSummary": {
+    "az": "Bu ay {deliveries} çatdırılma · {amount} qazanc",
+    "ru": "За месяц {deliveries} доставок · заработок {amount}",
+    "en": "{deliveries} deliveries this month · {amount} earned"
+  },
+  "home.seeMatches": { "az": "Yeni bağlamalara bax", "ru": "Посмотреть новые посылки", "en": "See new parcels" },
+  "home.onTheWay": { "az": "YOLDA OLAN KURYER", "ru": "КУРЬЕР В ПУТИ", "en": "COURIER ON THE WAY" },
+  "home.continue": { "az": "Davam et", "ru": "Продолжить", "en": "Continue" },
+  "home.route": { "az": "Marşrutum", "ru": "Мой маршрут", "en": "My route" },
+  "home.routeActive": { "az": "Aktiv", "ru": "Активен", "en": "Active" },
+  "home.routeInactive": { "az": "Deaktiv", "ru": "Неактивен", "en": "Inactive" },
+  "home.changeRoute": { "az": "Marşrutu dəyiş", "ru": "Изменить маршрут", "en": "Change route" },
+  "home.setRoute": { "az": "Marşrutu qur", "ru": "Задать маршрут", "en": "Set the route" },
+  "home.noRoute": {
+    "az": "Marşrutun hələ qurulmayıb",
+    "ru": "Маршрут ещё не задан",
+    "en": "Your route is not set yet"
+  },
+  "home.from": { "az": "Haradan", "ru": "Откуда", "en": "From" },
+  "home.to": { "az": "Haraya", "ru": "Куда", "en": "To" },
+  "home.departAt": { "az": "Çıxış vaxtı", "ru": "Время выхода", "en": "Departure" },
+  "home.transport": { "az": "Nəqliyyat", "ru": "Транспорт", "en": "Transport" },
+  "home.hub": { "az": "Qonşu anbar", "ru": "Соседний пункт", "en": "Neighbour hub" },
+  "home.hubUnregistered": { "az": "Qeydiyyat yoxdur", "ru": "Нет регистрации", "en": "Not registered" },
+  "home.hubRegistered": { "az": "Aktiv", "ru": "Активен", "en": "Active" },
+  "home.hubBody": {
+    "az": "Evində bağlama saxla, hər təhvildən {commission} komissiya qazan.",
+    "ru": "Храните посылки дома и получайте {commission} комиссии за каждую выдачу.",
+    "en": "Keep parcels at home and earn {commission} commission on every hand-over."
+  },
+  "home.hubNearbyTitle": { "az": "Yaxınlıqdakı məntəqələr", "ru": "Пункты рядом", "en": "Hubs nearby" },
+  "home.hubNearbyBody": {
+    "az": "{count} məntəqə 800 m daxilində",
+    "ru": "{count} пункта в радиусе 800 м",
+    "en": "{count} hubs within 800 m"
+  },
+  "home.hubOpen": { "az": "Məntəqə aç", "ru": "Открыть пункт", "en": "Open a hub" },
+  "home.hubPanel": { "az": "Anbar paneli", "ru": "Панель пункта", "en": "Hub panel" },
+  "home.earnings": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "home.today": { "az": "Bu gün", "ru": "Сегодня", "en": "Today" },
+  "home.month": { "az": "Bu ay", "ru": "За месяц", "en": "This month" },
+  "home.deliveries": { "az": "Çatdırılma", "ru": "Доставки", "en": "Deliveries" },
+  "home.more": { "az": "Ətraflı", "ru": "Подробнее", "en": "Details" },
+  "home.error.title": { "az": "Məlumat yüklənmədi", "ru": "Не удалось загрузить данные", "en": "Could not load the data" },
+
+  "route.title": { "az": "Marşrutu qur", "ru": "Задайте маршрут", "en": "Set your route" },
+  "route.subtitle": {
+    "az": "Hara gedirsən? Yolunun üstündəki bağlamaları sənə təklif edək",
+    "ru": "Куда вы едете? Предложим посылки по вашему пути",
+    "en": "Where are you heading? We will offer parcels along your way"
+  },
+  "route.from": { "az": "Haradan", "ru": "Откуда", "en": "From" },
+  "route.fromPlaceholder": { "az": "Nizami küç. 12", "ru": "ул. Низами 12", "en": "Nizami str. 12" },
+  "route.to": { "az": "Haraya", "ru": "Куда", "en": "To" },
+  "route.toPlaceholder": { "az": "Xətai prospekti 48", "ru": "проспект Хатаи 48", "en": "Xatai avenue 48" },
+  "route.departAt": { "az": "Çıxış vaxtı", "ru": "Время выхода", "en": "Departure time" },
+  "route.otherTime": { "az": "Başqa", "ru": "Другое", "en": "Other" },
+  "route.otherTimeLabel": { "az": "Başqa vaxt", "ru": "Другое время", "en": "Another time" },
+  "route.transport": { "az": "Nəqliyyat", "ru": "Транспорт", "en": "Transport" },
+  "route.activate": {
+    "az": "Kuryer rejimini aktivləşdir",
+    "ru": "Включить режим курьера",
+    "en": "Turn on courier mode"
+  },
+  "route.saved": { "az": "Marşrut yadda saxlanıldı", "ru": "Маршрут сохранён", "en": "Route saved" },
+  "route.how": { "az": "Necə işləyir", "ru": "Как это работает", "en": "How it works" },
+  "route.how1.title": { "az": "Marşrutunu yaz", "ru": "Укажите маршрут", "en": "Declare your route" },
+  "route.how1.body": {
+    "az": "Haradan haraya getdiyini bildir",
+    "ru": "Сообщите, откуда и куда вы едете",
+    "en": "Tell us where you go from and to"
+  },
+  "route.how2.title": { "az": "Bağlama götür", "ru": "Возьмите посылку", "en": "Pick up a parcel" },
+  "route.how2.body": {
+    "az": "Detour {minutes} dəq-dən az olan təkliflər",
+    "ru": "Предложения с объездом меньше {minutes} мин",
+    "en": "Offers with a detour under {minutes} min"
+  },
+  "route.how3.title": { "az": "Qazan", "ru": "Заработайте", "en": "Earn" },
+  "route.how3.body": {
+    "az": "Təhvildən dərhal balansa keçir",
+    "ru": "Сумма сразу зачисляется на баланс",
+    "en": "The hand-over credits your balance at once"
+  },
+  "route.errors.required": { "az": "Bu sahəni doldur", "ru": "Заполните это поле", "en": "Fill in this field" },
+  "route.errors.tooShort": { "az": "Ünvanı tam yaz", "ru": "Укажите полный адрес", "en": "Enter the full address" },
+  "route.errors.same": {
+    "az": "Başlanğıc və son ünvan eyni ola bilməz",
+    "ru": "Начальный и конечный адрес не могут совпадать",
+    "en": "The start and the end address cannot be the same"
+  },
+  "route.errors.time": { "az": "Vaxtı seç", "ru": "Выберите время", "en": "Pick a time" },
+
+  "matches.title": { "az": "Uyğun bağlamalar", "ru": "Подходящие посылки", "en": "Matching parcels" },
+  "matches.subtitle": {
+    "az": "{from} → {to} · {time} · {transport}",
+    "ru": "{from} → {to} · {time} · {transport}",
+    "en": "{from} → {to} · {time} · {transport}"
+  },
+  "matches.count": {
+    "az": "{count, plural, other {# təklif}}",
+    "ru": "{count, plural, one {# предложение} few {# предложения} many {# предложений} other {# предложения}}",
+    "en": "{count, plural, one {# offer} other {# offers}}"
+  },
+  "matches.pay": { "az": "qazanc", "ru": "заработок", "en": "earnings" },
+  "matches.pickup": { "az": "Götürmə", "ru": "Забор", "en": "Pick-up" },
+  "matches.dropoff": { "az": "Təhvil", "ru": "Выдача", "en": "Drop-off" },
+  "matches.detour": {
+    "az": "+{minutes} dəq yolda",
+    "ru": "+{minutes} мин в пути",
+    "en": "+{minutes} min on the way"
+  },
+  "matches.weight": { "az": "{value} kq", "ru": "{value} кг", "en": "{value} kg" },
+  "matches.distance": { "az": "{value} km", "ru": "{value} км", "en": "{value} km" },
+  "matches.take": { "az": "Götür", "ru": "Взять", "en": "Take it" },
+  "matches.routeSummary": { "az": "Marşrutun", "ru": "Ваш маршрут", "en": "Your route" },
+  "matches.changeRoute": { "az": "Marşrutu dəyiş", "ru": "Изменить маршрут", "en": "Change route" },
+  "matches.timeLabel": { "az": "Vaxt", "ru": "Время", "en": "Time" },
+  "matches.empty.title": {
+    "az": "Hələlik uyğun bağlama yoxdur",
+    "ru": "Пока нет подходящих посылок",
+    "en": "No matching parcels yet"
+  },
+  "matches.empty.body": {
+    "az": "Marşrutunun üstündə təklif çıxanda bildiriş göndərəcəyik. Vaxtı və ya nəqliyyatı dəyişə bilərsən.",
+    "ru": "Пришлём уведомление, когда по вашему маршруту появится предложение. Можно изменить время или транспорт.",
+    "en": "We will notify you when an offer appears along your route. You can also change the time or the transport."
+  },
+  "matches.error.title": { "az": "Bağlamalar yüklənmədi", "ru": "Посылки не загрузились", "en": "The parcels did not load" },
+  "matches.error.body": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Проблема со связью. Попробуйте снова.",
+    "en": "A connection problem occurred. Try again."
+  },
+  "matches.taken": { "az": "Sifariş artıq götürülüb", "ru": "Заказ уже взяли", "en": "Someone already took this order" },
+  "matches.noRoute.title": { "az": "Əvvəlcə marşrutunu qur", "ru": "Сначала задайте маршрут", "en": "Set your route first" },
+  "matches.noRoute.body": {
+    "az": "Haradan haraya getdiyini bildir, uyğun bağlamaları yolunun üstündən seçək.",
+    "ru": "Укажите, откуда и куда вы едете, и мы подберём посылки по пути.",
+    "en": "Tell us where you travel from and to, and we will match parcels along the way."
+  },
+
+  "track.title": { "az": "Çatdırılma {id}", "ru": "Доставка {id}", "en": "Delivery {id}" },
+  "track.subtitle": { "az": "{pickup} → {dropoff}", "ru": "{pickup} → {dropoff}", "en": "{pickup} → {dropoff}" },
+  "track.map": { "az": "Marşrut xəritəsi (demo)", "ru": "Карта маршрута (демо)", "en": "Route map (demo)" },
+  "track.mapPoints": { "az": "Xəritədəki nöqtələr", "ru": "Точки на карте", "en": "Points on the map" },
+  "track.mapDetour": { "az": "Əlavə yol: +{minutes} dəq", "ru": "Объезд: +{minutes} мин", "en": "Detour: +{minutes} min" },
+  "track.steps": { "az": "Mərhələlər", "ru": "Этапы", "en": "Steps" },
+  "track.step0.title": { "az": "Götürmə yerinə get", "ru": "Дойдите до точки забора", "en": "Head to the pick-up point" },
+  "track.step1.title": { "az": "Bağlamanı götür", "ru": "Возьмите посылку", "en": "Collect the parcel" },
+  "track.step1.body": { "az": "Kodu göstər", "ru": "Покажите код", "en": "Show the code" },
+  "track.step2.title": { "az": "Təhvil yerinə get", "ru": "Дойдите до точки выдачи", "en": "Head to the drop-off point" },
+  "track.step3.title": { "az": "Çatdırıldım", "ru": "Доставлено", "en": "Delivered" },
+  "track.step3.body": { "az": "Alıcı təsdiq edir", "ru": "Получатель подтверждает", "en": "The recipient confirms" },
+  "track.pay": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "track.next.0": { "az": "Bağlamanı götürdüm", "ru": "Я взял посылку", "en": "I collected it" },
+  "track.next.1": { "az": "Yola düşdüm", "ru": "Я в пути", "en": "I am on the way" },
+  "track.next.2": { "az": "Çatdırıldım", "ru": "Доставил", "en": "I delivered it" },
+  "track.done.title": { "az": "Təhvil tamamlandı", "ru": "Выдача завершена", "en": "Hand-over complete" },
+  "track.done.body": {
+    "az": "Qazancın balansına əlavə edildi",
+    "ru": "Заработок зачислен на баланс",
+    "en": "Your earnings were added to the balance"
+  },
+  "track.done.seeMatches": { "az": "Yeni bağlamalara bax", "ru": "Посмотреть новые посылки", "en": "See new parcels" },
+  "track.done.seeEarnings": { "az": "Qazanca bax", "ru": "Открыть заработок", "en": "View earnings" },
+  "track.error.title": { "az": "Çatdırılma yüklənmədi", "ru": "Доставка не загрузилась", "en": "The delivery did not load" },
+  "track.notFound.title": { "az": "Çatdırılma tapılmadı", "ru": "Доставка не найдена", "en": "Delivery not found" },
+  "track.notFound.body": {
+    "az": "Bu çatdırılma artıq bağlanıb və ya başqa kuryerə keçib.",
+    "ru": "Эта доставка уже закрыта или перешла другому курьеру.",
+    "en": "This delivery is already closed or went to another courier."
+  },
+
+  "earnings.title": { "az": "Qazanc", "ru": "Заработок", "en": "Earnings" },
+  "earnings.subtitle": {
+    "az": "Balans və son çatdırılmalar",
+    "ru": "Баланс и последние доставки",
+    "en": "Balance and recent deliveries"
+  },
+  "earnings.balance": { "az": "Balans", "ru": "Баланс", "en": "Balance" },
+  "earnings.today": { "az": "Bu gün", "ru": "Сегодня", "en": "Today" },
+  "earnings.month": { "az": "Bu ay", "ru": "За месяц", "en": "This month" },
+  "earnings.deliveries": { "az": "Çatdırılma", "ru": "Доставки", "en": "Deliveries" },
+  "earnings.history": { "az": "Çatdırılma tarixçəsi", "ru": "История доставок", "en": "Delivery history" },
+  "earnings.note": {
+    "az": "Məbləğlər nümunədir, heç bir ödəniş aparılmır.",
+    "ru": "Суммы приведены для примера, никакие выплаты не производятся.",
+    "en": "The amounts are samples; no payout is ever made."
+  },
+  "earnings.empty.title": { "az": "Hələ qazanc yoxdur", "ru": "Заработка пока нет", "en": "No earnings yet" },
+  "earnings.empty.body": {
+    "az": "İlk bağlamanı götür, qazanc burada görünəcək.",
+    "ru": "Возьмите первую посылку — заработок появится здесь.",
+    "en": "Take your first parcel and the earnings will show up here."
+  },
+  "earnings.error.title": { "az": "Qazanc yüklənmədi", "ru": "Заработок не загрузился", "en": "The earnings did not load" },
+
+  "hubRegister.title": { "az": "Qonşu anbar aç", "ru": "Откройте соседний пункт", "en": "Open a neighbour hub" },
+  "hubRegister.subtitle": {
+    "az": "Bağlamaları evində saxla, hər təhvildən komissiya qazan",
+    "ru": "Храните посылки дома и получайте комиссию за каждую выдачу",
+    "en": "Keep parcels at home and earn a commission on every hand-over"
+  },
+  "hubRegister.address": { "az": "Ünvan", "ru": "Адрес", "en": "Address" },
+  "hubRegister.addressPlaceholder": {
+    "az": "Nizami küç. 14, 2-ci mərtəbə",
+    "ru": "ул. Низами 14, 2-й этаж",
+    "en": "Nizami str. 14, 2nd floor"
+  },
+  "hubRegister.openAt": { "az": "Açılış saatı", "ru": "Время открытия", "en": "Opening time" },
+  "hubRegister.closeAt": { "az": "Bağlanış saatı", "ru": "Время закрытия", "en": "Closing time" },
+  "hubRegister.capacity": {
+    "az": "Tutum (eyni anda neçə bağlama)",
+    "ru": "Вместимость (сколько посылок одновременно)",
+    "en": "Capacity (parcels at the same time)"
+  },
+  "hubRegister.submit": { "az": "Qeydiyyatdan keç", "ru": "Зарегистрироваться", "en": "Register" },
+  "hubRegister.infoTitle": { "az": "Nə qazanırsan?", "ru": "Что вы заработаете?", "en": "What do you earn?" },
+  "hubRegister.infoBody": {
+    "az": "hər təhvil verilən bağlamadan. Qonşular sənin ünvanını məntəqə kimi görəcək.",
+    "ru": "за каждую выданную посылку. Соседи увидят ваш адрес как пункт выдачи.",
+    "en": "for every parcel you hand over. Neighbours will see your address as a pick-up point."
+  },
+  "hubRegister.done": { "az": "Məntəqə qeydiyyatdan keçdi", "ru": "Пункт зарегистрирован", "en": "The hub is registered" },
+  "hubRegister.errors.required": { "az": "Bu sahəni doldur", "ru": "Заполните это поле", "en": "Fill in this field" },
+  "hubRegister.errors.address": { "az": "Ünvanı tam yaz", "ru": "Укажите полный адрес", "en": "Enter the full address" },
+  "hubRegister.errors.time": {
+    "az": "Vaxtı HH:MM formatında yaz",
+    "ru": "Укажите время в формате ЧЧ:ММ",
+    "en": "Use the HH:MM format"
+  },
+  "hubRegister.errors.order": {
+    "az": "Bağlanış saatı açılışdan sonra olmalıdır",
+    "ru": "Время закрытия должно быть позже открытия",
+    "en": "Closing time must be after the opening time"
+  },
+
+  "hub.title": { "az": "Anbar paneli", "ru": "Панель пункта", "en": "Hub panel" },
+  "hub.subtitle": { "az": "{address} · {open}–{close}", "ru": "{address} · {open}–{close}", "en": "{address} · {open}–{close}" },
+  "hub.open": { "az": "Açıqdır", "ru": "Открыт", "en": "Open" },
+  "hub.closed": { "az": "Bağlıdır", "ru": "Закрыт", "en": "Closed" },
+  "hub.commissionToday": { "az": "Bu gün komissiya", "ru": "Комиссия за сегодня", "en": "Commission today" },
+  "hub.commissionMonth": { "az": "Bu ay komissiya", "ru": "Комиссия за месяц", "en": "Commission this month" },
+  "hub.handedToday": { "az": "Bu gün təhvil", "ru": "Выдач за сегодня", "en": "Handed over today" },
+  "hub.waitingCount": { "az": "Gözləyən", "ru": "Ожидают", "en": "Waiting" },
+  "hub.capacityValue": { "az": "{waiting} / {capacity}", "ru": "{waiting} / {capacity}", "en": "{waiting} / {capacity}" },
+  "hub.waitingTitle": { "az": "Gözləyən bağlamalar", "ru": "Ожидающие посылки", "en": "Parcels waiting" },
+  "hub.waitingHours": {
+    "az": "Gözləyir: {count, plural, other {# saat}}",
+    "ru": "Ожидает: {count, plural, one {# час} few {# часа} many {# часов} other {# часа}}",
+    "en": "Waiting: {count, plural, one {# hour} other {# hours}}"
+  },
+  "hub.waitingDays": {
+    "az": "Gözləyir: {count, plural, other {# gün}}",
+    "ru": "Ожидает: {count, plural, one {# день} few {# дня} many {# дней} other {# дня}}",
+    "en": "Waiting: {count, plural, one {# day} other {# days}}"
+  },
+  "hub.handOver": { "az": "Təhvil verildi", "ru": "Выдано", "en": "Handed over" },
+  "hub.gate.title": { "az": "Hələ məntəqə deyilsən", "ru": "Вы ещё не пункт выдачи", "en": "You are not a hub yet" },
+  "hub.gate.body": {
+    "az": "Qonşu anbar aç, bağlamaları evində saxla və hər təhvildən {commission} qazan.",
+    "ru": "Откройте соседний пункт, храните посылки дома и получайте {commission} за каждую выдачу.",
+    "en": "Open a neighbour hub, keep parcels at home and earn {commission} on every hand-over."
+  },
+  "hub.gate.action": { "az": "Məntəqə aç", "ru": "Открыть пункт", "en": "Open a hub" },
+  "hub.empty.title": { "az": "Gözləyən bağlama yoxdur", "ru": "Ожидающих посылок нет", "en": "No parcels waiting" },
+  "hub.empty.body": {
+    "az": "Yeni bağlama gələndə burada görünəcək.",
+    "ru": "Новая посылка появится здесь.",
+    "en": "A new parcel will show up here."
+  },
+  "hub.error.title": { "az": "Anbar paneli yüklənmədi", "ru": "Панель пункта не загрузилась", "en": "The hub panel did not load" },
+  "hub.code.title": { "az": "Təhvil kodu", "ru": "Код выдачи", "en": "Hand-over code" },
+  "hub.code.body": {
+    "az": "{recipient} bağlamasını verməzdən əvvəl alıcının 4 rəqəmli kodunu daxil et.",
+    "ru": "Прежде чем выдать посылку для {recipient}, введите 4-значный код получателя.",
+    "en": "Before handing over the parcel for {recipient}, enter the 4-digit code of the recipient."
+  },
+  "hub.code.label": { "az": "4 rəqəmli təhvil kodu", "ru": "4-значный код выдачи", "en": "4-digit hand-over code" },
+  "hub.code.cell": { "az": "{index}. rəqəm, {total} rəqəmdən", "ru": "Цифра {index} из {total}", "en": "Digit {index} of {total}" },
+  "hub.code.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "hub.code.confirm": { "az": "Təsdiqlə", "ru": "Подтвердить", "en": "Confirm" },
+  "hub.code.wrong": { "az": "Kod yanlışdır", "ru": "Код неверный", "en": "The code is wrong" },
+  "hub.code.short": { "az": "4 rəqəmi tam daxil et", "ru": "Введите все 4 цифры", "en": "Enter all 4 digits" },
+  "hub.code.success": { "az": "Bağlama təhvil verildi", "ru": "Посылка выдана", "en": "The parcel was handed over" },
+
+  "nearby.title": { "az": "Yaxınlıqdakı məntəqələr", "ru": "Пункты рядом", "en": "Hubs nearby" },
+  "nearby.body": {
+    "az": "Bağlamanı evə çatdırmaq əvəzinə qonşu məntəqədən götür.",
+    "ru": "Вместо доставки домой заберите посылку в соседнем пункте.",
+    "en": "Collect the parcel from a neighbour hub instead of having it delivered home."
+  },
+  "nearby.hours": { "az": "{address} · {open}–{close}", "ru": "{address} · {open}–{close}", "en": "{address} · {open}–{close}" },
+  "nearby.distance": { "az": "{meters} m", "ru": "{meters} м", "en": "{meters} m" },
+  "nearby.select": { "az": "Bu məntəqəni seç", "ru": "Выбрать этот пункт", "en": "Choose this hub" },
+  "nearby.selected": { "az": "{name} seçildi", "ru": "Выбрано: {name}", "en": "{name} selected" },
+  "nearby.open": { "az": "Məntəqə seç", "ru": "Выбрать пункт", "en": "Choose a hub" },
+  "nearby.empty.title": { "az": "Yaxınlıqda məntəqə yoxdur", "ru": "Рядом нет пунктов", "en": "No hubs nearby" },
+  "nearby.empty.body": {
+    "az": "800 m daxilində qonşu anbar tapılmadı. Bağlamanı evə sifariş et.",
+    "ru": "В радиусе 800 м соседний пункт не найден. Заказывайте доставку домой.",
+    "en": "No neighbour hub within 800 m. Order home delivery instead."
+  },
+  "nearby.error.title": { "az": "Məntəqələr yüklənmədi", "ru": "Пункты не загрузились", "en": "The hubs did not load" },
+
+  "entry.title": { "az": "Yolüstü kuryer", "ru": "Попутный курьер", "en": "On-the-way courier" },
+  "entry.body": {
+    "az": "Yolunun üstündən bağlama götür, əlavə qazan",
+    "ru": "Берите посылку по пути и зарабатывайте дополнительно",
+    "en": "Take a parcel along your way and earn extra"
+  },
+  "entry.action": { "az": "Başla", "ru": "Начать", "en": "Start" }
+}

@@ -1,0 +1,473 @@
+{
+  "common.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "common.back": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "common.confirm": { "az": "Təsdiqlə", "ru": "Подтвердить", "en": "Confirm" },
+  "common.retry": { "az": "Yenidən cəhd et", "ru": "Повторить попытку", "en": "Try again" },
+  "common.free": { "az": "Pulsuz", "ru": "Бесплатно", "en": "Free" },
+  "common.none": { "az": "Yoxdur", "ru": "Нет", "en": "None" },
+  "common.loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+
+  "demo.title": { "az": "Demo məlumatlar:", "ru": "Демо-данные:", "en": "Demo data:" },
+  "demo.body": {
+    "az": "kuryer xidmətləri hələ işləmir, məhsullar, qiymətlər və sifarişlər nümunədir",
+    "ru": "курьерские услуги пока не работают, товары, цены и заказы — примеры",
+    "en": "the courier services are not live yet; products, prices and orders are samples"
+  },
+  "demo.noCharge": {
+    "az": "Nümunə məlumat: kartdan heç nə tutulmur və sifariş heç yerə göndərilmir.",
+    "ru": "Пример данных: с карты ничего не списывается и заказ никуда не отправляется.",
+    "en": "Sample data: nothing is charged to the card and no order is sent anywhere."
+  },
+
+  "entry.body": {
+    "az": "Çanta, ölçü sınağı və ekspert xidməti",
+    "ru": "Сумка, примерка размеров и услуги эксперта",
+    "en": "The bag, the size try-on and the expert service"
+  },
+
+  "hub.crumb": {
+    "az": "Profil / Kuryer xidmətləri",
+    "ru": "Профиль / Курьерские услуги",
+    "en": "Profile / Courier services"
+  },
+  "hub.title": { "az": "Kuryer xidmətləri", "ru": "Курьерские услуги", "en": "Courier services" },
+  "hub.subtitle": {
+    "az": "Kuryer təkcə çatdırmır — satır və quraşdırır da",
+    "ru": "Курьер не только доставляет — он продаёт и устанавливает",
+    "en": "The courier does more than deliver — they sell and install too"
+  },
+  "hub.bag.title": { "az": "Kuryerin çantası", "ru": "Сумка курьера", "en": "The courier's bag" },
+  "hub.bag.body": {
+    "az": "Çatdırılma zamanı endirimli əlavə məhsullar",
+    "ru": "Дополнительные товары со скидкой во время доставки",
+    "en": "Discounted extras while your order is on the way"
+  },
+  "hub.bag.cta": { "az": "Çantaya bax", "ru": "Открыть сумку", "en": "View the bag" },
+  "hub.fit.title": { "az": "Geyin, Seç, Qaytar", "ru": "Примерь, выбери, верни", "en": "Try, pick, return" },
+  "hub.fit.body": {
+    "az": "2 ölçü sifariş et, qapıda seç, artığını qaytar",
+    "ru": "Заказывай 2 размера, выбирай у двери, лишнее возвращай",
+    "en": "Order two sizes, choose at the door, return the rest"
+  },
+  "hub.fit.cta": { "az": "Ölçü seç", "ru": "Выбрать размер", "en": "Pick a size" },
+  "hub.expert.title": { "az": "Kuryer-Ekspert", "ru": "Курьер-эксперт", "en": "Courier expert" },
+  "hub.expert.body": {
+    "az": "Sertifikatlı kuryer quraşdırsın",
+    "ru": "Пусть установит сертифицированный курьер",
+    "en": "Let a certified courier install it"
+  },
+  "hub.expert.cta": { "az": "Xidmət seç", "ru": "Выбрать услугу", "en": "Choose a service" },
+  "hub.more.title": {
+    "az": "Digər kuryer xidmətləri",
+    "ru": "Другие курьерские услуги",
+    "en": "Other courier services"
+  },
+  "hub.more.soon": { "az": "Tezliklə", "ru": "Скоро", "en": "Coming soon" },
+  "hub.more.courierPlus.title": { "az": "Yolüstü kuryer", "ru": "Курьер по пути", "en": "Courier on the way" },
+  "hub.more.courierPlus.body": {
+    "az": "Öz marşrutunda bağlama apar və qazanc əldə et",
+    "ru": "Берите посылки по своему маршруту и зарабатывайте",
+    "en": "Carry parcels along your own route and earn"
+  },
+  "hub.more.courier.title": { "az": "Kuryer ol", "ru": "Стать курьером", "en": "Become a courier" },
+  "hub.more.courier.body": {
+    "az": "Müraciət et, sifariş götür, qazancını izlə",
+    "ru": "Подайте заявку, берите заказы, следите за доходом",
+    "en": "Apply, take orders, track your earnings"
+  },
+
+  "banner.title": {
+    "az": "Kuryer {minutes} dəq-ə qapınızda",
+    "ru": "Курьер у вашей двери через {minutes} мин",
+    "en": "The courier is at your door in {minutes} min"
+  },
+  "banner.body": {
+    "az": "Çantasında endirimli məhsullar var",
+    "ru": "В его сумке есть товары со скидкой",
+    "en": "There are discounted items in their bag"
+  },
+  "banner.cta": { "az": "Çantaya bax", "ru": "Открыть сумку", "en": "View the bag" },
+
+  "bag.crumb": {
+    "az": "Kuryer xidmətləri / Kuryerin çantası",
+    "ru": "Курьерские услуги / Сумка курьера",
+    "en": "Courier services / The courier's bag"
+  },
+  "bag.title": { "az": "Kuryerin çantası", "ru": "Сумка курьера", "en": "The courier's bag" },
+  "bag.subtitle": {
+    "az": "Kuryer qapına gələndə çantasında olan endirimli məhsullar",
+    "ru": "Товары со скидкой, которые курьер привезёт с собой",
+    "en": "Discounted items the courier already has with them"
+  },
+  "bag.intro.title": {
+    "az": "Məhsul əlavə et, kuryer qapıda təhvil versin",
+    "ru": "Добавьте товар — курьер передаст его у двери",
+    "en": "Add an item and the courier hands it over at the door"
+  },
+  "bag.intro.body": {
+    "az": "Çatdırılma pulsuzdur. Ödəniş sifarişlə birlikdə, endirimli qiymətlə.",
+    "ru": "Доставка бесплатная. Оплата вместе с заказом, по цене со скидкой.",
+    "en": "Delivery is free. You pay with the order, at the discounted price."
+  },
+  "bag.discount": { "az": "-{percent}%", "ru": "-{percent}%", "en": "-{percent}%" },
+  "bag.stockLeft": {
+    "az": "{count, plural, one {# ədəd qaldı} other {# ədəd qaldı}}",
+    "ru": "{count, plural, one {осталась # шт.} few {осталось # шт.} many {осталось # шт.} other {осталось # шт.}}",
+    "en": "{count, plural, one {# left} other {# left}}"
+  },
+  "bag.soldOut": { "az": "Bitdi", "ru": "Закончился", "en": "Sold out" },
+  "bag.add": { "az": "{name} əlavə et", "ru": "Добавить {name}", "en": "Add {name}" },
+  "bag.increase": { "az": "{name} sayını artır", "ru": "Увеличить количество {name}", "en": "Increase {name}" },
+  "bag.decrease": { "az": "{name} sayını azalt", "ru": "Уменьшить количество {name}", "en": "Decrease {name}" },
+  "bag.remove": { "az": "{name} çantadan çıxar", "ru": "Убрать {name} из сумки", "en": "Remove {name} from the bag" },
+  "bag.quantityAnnounce": {
+    "az": "{name}: {count, plural, one {# ədəd} other {# ədəd}}",
+    "ru": "{name}: {count, plural, one {# шт.} few {# шт.} many {# шт.} other {# шт.}}",
+    "en": "{name}: {count, plural, one {# item} other {# items}}"
+  },
+  "bag.cart.title": { "az": "Çantam", "ru": "Моя сумка", "en": "My bag" },
+  "bag.cart.empty": {
+    "az": "Hələ heç nə seçməmisən.",
+    "ru": "Вы пока ничего не выбрали.",
+    "en": "You have not picked anything yet."
+  },
+  "bag.cart.line": { "az": "{count} × {name}", "ru": "{count} × {name}", "en": "{count} × {name}" },
+  "bag.cart.delivery": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "bag.cart.saving": { "az": "Qənaət", "ru": "Экономия", "en": "You save" },
+  "bag.cart.total": { "az": "Cəmi", "ru": "Итого", "en": "Total" },
+  "bag.cart.cta": { "az": "Qapıda təhvil al", "ru": "Получить у двери", "en": "Take it at the door" },
+  "bag.confirm.title": { "az": "Kuryer hazırlaşır?", "ru": "Курьер готовится?", "en": "Shall the courier get ready?" },
+  "bag.confirm.body": {
+    "az": "{count, plural, one {# məhsul qapıda təhvil veriləcək. Çatdırılma pulsuzdur.} other {# məhsul qapıda təhvil veriləcək. Çatdırılma pulsuzdur.}}",
+    "ru": "{count, plural, one {# товар будет передан у двери. Доставка бесплатная.} few {# товара будут переданы у двери. Доставка бесплатная.} many {# товаров будут переданы у двери. Доставка бесплатная.} other {# товара будут переданы у двери. Доставка бесплатная.}}",
+    "en": "{count, plural, one {# item will be handed over at the door. Delivery is free.} other {# items will be handed over at the door. Delivery is free.}}"
+  },
+  "bag.confirm.payment": { "az": "Ödəniş", "ru": "К оплате", "en": "Payment" },
+  "bag.success.title": { "az": "Kuryer hazırlaşır", "ru": "Курьер готовится", "en": "The courier is getting ready" },
+  "bag.success.body": {
+    "az": "{count, plural, one {# məhsul qapıda təhvil veriləcək. Çatdırılma pulsuzdur.} other {# məhsul qapıda təhvil veriləcək. Çatdırılma pulsuzdur.}}",
+    "ru": "{count, plural, one {# товар будет передан у двери. Доставка бесплатная.} few {# товара будут переданы у двери. Доставка бесплатная.} many {# товаров будут переданы у двери. Доставка бесплатная.} other {# товара будут переданы у двери. Доставка бесплатная.}}",
+    "en": "{count, plural, one {# item will be handed over at the door. Delivery is free.} other {# items will be handed over at the door. Delivery is free.}}"
+  },
+  "bag.success.payment": { "az": "Ödəniş: {amount}", "ru": "Оплата: {amount}", "en": "Payment: {amount}" },
+  "bag.success.cta": { "az": "Sifarişə qayıt", "ru": "Вернуться к заказу", "en": "Back to the order" },
+  "bag.empty.title": {
+    "az": "Kuryerin çantası bu dəfə boşdur",
+    "ru": "На этот раз сумка курьера пуста",
+    "en": "The courier's bag is empty this time"
+  },
+  "bag.empty.body": {
+    "az": "Hazırda endirimli əlavə məhsul yoxdur. Növbəti sifarişdə yenidən yoxla.",
+    "ru": "Сейчас дополнительных товаров со скидкой нет. Проверьте при следующем заказе.",
+    "en": "There are no discounted extras right now. Check again with your next order."
+  },
+  "bag.empty.cta": { "az": "Geri qayıt", "ru": "Вернуться", "en": "Go back" },
+  "bag.error.title": { "az": "Çanta yüklənmədi", "ru": "Сумка не загрузилась", "en": "The bag did not load" },
+  "bag.error.body": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Возникла проблема с соединением. Повторите попытку.",
+    "en": "There was a connection problem. Please try again."
+  },
+  "bag.confirmError.title": {
+    "az": "Sifariş göndərilmədi",
+    "ru": "Заказ не отправлен",
+    "en": "The order was not sent"
+  },
+  "bag.confirmError.body": {
+    "az": "Çantadakı seçimin qaldı. Yenidən cəhd et.",
+    "ru": "Ваш выбор сохранён в сумке. Повторите попытку.",
+    "en": "Your selection is still in the bag. Please try again."
+  },
+
+  "fit.crumb": {
+    "az": "Kuryer xidmətləri / Geyin, Seç, Qaytar",
+    "ru": "Курьерские услуги / Примерь, выбери, верни",
+    "en": "Courier services / Try, pick, return"
+  },
+  "fit.title": { "az": "Geyin, Seç, Qaytar", "ru": "Примерь, выбери, верни", "en": "Try, pick, return" },
+  "fit.subtitle": {
+    "az": "Geyim və ayaqqabını 2 ölçüdə sifariş et. Kuryer qapıda 10 dəqiqə gözləyir.",
+    "ru": "Заказывайте одежду и обувь в двух размерах. Курьер ждёт у двери 10 минут.",
+    "en": "Order clothes and shoes in two sizes. The courier waits 10 minutes at the door."
+  },
+  "fit.sizes.legend": {
+    "az": "{count, plural, one {# ölçü seç} other {# ölçü seç}}",
+    "ru": "{count, plural, one {Выберите # размер} few {Выберите # размера} many {Выберите # размеров} other {Выберите # размера}}",
+    "en": "{count, plural, one {Pick # size} other {Pick # sizes}}"
+  },
+  "fit.sizes.option": { "az": "{size}", "ru": "{size}", "en": "{size}" },
+  "fit.sizes.label": { "az": "Ölçü {size}", "ru": "Размер {size}", "en": "Size {size}" },
+  "fit.sizes.counter": {
+    "az": "{selected}/{total} ölçü seçildi",
+    "ru": "Выбрано {selected} из {total} размеров",
+    "en": "{selected}/{total} sizes selected"
+  },
+  "fit.how.title": { "az": "Necə işləyir", "ru": "Как это работает", "en": "How it works" },
+  "fit.how.step1": {
+    "az": "Eyni modeldən 2 ölçü sifariş edirsən",
+    "ru": "Вы заказываете две размера одной модели",
+    "en": "You order the same model in two sizes"
+  },
+  "fit.how.step2": {
+    "az": "Kuryer qapıda {minutes} dəqiqə gözləyir, sən geyinib baxırsan",
+    "ru": "Курьер ждёт у двери {minutes} минут, вы примеряете",
+    "en": "The courier waits {minutes} minutes at the door while you try them on"
+  },
+  "fit.how.step3": {
+    "az": "Artığını dərhal qaytarırsan, yalnız saxladığına ödəyirsən",
+    "ru": "Лишнее возвращаете сразу и платите только за то, что оставили",
+    "en": "You return the rest right away and pay only for what you keep"
+  },
+  "fit.summary.title": { "az": "Sifariş", "ru": "Заказ", "en": "Order" },
+  "fit.summary.placeholder": {
+    "az": "{count, plural, one {# ölçü seç} other {# ölçü seç}}",
+    "ru": "{count, plural, one {Выберите # размер} few {Выберите # размера} many {Выберите # размеров} other {Выберите # размера}}",
+    "en": "{count, plural, one {Pick # size} other {Pick # sizes}}"
+  },
+  "fit.summary.price": { "az": "Qiymət (1 cüt)", "ru": "Цена (1 пара)", "en": "Price (1 pair)" },
+  "fit.summary.delivery": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "fit.summary.chargeNow": { "az": "İndi tutulacaq", "ru": "Списывается сейчас", "en": "Charged now" },
+  "fit.summary.cta": {
+    "az": "{count, plural, one {# ölçü sifariş et} other {# ölçü sifariş et}}",
+    "ru": "{count, plural, one {Заказать # размер} few {Заказать # размера} many {Заказать # размеров} other {Заказать # размера}}",
+    "en": "{count, plural, one {Order # size} other {Order # sizes}}"
+  },
+  "fit.empty.title": {
+    "az": "Hazırda sınaq üçün məhsul yoxdur",
+    "ru": "Сейчас нет товаров для примерки",
+    "en": "There is nothing to try on right now"
+  },
+  "fit.empty.body": {
+    "az": "Bu xidmət üçün seçilmiş model hazırda mövcud deyil. Sonra yenidən yoxla.",
+    "ru": "Выбранная для этой услуги модель сейчас недоступна. Попробуйте позже.",
+    "en": "The model picked for this service is unavailable. Check again later."
+  },
+  "fit.empty.cta": { "az": "Xidmətlərə qayıt", "ru": "К услугам", "en": "Back to services" },
+  "fit.error.title": {
+    "az": "Məhsul yüklənmədi",
+    "ru": "Товар не загрузился",
+    "en": "The product did not load"
+  },
+  "fit.error.body": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Возникла проблема с соединением. Повторите попытку.",
+    "en": "There was a connection problem. Please try again."
+  },
+  "fit.startError.title": {
+    "az": "Sifariş başlamadı",
+    "ru": "Заказ не начался",
+    "en": "The order did not start"
+  },
+  "fit.startError.body": {
+    "az": "Seçdiyin ölçülər qaldı. Yenidən cəhd et.",
+    "ru": "Выбранные размеры сохранены. Повторите попытку.",
+    "en": "The sizes you picked are still selected. Please try again."
+  },
+
+  "doorstep.crumb": {
+    "az": "Kuryer xidmətləri / Qapıda sınaq",
+    "ru": "Курьерские услуги / Примерка у двери",
+    "en": "Courier services / Try-on at the door"
+  },
+  "doorstep.title": { "az": "Qapıda sınaq", "ru": "Примерка у двери", "en": "Try-on at the door" },
+  "doorstep.waiting": { "az": "Kuryer qapıda gözləyir", "ru": "Курьер ждёт у двери", "en": "The courier is waiting at the door" },
+  "doorstep.resultSubtitle": { "az": "Sınaq sessiyası", "ru": "Сессия примерки", "en": "Try-on session" },
+  "doorstep.clock": {
+    "az": "Qalan vaxt {clock}",
+    "ru": "Осталось времени {clock}",
+    "en": "Time left {clock}"
+  },
+  "doorstep.progress": { "az": "Qalan vaxt", "ru": "Остаток времени", "en": "Time remaining" },
+  "doorstep.autoConfirm": {
+    "az": "Vaxt bitəndə seçimin avtomatik təsdiqlənir.",
+    "ru": "Когда время закончится, ваш выбор подтвердится автоматически.",
+    "en": "When the time runs out your choice is confirmed automatically."
+  },
+  "doorstep.expired": {
+    "az": "Vaxt bitdi — seçimini təsdiqlə",
+    "ru": "Время вышло — подтвердите свой выбор",
+    "en": "Time is up — confirm your choice"
+  },
+  "doorstep.minutesLeft": {
+    "az": "{count, plural, one {# dəqiqə qaldı} other {# dəqiqə qaldı}}",
+    "ru": "{count, plural, one {осталась # минута} few {осталось # минуты} many {осталось # минут} other {осталось # минуты}}",
+    "en": "{count, plural, one {# minute left} other {# minutes left}}"
+  },
+  "doorstep.item": { "az": "{name} · Ölçü {size}", "ru": "{name} · Размер {size}", "en": "{name} · Size {size}" },
+  "doorstep.choiceLegend": {
+    "az": "{label}: saxla və ya qaytar",
+    "ru": "{label}: оставить или вернуть",
+    "en": "{label}: keep or return"
+  },
+  "doorstep.keep": { "az": "Saxla", "ru": "Оставить", "en": "Keep" },
+  "doorstep.return": { "az": "Qaytar", "ru": "Вернуть", "en": "Return" },
+  "doorstep.panel.title": { "az": "Seçimin", "ru": "Ваш выбор", "en": "Your choice" },
+  "doorstep.panel.kept": { "az": "Saxlanan", "ru": "Оставляете", "en": "Keeping" },
+  "doorstep.panel.returned": { "az": "Qaytarılan", "ru": "Возвращаете", "en": "Returning" },
+  "doorstep.panel.charge": {
+    "az": "Kartdan tutulacaq: {amount}",
+    "ru": "С карты спишется: {amount}",
+    "en": "To be charged to the card: {amount}"
+  },
+  "doorstep.panel.nothingKept": {
+    "az": "Heç nə saxlamırsan — kartdan pul tutulmayacaq",
+    "ru": "Вы ничего не оставляете — с карты ничего не спишется",
+    "en": "You are keeping nothing — nothing will be charged"
+  },
+  "doorstep.panel.bothKept": {
+    "az": "Hər iki ölçünü saxlayırsan, ikisinin də pulu tutulacaq",
+    "ru": "Вы оставляете оба размера, оплата будет за оба",
+    "en": "You are keeping both sizes, so both will be charged"
+  },
+  "doorstep.modal.title": {
+    "az": "Seçimi təsdiqləyirsən?",
+    "ru": "Подтверждаете выбор?",
+    "en": "Confirm your choice?"
+  },
+  "doorstep.modal.body": {
+    "az": "{kept} saxlanılır, {returned} kuryerə qaytarılır. Kartdan {amount} tutulacaq.",
+    "ru": "{kept} остаётся у вас, {returned} возвращается курьеру. С карты спишется {amount}.",
+    "en": "{kept} stays with you, {returned} goes back to the courier. {amount} will be charged."
+  },
+  "doorstep.modal.bodyNone": {
+    "az": "{returned} kuryerə qaytarılır. Kartdan pul tutulmayacaq.",
+    "ru": "{returned} возвращается курьеру. С карты ничего не спишется.",
+    "en": "{returned} goes back to the courier. Nothing will be charged."
+  },
+  "doorstep.result.title": { "az": "Seçim təsdiqləndi", "ru": "Выбор подтверждён", "en": "Choice confirmed" },
+  "doorstep.result.body": {
+    "az": "{kept} saxlanıldı, kartdan {amount} tutuldu. Qalanı kuryerə qaytarıldı.",
+    "ru": "{kept} осталось у вас, с карты списано {amount}. Остальное возвращено курьеру.",
+    "en": "{kept} stayed with you and {amount} was charged. The rest went back to the courier."
+  },
+  "doorstep.result.bodyNone": {
+    "az": "Heç nə saxlanılmadı, kartdan pul tutulmadı. Hamısı kuryerə qaytarıldı.",
+    "ru": "Ничего не оставлено, с карты ничего не списано. Всё возвращено курьеру.",
+    "en": "Nothing was kept and nothing was charged. Everything went back to the courier."
+  },
+  "doorstep.result.cta": { "az": "Sifarişlərə qayıt", "ru": "К заказам", "en": "Back to orders" },
+  "doorstep.empty.title": {
+    "az": "Hazırda qapıda sınaq sessiyası yoxdur",
+    "ru": "Сейчас нет сессии примерки у двери",
+    "en": "There is no doorstep try-on session right now"
+  },
+  "doorstep.empty.body": {
+    "az": "{count} ölçü sifariş etdikdə kuryer qapıda {minutes} dəqiqə gözləyəcək.",
+    "ru": "Когда вы заказываете {count} размера, курьер ждёт у двери {minutes} минут.",
+    "en": "When you order {count} sizes the courier waits {minutes} minutes at the door."
+  },
+  "doorstep.empty.cta": { "az": "Sınağa başla (demo)", "ru": "Начать примерку (демо)", "en": "Start a try-on (demo)" },
+  "doorstep.empty.secondary": { "az": "Ölçü seç", "ru": "Выбрать размер", "en": "Pick a size" },
+  "doorstep.error.title": {
+    "az": "Sessiya yüklənmədi",
+    "ru": "Сессия не загрузилась",
+    "en": "The session did not load"
+  },
+  "doorstep.error.body": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Возникла проблема с соединением. Повторите попытку.",
+    "en": "There was a connection problem. Please try again."
+  },
+  "doorstep.confirmError.title": {
+    "az": "Seçim təsdiqlənmədi",
+    "ru": "Выбор не подтверждён",
+    "en": "The choice was not confirmed"
+  },
+  "doorstep.confirmError.body": {
+    "az": "Saxla və qaytar seçimin qaldı. Yenidən cəhd et.",
+    "ru": "Ваш выбор «оставить / вернуть» сохранён. Повторите попытку.",
+    "en": "Your keep / return choice is still set. Please try again."
+  },
+
+  "expert.crumb": {
+    "az": "Kuryer xidmətləri / Kuryer-Ekspert",
+    "ru": "Курьерские услуги / Курьер-эксперт",
+    "en": "Courier services / Courier expert"
+  },
+  "expert.title": { "az": "Kuryer-Ekspert", "ru": "Курьер-эксперт", "en": "Courier expert" },
+  "expert.subtitle": {
+    "az": "Uşaq velosipedi, televizor və ya davlumbaz alanda sertifikatlı kuryer qapıda quraşdırsın",
+    "ru": "Купили детский велосипед, телевизор или вытяжку — пусть сертифицированный курьер установит их у вас дома",
+    "en": "Bought a kids' bike, a TV or a kitchen hood? Let a certified courier install it at your door"
+  },
+  "expert.product.title": { "az": "Məhsul", "ru": "Товар", "en": "Product" },
+  "expert.service.title": { "az": "Xidmət seç", "ru": "Выберите услугу", "en": "Choose a service" },
+  "expert.slot.title": { "az": "Vaxt", "ru": "Время", "en": "Time" },
+  "expert.slot.today": { "az": "Bu gün {time}", "ru": "Сегодня в {time}", "en": "Today at {time}" },
+  "expert.slot.tomorrow": { "az": "Sabah {time}", "ru": "Завтра в {time}", "en": "Tomorrow at {time}" },
+  "expert.minutes": {
+    "az": "{count, plural, one {# dəq} other {# dəq}}",
+    "ru": "{count, plural, one {# мин} few {# мин} many {# мин} other {# мин}}",
+    "en": "{count, plural, one {# min} other {# min}}"
+  },
+  "expert.approxMinutes": {
+    "az": "{count, plural, one {~# dəq} other {~# dəq}}",
+    "ru": "{count, plural, one {~# мин} few {~# мин} many {~# мин} other {~# мин}}",
+    "en": "{count, plural, one {~# min} other {~# min}}"
+  },
+  "expert.summary.title": { "az": "Rezerv", "ru": "Резерв", "en": "Reservation" },
+  "expert.summary.placeholder": {
+    "az": "Məhsul və xidmət seç",
+    "ru": "Выберите товар и услугу",
+    "en": "Pick a product and a service"
+  },
+  "expert.summary.slot": { "az": "Vaxt", "ru": "Время", "en": "Time" },
+  "expert.summary.duration": { "az": "Müddət", "ru": "Длительность", "en": "Duration" },
+  "expert.summary.fee": { "az": "Xidmət haqqı", "ru": "Стоимость услуги", "en": "Service fee" },
+  "expert.summary.cta": { "az": "Rezerv et", "ru": "Зарезервировать", "en": "Reserve" },
+  "expert.empty.title": {
+    "az": "Bu məhsul üçün xidmət yoxdur",
+    "ru": "Для этого товара услуг нет",
+    "en": "There is no service for this product"
+  },
+  "expert.empty.body": {
+    "az": "Seçdiyin məhsul üçün hazırda ekspert xidməti təklif edilmir. Başqa məhsul seç.",
+    "ru": "Для выбранного товара услуга эксперта пока не предлагается. Выберите другой товар.",
+    "en": "No expert service is offered for this product yet. Pick another one."
+  },
+  "expert.empty.cta": { "az": "Xidmətlərə qayıt", "ru": "К услугам", "en": "Back to services" },
+  "expert.error.title": {
+    "az": "Xidmətlər yüklənmədi",
+    "ru": "Услуги не загрузились",
+    "en": "The services did not load"
+  },
+  "expert.error.body": {
+    "az": "Əlaqə problemi yarandı. Yenidən cəhd et.",
+    "ru": "Возникла проблема с соединением. Повторите попытку.",
+    "en": "There was a connection problem. Please try again."
+  },
+  "expert.bookError.title": {
+    "az": "Rezerv alınmadı",
+    "ru": "Резерв не оформлен",
+    "en": "The reservation was not made"
+  },
+  "expert.bookError.body": {
+    "az": "Seçimin qaldı. Yenidən cəhd et.",
+    "ru": "Ваш выбор сохранён. Повторите попытку.",
+    "en": "Your selection is still there. Please try again."
+  },
+
+  "expert.booking.crumb": {
+    "az": "Kuryer xidmətləri / Rezerv",
+    "ru": "Курьерские услуги / Резерв",
+    "en": "Courier services / Reservation"
+  },
+  "expert.booking.title": { "az": "Rezerv", "ru": "Резерв", "en": "Reservation" },
+  "expert.booking.pageTitle": { "az": "Rezerv təsdiqləndi", "ru": "Резерв подтверждён", "en": "Reservation confirmed" },
+  "expert.booking.heading": { "az": "Ekspert yola çıxır", "ru": "Эксперт уже в пути", "en": "The expert is on the way" },
+  "expert.booking.body": {
+    "az": "{name} {slot} ünvanına gələcək.",
+    "ru": "{name} приедет к вам {slot}.",
+    "en": "{name} will come to your address {slot}."
+  },
+  "expert.booking.bodyCertified": {
+    "az": "{name} (sertifikatlı) {slot} ünvanına gələcək.",
+    "ru": "{name} (сертифицированный) приедет к вам {slot}.",
+    "en": "{name} (certified) will come to your address {slot}."
+  },
+  "expert.booking.product": { "az": "Məhsul", "ru": "Товар", "en": "Product" },
+  "expert.booking.service": { "az": "Xidmət", "ru": "Услуга", "en": "Service" },
+  "expert.booking.slot": { "az": "Vaxt", "ru": "Время", "en": "Time" },
+  "expert.booking.fee": { "az": "Haqq", "ru": "Стоимость", "en": "Fee" },
+  "expert.booking.cta": { "az": "Sifarişlərə qayıt", "ru": "К заказам", "en": "Back to orders" }
+}

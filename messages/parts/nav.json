@@ -1,0 +1,20 @@
+{
+  "nav.home": { "az": "Əsas", "ru": "Главная", "en": "Home" },
+  "nav.market": { "az": "Market", "ru": "Маркет", "en": "Market" },
+  "nav.orders": { "az": "Sifarişlər", "ru": "Заказы", "en": "Orders" },
+  "nav.card": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "nav.coupons": { "az": "Kuponlar", "ru": "Купоны", "en": "Coupons" },
+  "nav.lottery": { "az": "Lotereya", "ru": "Лотерея", "en": "Lottery" },
+  "nav.partners": { "az": "Partnyorlar", "ru": "Партнёры", "en": "Partners" },
+  "nav.addresses": { "az": "Ünvanlarım", "ru": "Мои адреса", "en": "My addresses" },
+  "nav.profile": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "nav.offers": { "az": "Təkliflər", "ru": "Предложения", "en": "Offers" },
+  "nav.cart": { "az": "Səbət", "ru": "Корзина", "en": "Cart" },
+  "nav.search": { "az": "Axtarış", "ru": "Поиск", "en": "Search" },
+  "nav.notifications": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "nav.settings": { "az": "Ayarlar", "ru": "Настройки", "en": "Settings" },
+  "nav.help": { "az": "Kömək", "ru": "Помощь", "en": "Help" },
+  "nav.support": { "az": "Dəstək", "ru": "Поддержка", "en": "Support" },
+  "nav.invite": { "az": "Dostunu dəvət et", "ru": "Пригласи друга", "en": "Invite a friend" },
+  "nav.history": { "az": "Tarixçə", "ru": "История", "en": "History" }
+}

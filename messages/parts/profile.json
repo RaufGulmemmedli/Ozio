@@ -1,0 +1,459 @@
+{
+  "title": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "subtitle": {
+    "az": "Hesab məlumatların, ünvanların və tənzimləmələrin",
+    "ru": "Данные аккаунта, адреса и настройки",
+    "en": "Your account details, addresses and preferences"
+  },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+  "cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "error.title": {
+    "az": "Məlumatları yükləmək olmadı",
+    "ru": "Не удалось загрузить данные",
+    "en": "Could not load your details"
+  },
+
+  "identity.avatarLabel": {
+    "az": "Profil hərfi: {initial}",
+    "ru": "Буква профиля: {initial}",
+    "en": "Profile initial: {initial}"
+  },
+  "identity.noName": { "az": "Ozio istifadəçisi", "ru": "Пользователь Ozio", "en": "Ozio customer" },
+  "identity.balanceTag": {
+    "az": "Bonus balansı {amount}",
+    "ru": "Бонусный баланс {amount}",
+    "en": "Bonus balance {amount}"
+  },
+  "identity.cardNumber": { "az": "Kart {number}", "ru": "Карта {number}", "en": "Card {number}" },
+  "identity.edit": {
+    "az": "Məlumatları redaktə et",
+    "ru": "Редактировать данные",
+    "en": "Edit my details"
+  },
+
+  "stats.orders": { "az": "Sifariş", "ru": "Заказы", "en": "Orders" },
+  "stats.cashback": { "az": "Keşbek", "ru": "Кешбэк", "en": "Cashback" },
+  "stats.coupons": { "az": "Kupon", "ru": "Купоны", "en": "Coupons" },
+  "stats.unknown": { "az": "—", "ru": "—", "en": "—" },
+  "stats.unknownHint": {
+    "az": "Məlumat əlçatan deyil",
+    "ru": "Данные недоступны",
+    "en": "Not available"
+  },
+
+  "menu.label": { "az": "Profil menyusu", "ru": "Меню профиля", "en": "Profile menu" },
+  "menu.info": { "az": "Məlumatlarım", "ru": "Мои данные", "en": "My details" },
+  "menu.infoSub": {
+    "az": "Ad, soyad, e-poçt, doğum tarixi",
+    "ru": "Имя, фамилия, e-mail, дата рождения",
+    "en": "First name, last name, email, date of birth"
+  },
+  "menu.addresses": { "az": "Ünvanlar", "ru": "Адреса", "en": "Addresses" },
+  "menu.addressesSub": {
+    "az": "{count, plural, one {# saxlanılmış ünvan} other {# saxlanılmış ünvan}}",
+    "ru": "{count, plural, one {# сохранённый адрес} few {# сохранённых адреса} many {# сохранённых адресов} other {# сохранённого адреса}}",
+    "en": "{count, plural, one {# saved address} other {# saved addresses}}"
+  },
+  "menu.cards": { "az": "Kartlarım", "ru": "Мои карты", "en": "My cards" },
+  "menu.cardsSub": {
+    "az": "Ozio kartı və bank kartları",
+    "ru": "Карта Ozio и банковские карты",
+    "en": "Ozio card and bank cards"
+  },
+  "menu.notifications": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "menu.notificationsSub": {
+    "az": "{count, plural, =0 {Yeni bildiriş yoxdur} one {# yeni bildiriş} other {# yeni bildiriş}}",
+    "ru": "{count, plural, =0 {Новых уведомлений нет} one {# новое уведомление} few {# новых уведомления} many {# новых уведомлений} other {# новых уведомления}}",
+    "en": "{count, plural, =0 {No new notifications} one {# new notification} other {# new notifications}}"
+  },
+  "menu.language": { "az": "Dil", "ru": "Язык", "en": "Language" },
+  "menu.theme": { "az": "Mövzu", "ru": "Тема", "en": "Theme" },
+  "menu.help": { "az": "Kömək", "ru": "Помощь", "en": "Help" },
+  "menu.helpSub": {
+    "az": "Tez-tez verilən suallar və dəstək",
+    "ru": "Частые вопросы и поддержка",
+    "en": "FAQ and support"
+  },
+  "menu.settings": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+  "menu.settingsSub": {
+    "az": "Dil, görünüş, bildirişlər",
+    "ru": "Язык, оформление, уведомления",
+    "en": "Language, appearance, notifications"
+  },
+  "menu.history": { "az": "Tarixçə və çeklər", "ru": "История и чеки", "en": "History and receipts" },
+  "menu.historySub": {
+    "az": "Sifarişlər, bonus, biletlər və kuponlar",
+    "ru": "Заказы, бонусы, билеты и купоны",
+    "en": "Orders, bonus, tickets and coupons"
+  },
+  "menu.invite": { "az": "Dostunu dəvət et", "ru": "Пригласить друга", "en": "Invite a friend" },
+  "menu.inviteSub": {
+    "az": "Dəvət kodunu paylaş",
+    "ru": "Поделись кодом приглашения",
+    "en": "Share your invite code"
+  },
+  "menu.support": { "az": "Dəstək", "ru": "Поддержка", "en": "Support" },
+  "menu.supportSub": {
+    "az": "Canlı çat ilə əlaqə saxla",
+    "ru": "Связаться через чат",
+    "en": "Chat with the team"
+  },
+
+  "signOut": { "az": "Hesabdan çıx", "ru": "Выйти из аккаунта", "en": "Sign out" },
+  "logout.title": {
+    "az": "Hesabdan çıxmaq istəyirsən?",
+    "ru": "Выйти из аккаунта?",
+    "en": "Sign out of your account?"
+  },
+  "logout.body": {
+    "az": "Yenidən daxil olmaq üçün {phone} nömrəsinə SMS kodu göndəriləcək.",
+    "ru": "Чтобы войти снова, на номер {phone} придёт SMS-код.",
+    "en": "To sign in again we will send an SMS code to {phone}."
+  },
+  "logout.bodyNoPhone": {
+    "az": "Yenidən daxil olmaq üçün nömrənə SMS kodu göndəriləcək.",
+    "ru": "Чтобы войти снова, на твой номер придёт SMS-код.",
+    "en": "To sign in again we will send an SMS code to your number."
+  },
+  "logout.confirm": { "az": "Çıx", "ru": "Выйти", "en": "Sign out" },
+
+  "edit.breadcrumb": { "az": "Profil", "ru": "Профиль", "en": "Profile" },
+  "edit.title": { "az": "Məlumatlarım", "ru": "Мои данные", "en": "My details" },
+  "edit.errorBanner": {
+    "az": "Yadda saxlamazdan əvvəl {count, plural, one {# xananı} other {# xananı}} düzəlt",
+    "ru": "Исправь {count, plural, one {# поле} few {# поля} many {# полей} other {# поля}} перед сохранением",
+    "en": "Fix {count, plural, one {# field} other {# fields}} before saving"
+  },
+  "edit.photo.label": { "az": "Profil şəkli", "ru": "Фото профиля", "en": "Profile photo" },
+  "edit.photo.hint": {
+    "az": "JPG və ya PNG, maksimum 5 MB",
+    "ru": "JPG или PNG, максимум 5 МБ",
+    "en": "JPG or PNG, 5 MB maximum"
+  },
+  "edit.photo.unavailable": {
+    "az": "Hesab şəkli hələ dəstəklənmir — adının ilk hərfi göstərilir.",
+    "ru": "Фото профиля пока не поддерживается — показывается первая буква имени.",
+    "en": "Profile photos are not supported yet — your first initial is shown instead."
+  },
+  "edit.firstName": { "az": "Ad", "ru": "Имя", "en": "First name" },
+  "edit.lastName": { "az": "Soyad", "ru": "Фамилия", "en": "Last name" },
+  "edit.phone": { "az": "Mobil nömrə", "ru": "Мобильный номер", "en": "Mobile number" },
+  "edit.phoneVerified": { "az": "Təsdiqlənib", "ru": "Подтверждён", "en": "Verified" },
+  "edit.phoneHint": {
+    "az": "Nömrəni dəyişmək üçün dəstəyə müraciət et",
+    "ru": "Чтобы изменить номер, обратись в поддержку",
+    "en": "Contact support to change your number"
+  },
+  "edit.email": { "az": "E-poçt", "ru": "E-mail", "en": "Email" },
+  "edit.emailUnavailable": {
+    "az": "E-poçt hələ hesabda saxlanılmır.",
+    "ru": "E-mail пока не сохраняется в аккаунте.",
+    "en": "Email is not stored on the account yet."
+  },
+  "edit.birthDate": { "az": "Doğum tarixi", "ru": "Дата рождения", "en": "Date of birth" },
+  "edit.birthDatePlaceholder": { "az": "gg.aa.iiii", "ru": "дд.мм.гггг", "en": "dd.mm.yyyy" },
+  "edit.datePrev": { "az": "Əvvəlki ay", "ru": "Предыдущий месяц", "en": "Previous month" },
+  "edit.dateNext": { "az": "Növbəti ay", "ru": "Следующий месяц", "en": "Next month" },
+  "edit.dateCalendar": { "az": "Tarix seç", "ru": "Выбрать дату", "en": "Pick a date" },
+  "edit.gender": { "az": "Cins", "ru": "Пол", "en": "Gender" },
+  "edit.genderMale": { "az": "Kişi", "ru": "Мужской", "en": "Male" },
+  "edit.genderFemale": { "az": "Qadın", "ru": "Женский", "en": "Female" },
+  "edit.genderUnspecified": { "az": "Qeyd etmə", "ru": "Не указывать", "en": "Prefer not to say" },
+  "edit.save": { "az": "Yadda saxla", "ru": "Сохранить", "en": "Save" },
+  "edit.saved": {
+    "az": "Məlumatlar yadda saxlanıldı",
+    "ru": "Данные сохранены",
+    "en": "Your details were saved"
+  },
+  "edit.tip.title": {
+    "az": "Məlumatların qorunur",
+    "ru": "Твои данные защищены",
+    "en": "Your data is protected"
+  },
+  "edit.tip.text": {
+    "az": "Ad və doğum tarixi kartında göstərilir, nömrən isə yalnız təsdiq kodu üçün istifadə olunur.",
+    "ru": "Имя и дата рождения показываются на карте, а номер используется только для кода подтверждения.",
+    "en": "Your name and date of birth appear on your card; your number is only used for confirmation codes."
+  },
+  "edit.completeness.label": {
+    "az": "Profil doluluğu",
+    "ru": "Заполненность профиля",
+    "en": "Profile completeness"
+  },
+  "edit.completeness.hint": {
+    "az": "Doğum tarixi və cinsi əlavə etsən profil 100% dolacaq.",
+    "ru": "Добавь дату рождения и пол — и профиль будет заполнен на 100%.",
+    "en": "Add your date of birth and gender and your profile will be 100% complete."
+  },
+  "edit.completeness.full": {
+    "az": "Profilin tam doludur.",
+    "ru": "Профиль заполнен полностью.",
+    "en": "Your profile is complete."
+  },
+  "edit.unsaved": {
+    "az": "Yadda saxlanmamış dəyişikliklər var. Səhifədən çıxmaq istəyirsən?",
+    "ru": "Есть несохранённые изменения. Покинуть страницу?",
+    "en": "You have unsaved changes. Leave this page?"
+  },
+
+  "edit.unsavedLeave": { "az": "Saxlamadan çıx", "ru": "Выйти без сохранения", "en": "Leave without saving" },
+  "edit.unsavedStay": { "az": "Burada qal", "ru": "Остаться", "en": "Stay here" },
+  "delete.title": {
+    "az": "Hesabı birdəfəlik silmək istəyirsən?",
+    "ru": "Удалить аккаунт навсегда?",
+    "en": "Delete your account for good?"
+  },
+  "delete.body": {
+    "az": "Bu əməliyyat geri qaytarılmır. Hesabın 30 gün ərzində silinəcək və aşağıdakılar itəcək:",
+    "ru": "Это действие необратимо. Аккаунт будет удалён в течение 30 дней, и ты потеряешь:",
+    "en": "This cannot be undone. Your account is deleted within 30 days and you lose:"
+  },
+  "delete.loss.balance": {
+    "az": "{amount} keşbek balansı",
+    "ru": "{amount} бонусного баланса",
+    "en": "{amount} of cashback balance"
+  },
+  "delete.loss.coupons": {
+    "az": "{count, plural, one {# aktiv kupon} other {# aktiv kupon}}",
+    "ru": "{count, plural, one {# активный купон} few {# активных купона} many {# активных купонов} other {# активного купона}}",
+    "en": "{count, plural, one {# active coupon} other {# active coupons}}"
+  },
+  "delete.loss.card": {
+    "az": "Ozio kartı və lotereya biletləri",
+    "ru": "Карта Ozio и лотерейные билеты",
+    "en": "Your Ozio card and lottery tickets"
+  },
+  "delete.confirmLabel": {
+    "az": "Təsdiq üçün SİL yaz",
+    "ru": "Напиши SİL для подтверждения",
+    "en": "Type SİL to confirm"
+  },
+  "delete.confirmPlaceholder": { "az": "SİL", "ru": "SİL", "en": "SİL" },
+  "delete.confirmHint": {
+    "az": "Düymə yalnız SİL yazdıqdan sonra aktiv olur.",
+    "ru": "Кнопка активна только после слова SİL.",
+    "en": "The button unlocks once SİL is typed."
+  },
+  "delete.submit": { "az": "Hesabı sil", "ru": "Удалить аккаунт", "en": "Delete account" },
+  "delete.dialog.title": {
+    "az": "Hesab silinsin?",
+    "ru": "Удалить аккаунт?",
+    "en": "Delete the account?"
+  },
+  "delete.dialog.body": {
+    "az": "Bu addım geri qaytarılmır. Hesabdan dərhal çıxarılacaqsan.",
+    "ru": "Этот шаг необратим. Ты сразу выйдешь из аккаунта.",
+    "en": "This step is irreversible. You will be signed out immediately."
+  },
+  "delete.done": {
+    "az": "Hesabın silinməsi üçün müraciət qeydə alındı",
+    "ru": "Запрос на удаление аккаунта принят",
+    "en": "Your account deletion request was accepted"
+  },
+  "delete.announce": {
+    "az": "Diqqət: bu əməliyyat hesabı birdəfəlik silir.",
+    "ru": "Внимание: это действие удаляет аккаунт навсегда.",
+    "en": "Warning: this permanently deletes your account."
+  },
+
+  "help.title": { "az": "Sənə necə kömək edək?", "ru": "Чем тебе помочь?", "en": "How can we help?" },
+  "help.subtitle": {
+    "az": "Sualını yaz və ya mövzu seç. Cavabı tapmasan, dəstək komandası 24/7 yanındadır.",
+    "ru": "Напиши вопрос или выбери тему. Если ответа нет — поддержка на связи 24/7.",
+    "en": "Type your question or pick a topic. If you cannot find it, support is on 24/7."
+  },
+  "help.search.placeholder": {
+    "az": "Məsələn: keşbek nə vaxt hesaba düşür?",
+    "ru": "Например: когда начисляется кешбэк?",
+    "en": "For example: when is cashback credited?"
+  },
+  "help.search.label": { "az": "Kömək bölməsində axtar", "ru": "Поиск в справке", "en": "Search help" },
+  "help.topics.label": { "az": "Mövzular", "ru": "Темы", "en": "Topics" },
+  "help.topics.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "help.topics.count": {
+    "az": "{count, plural, one {# məqalə} other {# məqalə}}",
+    "ru": "{count, plural, one {# статья} few {# статьи} many {# статей} other {# статьи}}",
+    "en": "{count, plural, one {# article} other {# articles}}"
+  },
+  "help.topic.orders": { "az": "Sifarişlər", "ru": "Заказы", "en": "Orders" },
+  "help.topic.payment": { "az": "Ödəniş", "ru": "Оплата", "en": "Payment" },
+  "help.topic.cashback": { "az": "Keşbek və kart", "ru": "Кешбэк и карта", "en": "Cashback and card" },
+  "help.topic.account": { "az": "Hesab və giriş", "ru": "Аккаунт и вход", "en": "Account and sign-in" },
+  "help.faq.title": {
+    "az": "Tez-tez verilən suallar",
+    "ru": "Часто задаваемые вопросы",
+    "en": "Frequently asked questions"
+  },
+  "help.faq.empty": {
+    "az": "Bu sorğu üzrə cavab tapılmadı",
+    "ru": "По этому запросу ответов нет",
+    "en": "No answers match that search"
+  },
+  "help.faq.emptyBody": {
+    "az": "Başqa sözlə yazmağı sına və ya dəstəyə yaz.",
+    "ru": "Попробуй другие слова или напиши в поддержку.",
+    "en": "Try different words, or write to support."
+  },
+  "help.faq.q1": {
+    "az": "Keşbek nə vaxt hesaba düşür?",
+    "ru": "Когда кешбэк поступает на счёт?",
+    "en": "When is cashback credited?"
+  },
+  "help.faq.a1": {
+    "az": "Sifariş çatdırıldıqdan və ödəniş təsdiqləndikdən sonra keşbek 24 saat ərzində Ozio kartına əlavə olunur. Balansı “Kart və bonus” bölməsində görə bilərsən.",
+    "ru": "После доставки заказа и подтверждения оплаты кешбэк зачисляется на карту Ozio в течение 24 часов. Баланс виден в разделе «Карта и бонусы».",
+    "en": "Once the order is delivered and the payment confirmed, cashback lands on your Ozio card within 24 hours. You can see the balance in “Card and bonus”."
+  },
+  "help.faq.q2": {
+    "az": "Çatdırılma haqqı necə hesablanır?",
+    "ru": "Как рассчитывается стоимость доставки?",
+    "en": "How is the delivery fee calculated?"
+  },
+  "help.faq.a2": {
+    "az": "Çatdırılma haqqını server mağazanın zonası və sifarişin məbləğinə görə hesablayır. Dəqiq məbləği səbətdə və ödəniş səhifəsində görürsən.",
+    "ru": "Стоимость доставки рассчитывает сервер по зоне магазина и сумме заказа. Точную сумму видно в корзине и на странице оплаты.",
+    "en": "The delivery fee is calculated by the server from the store's zone and the order total. You see the exact amount in the cart and at checkout."
+  },
+  "help.faq.q3": {
+    "az": "Ozio kartını itirsəm nə etməliyəm?",
+    "ru": "Что делать, если я потерял карту Ozio?",
+    "en": "What if I lose my Ozio card?"
+  },
+  "help.faq.a3": {
+    "az": "Rəqəmsal kart tətbiqdə həmişə əlindədir — “Kart və bonus” bölməsindəki barkodu kassada göstər. Plastik kartı itirmisənsə, dəstəyə yaz, balans hesabında qalır.",
+    "ru": "Цифровая карта всегда в приложении — покажи штрихкод из раздела «Карта и бонусы» на кассе. Если потерял пластиковую карту, напиши в поддержку: баланс остаётся на аккаунте.",
+    "en": "Your digital card is always in the app — show the barcode from “Card and bonus” at the till. If you lost the plastic card, write to support; the balance stays on your account."
+  },
+  "help.faq.q4": {
+    "az": "Kuponu necə istifadə edim?",
+    "ru": "Как использовать купон?",
+    "en": "How do I use a coupon?"
+  },
+  "help.faq.a4": {
+    "az": "Kuponlar bölməsindən kuponu seç, sonra səbətdə “Promo kod” sahəsinə kodu yaz. Endirim ödəniş səhifəsində görünür.",
+    "ru": "Выбери купон в разделе «Купоны», затем введи код в поле «Промокод» в корзине. Скидка появится на странице оплаты.",
+    "en": "Pick a coupon in Coupons, then enter its code in the promo-code field in your cart. The discount shows at checkout."
+  },
+  "help.faq.q5": {
+    "az": "Sifarişi necə ləğv edim?",
+    "ru": "Как отменить заказ?",
+    "en": "How do I cancel an order?"
+  },
+  "help.faq.a5": {
+    "az": "Sifariş hazırlanmağa başlamayıbsa, sifariş səhifəsindən ləğv edə bilərsən. Kuryer yola düşübsə, dəstəklə əlaqə saxla.",
+    "ru": "Пока заказ не начали собирать, его можно отменить на странице заказа. Если курьер уже в пути — свяжись с поддержкой.",
+    "en": "While the order has not been picked yet you can cancel it from the order page. Once a courier is on the way, contact support."
+  },
+  "help.faq.q6": {
+    "az": "Səviyyəm necə yüksəlir?",
+    "ru": "Как повысить уровень?",
+    "en": "How does my level go up?"
+  },
+  "help.faq.a6": {
+    "az": "Səviyyələr alış-veriş məbləğinə görə yenilənir. Hazırda web tətbiqində səviyyə məlumatı serverdən gəlmir, ona görə yalnız bonus balansın göstərilir.",
+    "ru": "Уровни обновляются по сумме покупок. Сейчас веб-приложение не получает данные об уровне с сервера, поэтому показывается только бонусный баланс.",
+    "en": "Levels are refreshed from how much you spend. The web app does not receive level data from the server yet, so only your bonus balance is shown."
+  },
+  "help.contact.title": {
+    "az": "Hələ də sualın var?",
+    "ru": "Остались вопросы?",
+    "en": "Still have a question?"
+  },
+  "help.contact.text": {
+    "az": "Dəstək komandası orta hesabla 2 dəqiqəyə cavab verir.",
+    "ru": "Поддержка отвечает в среднем за 2 минуты.",
+    "en": "Support replies in about 2 minutes on average."
+  },
+  "help.contact.chat": {
+    "az": "Canlı çata başla",
+    "ru": "Начать чат",
+    "en": "Start a live chat"
+  },
+  "help.contact.call": { "az": "Zəng et", "ru": "Позвонить", "en": "Call us" },
+  "help.contact.callValue": { "az": "*1020 · pulsuz", "ru": "*1020 · бесплатно", "en": "*1020 · free" },
+  "help.contact.email": { "az": "E-poçt", "ru": "E-mail", "en": "Email" },
+  "help.contact.hours": { "az": "İş saatları", "ru": "Часы работы", "en": "Opening hours" },
+  "help.contact.hoursValue": {
+    "az": "Hər gün 09:00–23:00",
+    "ru": "Ежедневно 09:00–23:00",
+    "en": "Every day 09:00–23:00"
+  },
+  "help.legal.title": {
+    "az": "Qaydalar və məxfilik",
+    "ru": "Правила и конфиденциальность",
+    "en": "Terms and privacy"
+  },
+  "help.legal.empty": {
+    "az": "Hüquqi mətn hazırda əlçatan deyil",
+    "ru": "Юридический текст сейчас недоступен",
+    "en": "The legal text is not available right now"
+  },
+  "help.legal.error": {
+    "az": "Qaydaları yükləmək olmadı",
+    "ru": "Не удалось загрузить правила",
+    "en": "Could not load the terms"
+  },
+
+  "history.title": { "az": "Tarixçə və çeklər", "ru": "История и чеки", "en": "History and receipts" },
+  "history.subtitle": {
+    "az": "Sifarişlərin, bonus hərəkətlərin, biletlərin və kuponların",
+    "ru": "Твои заказы, движения бонусов, билеты и купоны",
+    "en": "Your orders, bonus movements, tickets and coupons"
+  },
+  "history.tabs.label": { "az": "Tarixçə bölməsi", "ru": "Раздел истории", "en": "History section" },
+  "history.tab.orders": { "az": "Sifarişlər", "ru": "Заказы", "en": "Orders" },
+  "history.tab.bonus": { "az": "Bonus", "ru": "Бонусы", "en": "Bonus" },
+  "history.tab.tickets": { "az": "Biletlər", "ru": "Билеты", "en": "Tickets" },
+  "history.tab.coupons": { "az": "Kuponlar", "ru": "Купоны", "en": "Coupons" },
+  "history.orders.empty": {
+    "az": "Hələ sifariş yoxdur",
+    "ru": "Заказов пока нет",
+    "en": "No orders yet"
+  },
+  "history.orders.emptyBody": {
+    "az": "İlk sifarişini verdikdən sonra çeklər burada görünəcək.",
+    "ru": "После первого заказа чеки появятся здесь.",
+    "en": "Once you place your first order the receipts appear here."
+  },
+  "history.orders.cta": { "az": "Marketə keç", "ru": "Перейти в маркет", "en": "Go to the market" },
+  "history.bonus.empty": {
+    "az": "Bu dövrdə əməliyyat yoxdur",
+    "ru": "За этот период операций нет",
+    "en": "No transactions in this period"
+  },
+  "history.bonus.emptyBody": {
+    "az": "Alış-veriş etdikcə keşbek burada görünəcək. Filtri və ya tarix aralığını dəyişməyi sına.",
+    "ru": "Кешбэк появится здесь по мере покупок. Попробуй изменить фильтр или период.",
+    "en": "Cashback shows up here as you shop. Try changing the filter or the period."
+  },
+  "history.bonus.earned": { "az": "Keşbek", "ru": "Кешбэк", "en": "Cashback" },
+  "history.bonus.spent": { "az": "Xərclənib", "ru": "Списано", "en": "Spent" },
+  "history.bonus.offline": { "az": "Mağazada", "ru": "В магазине", "en": "In store" },
+  "history.bonus.online": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "history.tickets.empty": { "az": "Bilet yoxdur", "ru": "Билетов нет", "en": "No tickets" },
+  "history.tickets.emptyBody": {
+    "az": "Hər 10 ₼ alış-verişə bir lotereya bileti qazanırsan.",
+    "ru": "За каждые 10 ₼ покупок ты получаешь лотерейный билет.",
+    "en": "Every 10 ₼ you spend earns a lottery ticket."
+  },
+  "history.tickets.unavailable": {
+    "az": "Lotereya biletləri hazırda əlçatan deyil",
+    "ru": "Лотерейные билеты сейчас недоступны",
+    "en": "Lottery tickets are not available right now"
+  },
+  "history.coupons.empty": { "az": "Kupon yoxdur", "ru": "Купонов нет", "en": "No coupons" },
+  "history.coupons.emptyBody": {
+    "az": "Yeni kuponlar kampaniya başlayanda burada görünəcək.",
+    "ru": "Новые купоны появятся здесь с началом акций.",
+    "en": "New coupons appear here when a campaign starts."
+  },
+  "history.order.number": { "az": "Sifariş #{id}", "ru": "Заказ #{id}", "en": "Order #{id}" },
+  "history.ticket.number": { "az": "Bilet {code}", "ru": "Билет {code}", "en": "Ticket {code}" },
+  "history.loadMore": { "az": "Daha çox göstər", "ru": "Показать ещё", "en": "Show more" },
+  "history.count": {
+    "az": "{shown} / {total}",
+    "ru": "{shown} / {total}",
+    "en": "{shown} / {total}"
+  }
+}

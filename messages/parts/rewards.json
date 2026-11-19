@@ -1,0 +1,477 @@
+{
+  "crumb.root": { "az": "Kart və bonus", "ru": "Карта и бонусы", "en": "Card & bonus" },
+  "demo.module": { "az": "Mükafatlar", "ru": "Награды", "en": "Rewards" },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+  "subtitle.error": { "az": "Məlumat yüklənmədi.", "ru": "Данные не загружены.", "en": "Data didn’t load." },
+  "error.body": {
+    "az": "Serverlə əlaqə qurulmadı. İnternetini yoxla və yenidən cəhd et.",
+    "ru": "Нет связи с сервером. Проверьте интернет и попробуйте снова.",
+    "en": "Couldn’t reach the server. Check your connection and try again."
+  },
+
+  "wheel.crumb": { "az": "Çarx", "ru": "Колесо", "en": "Wheel" },
+  "wheel.title": { "az": "Şans çarxı", "ru": "Колесо удачи", "en": "Wheel of fortune" },
+  "wheel.subtitle": {
+    "az": "Hər gün fırlat, bonus və kupon qazan.",
+    "ru": "Крутите каждый день — получайте бонусы и купоны.",
+    "en": "Spin every day and win bonuses and coupons."
+  },
+  "wheel.block.title": { "az": "Günün çarxı", "ru": "Колесо дня", "en": "Today’s wheel" },
+  "wheel.block.sub": {
+    "az": "Hər gün 2 fırlatma · 1-ci pulsuz",
+    "ru": "2 вращения в день · первое бесплатно",
+    "en": "2 spins a day · the first is free"
+  },
+  "wheel.hub": { "az": "FIRLAT", "ru": "КРУТИ", "en": "SPIN" },
+  "wheel.alt": {
+    "az": "Şans çarxı, 8 bölmə: {labels}",
+    "ru": "Колесо удачи, 8 секторов: {labels}",
+    "en": "Wheel of fortune, 8 segments: {labels}"
+  },
+  "wheel.spinning": { "az": "Çarx fırlanır…", "ru": "Колесо крутится…", "en": "The wheel is spinning…" },
+  "wheel.announce": { "az": "Qazandın: {prize}", "ru": "Вы выиграли: {prize}", "en": "You won: {prize}" },
+  "wheel.today": { "az": "Bu gün", "ru": "Сегодня", "en": "Today" },
+  "wheel.spinCount": {
+    "az": "{used} / {max} fırlatma",
+    "ru": "{used} / {max} вращения",
+    "en": "{used} / {max} spins"
+  },
+  "wheel.streakHint": {
+    "az": "5 gün ardıcıl fırlat və Missiyalarda +5 ₼ qazan.",
+    "ru": "Крутите 5 дней подряд и получите +5 ₼ в Миссиях.",
+    "en": "Spin 5 days in a row and earn +5 ₼ in Missions."
+  },
+  "wheel.next.title": { "az": "Növbəti fırlatma", "ru": "Следующее вращение", "en": "Next spin" },
+  "wheel.next.body": {
+    "az": "2-ci fırlatma {cost} bonus balansından çıxılır.",
+    "ru": "Второе вращение списывает {cost} с бонусного баланса.",
+    "en": "The second spin costs {cost} from your bonus balance."
+  },
+  "wheel.next.free": {
+    "az": "Bugünkü 1-ci fırlatma pulsuzdur.",
+    "ru": "Первое вращение сегодня бесплатно.",
+    "en": "Your first spin today is free."
+  },
+  "wheel.spin.free": { "az": "Fırlat", "ru": "Крутить", "en": "Spin" },
+  "wheel.spin.paid": { "az": "Fırlat · {cost}", "ru": "Крутить · {cost}", "en": "Spin · {cost}" },
+  "wheel.paid.title": { "az": "Pullu fırlatma?", "ru": "Платное вращение?", "en": "Paid spin?" },
+  "wheel.paid.body": {
+    "az": "2-ci fırlatma üçün {cost} bonus balansından çıxılacaq.",
+    "ru": "За второе вращение с бонусного баланса спишется {cost}.",
+    "en": "{cost} will be taken from your bonus balance for the second spin."
+  },
+  "wheel.paid.confirm": { "az": "Bəli, fırlat", "ru": "Да, крутить", "en": "Yes, spin" },
+  "wheel.limit.title": {
+    "az": "Bugünkü fırlatmalar bitdi",
+    "ru": "Вращения на сегодня закончились",
+    "en": "No spins left today"
+  },
+  "wheel.limit.body": {
+    "az": "Yeni çarx sabah 00:00-da açılır. Yığılmış bonusu Kart və bonus bölməsində gör.",
+    "ru": "Новое колесо откроется завтра в 00:00. Накопленный бонус — в разделе «Карта и бонусы».",
+    "en": "A new wheel opens tomorrow at 00:00. See the bonus you collected under Card & bonus."
+  },
+  "wheel.limit.cta": { "az": "Sabah yenidən gəl", "ru": "Приходите завтра", "en": "Come back tomorrow" },
+  "wheel.prizes": { "az": "Mükafatlar", "ru": "Призы", "en": "Prizes" },
+  "wheel.feedLink": {
+    "az": "Bildiriş və mükafat lentinə bax",
+    "ru": "Открыть лист уведомлений и наград",
+    "en": "Open the notification and reward feed"
+  },
+  "wheel.result.title": { "az": "Təbriklər!", "ru": "Поздравляем!", "en": "Congratulations!" },
+  "wheel.result.body": {
+    "az": "Bonus balansına əlavə olundu. Növbəti ödənişdə istifadə edə bilərsən.",
+    "ru": "Начислено на бонусный баланс. Используйте при следующей оплате.",
+    "en": "Added to your bonus balance. Use it on your next payment."
+  },
+  "wheel.result.ok": { "az": "Əla", "ru": "Отлично", "en": "Great" },
+  "wheel.result.again": {
+    "az": "Bir də fırlat · {cost}",
+    "ru": "Крутить ещё · {cost}",
+    "en": "Spin again · {cost}"
+  },
+  "wheel.error.title": { "az": "Çarx yüklənmədi", "ru": "Колесо не загрузилось", "en": "The wheel didn’t load" },
+  "wheel.empty.title": { "az": "Çarx hazır deyil", "ru": "Колесо недоступно", "en": "The wheel isn’t ready" },
+  "wheel.empty.body": {
+    "az": "Bu gün çarxda mükafat yoxdur. Missiyalara bax.",
+    "ru": "Сегодня в колесе нет призов. Посмотрите Миссии.",
+    "en": "There are no prizes on the wheel today. Take a look at Missions."
+  },
+  "wheel.spinFailed": {
+    "az": "Fırlatma alınmadı. Yenidən cəhd et.",
+    "ru": "Вращение не удалось. Попробуйте снова.",
+    "en": "The spin failed. Try again."
+  },
+  "wheel.day.1": { "az": "B.e", "ru": "Пн", "en": "Mon" },
+  "wheel.day.2": { "az": "Ç.a", "ru": "Вт", "en": "Tue" },
+  "wheel.day.3": { "az": "Ç", "ru": "Ср", "en": "Wed" },
+  "wheel.day.4": { "az": "C.a", "ru": "Чт", "en": "Thu" },
+  "wheel.day.5": { "az": "C", "ru": "Пт", "en": "Fri" },
+  "wheel.day.6": { "az": "Ş", "ru": "Сб", "en": "Sat" },
+  "wheel.day.7": { "az": "B", "ru": "Вс", "en": "Sun" },
+  "wheel.streak": {
+    "az": "{days} gün ardıcıl",
+    "ru": "{days} дней подряд",
+    "en": "{days}-day streak"
+  },
+
+  "missions.crumb": { "az": "Missiyalar", "ru": "Миссии", "en": "Missions" },
+  "missions.title": { "az": "Həftəlik missiyalar", "ru": "Недельные миссии", "en": "Weekly missions" },
+  "missions.subtitle": {
+    "az": "Tapşırıqları tamamla, bonus və bilet qazan.",
+    "ru": "Выполняйте задания, получайте бонусы и билеты.",
+    "en": "Complete the tasks, earn bonuses and tickets."
+  },
+  "missions.subtitleEmpty": {
+    "az": "Bu həftə aktiv missiya yoxdur.",
+    "ru": "На этой неделе активных миссий нет.",
+    "en": "No active missions this week."
+  },
+  "missions.canEarn": {
+    "az": "Bu həftə qazana bilərsən",
+    "ru": "Можно заработать на этой неделе",
+    "en": "You can earn this week"
+  },
+  "missions.completed": { "az": "Tamamlanan", "ru": "Выполнено", "en": "Completed" },
+  "missions.completedValue": { "az": "{done} / {total}", "ru": "{done} / {total}", "en": "{done} / {total}" },
+  "missions.daysLeft": { "az": "Həftənin sonuna", "ru": "До конца недели", "en": "Until the week ends" },
+  "missions.daysLeftValue": { "az": "{days} gün", "ru": "{days} дн.", "en": "{days} days" },
+  "missions.progress": { "az": "{progress}/{target}", "ru": "{progress}/{target}", "en": "{progress}/{target}" },
+  "missions.progressLabel": {
+    "az": "{title}: {progress} / {target}",
+    "ru": "{title}: {progress} / {target}",
+    "en": "{title}: {progress} / {target}"
+  },
+  "missions.claim": { "az": "Mükafatı götür", "ru": "Забрать награду", "en": "Claim reward" },
+  "missions.claimed": { "az": "Götürülüb", "ru": "Получено", "en": "Claimed" },
+  "missions.inProgress": { "az": "Davam edir", "ru": "В процессе", "en": "In progress" },
+  "missions.claimedToast": {
+    "az": "{reward} bonus balansına əlavə olundu.",
+    "ru": "{reward} начислено на бонусный баланс.",
+    "en": "{reward} was added to your bonus balance."
+  },
+  "missions.claimFailed": {
+    "az": "Mükafat götürülmədi. Yenidən cəhd et.",
+    "ru": "Не удалось забрать награду. Попробуйте снова.",
+    "en": "Couldn’t claim the reward. Try again."
+  },
+  "missions.wheelTile.title": { "az": "Günün çarxı", "ru": "Колесо дня", "en": "Today’s wheel" },
+  "missions.wheelTile.body": {
+    "az": "Bu gün hələ 1 pulsuz fırlatma var.",
+    "ru": "Сегодня ещё есть 1 бесплатное вращение.",
+    "en": "You still have 1 free spin today."
+  },
+  "missions.wheelTile.cta": { "az": "Çarxa keç", "ru": "К колесу", "en": "Go to the wheel" },
+  "missions.empty.title": {
+    "az": "Bu həftə missiya yoxdur",
+    "ru": "На этой неделе миссий нет",
+    "en": "No missions this week"
+  },
+  "missions.empty.body": {
+    "az": "Yeni missiyalar bazar ertəsi açılır. Bu arada çarxı fırlada bilərsən.",
+    "ru": "Новые миссии откроются в понедельник. А пока можно крутить колесо.",
+    "en": "New missions open on Monday. In the meantime you can spin the wheel."
+  },
+  "missions.error.title": { "az": "Missiyalar yüklənmədi", "ru": "Миссии не загрузились", "en": "Missions didn’t load" },
+
+  "family.crumb": { "az": "Ailə kartı", "ru": "Семейная карта", "en": "Family card" },
+  "family.title": { "az": "Ailə kartı", "ru": "Семейная карта", "en": "Family card" },
+  "family.subtitle": {
+    "az": "Ailə üzvlərinin alışı bir kartda toplanır.",
+    "ru": "Покупки членов семьи собираются на одной карте.",
+    "en": "Your family’s purchases all add up on one card."
+  },
+  "family.subtitleEmpty": {
+    "az": "Hələ ailə qrupun yoxdur.",
+    "ru": "У вас пока нет семейной группы.",
+    "en": "You don’t have a family group yet."
+  },
+  "family.card.hint": {
+    "az": "Kassada bu kodu göstər — bütün üzvlərin alışı eyni kartda toplanır.",
+    "ru": "Покажите этот код на кассе — покупки всех членов идут на одну карту.",
+    "en": "Show this code at the till — every member’s purchase lands on the same card."
+  },
+  "family.barcodeAlt": {
+    "az": "Ailə kartının barkodu: {number}",
+    "ru": "Штрихкод семейной карты: {number}",
+    "en": "Family card barcode: {number}"
+  },
+  "family.pool.label": {
+    "az": "Bu ay ailənin yığdığı bonus",
+    "ru": "Бонус семьи за этот месяц",
+    "en": "Bonus your family collected this month"
+  },
+  "family.pool.meta": {
+    "az": "{count} üzv · ortaq balans",
+    "ru": "{count} участника · общий баланс",
+    "en": "{count} members · shared balance"
+  },
+  "family.members.title": { "az": "Üzvlər · bu ay", "ru": "Участники · этот месяц", "en": "Members · this month" },
+  "family.members.add": { "az": "Üzv əlavə et", "ru": "Добавить участника", "en": "Add member" },
+  "family.role.admin": { "az": "Admin", "ru": "Админ", "en": "Admin" },
+  "family.role.member": { "az": "Üzv", "ru": "Участник", "en": "Member" },
+  "family.limit.pill": { "az": "Aylıq limit {amount}", "ru": "Лимит в месяц {amount}", "en": "Monthly limit {amount}" },
+  "family.limit.none": { "az": "Limitsiz", "ru": "Без лимита", "en": "No limit" },
+  "family.limit.edit": { "az": "Limiti dəyiş", "ru": "Изменить лимит", "en": "Change limit" },
+  "family.limit.title": { "az": "Aylıq limit", "ru": "Месячный лимит", "en": "Monthly limit" },
+  "family.limit.body": {
+    "az": "{name} üçün aylıq xərc limitini seç.",
+    "ru": "Выберите месячный лимит расходов для {name}.",
+    "en": "Pick the monthly spending limit for {name}."
+  },
+  "family.limit.saved": { "az": "Limit yeniləndi.", "ru": "Лимит обновлён.", "en": "Limit updated." },
+  "family.removeAction": { "az": "Üzvü çıxar", "ru": "Удалить участника", "en": "Remove member" },
+  "family.remove.title": { "az": "Üzv çıxarılsın?", "ru": "Удалить участника?", "en": "Remove member?" },
+  "family.remove.body": {
+    "az": "{name} ailə kartından çıxarılacaq. Yığdığı bonus ailədə qalır.",
+    "ru": "{name} будет удалён из семейной карты. Накопленный бонус остаётся у семьи.",
+    "en": "{name} will be removed from the family card. The bonus they collected stays with the family."
+  },
+  "family.remove.confirm": { "az": "Çıxar", "ru": "Удалить", "en": "Remove" },
+  "family.remove.done": { "az": "Üzv çıxarıldı.", "ru": "Участник удалён.", "en": "Member removed." },
+  "family.add.title": { "az": "Üzv əlavə et", "ru": "Добавить участника", "en": "Add member" },
+  "family.add.name": { "az": "Ad", "ru": "Имя", "en": "Name" },
+  "family.add.phone": { "az": "Nömrə", "ru": "Номер", "en": "Phone" },
+  "family.add.limit": { "az": "Aylıq limit (₼)", "ru": "Месячный лимит (₼)", "en": "Monthly limit (₼)" },
+  "family.add.submit": { "az": "Əlavə et", "ru": "Добавить", "en": "Add" },
+  "family.add.nameRequired": { "az": "Ad boş ola bilməz.", "ru": "Имя обязательно.", "en": "A name is required." },
+  "family.add.done": { "az": "Üzv əlavə olundu.", "ru": "Участник добавлен.", "en": "Member added." },
+  "family.add.failed": {
+    "az": "Üzv əlavə olunmadı. Yenidən cəhd et.",
+    "ru": "Не удалось добавить участника. Попробуйте снова.",
+    "en": "Couldn’t add the member. Try again."
+  },
+  "family.settings.notify.title": { "az": "Xərc bildirişi", "ru": "Уведомление о расходах", "en": "Spending alerts" },
+  "family.settings.notify.body": {
+    "az": "Üzv alış edəndə admin-ə bildiriş gəlsin",
+    "ru": "Отправлять админу уведомление о покупке участника",
+    "en": "Notify the admin when a member makes a purchase"
+  },
+  "family.settings.childLimit.title": {
+    "az": "Uşaq üçün aylıq limit",
+    "ru": "Месячный лимит для ребёнка",
+    "en": "Monthly limit for a child"
+  },
+  "family.settings.childLimit.body": {
+    "az": "14 yaşlı üzvün xərcini məhdudlaşdır",
+    "ru": "Ограничить расходы участника 14 лет",
+    "en": "Cap what the 14-year-old member can spend"
+  },
+  "family.settings.sharedBonus.title": {
+    "az": "Ortaq bonusu istifadə et",
+    "ru": "Использовать общий бонус",
+    "en": "Use the shared bonus"
+  },
+  "family.settings.sharedBonus.body": {
+    "az": "Bonus ödənişdə bütün üzvlərə açıq olsun",
+    "ru": "Бонус доступен всем участникам при оплате",
+    "en": "Let every member spend the bonus at checkout"
+  },
+  "family.settings.saved": { "az": "Parametr yadda saxlanıldı.", "ru": "Настройка сохранена.", "en": "Setting saved." },
+  "family.empty.title": {
+    "az": "Ailə kartı yaradılmayıb",
+    "ru": "Семейная карта не создана",
+    "en": "No family card yet"
+  },
+  "family.empty.body": {
+    "az": "Yaxınlarını əlavə et — alışlar bir kartda toplansın, bonus ortaq yığılsın.",
+    "ru": "Добавьте близких — покупки на одной карте, бонус копится вместе.",
+    "en": "Add your family — purchases on one card and a bonus that grows together."
+  },
+  "family.empty.cta": { "az": "Ailə yarat", "ru": "Создать семью", "en": "Create a family" },
+  "family.error.title": {
+    "az": "Ailə kartı yüklənmədi",
+    "ru": "Семейная карта не загрузилась",
+    "en": "The family card didn’t load"
+  },
+
+  "smartList.crumb": { "az": "Ağıllı siyahı", "ru": "Умный список", "en": "Smart list" },
+  "smartList.title": { "az": "Ağıllı alış siyahısı", "ru": "Умный список покупок", "en": "Smart shopping list" },
+  "smartList.subtitle": {
+    "az": "Siyahını yaz, Ozio ən ucuz partnyoru tapsın.",
+    "ru": "Запишите список — Ozio найдёт самого дешёвого партнёра.",
+    "en": "Write your list and Ozio finds the cheapest partner."
+  },
+  "smartList.subtitleEmpty": { "az": "Siyahın boşdur.", "ru": "Список пуст.", "en": "Your list is empty." },
+  "smartList.addPlaceholder": {
+    "az": "Məhsul əlavə et (məs. süd 1 L)",
+    "ru": "Добавить товар (напр. молоко 1 л)",
+    "en": "Add a product (e.g. milk 1 L)"
+  },
+  "smartList.group.discounted": {
+    "az": "ENDİRİMDƏ TAPILDI · {count}",
+    "ru": "НАЙДЕНО ПО СКИДКЕ · {count}",
+    "en": "FOUND ON DISCOUNT · {count}"
+  },
+  "smartList.group.other": { "az": "DİGƏR · {count}", "ru": "ОСТАЛЬНОЕ · {count}", "en": "OTHER · {count}" },
+  "smartList.storeDiscount": {
+    "az": "{store}-da endirimdə",
+    "ru": "Со скидкой в {store}",
+    "en": "On discount at {store}"
+  },
+  "smartList.savings.label": {
+    "az": "{count} məhsulda endirim tapıldı",
+    "ru": "Скидка найдена на {count} товара",
+    "en": "Discount found on {count} items"
+  },
+  "smartList.savings.meta": {
+    "az": "Cəmi {total} · {count} məhsul",
+    "ru": "Всего {total} · {count} товара",
+    "en": "Total {total} · {count} items"
+  },
+  "smartList.order": { "az": "Sifariş et", "ru": "Заказать", "en": "Order" },
+  "smartList.stores.title": { "az": "Mağazalar üzrə", "ru": "По магазинам", "en": "By store" },
+  "smartList.stores.meta": {
+    "az": "{count} məhsul · {total}",
+    "ru": "{count} товара · {total}",
+    "en": "{count} items · {total}"
+  },
+  "smartList.sharedWith": {
+    "az": "{name} ilə paylaşılıb",
+    "ru": "Поделено с {name}",
+    "en": "Shared with {name}"
+  },
+  "smartList.toggle": { "az": "{title} — işarələ", "ru": "{title} — отметить", "en": "{title} — tick off" },
+  "smartList.remove": { "az": "{title} — sil", "ru": "{title} — удалить", "en": "{title} — remove" },
+  "smartList.addFailed": {
+    "az": "Məhsul əlavə olunmadı. Yenidən cəhd et.",
+    "ru": "Не удалось добавить товар. Попробуйте снова.",
+    "en": "Couldn’t add the item. Try again."
+  },
+  "smartList.cartMissing": {
+    "az": "Səbət hazır deyil — demo rejimdə sifariş verilmir.",
+    "ru": "Корзина недоступна — в демо-режиме заказ не оформляется.",
+    "en": "The cart isn’t available — no order is placed in demo mode."
+  },
+  "smartList.empty.title": { "az": "Siyahın boşdur", "ru": "Список пуст", "en": "Your list is empty" },
+  "smartList.empty.body": {
+    "az": "Lazım olan məhsulları yaz — Ozio endirimləri avtomatik tapacaq.",
+    "ru": "Запишите нужные товары — Ozio сам найдёт скидки.",
+    "en": "Write down what you need — Ozio finds the discounts for you."
+  },
+  "smartList.error.title": { "az": "Siyahı yüklənmədi", "ru": "Список не загрузился", "en": "The list didn’t load" },
+
+  "priceAlerts.crumb": { "az": "Qiymət izləmə", "ru": "Отслеживание цен", "en": "Price alerts" },
+  "priceAlerts.title": { "az": "Qiymət izləmə", "ru": "Отслеживание цен", "en": "Price alerts" },
+  "priceAlerts.subtitle": {
+    "az": "Məhsulun qiyməti düşəndə xəbər tut.",
+    "ru": "Узнавайте, когда цена на товар падает.",
+    "en": "Find out the moment a price drops."
+  },
+  "priceAlerts.subtitleEmpty": {
+    "az": "İzlədiyin məhsul yoxdur.",
+    "ru": "Вы не отслеживаете товары.",
+    "en": "You aren’t tracking any product."
+  },
+  "priceAlerts.watched": {
+    "az": "İzlənilən məhsullar · {count}",
+    "ru": "Отслеживаемые товары · {count}",
+    "en": "Tracked products · {count}"
+  },
+  "priceAlerts.add": { "az": "Məhsul izlə", "ru": "Отслеживать товар", "en": "Track a product" },
+  "priceAlerts.target.hit": {
+    "az": "Hədəf çatıldı · {amount} və aşağı",
+    "ru": "Цель достигнута · {amount} и ниже",
+    "en": "Target reached · {amount} or less"
+  },
+  "priceAlerts.target.pending": {
+    "az": "Hədəf {amount} · hələ çatılmayıb",
+    "ru": "Цель {amount} · пока не достигнута",
+    "en": "Target {amount} · not reached yet"
+  },
+  "priceAlerts.target.none": {
+    "az": "Hədəf qiymət təyin edilməyib",
+    "ru": "Целевая цена не задана",
+    "en": "No target price set"
+  },
+  "priceAlerts.toggle": {
+    "az": "{product} üçün bildirişi aç və ya bağla",
+    "ru": "Включить или выключить уведомление для {product}",
+    "en": "Turn the alert for {product} on or off"
+  },
+  "priceAlerts.remove": { "az": "İzləməni dayandır", "ru": "Прекратить отслеживание", "en": "Stop tracking" },
+  "priceAlerts.feed.title": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "priceAlerts.feed.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "priceAlerts.feed.today": { "az": "BU GÜN", "ru": "СЕГОДНЯ", "en": "TODAY" },
+  "priceAlerts.feed.week": { "az": "BU HƏFTƏ", "ru": "НА ЭТОЙ НЕДЕЛЕ", "en": "THIS WEEK" },
+  "priceAlerts.feed.unread": { "az": "Oxunmamış", "ru": "Непрочитанное", "en": "Unread" },
+  "priceAlerts.new.title": { "az": "Məhsul izlə", "ru": "Отслеживать товар", "en": "Track a product" },
+  "priceAlerts.new.body": {
+    "az": "Məhsulu seç və hədəf qiymət yaz — qiymət düşəndə bildiriş göndərəcəyik.",
+    "ru": "Выберите товар и укажите целевую цену — пришлём уведомление, когда цена упадёт.",
+    "en": "Pick a product and set a target price — we’ll ping you when the price drops."
+  },
+  "priceAlerts.new.product": { "az": "Məhsul", "ru": "Товар", "en": "Product" },
+  "priceAlerts.new.productPlaceholder": {
+    "az": "Məhsul adı (məs. Kərə yağı 82%)",
+    "ru": "Название товара (напр. Масло 82%)",
+    "en": "Product name (e.g. Butter 82%)"
+  },
+  "priceAlerts.new.store": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "priceAlerts.new.target": { "az": "Hədəf qiymət (₼)", "ru": "Целевая цена (₼)", "en": "Target price (₼)" },
+  "priceAlerts.new.submit": { "az": "İzləməyə başla", "ru": "Начать отслеживать", "en": "Start tracking" },
+  "priceAlerts.new.invalidTarget": {
+    "az": "Hədəf qiymət 0-dan böyük olmalıdır.",
+    "ru": "Целевая цена должна быть больше 0.",
+    "en": "The target price must be greater than 0."
+  },
+  "priceAlerts.new.done": { "az": "Məhsul izləməyə əlavə olundu.", "ru": "Товар добавлен в отслеживание.", "en": "The product is now tracked." },
+  "priceAlerts.new.search": { "az": "Məhsul axtar", "ru": "Поиск товара", "en": "Search a product" },
+  "priceAlerts.new.pickHint": {
+    "az": "Məhsulu axtarıb seç — ya da adını əl ilə yaz.",
+    "ru": "Найдите и выберите товар — или впишите название вручную.",
+    "en": "Search and pick a product — or type its name by hand."
+  },
+  "priceAlerts.new.noResults": {
+    "az": "Nəticə tapılmadı. Adı əl ilə yaza bilərsən.",
+    "ru": "Ничего не найдено. Можно вписать название вручную.",
+    "en": "Nothing found. You can type the name by hand."
+  },
+  "priceAlerts.new.picked": { "az": "Seçildi", "ru": "Выбрано", "en": "Picked" },
+  "priceAlerts.empty.title": {
+    "az": "İzlədiyin məhsul yoxdur",
+    "ru": "Вы не отслеживаете товары",
+    "en": "You aren’t tracking any product"
+  },
+  "priceAlerts.empty.body": {
+    "az": "Məhsulu izləməyə əlavə et, hədəf qiymət seç — qiymət düşəndə bildiriş alacaqsan.",
+    "ru": "Добавьте товар в отслеживание и задайте цель — получите уведомление при падении цены.",
+    "en": "Add a product and set a target — you’ll get an alert when the price drops."
+  },
+  "priceAlerts.error.title": {
+    "az": "Qiymət izləmə yüklənmədi",
+    "ru": "Отслеживание цен не загрузилось",
+    "en": "Price alerts didn’t load"
+  },
+
+  "receipt.crumb": { "az": "Rəqəmsal çek", "ru": "Электронный чек", "en": "Digital receipt" },
+  "receipt.crumbOrders": { "az": "Sifarişlər", "ru": "Заказы", "en": "Orders" },
+  "receipt.title": { "az": "Rəqəmsal çek", "ru": "Электронный чек", "en": "Digital receipt" },
+  "receipt.subtitle": { "az": "Sifariş #{order}", "ru": "Заказ #{order}", "en": "Order #{order}" },
+  "receipt.print": { "az": "Çap et", "ru": "Печать", "en": "Print" },
+  "receipt.store": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "receipt.address": { "az": "Çatdırılma ünvanı", "ru": "Адрес доставки", "en": "Delivery address" },
+  "receipt.payment": { "az": "Ödəniş üsulu", "ru": "Способ оплаты", "en": "Payment method" },
+  "receipt.date": { "az": "Tarix", "ru": "Дата", "en": "Date" },
+  "receipt.items": { "az": "Məhsullar", "ru": "Товары", "en": "Items" },
+  "receipt.qty": { "az": "{qty} ×", "ru": "{qty} ×", "en": "{qty} ×" },
+  "receipt.itemsTotal": { "az": "Məhsulların cəmi", "ru": "Сумма товаров", "en": "Items total" },
+  "receipt.deliveryFee": { "az": "Çatdırılma", "ru": "Доставка", "en": "Delivery" },
+  "receipt.serviceFee": { "az": "Xidmət haqqı", "ru": "Сервисный сбор", "en": "Service fee" },
+  "receipt.discount": { "az": "Endirim", "ru": "Скидка", "en": "Discount" },
+  "receipt.payable": { "az": "Yekun məbləğ", "ru": "Итого", "en": "Total" },
+  "receipt.bonusEarned": { "az": "Qazanılan bonus", "ru": "Начислено бонуса", "en": "Bonus earned" },
+  "receipt.footer": {
+    "az": "Bu çek sifariş məlumatından yaradılıb və fiskal sənəd deyil.",
+    "ru": "Чек сформирован из данных заказа и не является фискальным документом.",
+    "en": "This receipt is built from the order data and is not a fiscal document."
+  },
+  "receipt.empty.title": { "az": "Çek hazır deyil", "ru": "Чек недоступен", "en": "No receipt yet" },
+  "receipt.empty.body": {
+    "az": "Bu sifariş üçün çek məlumatı tapılmadı.",
+    "ru": "Данные чека для этого заказа не найдены.",
+    "en": "We couldn’t find receipt data for this order."
+  },
+  "receipt.error.title": { "az": "Çek yüklənmədi", "ru": "Чек не загрузился", "en": "The receipt didn’t load" }
+}

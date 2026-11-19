@@ -1,0 +1,286 @@
+{
+  "title": { "az": "Ünvanlarım", "ru": "Мои адреса", "en": "My addresses" },
+  "new": { "az": "Yeni ünvan", "ru": "Новый адрес", "en": "New address" },
+  "editTitle": { "az": "Ünvanı dəyiş", "ru": "Изменить адрес", "en": "Edit address" },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "closeModal": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "breadcrumbLabel": { "az": "Naviqasiya yolu", "ru": "Навигация", "en": "Breadcrumb" },
+  "demoModule": { "az": "ünvan axtarışı", "ru": "поиск адреса", "en": "address search" },
+  "demoBody": {
+    "az": "Ünvan axtarışı və xəritədə nöqtə seçimi nümunə məlumatlarla işləyir — bu hissə hələ serverə qoşulmayıb.",
+    "ru": "Поиск адреса и выбор точки на карте работают на демо-данных — эта часть пока не подключена к серверу.",
+    "en": "Address search and map pin-drop run on demo data — this part is not connected to a server yet."
+  },
+
+  "subtitle": {
+    "az": "Çatdırılma üçün saxladığın {count} ünvan.",
+    "ru": "{count} сохранённых адреса для доставки.",
+    "en": "{count} saved delivery addresses."
+  },
+
+  "kind.home": { "az": "Ev", "ru": "Дом", "en": "Home" },
+  "kind.office": { "az": "İş", "ru": "Работа", "en": "Work" },
+  "kind.other": { "az": "Digər", "ru": "Другое", "en": "Other" },
+
+  "parts.building": { "az": "Bina {value}", "ru": "Дом {value}", "en": "Building {value}" },
+  "parts.entrance": { "az": "Giriş {value}", "ru": "Подъезд {value}", "en": "Entrance {value}" },
+  "parts.floor": { "az": "Mərtəbə {value}", "ru": "Этаж {value}", "en": "Floor {value}" },
+  "parts.apartment": { "az": "Mənzil {value}", "ru": "Квартира {value}", "en": "Apartment {value}" },
+
+  "card.defaultBadge": { "az": "Əsas ünvan", "ru": "Основной адрес", "en": "Default address" },
+  "card.makeDefault": { "az": "Əsas et", "ru": "Сделать основным", "en": "Make default" },
+  "card.edit": { "az": "Ünvanı redaktə et", "ru": "Редактировать адрес", "en": "Edit address" },
+  "card.delete": { "az": "Ünvanı sil", "ru": "Удалить адрес", "en": "Delete address" },
+  "card.noLine": { "az": "Ünvan yazılmayıb", "ru": "Адрес не указан", "en": "No address text" },
+  "card.noPoint": {
+    "az": "Xəritə nöqtəsi yoxdur — çatdırılma haqqı hesablanmaya bilər.",
+    "ru": "Нет точки на карте — стоимость доставки может не рассчитаться.",
+    "en": "No map point — the delivery fee may not be calculated."
+  },
+
+  "addTile.title": { "az": "Yeni ünvan əlavə et", "ru": "Добавить новый адрес", "en": "Add a new address" },
+  "addTile.body": {
+    "az": "Xəritədə seç və ya ünvanı yaz",
+    "ru": "Выбери на карте или впиши адрес",
+    "en": "Pick it on the map or type it in"
+  },
+
+  "empty.tag": { "az": "Ünvan yoxdur", "ru": "Адресов нет", "en": "No addresses" },
+  "empty.title": { "az": "Sifarişin harada çatdırılsın?", "ru": "Куда доставить заказ?", "en": "Where should your order go?" },
+  "empty.body": {
+    "az": "Ünvanını əlavə et, kuryer səni tez tapsın və çatdırılma zonasını əvvəlcədən gör.",
+    "ru": "Добавь адрес, чтобы курьер быстро тебя нашёл и ты заранее видел зону доставки.",
+    "en": "Add your address so the courier finds you fast and you can see the delivery zone up front."
+  },
+  "empty.subtitle": {
+    "az": "Hələ heç bir ünvan saxlamamısan.",
+    "ru": "Ты ещё не сохранил ни одного адреса.",
+    "en": "You haven't saved an address yet."
+  },
+  "empty.pickOnMap": { "az": "Xəritədə seç", "ru": "Выбрать на карте", "en": "Pick on the map" },
+  "empty.typeIt": { "az": "Ünvanı yaz", "ru": "Впиши адрес", "en": "Type the address" },
+
+  "error.title": { "az": "Ünvanlar yüklənmədi", "ru": "Не удалось загрузить адреса", "en": "Addresses could not be loaded" },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "fallback.title": {
+    "az": "Çatdırılma nöqtəsi şəhərin mərkəzidir",
+    "ru": "Точка доставки — центр города",
+    "en": "The delivery point is the city centre"
+  },
+  "fallback.body": {
+    "az": "Saxladığın ünvanlarda xəritə nöqtəsi yoxdur, ona görə mağazalar şəhərin mərkəzinə görə göstərilir. Xəritədən nöqtə seç ki, çatdırılma haqqı dəqiq olsun.",
+    "ru": "У сохранённых адресов нет точки на карте, поэтому магазины показаны от центра города. Выбери точку на карте, чтобы стоимость доставки была точной.",
+    "en": "None of your saved addresses carries a map point, so stores are listed from the city centre. Pick a point on the map for an exact delivery fee."
+  },
+
+  "delete.title": { "az": "Ünvan silinsin?", "ru": "Удалить адрес?", "en": "Delete this address?" },
+  "delete.body": {
+    "az": "«{address}» silinəcək. Bunu geri qaytarmaq mümkün deyil.",
+    "ru": "«{address}» будет удалён. Это нельзя отменить.",
+    "en": "\"{address}\" will be deleted. This cannot be undone."
+  },
+  "delete.confirm": { "az": "Sil", "ru": "Удалить", "en": "Delete" },
+  "delete.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+
+  "toast.saved": { "az": "Ünvan saxlandı", "ru": "Адрес сохранён", "en": "Address saved" },
+  "toast.saveFailed": { "az": "Ünvan saxlanmadı", "ru": "Адрес не сохранён", "en": "The address was not saved" },
+  "toast.deleted": { "az": "Ünvan silindi", "ru": "Адрес удалён", "en": "Address deleted" },
+  "toast.deleteFailed": { "az": "Ünvan silinmədi", "ru": "Адрес не удалён", "en": "The address was not deleted" },
+  "toast.notFound": { "az": "Ünvan tapılmadı", "ru": "Адрес не найден", "en": "Address not found" },
+  "toast.defaultSet": { "az": "Əsas ünvan dəyişdirildi", "ru": "Основной адрес изменён", "en": "Default address changed" },
+  "toast.defaultLocalOnly": {
+    "az": "Seçim bu cihazda saxlanıldı.",
+    "ru": "Выбор сохранён на этом устройстве.",
+    "en": "The choice was saved on this device."
+  },
+
+  "form.kind": { "az": "Ünvanın adı", "ru": "Название адреса", "en": "Address label" },
+  "form.line": { "az": "Ünvan", "ru": "Адрес", "en": "Address" },
+  "form.linePlaceholder": {
+    "az": "Nərimanov, Əhməd Rəcəbli küç. 12",
+    "ru": "Нариманов, ул. Ахмеда Раджабли 12",
+    "en": "Narimanov, Ahmad Rajabli str. 12"
+  },
+  "form.road": { "az": "Küçə", "ru": "Улица", "en": "Street" },
+  "form.building": { "az": "Bina", "ru": "Дом", "en": "Building" },
+  "form.floor": { "az": "Mərtəbə", "ru": "Этаж", "en": "Floor" },
+  "form.apartment": { "az": "Mənzil", "ru": "Квартира", "en": "Apartment" },
+  "form.entrance": { "az": "Giriş", "ru": "Подъезд", "en": "Entrance" },
+  "form.personName": { "az": "Qəbul edən", "ru": "Получатель", "en": "Recipient" },
+  "form.phone": { "az": "Əlaqə nömrəsi", "ru": "Контактный номер", "en": "Contact number" },
+  "form.note": { "az": "Kuryer üçün qeyd", "ru": "Заметка для курьера", "en": "Note for the courier" },
+  "form.notePlaceholder": {
+    "az": "Məsələn, domofon işləmir, zəng edin",
+    "ru": "Например: домофон не работает, позвоните",
+    "en": "For example: the intercom is broken, please call"
+  },
+  "form.noteHelper": {
+    "az": "Ən çoxu 200 simvol.",
+    "ru": "Не более 200 символов.",
+    "en": "Up to 200 characters."
+  },
+  "form.makeDefault": { "az": "Əsas ünvan et", "ru": "Сделать основным адресом", "en": "Make this the default address" },
+  "form.submit": { "az": "Ünvanı saxla", "ru": "Сохранить адрес", "en": "Save the address" },
+  "form.switchToMap": { "az": "Xəritədə seç", "ru": "Выбрать на карте", "en": "Pick on the map" },
+  "form.noPointHint": {
+    "az": "Xəritə nöqtəsi seçilməyib. Ünvan yenə saxlanır, ancaq çatdırılma haqqı hesablanmaya bilər.",
+    "ru": "Точка на карте не выбрана. Адрес сохранится, но стоимость доставки может не рассчитаться.",
+    "en": "No map point chosen. The address still saves, but the delivery fee may not be calculated."
+  },
+  "form.modalDescription": {
+    "az": "Çatdırılma ünvanını yaz və ya xəritədə seç.",
+    "ru": "Впиши адрес доставки или выбери его на карте.",
+    "en": "Type the delivery address or pick it on the map."
+  },
+  "form.errors.required": { "az": "Bu sahə vacibdir", "ru": "Обязательное поле", "en": "This field is required" },
+  "form.errors.tooLong": {
+    "az": "Ən çoxu {max} simvol",
+    "ru": "Не более {max} символов",
+    "en": "At most {max} characters"
+  },
+  "form.errors.digitsOnly": { "az": "Yalnız rəqəm", "ru": "Только цифры", "en": "Digits only" },
+  "form.errors.phone": {
+    "az": "Nömrə formatı yanlışdır (+994XXXXXXXXX)",
+    "ru": "Неверный формат номера (+994XXXXXXXXX)",
+    "en": "Wrong number format (+994XXXXXXXXX)"
+  },
+
+  "picker.title": { "az": "Xəritədə seç", "ru": "Выбрать на карте", "en": "Pick on the map" },
+  "picker.mapLabel": { "az": "Ünvan seçimi xəritəsi", "ru": "Карта выбора адреса", "en": "Address picker map" },
+  "picker.pointListLabel": { "az": "Seçilmiş nöqtə", "ru": "Выбранная точка", "en": "Chosen point" },
+  "picker.dropPin": { "az": "Xəritədə nöqtə seç", "ru": "Поставить точку на карте", "en": "Drop a pin on the map" },
+  "picker.pinDetail": { "az": "{lat}, {lng}", "ru": "{lat}, {lng}", "en": "{lat}, {lng}" },
+  "picker.searchPlaceholder": { "az": "Küçə və ya ev nömrəsi", "ru": "Улица или номер дома", "en": "Street or house number" },
+  "picker.locating": { "az": "Ünvan tapılır…", "ru": "Определяем адрес…", "en": "Finding the address…" },
+  "picker.locate": { "az": "Mənim yerim", "ru": "Моё местоположение", "en": "My location" },
+  "picker.zoomIn": { "az": "Yaxınlaşdır", "ru": "Приблизить", "en": "Zoom in" },
+  "picker.zoomOut": { "az": "Uzaqlaşdır", "ru": "Отдалить", "en": "Zoom out" },
+  "picker.inZone": { "az": "Çatdırılma mümkündür", "ru": "Доставка возможна", "en": "Delivery is available" },
+  "picker.outOfZone": { "az": "Zonadan kənardır", "ru": "Вне зоны", "en": "Outside the zone" },
+  "picker.unknownAddress": { "az": "Ünvan bilinmir", "ru": "Адрес неизвестен", "en": "Unknown address" },
+  "picker.nothingHere": {
+    "az": "Bu nöqtədə ünvan tapılmadı. Pini yaxın küçəyə köçür.",
+    "ru": "По этой точке адрес не найден. Перенеси пин на ближайшую улицу.",
+    "en": "No address was found at this point. Move the pin to a nearby street."
+  },
+  "picker.chooseAddress": { "az": "Ünvan seç", "ru": "Выбрать адрес", "en": "Choose an address" },
+  "picker.noAddress": { "az": "Ünvan seçilməyib", "ru": "Адрес не выбран", "en": "No address chosen" },
+  "picker.deliverTo": { "az": "Çatdırılma ünvanı", "ru": "Адрес доставки", "en": "Delivery address" },
+  "picker.popoverLabel": { "az": "Çatdırılma ünvanı seçimi", "ru": "Выбор адреса доставки", "en": "Delivery address picker" },
+  "picker.addNew": { "az": "Yeni ünvan əlavə et", "ru": "Добавить новый адрес", "en": "Add a new address" },
+  "picker.emptyHint": {
+    "az": "Saxlanmış ünvan yoxdur.",
+    "ru": "Сохранённых адресов нет.",
+    "en": "You have no saved addresses."
+  },
+  "picker.loadError": {
+    "az": "Ünvanlar yüklənmədi.",
+    "ru": "Адреса не загрузились.",
+    "en": "The addresses could not be loaded."
+  },
+  "picker.fallbackHint": {
+    "az": "Çatdırılma nöqtəsi şəhərin mərkəzidir.",
+    "ru": "Точка доставки — центр города.",
+    "en": "The delivery point is the city centre."
+  },
+
+  "outOfZone.title": { "az": "Bu ünvana çatdırılma yoxdur", "ru": "На этот адрес доставки нет", "en": "No delivery to this address" },
+  "outOfZone.body": {
+    "az": "Seçdiyin nöqtə Ozio çatdırılma zonasından kənardır. Zonadakı ünvan seç və ya sifarişi mağazadan götür.",
+    "ru": "Выбранная точка вне зоны доставки Ozio. Выбери адрес в зоне или забери заказ из магазина.",
+    "en": "The point you chose is outside Ozio's delivery zone. Pick an address inside the zone or collect the order from a store."
+  },
+  "outOfZone.seeZones": { "az": "Zonanı xəritədə gör", "ru": "Посмотреть зону на карте", "en": "See the zone on the map" },
+  "outOfZone.saveBlocked": {
+    "az": "Zonadan kənar ünvan saxlanmır",
+    "ru": "Адрес вне зоны не сохраняется",
+    "en": "An address outside the zone cannot be saved"
+  },
+  "outOfZone.pickAnother": { "az": "Başqa ünvan seç", "ru": "Выбрать другой адрес", "en": "Pick another address" },
+
+  "search.title": { "az": "Ünvan axtar", "ru": "Поиск адреса", "en": "Search for an address" },
+  "search.placeholder": { "az": "Küçə və ya ev nömrəsi", "ru": "Улица или номер дома", "en": "Street or house number" },
+  "search.hint": {
+    "az": "Axtarmaq üçün ən azı {min} simvol yaz.",
+    "ru": "Введи минимум {min} символа для поиска.",
+    "en": "Type at least {min} characters to search."
+  },
+  "search.emptyTitle": { "az": "Nəticə yoxdur", "ru": "Ничего не найдено", "en": "No results" },
+  "search.emptyBody": {
+    "az": "Küçənin adını başqa cür yaz və ya xəritədən seç.",
+    "ru": "Напиши название улицы иначе или выбери точку на карте.",
+    "en": "Try another spelling of the street, or pick the point on the map."
+  },
+  "search.errorTitle": { "az": "Axtarış alınmadı", "ru": "Поиск не удался", "en": "The search failed" },
+  "search.modalDescription": {
+    "az": "Küçə adını yaz, sonra nəticəni seç.",
+    "ru": "Введи название улицы и выбери результат.",
+    "en": "Type a street name, then choose a result."
+  },
+
+  "zones.title": { "az": "Çatdırılma zonası", "ru": "Зона доставки", "en": "Delivery zone" },
+  "zones.subtitle": {
+    "az": "Şəhərini seç, ünvanının zonasını və çatdırılma şərtlərini gör.",
+    "ru": "Выбери город, посмотри зону своего адреса и условия доставки.",
+    "en": "Choose your city, then see your address's zone and the delivery terms."
+  },
+  "zones.promoBody": {
+    "az": "Ünvanının çatdırılma zonasında olub-olmadığını yoxla və minimum sifariş məbləğinə bax.",
+    "ru": "Проверь, попадает ли твой адрес в зону доставки, и посмотри минимальную сумму заказа.",
+    "en": "Check whether your address is inside the delivery zone and see the minimum order."
+  },
+  "zones.cta": { "az": "Zonaya bax", "ru": "Посмотреть зону", "en": "View the zone" },
+  "zones.back": { "az": "Ünvanlara qayıt", "ru": "Назад к адресам", "en": "Back to addresses" },
+  "zones.cityLabel": { "az": "Şəhərlər", "ru": "Города", "en": "Cities" },
+  "zones.citiesLoading": { "az": "Şəhərlər yüklənir…", "ru": "Загрузка городов…", "en": "Loading cities…" },
+  "zones.citiesUnavailable": {
+    "az": "Şəhər siyahısı əlçatan deyil.",
+    "ru": "Список городов недоступен.",
+    "en": "The city list is unavailable."
+  },
+  "zones.mapLabel": { "az": "{city} çatdırılma zonaları xəritəsi", "ru": "Карта зон доставки — {city}", "en": "Delivery zone map — {city}" },
+  "zones.mapListLabel": { "az": "Zonalar və nöqtələr", "ru": "Зоны и точки", "en": "Zones and points" },
+  "zones.yourAddress": { "az": "Sənin ünvanın", "ru": "Твой адрес", "en": "Your address" },
+  "zones.legendIn": { "az": "Çatdırılma mümkündür", "ru": "Доставка возможна", "en": "Delivery available" },
+  "zones.legendOut": { "az": "Zonadan kənar", "ru": "Вне зоны", "en": "Outside the zone" },
+
+  "zones.check.title": { "az": "Ünvanını yoxla", "ru": "Проверь свой адрес", "en": "Check your address" },
+  "zones.check.placeholder": { "az": "Küçə və ya ev nömrəsi", "ru": "Улица или номер дома", "en": "Street or house number" },
+  "zones.check.inZone": { "az": "{query} — {zone} zonasındadır", "ru": "{query} — в зоне «{zone}»", "en": "{query} is in the {zone} zone" },
+  "zones.check.outOfZone": { "az": "{query} zonadan kənardır", "ru": "{query} вне зоны", "en": "{query} is outside the zone" },
+  "zones.check.unavailable": {
+    "az": "Zona yoxlaması hələ mümkün deyil: zona məlumatı serverdən gəlmir.",
+    "ru": "Проверка зоны пока недоступна: данные о зонах с сервера не приходят.",
+    "en": "The zone check is not available yet: the server sends no zone data."
+  },
+
+  "zones.fees.title": { "az": "{zone} şərtləri", "ru": "Условия зоны «{zone}»", "en": "{zone} terms" },
+  "zones.fees.delivery": { "az": "Çatdırılma haqqı", "ru": "Стоимость доставки", "en": "Delivery fee" },
+  "zones.fees.minOrder": { "az": "Minimum sifariş", "ru": "Минимальный заказ", "en": "Minimum order" },
+  "zones.fees.free": { "az": "Pulsuz çatdırılma", "ru": "Бесплатная доставка", "en": "Free delivery" },
+  "zones.fees.freeFrom": { "az": "{amount}-dan", "ru": "от {amount}", "en": "from {amount}" },
+  "zones.fees.unavailable": {
+    "az": "Çatdırılma haqqı və minimum məbləğ server tərəfindən göndərilmir.",
+    "ru": "Стоимость доставки и минимальная сумма сервером не передаются.",
+    "en": "The delivery fee and the minimum order are not sent by the server."
+  },
+
+  "zones.list.title": { "az": "{city} zonaları", "ru": "Зоны — {city}", "en": "{city} zones" },
+  "zones.list.emptyTitle": { "az": "Zona məlumatı yoxdur", "ru": "Данных о зонах нет", "en": "No zone data" },
+  "zones.list.emptyBody": {
+    "az": "Zona sərhədləri, çatdırılma haqqı və vaxtı server məlumatıdır və hələ göndərilmir.",
+    "ru": "Границы зон, стоимость и время доставки — серверные данные, и они пока не передаются.",
+    "en": "Zone boundaries, fees and times are server data, and they are not sent yet."
+  },
+  "zones.gapNote": {
+    "az": "Xəritədəki zonalar nümunə təsvirdir. Həqiqi sərhədlər server məlumatı gələndə göstəriləcək.",
+    "ru": "Зоны на карте — демонстрационная иллюстрация. Реальные границы появятся, когда придут серверные данные.",
+    "en": "The zones on the map are an illustration. Real boundaries appear once the server sends them."
+  },
+  "zones.noAddressHint": {
+    "az": "Zonanı öz ünvanına görə görmək üçün ünvan əlavə et.",
+    "ru": "Добавь адрес, чтобы увидеть зону по своему адресу.",
+    "en": "Add an address to see the zone for your own location."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "title": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+  "subtitle": {
+    "az": "Dil, görünüş, bildirişlər və təhlükəsizlik",
+    "ru": "Язык, оформление, уведомления и безопасность",
+    "en": "Language, appearance, notifications and security"
+  },
+  "close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "confirm": { "az": "Təsdiqlə", "ru": "Подтвердить", "en": "Confirm" },
+  "back": { "az": "Parametrlər", "ru": "Настройки", "en": "Settings" },
+  "localOnly": {
+    "az": "Bu tənzimləmə yalnız bu brauzerdə saxlanılır.",
+    "ru": "Эта настройка хранится только в этом браузере.",
+    "en": "This preference is stored in this browser only."
+  },
+
+  "language.title": { "az": "Dil", "ru": "Язык", "en": "Language" },
+  "language.desc": {
+    "az": "Tətbiq və bildirişlərin dili",
+    "ru": "Язык приложения и уведомлений",
+    "en": "The language of the app and notifications"
+  },
+  "language.dialogTitle": { "az": "Dil seç", "ru": "Выбор языка", "en": "Choose a language" },
+  "language.dialogSub": {
+    "az": "Tətbiq və bildirişlər seçilmiş dildə olacaq",
+    "ru": "Приложение и уведомления будут на выбранном языке",
+    "en": "The app and its notifications will use the language you pick"
+  },
+  "language.groupLabel": { "az": "Tətbiq dili", "ru": "Язык приложения", "en": "App language" },
+  "language.native.az": { "az": "Azərbaycanca", "ru": "Azərbaycanca", "en": "Azərbaycanca" },
+  "language.native.ru": { "az": "Русский", "ru": "Русский", "en": "Русский" },
+  "language.native.en": { "az": "English", "ru": "English", "en": "English" },
+  "language.sub.az": { "az": "Azerbaijani", "ru": "Азербайджанский", "en": "Azerbaijani" },
+  "language.sub.ru": { "az": "Russian", "ru": "Русский", "en": "Russian" },
+  "language.sub.en": { "az": "İngilis dili", "ru": "Английский", "en": "English" },
+  "language.current": { "az": "Seçilmiş dil", "ru": "Выбранный язык", "en": "Selected language" },
+
+  "theme.title": { "az": "Mövzu", "ru": "Тема", "en": "Theme" },
+  "theme.desc": {
+    "az": "İşıqlı, qaranlıq və ya cihaz tənzimləməsi",
+    "ru": "Светлая, тёмная или как на устройстве",
+    "en": "Light, dark or follow your device"
+  },
+  "theme.groupLabel": { "az": "Görünüş", "ru": "Оформление", "en": "Appearance" },
+  "theme.light": { "az": "İşıqlı", "ru": "Светлая", "en": "Light" },
+  "theme.dark": { "az": "Qaranlıq", "ru": "Тёмная", "en": "Dark" },
+  "theme.system": { "az": "Sistem", "ru": "Системная", "en": "System" },
+  "theme.preview": { "az": "Nümunə", "ru": "Пример", "en": "Preview" },
+  "theme.current": { "az": "Aktiv mövzu", "ru": "Активная тема", "en": "Active theme" },
+
+  "notifications.title": { "az": "Bildirişlər", "ru": "Уведомления", "en": "Notifications" },
+  "notifications.desc": {
+    "az": "Hansı xəbərləri almaq istədiyini seç",
+    "ru": "Выбери, какие новости хочешь получать",
+    "en": "Choose which updates you want"
+  },
+  "notifications.localNotice": {
+    "az": "Bu seçimlər yalnız bu brauzerdə saxlanılır — server tərəfdə sinxronlaşma hələ yoxdur.",
+    "ru": "Эти переключатели хранятся только в этом браузере — синхронизации с сервером пока нет.",
+    "en": "These toggles are stored in this browser only — there is no server sync yet."
+  },
+  "notifications.orderStatus": { "az": "Sifariş statusu", "ru": "Статус заказа", "en": "Order status" },
+  "notifications.orderStatusSub": {
+    "az": "Hazırlanır, yoldadır, çatdırıldı",
+    "ru": "Собирается, в пути, доставлен",
+    "en": "Being prepared, on the way, delivered"
+  },
+  "notifications.bonus": { "az": "Keşbek və bonus", "ru": "Кешбэк и бонусы", "en": "Cashback and bonus" },
+  "notifications.bonusSub": {
+    "az": "Hesaba keşbek düşəndə və bonus bitməzdən əvvəl",
+    "ru": "Когда кешбэк зачислен и перед истечением бонусов",
+    "en": "When cashback lands and before bonuses expire"
+  },
+  "notifications.coupons": {
+    "az": "Kuponlar və kampaniyalar",
+    "ru": "Купоны и акции",
+    "en": "Coupons and campaigns"
+  },
+  "notifications.couponsSub": {
+    "az": "Şəxsi endirimlər və yeni təkliflər",
+    "ru": "Персональные скидки и новые предложения",
+    "en": "Personal discounts and new offers"
+  },
+  "notifications.lottery": {
+    "az": "Lotereya nəticələri",
+    "ru": "Результаты лотереи",
+    "en": "Lottery results"
+  },
+  "notifications.lotterySub": {
+    "az": "Çəkiliş bitəndə xəbər ver",
+    "ru": "Сообщать об итогах тиража",
+    "en": "Tell me when a draw ends"
+  },
+  "notifications.browser.title": {
+    "az": "Brauzer bildirişləri",
+    "ru": "Уведомления браузера",
+    "en": "Browser notifications"
+  },
+  "notifications.browser.desc": {
+    "az": "Brauzer icazəsi olmadan heç bir bildiriş göstərilmir.",
+    "ru": "Без разрешения браузера уведомления не показываются.",
+    "en": "Nothing is shown without the browser's permission."
+  },
+  "notifications.browser.grant": { "az": "İcazə ver", "ru": "Разрешить", "en": "Allow" },
+  "notifications.browser.granted": { "az": "İcazə verilib", "ru": "Разрешено", "en": "Allowed" },
+  "notifications.browser.denied": {
+    "az": "Brauzerdə bloklanıb — icazəni brauzer tənzimləmələrindən aç.",
+    "ru": "Заблокировано в браузере — включи разрешение в его настройках.",
+    "en": "Blocked in the browser — turn the permission on in its settings."
+  },
+  "notifications.browser.unsupported": {
+    "az": "Bu brauzer bildirişləri dəstəkləmir.",
+    "ru": "Этот браузер не поддерживает уведомления.",
+    "en": "This browser does not support notifications."
+  },
+  "notifications.inbox": {
+    "az": "Bütün bildirişlərə bax",
+    "ru": "Смотреть все уведомления",
+    "en": "See all notifications"
+  },
+
+  "security.title": { "az": "Təhlükəsizlik", "ru": "Безопасность", "en": "Security" },
+  "security.desc": { "az": "Hesabına girişi qoru", "ru": "Защити вход в аккаунт", "en": "Protect access to your account" },
+  "security.webNotice": {
+    "az": "Biometrik giriş və PIN yalnız mobil tətbiqdə var — web versiyada bu tənzimləmələr yoxdur.",
+    "ru": "Биометрия и PIN есть только в мобильном приложении — в веб-версии этих настроек нет.",
+    "en": "Biometric unlock and the PIN exist only in the mobile app — the web version has neither."
+  },
+
+  "danger.title": { "az": "Təhlükəli zona", "ru": "Опасная зона", "en": "Danger zone" },
+  "danger.text": {
+    "az": "Hesabı silsən keşbek, bonus və kuponların 30 gün ərzində birdəfəlik silinəcək. Bu əməliyyatı geri qaytarmaq olmur.",
+    "ru": "Если удалить аккаунт, кешбэк, бонусы и купоны будут безвозвратно удалены в течение 30 дней. Отменить это нельзя.",
+    "en": "Deleting your account permanently removes your cashback, bonus and coupons within 30 days. It cannot be undone."
+  },
+  "danger.delete": { "az": "Hesabı sil", "ru": "Удалить аккаунт", "en": "Delete account" },
+
+  "about.title": { "az": "Ozio 10", "ru": "Ozio 10", "en": "Ozio 10" },
+  "about.version": { "az": "Versiya {version}", "ru": "Версия {version}", "en": "Version {version}" },
+  "about.terms": { "az": "İstifadə şərtləri", "ru": "Условия использования", "en": "Terms of use" },
+  "about.privacy": { "az": "Məxfilik siyasəti", "ru": "Политика конфиденциальности", "en": "Privacy policy" },
+
+  "signOut": { "az": "Hesabdan çıx", "ru": "Выйти из аккаунта", "en": "Sign out" },
+  "openFull": { "az": "Tam səhifədə aç", "ru": "Открыть на всю страницу", "en": "Open the full page" }
+}

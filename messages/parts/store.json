@@ -1,0 +1,340 @@
+{
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "loadingMore": {
+    "az": "Daha çox məhsul yüklənir…",
+    "ru": "Загружаем ещё товары…",
+    "en": "Loading more products…"
+  },
+  "close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "results": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# product} other {# products}}"
+  },
+
+  "market.title": { "az": "Market", "ru": "Маркет", "en": "Market" },
+  "market.subtitle": {
+    "az": "{count} məhsul · çatdırılma {min}–{max} dəq",
+    "ru": "{count} товаров · доставка {min}–{max} мин",
+    "en": "{count} products · delivery {min}–{max} min"
+  },
+  "market.noStores.title": {
+    "az": "Bu ünvana çatdırılma yoxdur",
+    "ru": "По этому адресу нет доставки",
+    "en": "No store delivers to this point"
+  },
+  "market.noStores.body": {
+    "az": "Çatdırılma ünvanını dəyişsən, sənə xidmət edən mağazaları göstərəcəyik.",
+    "ru": "Измени адрес доставки — и мы покажем магазины, которые тебя обслуживают.",
+    "en": "Change the delivery address and we will show the stores that serve it."
+  },
+  "market.noStores.cta": {
+    "az": "Ünvanlarım",
+    "ru": "Мои адреса",
+    "en": "My addresses"
+  },
+
+  "promo.title": {
+    "az": "Bu həftə hər sifarişdə +1,5% keşbek",
+    "ru": "На этой неделе +1,5% кешбэка с каждого заказа",
+    "en": "+1.5% cashback on every order this week"
+  },
+  "promo.subtitle": {
+    "az": "Səbətini 30 ₼-dən yuxarı doldur, çatdırılma pulsuz olsun.",
+    "ru": "Собери корзину больше 30 ₼ — и доставка бесплатная.",
+    "en": "Fill your basket above 30 ₼ and delivery is free."
+  },
+  "promo.cta": { "az": "Ətraflı", "ru": "Подробнее", "en": "Learn more" },
+  "promo.titleShort": {
+    "az": "Bu həftənin endirimləri",
+    "ru": "Скидки этой недели",
+    "en": "This week's deals"
+  },
+  "promo.subtitleShort": {
+    "az": "20%-dək keşbek",
+    "ru": "Кешбэк до 20%",
+    "en": "Up to 20% cashback"
+  },
+  "promo.ctaShort": { "az": "Bax", "ru": "Смотреть", "en": "View" },
+
+  "filters.title": { "az": "Filtrlər", "ru": "Фильтры", "en": "Filters" },
+  "filters.short": { "az": "Filtr", "ru": "Фильтр", "en": "Filter" },
+  "filters.shortCount": {
+    "az": "Filtr · {count}",
+    "ru": "Фильтр · {count}",
+    "en": "Filter · {count}"
+  },
+  "filters.category": { "az": "KATEQORİYA", "ru": "КАТЕГОРИЯ", "en": "CATEGORY" },
+  "filters.price": { "az": "QİYMƏT", "ru": "ЦЕНА", "en": "PRICE" },
+  "filters.priceMin": {
+    "az": "Minimum qiymət",
+    "ru": "Минимальная цена",
+    "en": "Minimum price"
+  },
+  "filters.priceMax": {
+    "az": "Maksimum qiymət",
+    "ru": "Максимальная цена",
+    "en": "Maximum price"
+  },
+  "filters.priceRange": {
+    "az": "{min} – {max} ₼",
+    "ru": "{min} – {max} ₼",
+    "en": "{min} – {max} ₼"
+  },
+  "filters.discountOnly": {
+    "az": "Yalnız endirimli",
+    "ru": "Только со скидкой",
+    "en": "Discounted only"
+  },
+  "filters.clear": { "az": "Təmizlə", "ru": "Очистить", "en": "Clear" },
+  "filters.allCategories": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "filters.remove": {
+    "az": "{filter} filtrini sil",
+    "ru": "Убрать фильтр «{filter}»",
+    "en": "Remove the {filter} filter"
+  },
+  "filters.clientSideNote": {
+    "az": "Qiymət və endirim filtri yüklənmiş məhsullara tətbiq olunur.",
+    "ru": "Фильтры цены и скидки применяются к уже загруженным товарам.",
+    "en": "The price and discount filters apply to the products already loaded."
+  },
+
+  "sort.title": { "az": "Sıralama", "ru": "Сортировка", "en": "Sort" },
+  "sort.short": { "az": "Sırala", "ru": "Сортировать", "en": "Sort" },
+  "sort.trigger": {
+    "az": "Sırala: {value}",
+    "ru": "Сортировка: {value}",
+    "en": "Sort: {value}"
+  },
+  "sort.popular": { "az": "Populyar", "ru": "Популярные", "en": "Popular" },
+  "sort.priceAsc": {
+    "az": "Qiymət (aşağıdan yuxarı)",
+    "ru": "Цена (по возрастанию)",
+    "en": "Price (low to high)"
+  },
+  "sort.priceDesc": {
+    "az": "Qiymət (yuxarıdan aşağı)",
+    "ru": "Цена (по убыванию)",
+    "en": "Price (high to low)"
+  },
+  "sort.discount": { "az": "Endirim", "ru": "Скидка", "en": "Discount" },
+  "sort.name": { "az": "Ad", "ru": "Название", "en": "Name" },
+  "sort.clientSideNote": {
+    "az": "Sıralama yüklənmiş məhsullara tətbiq olunur.",
+    "ru": "Сортировка применяется к уже загруженным товарам.",
+    "en": "Sorting applies to the products already loaded."
+  },
+
+  "chips.all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "chips.label": { "az": "Kateqoriyalar", "ru": "Категории", "en": "Categories" },
+  "chips.subLabel": {
+    "az": "Alt kateqoriyalar",
+    "ru": "Подкатегории",
+    "en": "Subcategories"
+  },
+
+  "card.add": {
+    "az": "{name} məhsulunu səbətə at",
+    "ru": "Добавить «{name}» в корзину",
+    "en": "Add {name} to the basket"
+  },
+  "card.increase": { "az": "Artır", "ru": "Увеличить", "en": "Increase" },
+  "card.decrease": { "az": "Azalt", "ru": "Уменьшить", "en": "Decrease" },
+  "card.remove": { "az": "Sil", "ru": "Удалить", "en": "Remove" },
+  "card.quantity": {
+    "az": "Say: {count}",
+    "ru": "Количество: {count}",
+    "en": "Quantity: {count}"
+  },
+  "card.outOfStock": { "az": "Bitib", "ru": "Нет в наличии", "en": "Out of stock" },
+  "card.favoriteAdd": {
+    "az": "Sevimlilərə əlavə et",
+    "ru": "Добавить в избранное",
+    "en": "Add to favourites"
+  },
+  "card.favoriteRemove": {
+    "az": "Sevimlilərdən çıxar",
+    "ru": "Убрать из избранного",
+    "en": "Remove from favourites"
+  },
+  "card.perUnit": { "az": "/ kq", "ru": "/ кг", "en": "/ kg" },
+
+  "tile.eta": {
+    "az": "{min}–{max} dəq",
+    "ru": "{min}–{max} мин",
+    "en": "{min}–{max} min"
+  },
+  "tile.freeDelivery": {
+    "az": "Pulsuz çatdırılma",
+    "ru": "Бесплатная доставка",
+    "en": "Free delivery"
+  },
+
+  "header.open": { "az": "Açıqdır", "ru": "Открыто", "en": "Open" },
+  "header.closed": { "az": "Bağlıdır", "ru": "Закрыто", "en": "Closed" },
+  "header.hoursToday": {
+    "az": "{open} – {close} · bu gün",
+    "ru": "{open} – {close} · сегодня",
+    "en": "{open} – {close} · today"
+  },
+  "header.opensAt": {
+    "az": "{time}-da açılır",
+    "ru": "Откроется в {time}",
+    "en": "Opens at {time}"
+  },
+  "header.firstDelivery": {
+    "az": "İlk çatdırılma {time}",
+    "ru": "Первая доставка в {time}",
+    "en": "First delivery at {time}"
+  },
+  "header.deliveryFee": {
+    "az": "Çatdırılma {fee}",
+    "ru": "Доставка {fee}",
+    "en": "Delivery {fee}"
+  },
+
+  "closed.title": {
+    "az": "Mağaza hazırda bağlıdır",
+    "ru": "Магазин сейчас закрыт",
+    "en": "This store is closed right now"
+  },
+  "closed.body": {
+    "az": "Məhsulları səbətə əlavə edə bilərsiniz — sifariş {time}-dan sonra hazırlanacaq və çatdırılacaq.",
+    "ru": "Товары можно добавить в корзину — заказ соберут и доставят после {time}.",
+    "en": "You can still add products — the order will be prepared and delivered after {time}."
+  },
+  "closed.notify": {
+    "az": "Açılanda xəbər ver",
+    "ru": "Сообщить об открытии",
+    "en": "Notify me when it opens"
+  },
+  "closed.notifyUnavailable": {
+    "az": "Açılış bildirişi hələ mövcud deyil.",
+    "ru": "Уведомление об открытии пока недоступно.",
+    "en": "Opening reminders are not available yet."
+  },
+
+  "empty.title": {
+    "az": "Nəticə tapılmadı",
+    "ru": "Ничего не найдено",
+    "en": "No results found"
+  },
+  "empty.filtered": {
+    "az": "Seçilmiş filtrlərə uyğun məhsul yoxdur. Filtrləri təmizləyib yenidən yoxla.",
+    "ru": "Под выбранные фильтры товаров нет. Очисти фильтры и попробуй снова.",
+    "en": "No product matches the selected filters. Clear them and try again."
+  },
+  "empty.category": {
+    "az": "Bu kateqoriyada hələ məhsul yoxdur. Başqa kateqoriyaya bax.",
+    "ru": "В этой категории пока нет товаров. Посмотри другую категорию.",
+    "en": "This category has no products yet. Try another one."
+  },
+  "empty.categoryEmpty": {
+    "az": "Bu kateqoriyada məhsul tapılmadı.",
+    "ru": "В этой категории товары не найдены.",
+    "en": "No products in this category."
+  },
+  "empty.clearFilters": {
+    "az": "Filtrləri təmizlə",
+    "ru": "Очистить фильтры",
+    "en": "Clear filters"
+  },
+
+  "error.title": {
+    "az": "Məhsulları yükləmək olmadı",
+    "ru": "Не удалось загрузить товары",
+    "en": "Could not load the products"
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+
+  "age.title": {
+    "az": "18+ kateqoriya",
+    "ru": "Категория 18+",
+    "en": "18+ category"
+  },
+  "age.body": {
+    "az": "«{category}» kateqoriyasında yaş məhdudiyyətli məhsullar var. Davam etmək üçün 18 yaşın tamam olduğunu təsdiqlə.",
+    "ru": "В категории «{category}» есть товары с возрастным ограничением. Чтобы продолжить, подтверди, что тебе 18 лет.",
+    "en": "The “{category}” category contains age-restricted products. Confirm that you are 18 or older to continue."
+  },
+  "age.confirm": {
+    "az": "18 yaşım var",
+    "ru": "Мне 18 или больше",
+    "en": "I am 18 or older"
+  },
+  "age.cancel": { "az": "Geri qayıt", "ru": "Назад", "en": "Go back" },
+  "age.chipHint": {
+    "az": "Yaş məhdudiyyətli kateqoriya",
+    "ru": "Категория с возрастным ограничением",
+    "en": "Age-restricted category"
+  },
+
+  "favorite.unverified": {
+    "az": "Sevimlilər hələ yadda saxlanılmır",
+    "ru": "Избранное пока не сохраняется",
+    "en": "Favourites are not saved yet"
+  },
+  "favorite.unverifiedBody": {
+    "az": "Seçim yalnız bu cihazda saxlanılır — server tərəfi hazır deyil.",
+    "ru": "Выбор остаётся только на этом устройстве — серверная часть ещё не готова.",
+    "en": "Your choice stays on this device only — the server side is not ready."
+  },
+  "favorite.productNoApi": {
+    "az": "Məhsul sevimliləri üçün hələ server metodu yoxdur.",
+    "ru": "Для избранных товаров пока нет серверного метода.",
+    "en": "There is no server endpoint for product favourites yet."
+  },
+  "favorite.failed": {
+    "az": "Dəyişiklik yadda saxlanılmadı",
+    "ru": "Изменение не сохранено",
+    "en": "The change was not saved"
+  },
+
+  "breadcrumb.label": {
+    "az": "Naviqasiya yolu",
+    "ru": "Навигационная цепочка",
+    "en": "Breadcrumb"
+  },
+  "breadcrumb.market": { "az": "Market", "ru": "Маркет", "en": "Market" },
+  "breadcrumb.stores": { "az": "Mağazalar", "ru": "Магазины", "en": "Stores" },
+  "breadcrumb.categories": {
+    "az": "Kateqoriyalar",
+    "ru": "Категории",
+    "en": "Categories"
+  },
+
+  "store.metaTitle": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "store.allProducts": {
+    "az": "Bütün məhsullar",
+    "ru": "Все товары",
+    "en": "All products"
+  },
+  "store.backToMarket": { "az": "Marketə keç", "ru": "В маркет", "en": "Go to Market" },
+  "store.notFound.title": {
+    "az": "Mağaza tapılmadı",
+    "ru": "Магазин не найден",
+    "en": "Store not found"
+  },
+  "store.notFound.body": {
+    "az": "Bu mağaza artıq mövcud deyil və ya ünvan səhvdir.",
+    "ru": "Этого магазина больше нет или ссылка неверна.",
+    "en": "This store no longer exists, or the link is wrong."
+  },
+
+  "category.metaTitle": { "az": "Kateqoriya", "ru": "Категория", "en": "Category" },
+  "category.fallbackTitle": {
+    "az": "Kateqoriya",
+    "ru": "Категория",
+    "en": "Category"
+  },
+  "category.subtitle": {
+    "az": "{count} məhsul · {store}",
+    "ru": "{count} товаров · {store}",
+    "en": "{count} products · {store}"
+  },
+  "category.noStore": {
+    "az": "Bu kateqoriyanı göstərmək üçün mağaza seçilməyib.",
+    "ru": "Не выбран магазин, чтобы показать эту категорию.",
+    "en": "No store is selected to show this category."
+  }
+}

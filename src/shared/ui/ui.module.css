@@ -1,0 +1,343 @@
+/* ============================================================================
+   shared/ui — overlay / feedback motion + grid recipes.
+   Only design tokens (var(--oz-*)) are used here; no literal colours.
+   Durations/easings come from design-system/motion.md §1 and are already
+   zeroed under prefers-reduced-motion by globals.css.
+   ========================================================================== */
+
+@keyframes ozFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes ozFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes ozCenterIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes ozCenterOut {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+}
+@keyframes ozSlideUpIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes ozSlideUpOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes ozSlideRightIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes ozSlideRightOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes ozMenuIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes ozMenuOut {
+  from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.96) translateY(-4px);
+  }
+}
+@keyframes ozToastIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes ozAccordionDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes ozAccordionUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+/* --------------------------------------------------------------- scrim ---- */
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--oz-overlay);
+  animation: ozFadeIn var(--oz-dur-base) var(--oz-ease-out);
+}
+.scrim[data-state="closed"] {
+  animation: ozFadeOut 140ms ease-in;
+}
+
+/* ---------------------------------------------------------------- modal ---- */
+/* Mobile (<768): full-width bottom sheet, 28 top radius, drag handle.
+   Desktop: centred panel, S 400 / M 560 / L 760, padding 28, radius 32. */
+.modalPanel {
+  position: fixed;
+  z-index: 61;
+  inset-inline: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--oz-s-5);
+  max-height: 92dvh;
+  padding: var(--oz-s-2) var(--oz-s-5) var(--oz-s-5);
+  background: var(--oz-surface);
+  border-start-start-radius: var(--oz-r-xl);
+  border-start-end-radius: var(--oz-r-xl);
+  animation: ozSlideUpIn var(--oz-dur-slow) var(--oz-ease-out);
+}
+.modalPanel[data-state="closed"] {
+  animation: ozSlideUpOut 140ms ease-in;
+}
+
+@media (min-width: 768px) {
+  .modalPanel {
+    inset-inline: auto;
+    bottom: auto;
+    inset-inline-start: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--oz-modal-w, 560px);
+    max-width: calc(100vw - 48px);
+    max-height: calc(100dvh - 80px);
+    padding: 28px;
+    border-radius: var(--oz-r-modal);
+    box-shadow: var(--oz-shadow-modal);
+    animation: ozCenterIn var(--oz-dur-base) var(--oz-ease-out);
+  }
+  .modalPanel[data-state="closed"] {
+    animation: ozCenterOut 140ms ease-in;
+  }
+}
+
+/* --------------------------------------------------------------- dialog ---- */
+/* Confirm dialog: 410 wide, centred in both breakpoints, padding 32. */
+.dialogPanel {
+  position: fixed;
+  z-index: 61;
+  inset-inline-start: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 410px;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100dvh - 48px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: var(--oz-s-8);
+  background: var(--oz-surface);
+  border-radius: var(--oz-r-modal);
+  box-shadow: var(--oz-shadow-modal);
+  animation: ozCenterIn var(--oz-dur-base) var(--oz-ease-out);
+}
+.dialogPanel[data-state="closed"] {
+  animation: ozCenterOut 140ms ease-in;
+}
+
+/* ---------------------------------------------------------------- sheet ---- */
+/* <768: bottom sheet. >=768: right side panel. */
+.sheetPanel {
+  position: fixed;
+  z-index: 61;
+  inset-inline: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 92dvh;
+  background: var(--oz-surface);
+  border-start-start-radius: var(--oz-r-xl);
+  border-start-end-radius: var(--oz-r-xl);
+  animation: ozSlideUpIn var(--oz-dur-slow) var(--oz-ease-out);
+}
+.sheetPanel[data-state="closed"] {
+  animation: ozSlideUpOut 140ms ease-in;
+}
+
+@media (min-width: 768px) {
+  .sheetPanel {
+    inset-inline: auto;
+    inset-inline-end: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--oz-sheet-w, 420px);
+    max-width: 100vw;
+    max-height: 100dvh;
+    border-radius: 0;
+    box-shadow: var(--oz-shadow-modal);
+    animation: ozSlideRightIn var(--oz-dur-slow) var(--oz-ease-out);
+  }
+  .sheetPanel[data-state="closed"] {
+    animation: ozSlideRightOut 160ms ease-in;
+  }
+}
+
+/* The cart drawer slides in 200ms ease-out (motion.md §2). */
+.drawerPanel {
+  animation-duration: var(--oz-dur-slow);
+}
+@media (min-width: 768px) {
+  .drawerPanel {
+    animation-duration: var(--oz-dur-base);
+    animation-timing-function: var(--oz-ease-out);
+  }
+}
+
+/* ---------------------------------------------- dropdown / popover menu ---- */
+.menuPanel {
+  transform-origin: var(
+    --radix-dropdown-menu-content-transform-origin,
+    var(--radix-popover-content-transform-origin, center)
+  );
+  animation: ozMenuIn 160ms var(--oz-ease-out);
+}
+.menuPanel[data-state="closed"] {
+  animation: ozMenuOut 100ms ease-in;
+}
+
+.tooltipBubble {
+  animation: ozFadeIn var(--oz-dur-fast) var(--oz-ease-out);
+}
+.tooltipBubble[data-state="closed"] {
+  animation: ozFadeOut 100ms ease-in;
+}
+
+/* ---------------------------------------------------- toast / snackbar ---- */
+.toastItem {
+  animation: ozToastIn var(--oz-dur-base) var(--oz-ease-out);
+}
+.toastItem[data-closing="true"] {
+  animation: ozFadeOut 160ms ease-in forwards;
+}
+.snackbarItem {
+  animation: ozToastIn var(--oz-dur-base) var(--oz-ease-out);
+}
+
+/* ------------------------------------------------------------ accordion ---- */
+.accordionContent {
+  overflow: hidden;
+}
+.accordionContent[data-state="open"] {
+  animation: ozAccordionDown var(--oz-dur-base) var(--oz-ease-in-out);
+}
+.accordionContent[data-state="closed"] {
+  animation: ozAccordionUp var(--oz-dur-base) var(--oz-ease-in-out);
+}
+
+/* ----------------------------------------------------------------- grid ---- */
+/* Column/gap counts are injected as custom properties by <Grid>, so the
+   responsive steps stay in CSS (no runtime-generated class names). */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--oz-grid-c-base, 2), minmax(0, 1fr));
+  gap: var(--oz-grid-g-base, 16px);
+}
+@media (min-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(var(--oz-grid-c-sm, var(--oz-grid-c-base, 2)), minmax(0, 1fr));
+    gap: var(--oz-grid-g-sm, var(--oz-grid-g-base, 16px));
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(
+      var(--oz-grid-c-md, var(--oz-grid-c-sm, var(--oz-grid-c-base, 2))),
+      minmax(0, 1fr)
+    );
+    gap: var(--oz-grid-g-md, var(--oz-grid-g-sm, var(--oz-grid-g-base, 16px)));
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(
+      var(--oz-grid-c-lg, var(--oz-grid-c-md, var(--oz-grid-c-sm, var(--oz-grid-c-base, 2)))),
+      minmax(0, 1fr)
+    );
+    gap: var(--oz-grid-g-lg, var(--oz-grid-g-md, var(--oz-grid-g-sm, var(--oz-grid-g-base, 16px))));
+  }
+}
+@media (min-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(
+      var(
+        --oz-grid-c-xl,
+        var(--oz-grid-c-lg, var(--oz-grid-c-md, var(--oz-grid-c-sm, var(--oz-grid-c-base, 2))))
+      ),
+      minmax(0, 1fr)
+    );
+  }
+}
+
+/* ------------------------------------------------------- pull to refresh ---- */
+.ptrIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: var(--oz-ink-3);
+  transition: height var(--oz-dur-fast) var(--oz-ease-out);
+}

@@ -1,0 +1,382 @@
+{
+  "title": {
+    "az": "Ödəniş üsulu",
+    "ru": "Способ оплаты",
+    "en": "Payment method"
+  },
+  "subtitle": {
+    "az": "Sifarişini necə ödəmək istədiyini seç",
+    "ru": "Выберите, как оплатить заказ",
+    "en": "Choose how you want to pay for your order"
+  },
+  "backToCart": {
+    "az": "Səbətə qayıt",
+    "ru": "Вернуться в корзину",
+    "en": "Back to cart"
+  },
+  "loading": {
+    "az": "Yüklənir…",
+    "ru": "Загрузка…",
+    "en": "Loading…"
+  },
+  "retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "savedCards": {
+    "az": "SAXLANILMIŞ KARTLAR",
+    "ru": "СОХРАНЁННЫЕ КАРТЫ",
+    "en": "SAVED CARDS"
+  },
+  "addCard": {
+    "az": "Yeni kart əlavə et",
+    "ru": "Добавить новую карту",
+    "en": "Add a new card"
+  },
+  "atDoor": {
+    "az": "QAPIDA ÖDƏNİŞ",
+    "ru": "ОПЛАТА ПРИ ПОЛУЧЕНИИ",
+    "en": "PAY AT THE DOOR"
+  },
+  "confirm": {
+    "az": "Sifarişi təsdiqlə",
+    "ru": "Подтвердить заказ",
+    "en": "Confirm order"
+  },
+  "blockedByServer": {
+    "az": "Sifariş hazırda qəbul edilə bilmir",
+    "ru": "Заказ сейчас не может быть принят",
+    "en": "The order cannot be placed right now"
+  },
+  "outOfZone": {
+    "az": "Bu ünvan çatdırılma zonasından kənardadır.",
+    "ru": "Этот адрес вне зоны доставки.",
+    "en": "This address is outside the delivery zone."
+  },
+  "cash.title": {
+    "az": "Nağd",
+    "ru": "Наличными",
+    "en": "Cash"
+  },
+  "cash.subtitle": {
+    "az": "Kuryerə çatdırılma zamanı ödə",
+    "ru": "Оплатите курьеру при доставке",
+    "en": "Pay the courier on delivery"
+  },
+  "cardAtDoor.title": {
+    "az": "Kartla qapıda",
+    "ru": "Картой у двери",
+    "en": "Card at the door"
+  },
+  "cardAtDoor.subtitle": {
+    "az": "Kuryer POS terminalı gətirəcək",
+    "ru": "Курьер привезёт POS-терминал",
+    "en": "The courier brings a card terminal"
+  },
+  "card.brand.visa": {
+    "az": "Visa",
+    "ru": "Visa",
+    "en": "Visa"
+  },
+  "card.brand.mastercard": {
+    "az": "Mastercard",
+    "ru": "Mastercard",
+    "en": "Mastercard"
+  },
+  "card.brand.amex": {
+    "az": "American Express",
+    "ru": "American Express",
+    "en": "American Express"
+  },
+  "card.brand.mir": {
+    "az": "Mir",
+    "ru": "Мир",
+    "en": "Mir"
+  },
+  "card.generic": {
+    "az": "Kart",
+    "ru": "Карта",
+    "en": "Card"
+  },
+  "card.expiry": {
+    "az": "Bitmə tarixi {date}",
+    "ru": "Срок действия {date}",
+    "en": "Expires {date}"
+  },
+  "card.default": {
+    "az": "Əsas kart",
+    "ru": "Основная карта",
+    "en": "Default card"
+  },
+  "card.expired": {
+    "az": "Kartın müddəti bitib",
+    "ru": "Срок действия карты истёк",
+    "en": "This card has expired"
+  },
+  "summary.title": {
+    "az": "Sifariş xülasəsi",
+    "ru": "Сводка заказа",
+    "en": "Order summary"
+  },
+  "summary.items": {
+    "az": "Məhsullar",
+    "ru": "Товары",
+    "en": "Items"
+  },
+  "summary.delivery": {
+    "az": "Çatdırılma",
+    "ru": "Доставка",
+    "en": "Delivery"
+  },
+  "summary.free": {
+    "az": "Pulsuz",
+    "ru": "Бесплатно",
+    "en": "Free"
+  },
+  "summary.service": {
+    "az": "Xidmət haqqı",
+    "ru": "Сервисный сбор",
+    "en": "Service fee"
+  },
+  "summary.packet": {
+    "az": "Qablaşdırma",
+    "ru": "Упаковка",
+    "en": "Packaging"
+  },
+  "summary.minimum": {
+    "az": "Minimum sifariş haqqı",
+    "ru": "Сбор за малый заказ",
+    "en": "Small-order fee"
+  },
+  "summary.discount": {
+    "az": "Kupon endirimi",
+    "ru": "Скидка по купону",
+    "en": "Coupon discount"
+  },
+  "summary.bonus": {
+    "az": "Bonusla ödəniş",
+    "ru": "Оплата бонусами",
+    "en": "Paid with bonus"
+  },
+  "summary.cashback": {
+    "az": "Bu sifarişdən {amount} keşbek qazanacaqsan",
+    "ru": "С этого заказа вы получите {amount} кешбэка",
+    "en": "You will earn {amount} cashback on this order"
+  },
+  "recalcFailed.title": {
+    "az": "Qiymət yenilənmədi",
+    "ru": "Цена не обновилась",
+    "en": "The price could not be refreshed"
+  },
+  "recalcFailed.body": {
+    "az": "Son hesablanan məbləğ göstərilir. Təsdiqləməzdən əvvəl yenidən cəhd et.",
+    "ru": "Показана последняя рассчитанная сумма. Повторите перед подтверждением.",
+    "en": "Showing the last calculated amount. Try again before confirming."
+  },
+  "blocked.cart.title": {
+    "az": "Səbət seçilməyib",
+    "ru": "Корзина не выбрана",
+    "en": "No cart selected"
+  },
+  "blocked.cart.body": {
+    "az": "Ödənişi başlatmaq üçün səbətdən davam et.",
+    "ru": "Чтобы перейти к оплате, начните из корзины.",
+    "en": "Start from the cart to continue to payment."
+  },
+  "blocked.cart.action": {
+    "az": "Səbətə keç",
+    "ru": "В корзину",
+    "en": "Go to cart"
+  },
+  "blocked.address.title": {
+    "az": "Çatdırılma ünvanı seçilməyib",
+    "ru": "Адрес доставки не выбран",
+    "en": "No delivery address selected"
+  },
+  "blocked.address.body": {
+    "az": "Qiymət ünvana görə hesablanır, ona görə əvvəlcə ünvan seç.",
+    "ru": "Сумма рассчитывается по адресу, поэтому сначала выберите адрес.",
+    "en": "The price depends on the address, so choose one first."
+  },
+  "blocked.address.action": {
+    "az": "Ünvan seç",
+    "ru": "Выбрать адрес",
+    "en": "Choose address"
+  },
+  "place.unknownTitle": {
+    "az": "Sifarişin vəziyyəti dəqiqləşdirilir",
+    "ru": "Статус заказа уточняется",
+    "en": "The order outcome is unclear"
+  },
+  "place.unknownBody": {
+    "az": "Serverdən təsdiq gəlmədi. Sifarişlərim siyahısını yoxlayırıq — sifariş yaranıbsa, orada görünəcək.",
+    "ru": "Сервер не подтвердил заказ. Проверяем список заказов — если заказ создан, он появится там.",
+    "en": "The server did not confirm the order. We are checking your orders — if it was created, it will appear there."
+  },
+  "place.failedTitle": {
+    "az": "Sifariş göndərilmədi",
+    "ru": "Заказ не отправлен",
+    "en": "The order was not placed"
+  },
+  "newCard.title": {
+    "az": "Yeni kart",
+    "ru": "Новая карта",
+    "en": "New card"
+  },
+  "newCard.subtitle": {
+    "az": "Kart bankın təhlükəsiz səhifəsində əlavə olunur",
+    "ru": "Карта добавляется на защищённой странице банка",
+    "en": "The card is added on the bank's secure page"
+  },
+  "newCard.back": {
+    "az": "Ödəniş üsuluna qayıt",
+    "ru": "Назад к способу оплаты",
+    "en": "Back to payment method"
+  },
+  "newCard.close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "newCard.gatewayTitle": {
+    "az": "Kartı bank səhifəsində əlavə et",
+    "ru": "Добавьте карту на странице банка",
+    "en": "Add your card on the bank's page"
+  },
+  "newCard.gatewayBody": {
+    "az": "Kart nömrəsi və CVV Ozio-ya göndərilmir — onları yalnız bankın 3D Secure səhifəsində daxil edirsən.",
+    "ru": "Номер карты и CVV не передаются в Ozio — вы вводите их только на странице 3D Secure банка.",
+    "en": "Your card number and CVV are never sent to Ozio — you enter them only on the bank's 3-D Secure page."
+  },
+  "newCard.step1": {
+    "az": "«Kartı əlavə et» düyməsini bas",
+    "ru": "Нажмите «Добавить карту»",
+    "en": "Tap \"Add card\""
+  },
+  "newCard.step2": {
+    "az": "Bankın səhifəsində kart məlumatlarını təsdiqlə",
+    "ru": "Подтвердите данные карты на странице банка",
+    "en": "Confirm your card details on the bank's page"
+  },
+  "newCard.step3": {
+    "az": "Geri qayıt — kart saxlanılmış kartlar arasında görünəcək",
+    "ru": "Вернитесь — карта появится в списке сохранённых",
+    "en": "Come back — the card appears in your saved cards"
+  },
+  "newCard.pciTitle": {
+    "az": "Kart məlumatların şifrələnmiş şəkildə qorunur",
+    "ru": "Данные карты защищены шифрованием",
+    "en": "Your card data is protected by encryption"
+  },
+  "newCard.pciBody": {
+    "az": "CVV heç vaxt saxlanılmır.",
+    "ru": "CVV никогда не сохраняется.",
+    "en": "The CVV is never stored."
+  },
+  "newCard.submit": {
+    "az": "Kartı əlavə et",
+    "ru": "Добавить карту",
+    "en": "Add card"
+  },
+  "newCard.failed": {
+    "az": "Kart əlavə edilmədi",
+    "ru": "Карта не добавлена",
+    "en": "The card was not added"
+  },
+  "newCard.holder": {
+    "az": "KART SAHİBİ",
+    "ru": "ВЛАДЕЛЕЦ КАРТЫ",
+    "en": "CARDHOLDER"
+  },
+  "newCard.expiry": {
+    "az": "BİTMƏ",
+    "ru": "СРОК",
+    "en": "EXPIRES"
+  },
+  "newCard.secureNote": {
+    "az": "3D Secure ilə qorunur. CVV heç vaxt saxlanılmır.",
+    "ru": "Защищено 3D Secure. CVV никогда не сохраняется.",
+    "en": "Protected by 3-D Secure. The CVV is never stored."
+  },
+  "success.track": {
+    "az": "Sifarişi izlə",
+    "ru": "Отследить заказ",
+    "en": "Track order"
+  },
+  "success.home": {
+    "az": "Ana səhifəyə qayıt",
+    "ru": "Вернуться на главную",
+    "en": "Back to home"
+  },
+  "failed.title": {
+    "az": "Ödəniş alınmadı",
+    "ru": "Платёж не прошёл",
+    "en": "Payment failed"
+  },
+  "failed.body": {
+    "az": "Kartından vəsait çıxılmadı. Səbətin və çatdırılma vaxtın saxlanılıb, istənilən vaxt yenidən cəhd edə bilərsən.",
+    "ru": "С карты ничего не списано. Корзина и время доставки сохранены — попробуйте снова в любой момент.",
+    "en": "No money was taken from your card. Your cart and delivery slot are saved, so you can try again any time."
+  },
+  "failed.genericBody": {
+    "az": "Ödəniş tamamlanmadı. Başqa üsulla yenidən cəhd edə bilərsən.",
+    "ru": "Платёж не был завершён. Попробуйте другой способ оплаты.",
+    "en": "The payment did not go through. You can try another method."
+  },
+  "failed.reason": {
+    "az": "Səbəb: {reason}",
+    "ru": "Причина: {reason}",
+    "en": "Reason: {reason}"
+  },
+  "failed.reasonUnknown": {
+    "az": "Bank ödənişi təsdiqləmədi",
+    "ru": "Банк не подтвердил платёж",
+    "en": "The bank declined the payment"
+  },
+  "failed.bankAnswer": {
+    "az": "Bank cavabı",
+    "ru": "Ответ банка",
+    "en": "Bank response"
+  },
+  "failed.maybePaid": {
+    "az": "Bank ödənişi təsdiqləyib görünür — sifarişi yoxlamazdan əvvəl yenidən ödəmə.",
+    "ru": "Похоже, банк подтвердил платёж — не платите снова, пока не проверите заказ.",
+    "en": "The bank seems to have approved the payment — check the order before paying again."
+  },
+  "failed.whatNow": {
+    "az": "NƏ ETMƏK OLAR?",
+    "ru": "ЧТО МОЖНО СДЕЛАТЬ?",
+    "en": "WHAT CAN YOU DO?"
+  },
+  "failed.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Повторить",
+    "en": "Try again"
+  },
+  "failed.otherCard": {
+    "az": "Başqa kartla ödə",
+    "ru": "Оплатить другой картой",
+    "en": "Pay with another card"
+  },
+  "failed.payCash": {
+    "az": "Nağd ödə",
+    "ru": "Оплатить наличными",
+    "en": "Pay with cash"
+  },
+  "failed.changeMethod": {
+    "az": "Ödəniş üsulunu dəyiş",
+    "ru": "Изменить способ оплаты",
+    "en": "Change payment method"
+  },
+  "failed.cartKept": {
+    "az": "Səbətin saxlanıldı",
+    "ru": "Корзина сохранена",
+    "en": "Your cart is saved"
+  },
+  "failed.support": {
+    "az": "Kömək lazımdır? {phone}",
+    "ru": "Нужна помощь? {phone}",
+    "en": "Need help? {phone}"
+  }
+}

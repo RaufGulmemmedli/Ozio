@@ -1,0 +1,466 @@
+{
+  "demo.body": {
+    "az": "Bu bölmə hələ real serverə qoşulmayıb — göstərilən məlumatlar nümunədir.",
+    "ru": "Этот раздел ещё не подключён к реальному серверу — показанные данные являются примером.",
+    "en": "This section is not connected to a real server yet — the data shown is sample data."
+  },
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "percent": { "az": "{value}%", "ru": "{value}%", "en": "{value}%" },
+
+  "crumb.viral": { "az": "Kəşf et", "ru": "Открой для себя", "en": "Discover" },
+  "crumb.wishlists": {
+    "az": "Mənim kampaniyalarım",
+    "ru": "Мои кампании",
+    "en": "My campaigns"
+  },
+  "crumb.auctions": {
+    "az": "Qiymət düşmə oyunu",
+    "ru": "Игра на снижение цены",
+    "en": "Price-drop game"
+  },
+
+  "hub.title": { "az": "Kəşf et", "ru": "Открой для себя", "en": "Discover" },
+  "hub.subtitle": {
+    "az": "Dostlarla paylaş, birlikdə qazan",
+    "ru": "Делись с друзьями и выигрывай вместе",
+    "en": "Share with friends, win together"
+  },
+  "hub.open": { "az": "Aç", "ru": "Открыть", "en": "Open" },
+  "hub.gift.title": {
+    "az": "Hədiyyə kampaniyası",
+    "ru": "Подарочная кампания",
+    "en": "Gift campaign"
+  },
+  "hub.gift.body": {
+    "az": "Ad günü və toy üçün istək siyahısı yarat, dostlar pay qoşsun",
+    "ru": "Создай список желаний на день рождения или свадьбу — друзья добавят свою часть",
+    "en": "Create a wishlist for a birthday or a wedding and let friends chip in"
+  },
+  "hub.game.title": {
+    "az": "Qiymət düşmə oyunu",
+    "ru": "Игра на снижение цены",
+    "en": "Price-drop game"
+  },
+  "hub.game.body": {
+    "az": "Qiymət saniyə-saniyə düşür — vaxtında al, qaçırma",
+    "ru": "Цена падает каждую секунду — купи вовремя, не упусти",
+    "en": "The price falls second by second — buy in time, do not miss it"
+  },
+  "hub.scan.title": {
+    "az": "Kassa çeki skaneri",
+    "ru": "Сканер кассового чека",
+    "en": "Till-receipt scanner"
+  },
+  "hub.scan.body": {
+    "az": "Çeki skan et, eyni səbəti Ozio-da 10% ucuz al",
+    "ru": "Отсканируй чек и купи ту же корзину в Ozio на 10% дешевле",
+    "en": "Scan the receipt and buy the same basket 10% cheaper at Ozio"
+  },
+  "hub.scan.meta": { "az": "Skan et", "ru": "Сканировать", "en": "Scan" },
+
+  "error.title": { "az": "Yüklənmədi", "ru": "Не загрузилось", "en": "Could not load" },
+  "error.body": {
+    "az": "Məlumat alınmadı. Yenidən cəhd et.",
+    "ru": "Данные не получены. Попробуй снова.",
+    "en": "No data received. Try again."
+  },
+  "error.retry": { "az": "Yenidən cəhd et", "ru": "Попробовать снова", "en": "Try again" },
+
+  "occasion.birthday": { "az": "Ad günü", "ru": "День рождения", "en": "Birthday" },
+  "occasion.wedding": { "az": "Toy", "ru": "Свадьба", "en": "Wedding" },
+  "occasion.graduation": { "az": "Məzuniyyət", "ru": "Выпускной", "en": "Graduation" },
+
+  "wishlists.title": {
+    "az": "Mənim kampaniyalarım",
+    "ru": "Мои кампании",
+    "en": "My campaigns"
+  },
+  "wishlists.subtitle": {
+    "az": "İstək siyahın və toplanan paylar",
+    "ru": "Твой список желаний и собранные взносы",
+    "en": "Your wishlist and the contributions collected"
+  },
+  "wishlists.create": { "az": "Kampaniya yarat", "ru": "Создать кампанию", "en": "Create a campaign" },
+  "wishlists.count": {
+    "az": "{count, plural, other {# kampaniya}}",
+    "ru": "{count, plural, one {# кампания} few {# кампании} many {# кампаний} other {# кампании}}",
+    "en": "{count, plural, one {# campaign} other {# campaigns}}"
+  },
+  "wishlists.card.meta": {
+    "az": "{occasion} · {days, plural, other {# gün qalıb}}",
+    "ru": "{occasion} · {days, plural, one {остался # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{occasion} · {days, plural, one {# day left} other {# days left}}"
+  },
+  "wishlists.card.raised": { "az": "{raised} / {target}", "ru": "{raised} / {target}", "en": "{raised} / {target}" },
+  "wishlists.card.contributors": {
+    "az": "{count, plural, other {# nəfər pay qoşub}}",
+    "ru": "{count, plural, one {# человек внёс часть} few {# человека внесли часть} many {# человек внесли часть} other {# человека внесли часть}}",
+    "en": "{count, plural, one {# person chipped in} other {# people chipped in}}"
+  },
+  "wishlists.card.completed": { "az": "Tamamlandı", "ru": "Завершено", "en": "Completed" },
+  "wishlists.card.progressLabel": {
+    "az": "{product} üçün toplanan pay",
+    "ru": "Собрано на «{product}»",
+    "en": "Collected towards {product}"
+  },
+  "wishlists.empty.title": {
+    "az": "Hələ kampaniya yoxdur",
+    "ru": "Кампаний пока нет",
+    "en": "No campaigns yet"
+  },
+  "wishlists.empty.body": {
+    "az": "İlk hədiyyə kampaniyanı yarat və linki dostlarla paylaş.",
+    "ru": "Создай первую подарочную кампанию и поделись ссылкой с друзьями.",
+    "en": "Create your first gift campaign and share the link with friends."
+  },
+  "wishlists.delete.action": {
+    "az": "{product} kampaniyasını sil",
+    "ru": "Удалить кампанию «{product}»",
+    "en": "Delete the {product} campaign"
+  },
+  "wishlists.delete.title": {
+    "az": "Kampaniyanı siləkmi?",
+    "ru": "Удалить кампанию?",
+    "en": "Delete the campaign?"
+  },
+  "wishlists.delete.body": {
+    "az": "{product} kampaniyası və toplanan paylar silinəcək. Bu geri qaytarılmır.",
+    "ru": "Кампания «{product}» и собранные взносы будут удалены. Это нельзя отменить.",
+    "en": "The {product} campaign and the contributions collected will be deleted. This cannot be undone."
+  },
+  "wishlists.delete.confirm": { "az": "Sil", "ru": "Удалить", "en": "Delete" },
+  "wishlists.delete.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "wishlists.delete.done": {
+    "az": "Kampaniya silindi",
+    "ru": "Кампания удалена",
+    "en": "The campaign was deleted"
+  },
+
+  "create.title": { "az": "Kampaniya yarat", "ru": "Создать кампанию", "en": "Create a campaign" },
+  "create.subtitle": {
+    "az": "Hədiyyəni seç, tarixi təyin et, linki paylaş",
+    "ru": "Выбери подарок, назначь дату, поделись ссылкой",
+    "en": "Pick the gift, set the date, share the link"
+  },
+  "create.step1": { "az": "1. Hədiyyə seç", "ru": "1. Выбери подарок", "en": "1. Pick a gift" },
+  "create.step2": { "az": "2. Münasibət", "ru": "2. Повод", "en": "2. Occasion" },
+  "create.step3": { "az": "3. Tarix", "ru": "3. Дата", "en": "3. Date" },
+  "create.step4": { "az": "4. Mesaj", "ru": "4. Сообщение", "en": "4. Message" },
+  "create.messagePlaceholder": {
+    "az": "Ad günümə velosiped istəyirəm!",
+    "ru": "Хочу велосипед на день рождения!",
+    "en": "I would love a bicycle for my birthday!"
+  },
+  "create.preview": {
+    "az": "Kampaniya önizləməsi",
+    "ru": "Предпросмотр кампании",
+    "en": "Campaign preview"
+  },
+  "create.previewEmpty": { "az": "Hədiyyə seç", "ru": "Выбери подарок", "en": "Pick a gift" },
+  "create.previewMeta": {
+    "az": "Hədəf: {target} · {occasion} · {date}",
+    "ru": "Цель: {target} · {occasion} · {date}",
+    "en": "Target: {target} · {occasion} · {date}"
+  },
+  "create.previewQuote": { "az": "“{message}”", "ru": "«{message}»", "en": "“{message}”" },
+  "create.submit": { "az": "Kampaniya yarat", "ru": "Создать кампанию", "en": "Create the campaign" },
+  "create.done": { "az": "Kampaniya yaradıldı", "ru": "Кампания создана", "en": "The campaign was created" },
+
+  "detail.titleFallback": { "az": "Kampaniya", "ru": "Кампания", "en": "Campaign" },
+  "detail.subtitle": {
+    "az": "{occasion} kampaniyası · {days, plural, other {# gün qalıb}}",
+    "ru": "Кампания «{occasion}» · {days, plural, one {остался # день} few {осталось # дня} many {осталось # дней} other {осталось # дня}}",
+    "en": "{occasion} campaign · {days, plural, one {# day left} other {# days left}}"
+  },
+  "detail.raisedLabel": { "az": "toplanıb", "ru": "собрано", "en": "collected" },
+  "detail.ringLabel": {
+    "az": "{product} üçün toplanan pay",
+    "ru": "Собрано на «{product}»",
+    "en": "Collected towards {product}"
+  },
+  "detail.contribute": { "az": "İştirak et", "ru": "Участвовать", "en": "Chip in" },
+  "detail.contributors": { "az": "İştirakçılar", "ru": "Участники", "en": "Contributors" },
+  "detail.noContributors": {
+    "az": "Hələ heç kim pay qoşmayıb. Linki paylaş.",
+    "ru": "Пока никто не внёс свою часть. Поделись ссылкой.",
+    "en": "Nobody has chipped in yet. Share the link."
+  },
+  "detail.plus": { "az": "+{amount}", "ru": "+{amount}", "en": "+{amount}" },
+  "detail.complete.title": {
+    "az": "Hədiyyə tam yığıldı",
+    "ru": "Подарок собран полностью",
+    "en": "The gift is fully funded"
+  },
+  "detail.complete.body": {
+    "az": "{product} üçün {amount} toplandı. Təşəkkürlər!",
+    "ru": "На «{product}» собрано {amount}. Спасибо!",
+    "en": "{amount} collected for {product}. Thank you!"
+  },
+
+  "contribute.title": { "az": "İştirak et", "ru": "Участвовать", "en": "Chip in" },
+  "contribute.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "contribute.other": { "az": "Digər", "ru": "Другая", "en": "Other" },
+  "contribute.amountLabel": { "az": "Məbləğ", "ru": "Сумма", "en": "Amount" },
+  "contribute.submit": { "az": "{amount} ödə", "ru": "Внести {amount}", "en": "Pay {amount}" },
+  "contribute.note": {
+    "az": "Demo rejimdə heç bir ödəniş aparılmır — pay yalnız nümunə kimi yazılır.",
+    "ru": "В демо-режиме оплата не производится — взнос записывается только как пример.",
+    "en": "No payment is made in demo mode — the contribution is only recorded as sample data."
+  },
+
+  "thanks.title": { "az": "Təşəkkürlər!", "ru": "Спасибо!", "en": "Thank you!" },
+  "thanks.body": {
+    "az": "Payın əlavə olundu: +{amount}.",
+    "ru": "Твой взнос добавлен: +{amount}.",
+    "en": "Your contribution was added: +{amount}."
+  },
+  "thanks.bodyCopied": {
+    "az": "Payın əlavə olundu: +{amount}. Linki kopyalandı.",
+    "ru": "Твой взнос добавлен: +{amount}. Ссылка скопирована.",
+    "en": "Your contribution was added: +{amount}. The link was copied."
+  },
+  "thanks.close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+
+  "share.title": { "az": "Linki paylaş", "ru": "Поделиться ссылкой", "en": "Share the link" },
+  "share.copy": { "az": "Linki kopyala", "ru": "Копировать ссылку", "en": "Copy the link" },
+  "share.send": { "az": "WhatsApp-da paylaş", "ru": "Поделиться в WhatsApp", "en": "Share on WhatsApp" },
+  "share.text": {
+    "az": "{title} üçün pay qoşmaq istərdinmi?",
+    "ru": "Хочешь добавить свою часть на «{title}»?",
+    "en": "Would you like to chip in for {title}?"
+  },
+  "share.copied": { "az": "Link kopyalandı", "ru": "Ссылка скопирована", "en": "Link copied" },
+  "share.shared": { "az": "Paylaşıldı", "ru": "Отправлено", "en": "Shared" },
+  "share.failed": {
+    "az": "Link kopyalanmadı",
+    "ru": "Ссылку скопировать не удалось",
+    "en": "The link could not be copied"
+  },
+
+  "auctions.title": {
+    "az": "Qiymət düşmə oyunu",
+    "ru": "Игра на снижение цены",
+    "en": "Price-drop game"
+  },
+  "auctions.subtitle": {
+    "az": "Qiymət düşür — vaxtında al",
+    "ru": "Цена падает — успей купить",
+    "en": "The price is falling — buy in time"
+  },
+  "auctions.live": { "az": "Canlı", "ru": "В эфире", "en": "Live" },
+  "auctions.ended": { "az": "Bitdi", "ru": "Завершено", "en": "Ended" },
+  "auctions.liveCount": {
+    "az": "{count, plural, other {# canlı}}",
+    "ru": "{count, plural, one {# в эфире} few {# в эфире} many {# в эфире} other {# в эфире}}",
+    "en": "{count, plural, one {# live} other {# live}}"
+  },
+  "auctions.from": { "az": "{price}-dən", "ru": "от {price}", "en": "from {price}" },
+  "auctions.cardMeta": {
+    "az": "Minimum {floor} · {stock, plural, other {# ədəd stokda}}",
+    "ru": "Минимум {floor} · {stock, plural, one {# шт. на складе} few {# шт. на складе} many {# шт. на складе} other {# шт. на складе}}",
+    "en": "Minimum {floor} · {stock, plural, one {# in stock} other {# in stock}}"
+  },
+  "auctions.watch": { "az": "Oyuna bax", "ru": "Смотреть игру", "en": "Watch the game" },
+  "auctions.result": { "az": "Nəticəyə bax", "ru": "Посмотреть результат", "en": "See the result" },
+  "auctions.empty.title": {
+    "az": "Hələ oyun yoxdur",
+    "ru": "Игр пока нет",
+    "en": "No games yet"
+  },
+  "auctions.empty.body": {
+    "az": "Yeni qiymət düşmə oyunları tezliklə.",
+    "ru": "Новые игры на снижение цены появятся скоро.",
+    "en": "New price-drop games are coming soon."
+  },
+
+  "auction.titleFallback": { "az": "Canlı oyun", "ru": "Игра в эфире", "en": "Live game" },
+  "auction.subtitle": {
+    "az": "Qiymət hər {seconds} saniyədə {step} düşür",
+    "ru": "Цена падает на {step} каждые {seconds} секунд",
+    "en": "The price falls by {step} every {seconds} seconds"
+  },
+  "auction.currentPrice": { "az": "Hazırkı qiymət", "ru": "Текущая цена", "en": "Current price" },
+  "auction.nextDrop": { "az": "Növbəti düşmə: {time}", "ru": "Следующее снижение: {time}", "en": "Next drop: {time}" },
+  "auction.range": {
+    "az": "Başlanğıc {start} · minimum {floor}",
+    "ru": "Старт {start} · минимум {floor}",
+    "en": "Start {start} · minimum {floor}"
+  },
+  "auction.dropRule": {
+    "az": "Qiymət serverdə hesablanır: hər {seconds} saniyədə {step}.",
+    "ru": "Цену считает сервер: {step} каждые {seconds} секунд.",
+    "en": "The server computes the price: {step} every {seconds} seconds."
+  },
+  "auction.live.announce": {
+    "az": "Hazırkı qiymət {price}, stokda {stock} ədəd",
+    "ru": "Текущая цена {price}, на складе {stock} шт.",
+    "en": "Current price {price}, {stock} left in stock"
+  },
+  "auction.stockTitle": { "az": "Stok", "ru": "Склад", "en": "Stock" },
+  "auction.stockLeft": { "az": "{left} / {total} qalıb", "ru": "осталось {left} / {total}", "en": "{left} / {total} left" },
+  "auction.stockLow": { "az": "Tez bitir", "ru": "Быстро заканчивается", "en": "Going fast" },
+  "auction.stockHint": {
+    "az": "Qiymət düşdükcə stok tez tükənir. Gözləsən daha ucuz, amma riskli.",
+    "ru": "Чем ниже цена, тем быстрее уходит товар. Подождёшь — дешевле, но рискованно.",
+    "en": "The lower the price, the faster the stock goes. Waiting is cheaper, but riskier."
+  },
+  "auction.buyNow": { "az": "İndi al · {price}", "ru": "Купить сейчас · {price}", "en": "Buy now · {price}" },
+  "auction.buyNote": {
+    "az": "Demo rejimdə heç nə alınmır və ödəniş aparılmır.",
+    "ru": "В демо-режиме ничего не покупается и оплата не производится.",
+    "en": "Nothing is bought and nothing is charged in demo mode."
+  },
+  "auction.tileMeta": {
+    "az": "{price} · {stock, plural, other {# ədəd qalıb}}",
+    "ru": "{price} · {stock, plural, one {осталась # шт.} few {осталось # шт.} many {осталось # шт.} other {осталось # шт.}}",
+    "en": "{price} · {stock, plural, one {# left} other {# left}}"
+  },
+
+  "auction.bids.title": { "az": "Canlı alışlar", "ru": "Покупки в эфире", "en": "Live bids" },
+  "auction.bids.empty": {
+    "az": "Hələ təklif yoxdur. İlk sən ol.",
+    "ru": "Ставок пока нет. Будь первым.",
+    "en": "No bids yet. Be the first."
+  },
+  "auction.bids.me": { "az": "Mən", "ru": "Я", "en": "Me" },
+  "auction.bids.note": {
+    "az": "Siyahı serverdən gəlir — qiymət və stok burada hesablanmır.",
+    "ru": "Список приходит с сервера — цена и остаток здесь не вычисляются.",
+    "en": "The list comes from the server — the price and the stock are not computed here."
+  },
+
+  "bid.title": { "az": "Təklifi təsdiqlə", "ru": "Подтверди ставку", "en": "Confirm the bid" },
+  "bid.body": {
+    "az": "{title} üçün {price} təklif edirsən. Qiymət düşsə, server təklifi rədd edəcək.",
+    "ru": "Ты предлагаешь {price} за «{title}». Если цена упадёт, сервер отклонит ставку.",
+    "en": "You are bidding {price} for {title}. If the price drops, the server will reject the bid."
+  },
+  "bid.priceLabel": { "az": "Hazırkı qiymət", "ru": "Текущая цена", "en": "Current price" },
+  "bid.stockLabel": { "az": "Stok", "ru": "Склад", "en": "Stock" },
+  "bid.confirm": { "az": "İndi al · {price}", "ru": "Купить сейчас · {price}", "en": "Buy now · {price}" },
+  "bid.cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "bid.rejected": {
+    "az": "Qiymət dəyişdi — server təklifi qəbul etmədi. Yeni qiymətlə yenidən təsdiqlə.",
+    "ru": "Цена изменилась — сервер не принял ставку. Подтверди заново по новой цене.",
+    "en": "The price changed — the server did not accept the bid. Confirm again at the new price."
+  },
+  "bid.note": {
+    "az": "Təklifi server yoxlayır. Demo rejimdə heç nə alınmır.",
+    "ru": "Ставку проверяет сервер. В демо-режиме ничего не покупается.",
+    "en": "The server checks the bid. Nothing is bought in demo mode."
+  },
+
+  "auction.won.title": { "az": "Aldın!", "ru": "Куплено!", "en": "You got it!" },
+  "auction.won.body": {
+    "az": "{title} — {price}. Sifarişin səbətə əlavə olundu (demo).",
+    "ru": "{title} — {price}. Заказ добавлен в корзину (демо).",
+    "en": "{title} — {price}. Your order was added to the basket (demo)."
+  },
+  "auction.won.back": { "az": "Siyahıya qayıt", "ru": "Вернуться к списку", "en": "Back to the list" },
+  "auction.missed.title": { "az": "Qaçırdın", "ru": "Упустил", "en": "You missed it" },
+  "auction.missed.body": {
+    "az": "Stok bitdi. Növbəti oyunda daha tez ol.",
+    "ru": "Товар закончился. В следующей игре будь быстрее.",
+    "en": "The stock is gone. Be quicker in the next game."
+  },
+  "auction.missed.again": { "az": "Yenidən oyna", "ru": "Играть снова", "en": "Play again" },
+  "auction.missed.restarted": { "az": "Oyun yenidən başladı", "ru": "Игра началась заново", "en": "The game restarted" },
+
+  "scan.title": {
+    "az": "Kassa çeki skaneri",
+    "ru": "Сканер кассового чека",
+    "en": "Till-receipt scanner"
+  },
+  "scan.subtitle": {
+    "az": "Çeki skan et, Ozio-da eyni səbəti ucuz al",
+    "ru": "Отсканируй чек и купи ту же корзину в Ozio дешевле",
+    "en": "Scan the receipt and buy the same basket cheaper at Ozio"
+  },
+  "scan.again": { "az": "Yenidən skan et", "ru": "Сканировать снова", "en": "Scan again" },
+  "scan.recognized": { "az": "Çek oxundu", "ru": "Чек распознан", "en": "Receipt read" },
+  "scan.found": {
+    "az": "{date} · {count, plural, other {# məhsul tapıldı}}",
+    "ru": "{date} · {count, plural, one {найден # товар} few {найдено # товара} many {найдено # товаров} other {найдено # товара}}",
+    "en": "{date} · {count, plural, one {# item found} other {# items found}}"
+  },
+  "scan.table.caption": {
+    "az": "{store} çekinin məhsulları: mağaza və Ozio qiymətləri",
+    "ru": "Товары чека «{store}»: цены магазина и Ozio",
+    "en": "Items on the {store} receipt: store and Ozio prices"
+  },
+  "scan.table.product": { "az": "Məhsul", "ru": "Товар", "en": "Product" },
+  "scan.table.store": { "az": "Mağaza", "ru": "Магазин", "en": "Store" },
+  "scan.table.ozio": { "az": "Ozio", "ru": "Ozio", "en": "Ozio" },
+  "scan.table.qtyName": { "az": "{name} ×{qty}", "ru": "{name} ×{qty}", "en": "{name} ×{qty}" },
+
+  "scan.comparison.title": {
+    "az": "Eyni səbəti {percent}% ucuz al",
+    "ru": "Купи ту же корзину на {percent}% дешевле",
+    "en": "Buy the same basket {percent}% cheaper"
+  },
+  "scan.comparison.store": { "az": "Mağazada", "ru": "В магазине", "en": "In the store" },
+  "scan.comparison.ozio": { "az": "Ozio-da", "ru": "В Ozio", "en": "At Ozio" },
+  "scan.comparison.saving": { "az": "Ümumi qənaət", "ru": "Общая экономия", "en": "Total saving" },
+  "scan.comparison.addToCart": { "az": "Səbətə at", "ru": "В корзину", "en": "Add to the basket" },
+  "scan.comparison.note": {
+    "az": "Demo rejimdə səbətə heç nə əlavə olunmur və sifariş verilmir.",
+    "ru": "В демо-режиме ничего не добавляется в корзину и заказ не оформляется.",
+    "en": "In demo mode nothing is added to the basket and no order is placed."
+  },
+  "scan.addedDemo": {
+    "az": "{count, plural, other {# məhsul — demo rejimdə səbətə əlavə edilmədi}}",
+    "ru": "{count, plural, one {# товар — в демо-режиме не добавлен в корзину} few {# товара — в демо-режиме не добавлены в корзину} many {# товаров — в демо-режиме не добавлены в корзину} other {# товара — в демо-режиме не добавлены в корзину}}",
+    "en": "{count, plural, one {# item — not added to the basket in demo mode} other {# items — not added to the basket in demo mode}}"
+  },
+
+  "scan.prompt.title": { "az": "Çeki çərçivəyə sal", "ru": "Помести чек в рамку", "en": "Fit the receipt in the frame" },
+  "scan.prompt.body": {
+    "az": "Kamera yoxdur? Çekin şəklini yüklə.",
+    "ru": "Нет камеры? Загрузи фото чека.",
+    "en": "No camera? Upload a photo of the receipt."
+  },
+  "scan.prompt.denied": {
+    "az": "Kameraya icazə verilmədi. Çekin şəklini yüklə.",
+    "ru": "Доступ к камере не предоставлен. Загрузи фото чека.",
+    "en": "Camera access was not granted. Upload a photo of the receipt instead."
+  },
+  "scan.prompt.action": { "az": "Çeki skan et", "ru": "Сканировать чек", "en": "Scan the receipt" },
+  "scan.prompt.camera": { "az": "Kameranı aç", "ru": "Открыть камеру", "en": "Open the camera" },
+  "scan.prompt.privacy": {
+    "az": "Şəkil cihazdan çıxmır — brauzerdə kiçildilir və yalnız burada emal olunur.",
+    "ru": "Снимок не покидает устройство — он уменьшается в браузере и обрабатывается только здесь.",
+    "en": "The photo never leaves your device — it is downscaled in the browser and processed only here."
+  },
+  "scan.preview.alt": { "az": "Seçilmiş çekin şəkli", "ru": "Выбранное фото чека", "en": "The selected receipt photo" },
+
+  "scan.camera.label": { "az": "Kamera görüntüsü", "ru": "Изображение с камеры", "en": "Camera preview" },
+  "scan.camera.shoot": { "az": "Şəkil çək", "ru": "Сделать снимок", "en": "Take a photo" },
+  "scan.camera.close": { "az": "Kameranı bağla", "ru": "Закрыть камеру", "en": "Close the camera" },
+
+  "scan.scanning.title": { "az": "Çek skan olunur…", "ru": "Чек сканируется…", "en": "Scanning the receipt…" },
+  "scan.scanning.body": {
+    "az": "Məhsullar tanınır, bir neçə saniyə çəkir.",
+    "ru": "Товары распознаются, это займёт несколько секунд.",
+    "en": "The items are being recognised, this takes a few seconds."
+  },
+  "scan.notRecognized.title": {
+    "az": "Çek tanınmadı",
+    "ru": "Чек не распознан",
+    "en": "The receipt was not recognised"
+  },
+  "scan.notRecognized.body": {
+    "az": "Şəkil çox kiçik və ya bulanıqdır. Çeki çərçivəyə salıb yenidən cəhd et.",
+    "ru": "Снимок слишком маленький или размытый. Помести чек в рамку и попробуй снова.",
+    "en": "The photo is too small or blurry. Fit the receipt in the frame and try again."
+  },
+  "scan.decodeFailed.title": {
+    "az": "Şəkil açılmadı",
+    "ru": "Снимок не открылся",
+    "en": "The image could not be opened"
+  },
+  "scan.decodeFailed.body": {
+    "az": "Bu fayl formatı dəstəklənmir. JPEG və ya PNG seç.",
+    "ru": "Этот формат файла не поддерживается. Выбери JPEG или PNG.",
+    "en": "That file format is not supported. Choose a JPEG or a PNG."
+  }
+}

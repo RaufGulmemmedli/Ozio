@@ -1,0 +1,110 @@
+{
+  "loading": { "az": "Yüklənir…", "ru": "Загрузка…", "en": "Loading…" },
+  "retry": { "az": "Yenidən cəhd et", "ru": "Повторить", "en": "Try again" },
+  "refresh": { "az": "Yenilə", "ru": "Обновить", "en": "Refresh" },
+  "cancel": { "az": "Ləğv et", "ru": "Отмена", "en": "Cancel" },
+  "confirm": { "az": "Təsdiq et", "ru": "Подтвердить", "en": "Confirm" },
+  "save": { "az": "Yadda saxla", "ru": "Сохранить", "en": "Save" },
+  "close": { "az": "Bağla", "ru": "Закрыть", "en": "Close" },
+  "back": { "az": "Geri", "ru": "Назад", "en": "Back" },
+  "next": { "az": "İrəli", "ru": "Далее", "en": "Next" },
+  "done": { "az": "Hazır", "ru": "Готово", "en": "Done" },
+  "apply": { "az": "Tətbiq et", "ru": "Применить", "en": "Apply" },
+  "search": { "az": "Axtar", "ru": "Поиск", "en": "Search" },
+  "filter": { "az": "Filtr", "ru": "Фильтр", "en": "Filter" },
+  "sort": { "az": "Sırala", "ru": "Сортировать", "en": "Sort" },
+  "all": { "az": "Hamısı", "ru": "Все", "en": "All" },
+  "seeAll": { "az": "Hamısına bax", "ru": "Смотреть все", "en": "See all" },
+  "loadMore": { "az": "Daha çox", "ru": "Показать ещё", "en": "Load more" },
+  "clear": { "az": "Təmizlə", "ru": "Очистить", "en": "Clear" },
+  "delete": { "az": "Sil", "ru": "Удалить", "en": "Delete" },
+  "edit": { "az": "Redaktə et", "ru": "Редактировать", "en": "Edit" },
+  "share": { "az": "Paylaş", "ru": "Поделиться", "en": "Share" },
+  "copy": { "az": "Kopyala", "ru": "Копировать", "en": "Copy" },
+  "copied": { "az": "Kopyalandı", "ru": "Скопировано", "en": "Copied" },
+  "undo": { "az": "Geri qaytar", "ru": "Вернуть", "en": "Undo" },
+  "yes": { "az": "Bəli", "ru": "Да", "en": "Yes" },
+  "no": { "az": "Xeyr", "ru": "Нет", "en": "No" },
+  "signIn": { "az": "Daxil ol", "ru": "Войти", "en": "Sign in" },
+  "signOut": { "az": "Çıxış", "ru": "Выйти", "en": "Sign out" },
+  "continueAsGuest": {
+    "az": "Qonaq kimi davam et",
+    "ru": "Продолжить как гость",
+    "en": "Continue as guest"
+  },
+  "goHome": {
+    "az": "Əsas səhifəyə qayıt",
+    "ru": "Вернуться на главную",
+    "en": "Back to home"
+  },
+  "skipToContent": {
+    "az": "Məzmuna keç",
+    "ru": "Перейти к содержимому",
+    "en": "Skip to content"
+  },
+  "addToCart": { "az": "Səbətə əlavə et", "ru": "Добавить в корзину", "en": "Add to cart" },
+  "increase": { "az": "Artır", "ru": "Увеличить", "en": "Increase" },
+  "decrease": { "az": "Azalt", "ru": "Уменьшить", "en": "Decrease" },
+  "currencySymbol": { "az": "₼", "ru": "₼", "en": "₼" },
+  "language": { "az": "Dil", "ru": "Язык", "en": "Language" },
+  "theme.light": { "az": "İşıqlı", "ru": "Светлая", "en": "Light" },
+  "theme.dark": { "az": "Qaranlıq", "ru": "Тёмная", "en": "Dark" },
+  "theme.system": { "az": "Sistem", "ru": "Системная", "en": "System" },
+  "demo.title": { "az": "Demo rejim", "ru": "Демо-режим", "en": "Demo mode" },
+  "demo.body": {
+    "az": "Bu funksiya sınaq rejimindədir. Real əməliyyat aparılmır.",
+    "ru": "Эта функция работает в демо-режиме. Реальные операции не выполняются.",
+    "en": "This feature runs in demo mode. No real transactions are made."
+  },
+  "offline.title": { "az": "İnternet yoxdur", "ru": "Нет интернета", "en": "No internet connection" },
+  "offline.body": {
+    "az": "İnternet bağlantısı yoxdur. Son yadda saxlanan məlumat göstərilir.",
+    "ru": "Нет подключения к интернету. Показаны последние сохранённые данные.",
+    "en": "You’re offline. Showing the last saved data."
+  },
+  "sessionExpired.title": {
+    "az": "Sessiyanın vaxtı bitdi",
+    "ru": "Сессия истекла",
+    "en": "Your session has expired"
+  },
+  "sessionExpired.body": {
+    "az": "Təhlükəsizlik üçün hesabınızdan çıxış edildi. Davam etmək üçün nömrənizlə yenidən daxil olun.",
+    "ru": "В целях безопасности вы вышли из аккаунта. Войдите снова с вашим номером, чтобы продолжить.",
+    "en": "You were signed out for security. Sign in again with your number to continue."
+  },
+  "guest.title": {
+    "az": "Daxil ol və ya qeydiyyatdan keç",
+    "ru": "Войдите или зарегистрируйтесь",
+    "en": "Sign in or create an account"
+  },
+  "guest.body": {
+    "az": "Sifariş vermək, kart və keşbek üçün daxil olun. 2 dəqiqə çəkir.",
+    "ru": "Войдите, чтобы заказывать, пользоваться картой и получать кешбэк. Это займёт 2 минуты.",
+    "en": "Sign in to order, use your card and earn cashback. It takes 2 minutes."
+  },
+  "empty.generic.title": {
+    "az": "Hələlik heç nə yoxdur",
+    "ru": "Пока ничего нет",
+    "en": "Nothing here yet"
+  },
+  "empty.generic.body": {
+    "az": "Bu bölmə doldukca burada görünəcək.",
+    "ru": "Как только здесь появятся данные, они отобразятся.",
+    "en": "As soon as there is something here, it will show up."
+  },
+  "error.generic.title": {
+    "az": "Xəta baş verdi",
+    "ru": "Произошла ошибка",
+    "en": "Something went wrong"
+  },
+  "error.generic.body": {
+    "az": "Məlumatı yükləmək alınmadı. Bir az sonra yenidən cəhd edin.",
+    "ru": "Не удалось загрузить данные. Попробуйте ещё раз чуть позже.",
+    "en": "We couldn’t load this. Try again in a moment."
+  },
+  "items": {
+    "az": "{count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "{count, plural, one {# item} other {# items}}"
+  }
+}

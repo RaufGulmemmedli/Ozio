@@ -1,0 +1,37 @@
+/*
+ * Module-local motion. `globals.css` is frozen and ships no shake keyframe, so the wrong-code
+ * treatment from `otp-yanlis-kod.html` is defined here instead of in shared code.
+ * TODO(core): move `oz-shake` into globals.css next to `oz-shimmer` / `oz-spin`.
+ */
+
+@keyframes oz-auth-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(-6px);
+  }
+  30% {
+    transform: translateX(6px);
+  }
+  45% {
+    transform: translateX(-4px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+}
+
+.shake {
+  animation: oz-auth-shake 320ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shake {
+    animation: none;
+  }
+}

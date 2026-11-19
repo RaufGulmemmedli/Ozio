@@ -1,0 +1,342 @@
+{
+  "meta.title": {
+    "az": "Məhsul",
+    "ru": "Товар",
+    "en": "Product"
+  },
+  "breadcrumb.market": {
+    "az": "Market",
+    "ru": "Маркет",
+    "en": "Market"
+  },
+  "breadcrumb.label": {
+    "az": "Naviqasiya izi",
+    "ru": "Навигационная цепочка",
+    "en": "Breadcrumb"
+  },
+  "rating": {
+    "az": "{rating}",
+    "ru": "{rating}",
+    "en": "{rating}"
+  },
+  "ratingWithCount": {
+    "az": "{rating} ({count})",
+    "ru": "{rating} ({count})",
+    "en": "{rating} ({count})"
+  },
+  "discount": {
+    "az": "-{percent}%",
+    "ru": "-{percent}%",
+    "en": "-{percent}%"
+  },
+  "bonus": {
+    "az": "+{amount} bonus qazan",
+    "ru": "Получи +{amount} бонуса",
+    "en": "Earn +{amount} bonus"
+  },
+  "bonusWeight": {
+    "az": "Bu sifarişdən +{amount} bonus qazan",
+    "ru": "С этого заказа +{amount} бонуса",
+    "en": "Earn +{amount} bonus on this order"
+  },
+  "addToCart": {
+    "az": "Səbətə at · {total}",
+    "ru": "В корзину · {total}",
+    "en": "Add to cart · {total}"
+  },
+  "addToCartShort": {
+    "az": "Səbətə at",
+    "ru": "В корзину",
+    "en": "Add to cart"
+  },
+  "pricePerKg": {
+    "az": "/ kq",
+    "ru": "/ кг",
+    "en": "/ kg"
+  },
+  "oldPrice": {
+    "az": "Köhnə qiymət {price}",
+    "ru": "Старая цена {price}",
+    "en": "Was {price}"
+  },
+  "delivery.time": {
+    "az": "{min}–{max} dəq",
+    "ru": "{min}–{max} мин",
+    "en": "{min}–{max} min"
+  },
+  "delivery.fee": {
+    "az": "Çatdırılma {fee}",
+    "ru": "Доставка {fee}",
+    "en": "Delivery {fee}"
+  },
+  "delivery.feeFree": {
+    "az": "Pulsuz çatdırılma",
+    "ru": "Бесплатная доставка",
+    "en": "Free delivery"
+  },
+  "quality.title": {
+    "az": "Keyfiyyət zəmanəti",
+    "ru": "Гарантия качества",
+    "en": "Quality guarantee"
+  },
+  "quality.body": {
+    "az": "Xarab olsa, geri qaytar",
+    "ru": "Испортился — вернём деньги",
+    "en": "Spoiled? Send it back"
+  },
+  "tabs.label": {
+    "az": "Məhsul haqqında",
+    "ru": "О товаре",
+    "en": "About the product"
+  },
+  "tabs.description": {
+    "az": "Təsvir",
+    "ru": "Описание",
+    "en": "Description"
+  },
+  "tabs.nutrition": {
+    "az": "Qida dəyəri",
+    "ru": "Пищевая ценность",
+    "en": "Nutrition"
+  },
+  "tabs.info": {
+    "az": "Məlumat",
+    "ru": "Информация",
+    "en": "Details"
+  },
+  "description.empty": {
+    "az": "Bu məhsul üçün təsvir əlavə edilməyib.",
+    "ru": "Описание для этого товара не добавлено.",
+    "en": "No description has been added for this product."
+  },
+  "nutrition.empty": {
+    "az": "Qida dəyəri göstərilməyib.",
+    "ru": "Пищевая ценность не указана.",
+    "en": "Nutrition information is not provided."
+  },
+  "info.brand": {
+    "az": "Brend",
+    "ru": "Бренд",
+    "en": "Brand"
+  },
+  "info.category": {
+    "az": "Kateqoriya",
+    "ru": "Категория",
+    "en": "Category"
+  },
+  "info.pack": {
+    "az": "Qablaşdırma",
+    "ru": "Упаковка",
+    "en": "Pack size"
+  },
+  "info.barcode": {
+    "az": "Barkod",
+    "ru": "Штрихкод",
+    "en": "Barcode"
+  },
+  "info.code": {
+    "az": "Məhsul kodu",
+    "ru": "Код товара",
+    "en": "Product code"
+  },
+  "info.store": {
+    "az": "Mağaza",
+    "ru": "Магазин",
+    "en": "Store"
+  },
+  "info.flags": {
+    "az": "Xüsusiyyətlər",
+    "ru": "Особенности",
+    "en": "Attributes"
+  },
+  "info.organic": {
+    "az": "Üzvi",
+    "ru": "Органика",
+    "en": "Organic"
+  },
+  "info.halal": {
+    "az": "Halal",
+    "ru": "Халяль",
+    "en": "Halal"
+  },
+  "info.vegan": {
+    "az": "Vegan",
+    "ru": "Веган",
+    "en": "Vegan"
+  },
+  "info.empty": {
+    "az": "Əlavə məlumat yoxdur.",
+    "ru": "Дополнительной информации нет.",
+    "en": "No further details."
+  },
+  "similar.title": {
+    "az": "Bənzər məhsullar",
+    "ru": "Похожие товары",
+    "en": "Similar products"
+  },
+  "similar.all": {
+    "az": "Hamısı",
+    "ru": "Все",
+    "en": "See all"
+  },
+  "similar.empty": {
+    "az": "Bənzər məhsul tapılmadı.",
+    "ru": "Похожих товаров не нашлось.",
+    "en": "No similar products found."
+  },
+  "outOfStock.badge": {
+    "az": "Bitib",
+    "ru": "Нет в наличии",
+    "en": "Out of stock"
+  },
+  "outOfStock.title": {
+    "az": "Hazırda stokda yoxdur",
+    "ru": "Сейчас нет в наличии",
+    "en": "Currently out of stock"
+  },
+  "outOfStock.body": {
+    "az": "Bu məhsulu səbətə atmaq mümkün deyil.",
+    "ru": "Этот товар нельзя добавить в корзину.",
+    "en": "This product cannot be added to the cart."
+  },
+  "outOfStock.notify": {
+    "az": "Stokda olanda xəbər ver",
+    "ru": "Сообщить о поступлении",
+    "en": "Notify me when it is back"
+  },
+  "outOfStock.notifyPending": {
+    "az": "Bildiriş hazırda mümkün deyil",
+    "ru": "Уведомление пока недоступно",
+    "en": "Notifications are not available yet"
+  },
+  "outOfStock.alternative": {
+    "az": "Bənzər məhsullar aşağıda.",
+    "ru": "Похожие товары ниже.",
+    "en": "Similar products are below."
+  },
+  "weight.title": {
+    "az": "ÇƏKİ SEÇİN",
+    "ru": "ВЫБЕРИ ВЕС",
+    "en": "CHOOSE A WEIGHT"
+  },
+  "weight.soldByWeight": {
+    "az": "Çəkiyə görə satılır",
+    "ru": "Продаётся на вес",
+    "en": "Sold by weight"
+  },
+  "weight.note": {
+    "az": "Addım {step}. Çəki yığılarkən 5%-ə qədər fərq ola bilər, ödəniş faktiki çəkiyə görə edilir.",
+    "ru": "Шаг {step}. При сборке вес может отличаться до 5%, оплата идёт по фактическому весу.",
+    "en": "Step {step}. The picked weight can differ by up to 5%; you pay for the actual weight."
+  },
+  "weight.presetLabel": {
+    "az": "Çəki seçimləri",
+    "ru": "Варианты веса",
+    "en": "Weight presets"
+  },
+  "stock.left": {
+    "az": "Stokda {amount} qalıb",
+    "ru": "Осталось {amount}",
+    "en": "{amount} left"
+  },
+  "favorite.add": {
+    "az": "Sevimlilərə əlavə et",
+    "ru": "Добавить в избранное",
+    "en": "Add to favourites"
+  },
+  "favorite.remove": {
+    "az": "Sevimlilərdən çıxar",
+    "ru": "Убрать из избранного",
+    "en": "Remove from favourites"
+  },
+  "favorite.added": {
+    "az": "Sevimlilərə əlavə edildi",
+    "ru": "Добавлено в избранное",
+    "en": "Added to favourites"
+  },
+  "favorite.removed": {
+    "az": "Sevimlilərdən çıxarıldı",
+    "ru": "Убрано из избранного",
+    "en": "Removed from favourites"
+  },
+  "favorite.failed": {
+    "az": "Alınmadı — yenidən cəhd et",
+    "ru": "Не получилось — попробуй снова",
+    "en": "That did not work — try again"
+  },
+  "quantity.decrease": {
+    "az": "Azalt",
+    "ru": "Уменьшить",
+    "en": "Decrease"
+  },
+  "quantity.increase": {
+    "az": "Artır",
+    "ru": "Увеличить",
+    "en": "Increase"
+  },
+  "quantity.announce": {
+    "az": "Miqdar {value}",
+    "ru": "Количество {value}",
+    "en": "Quantity {value}"
+  },
+  "gallery.label": {
+    "az": "Məhsul şəkilləri",
+    "ru": "Фотографии товара",
+    "en": "Product images"
+  },
+  "gallery.thumb": {
+    "az": "{index}-ci şəkil",
+    "ru": "Фото {index}",
+    "en": "Image {index}"
+  },
+  "notFound.title": {
+    "az": "Məhsul tapılmadı",
+    "ru": "Товар не найден",
+    "en": "Product not found"
+  },
+  "notFound.body": {
+    "az": "Bu məhsul silinib və ya mağazada artıq yoxdur.",
+    "ru": "Этот товар удалён или больше не продаётся в магазине.",
+    "en": "This product was removed or the store no longer carries it."
+  },
+  "notFound.back": {
+    "az": "Marketə qayıt",
+    "ru": "Вернуться в маркет",
+    "en": "Back to market"
+  },
+  "storeMissing.title": {
+    "az": "Mağaza göstərilməyib",
+    "ru": "Магазин не указан",
+    "en": "No store in the link"
+  },
+  "storeMissing.body": {
+    "az": "Məhsul yalnız öz mağazası ilə birlikdə açılır. Marketdən yenidən seç.",
+    "ru": "Товар открывается только вместе со своим магазином. Выбери его заново в маркете.",
+    "en": "A product only opens together with its store. Pick it again from the market."
+  },
+  "error.title": {
+    "az": "Məhsul yüklənmədi",
+    "ru": "Товар не загрузился",
+    "en": "The product did not load"
+  },
+  "error.retry": {
+    "az": "Yenidən cəhd et",
+    "ru": "Попробовать снова",
+    "en": "Try again"
+  },
+  "quickView.title": {
+    "az": "Məhsula tez baxış",
+    "ru": "Быстрый просмотр",
+    "en": "Quick view"
+  },
+  "quickView.close": {
+    "az": "Bağla",
+    "ru": "Закрыть",
+    "en": "Close"
+  },
+  "quickView.openFull": {
+    "az": "Tam səhifədə aç",
+    "ru": "Открыть всю страницу",
+    "en": "Open the full page"
+  }
+}
