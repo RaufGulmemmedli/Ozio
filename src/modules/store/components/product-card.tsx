@@ -87,7 +87,9 @@ export function ProductCard({
     <article
       className={cn(
         // Cards are flat by design (components.md §5): the hover is a lift, never a shadow.
-        'relative flex w-full min-w-0 flex-col gap-3 rounded-card bg-surface p-3',
+        // `@container` so the footer below can react to the CARD's width, not the viewport's:
+        // the same card is 162px in the phone's two-column grid and 263px on desktop.
+        '@container relative flex w-full min-w-0 flex-col gap-3 rounded-card bg-surface p-3',
         'transition-transform duration-[var(--oz-dur-base)] ease-out hover:-translate-y-0.5 active:scale-[.99]',
         className,
       )}
@@ -142,7 +144,16 @@ export function ProductCard({
         <p className="truncate text-caption font-normal text-ink2">{meta}</p>
       </div>
 
-      <div className="flex w-full flex-row items-center justify-between gap-2 px-1 pb-1">
+      {/*
+        Stacks on a narrow card.
+
+        Price and control shared one row at every width. In the phone's two-column grid the card
+        is about 162px wide, of which the compact stepper takes ~110 — so the price had nowhere to
+        go, and since the stepper carries `z-[2]` it painted straight over it: "0,85 ₼" rendered
+        as "0,8" with the stepper on top. Below 200px of card they now sit on separate lines; from
+        there up it is the drawn single row.
+      */}
+      <div className="flex w-full flex-col items-stretch gap-2 px-1 pb-1 @[200px]:flex-row @[200px]:items-center @[200px]:justify-between">
         <div className="pointer-events-none flex min-w-0 flex-row items-baseline gap-[6px]">
           <Price value={product.price} size="card" />
           {isWeight ? (
@@ -171,7 +182,7 @@ export function ProductCard({
               isWeight ? (value) => kg(Math.round(value * 1000)) : undefined
             }
             valueAnnouncement={(value) => t('card.quantity', { count: value })}
-            className="pointer-events-auto relative z-[2]"
+            className="pointer-events-auto relative z-[2] shrink-0 self-start @[200px]:self-auto"
           />
         ) : (
           <button
