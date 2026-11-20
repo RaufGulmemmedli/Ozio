@@ -145,15 +145,19 @@ export function ProductCard({
       </div>
 
       {/*
-        Stacks on a narrow card.
+        The drawn row by default; stacked only on a card too narrow to hold it.
 
-        Price and control shared one row at every width. In the phone's two-column grid the card
-        is about 162px wide, of which the compact stepper takes ~110 — so the price had nowhere to
-        go, and since the stepper carries `z-[2]` it painted straight over it: "0,85 ₼" rendered
-        as "0,8" with the stepper on top. Below 200px of card they now sit on separate lines; from
-        there up it is the drawn single row.
+        Price and control used to share one row at EVERY width. In the phone's two-column grid the
+        card is about 167px wide and the compact stepper takes ~110, so the price had nowhere to
+        go — and since the stepper carries `z-[2]` it painted straight over it: "0,85 ₼" rendered
+        as "0,8" with the stepper on top.
+
+        The narrow case is expressed as `@max-[200px]` rather than making `flex-col` the base and
+        overriding it upwards, so that the DEFAULT is the design's row with the control on the
+        right. If the container query never applies — a stale stylesheet in dev, say — the card
+        falls back to that row rather than to a stacked, left-aligned control.
       */}
-      <div className="flex w-full flex-col items-stretch gap-2 px-1 pb-1 @[200px]:flex-row @[200px]:items-center @[200px]:justify-between">
+      <div className="flex w-full flex-row items-center justify-between gap-2 px-1 pb-1 @max-[200px]:flex-col @max-[200px]:items-stretch">
         <div className="pointer-events-none flex min-w-0 flex-row items-baseline gap-[6px]">
           <Price value={product.price} size="card" />
           {isWeight ? (
@@ -182,7 +186,7 @@ export function ProductCard({
               isWeight ? (value) => kg(Math.round(value * 1000)) : undefined
             }
             valueAnnouncement={(value) => t('card.quantity', { count: value })}
-            className="pointer-events-auto relative z-[2] shrink-0 self-start @[200px]:self-auto"
+            className="pointer-events-auto relative z-[2] shrink-0 @max-[200px]:self-start"
           />
         ) : (
           <button

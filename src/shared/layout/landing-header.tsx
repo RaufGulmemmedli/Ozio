@@ -112,7 +112,7 @@ export function LandingHeader({
         className="flex h-[72px] w-full items-center justify-between px-page md:h-[76px] lg:h-[88px]"
       >
         <Link href={paths.landing} aria-label="Ozio" className="shrink-0 rounded-md">
-          <OzioLogo size="m" tone="ink" decorative />
+          <OzioLogo size="m" tone="brand" decorative />
         </Link>
 
         {/* links — ≥768 */}
@@ -202,7 +202,7 @@ export function LandingHeader({
             className="absolute inset-x-0 top-0 flex flex-col gap-5 rounded-b-modal bg-surface p-5 pt-6"
           >
             <div className="flex items-center justify-between">
-              <OzioLogo size="m" tone="ink" />
+              <OzioLogo size="m" tone="brand" />
               <button
                 type="button"
                 onClick={() => setSheetOpen(false)}

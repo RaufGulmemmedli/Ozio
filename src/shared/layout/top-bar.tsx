@@ -120,7 +120,7 @@ export function TopBar({
     >
       {/* mobile: logo + spacer */}
       <Link href={homeHref} aria-label="Ozio" className="shrink-0 rounded-md md:hidden">
-        <OzioLogo size="s" tone="ink" decorative />
+        <OzioLogo size="s" tone="brand" decorative />
       </Link>
       <span aria-hidden="true" className="grow md:hidden" />
 

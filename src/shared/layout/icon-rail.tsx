@@ -72,7 +72,7 @@ export function IconRail({ badges, homeHref, className }: IconRailProps) {
         className="flex h-full w-rail shrink-0 flex-col items-center gap-2.5 border-r border-line bg-bg px-4 py-7"
       >
         <Link href={logoHref} aria-label="Ozio" className="rounded-md">
-          <OzioLogo size="s" tone="ink" decorative />
+          <OzioLogo size="s" tone="brand" decorative />
         </Link>
         <div aria-hidden="true" className="h-4 shrink-0" />
 

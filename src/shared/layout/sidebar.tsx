@@ -60,7 +60,7 @@ export function Sidebar({ badges, homeHref, promo, promoHref, className }: Sideb
       className={cn('flex h-full w-sidebar shrink-0 flex-col gap-1.5 px-5 py-7', className)}
     >
       <Link href={logoHref} aria-label="Ozio" className="w-fit rounded-md">
-        <OzioLogo size="m" tone="ink" decorative />
+        <OzioLogo size="m" tone="brand" decorative />
       </Link>
       <div aria-hidden="true" className="h-5 shrink-0" />
 
