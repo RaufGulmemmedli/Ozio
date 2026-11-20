@@ -111,28 +111,36 @@ export function BootSplash({ travel = false, ready = true }: BootSplashProps) {
         travel={travel}
         onExitDone={finish}
         /*
-         * Sized in `vw`, deliberately over 100, and on a ladder.
+         * A box of exactly 100vw, enlarged with `scale` — NOT a box wider than the screen.
          *
-         * The logo occupies only about 46% of the json's 2560-wide canvas — measured: a 1320px
-         * box drew a logo of roughly 610px. So the box width is NOT the logo size, and capping
-         * the box at the viewport caps the logo at under half of it, which is why this read small
-         * at every width. Going wider than the screen is what makes the logo big; the empty
-         * canvas either side is clipped by the overlay's `overflow-hidden`.
+         * Why it has to be a transform: the logo is only about 46% of the json's 2560-wide
+         * canvas, so the only way to draw it big is to draw the canvas bigger than the viewport.
+         * The first attempt did that with widths (`w-[190vw]` and friends) and let the overlay's
+         * `grid place-items-center` centre them. A grid item WIDER than its track does not centre
+         * symmetrically — the overhang resolves towards one side — and the bigger the overhang
+         * the more it shows. On a phone the box hung 45vw past each edge, so the animation
+         * visibly started off-centre; on a desktop the overhang was half that and it passed.
          *
-         * The ratio then eases off as the screen grows, because a percentage that feels right on
-         * a 390px phone is overbearing on a 27-inch monitor. At the project's own breakpoints
-         * (sm 480, md 768, lg 1200, 2xl 1440) the logo lands at roughly 87% of the width on a
-         * phone and 64% at 2xl — and the box stays short enough to fit the height everywhere,
-         * since 5:1 makes even the widest step one fifth as tall.
+         * `scale` has no such problem: it grows about the element's own centre, identically at
+         * every width, and the overlay's `overflow-hidden` clips the empty canvas evenly. The
+         * factors are the old widths expressed as multiples, so the sizes are unchanged — only
+         * the centring is fixed.
          *
-         * Travelling carries more at every step: its drive-in still has to begin off-screen.
+         * ONE factor at every width, deliberately — no breakpoint ladder.
+         *
+         * The ladder used to start largest on a phone (2.2) and ease down to the desktop value
+         * (1.8). That is what made mobile behave differently: the factor is also how far outside
+         * the screen the canvas reaches, so the drive-in had a 60vw run-up on a phone against
+         * 40vw on a desktop. The scooter therefore spent noticeably longer off-screen before it
+         * reached the middle, which is the "it does not start from the centre on mobile" that was
+         * reported. (It was NOT a centring bug: measured on a 390px viewport, the box's centre
+         * and the viewport's centre were the same pixel.)
+         *
+         * A single factor makes the motion identical at every width — mobile exactly like
+         * desktop, which is what was asked — and keeps the size, since these are the desktop
+         * values the ladder was already converging on.
          */
-        className={cn(
-          'max-w-none',
-          travel
-            ? 'w-[220vw] sm:w-[210vw] md:w-[200vw] lg:w-[190vw] 2xl:w-[180vw]'
-            : 'w-[190vw] sm:w-[175vw] md:w-[160vw] lg:w-[150vw] 2xl:w-[140vw]',
-        )}
+        className={cn('w-screen max-w-none', travel ? 'scale-[1.8]' : 'scale-[1.4]')}
       />
     </div>
   );

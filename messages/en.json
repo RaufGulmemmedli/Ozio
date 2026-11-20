@@ -548,6 +548,9 @@
       "quantityAnnouncement": "Quantity: {value}",
       "remove": "Remove item"
     },
+    "miniCart": {
+      "openWithCount": "Open the cart — {count, plural, one {# item} other {# items}}"
+    },
     "notice": {
       "addressRequired": "Choose a delivery address to see the total.",
       "cartUpdated": "The store updated your cart — check the prices.",

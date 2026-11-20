@@ -38,7 +38,7 @@ export function RestaurantTile({ restaurant, className }: RestaurantTileProps) {
     <Link
       href={restaurantPath(restaurant.id)}
       className={cn(
-        'flex min-w-0 flex-col items-start gap-[14px] rounded-card bg-surface p-[18px] text-left',
+        'flex w-full min-w-0 flex-col items-start gap-[14px] rounded-card bg-surface p-[18px] text-left',
         'transition-transform duration-[var(--oz-dur-base)] ease-out hover:-translate-y-0.5 active:scale-[.99]',
         className,
       )}
@@ -58,7 +58,9 @@ export function RestaurantTile({ restaurant, className }: RestaurantTileProps) {
         </span>
       </span>
 
-      <span className="flex min-w-0 flex-col gap-[2px]">
+      {/* `w-full` for the same reason as <StoreTile>: `items-start` blocks the stretch, so
+          without it the block sizes to its text and the tile stops matching its neighbours. */}
+      <span className="flex w-full min-w-0 flex-col gap-[2px]">
         <span className="truncate text-body-sm font-bold text-ink">{restaurant.name}</span>
         <span className="truncate text-caption font-normal text-ink2">
           {open ? line : t('closed')}

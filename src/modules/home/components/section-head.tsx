@@ -32,11 +32,25 @@ export function SectionHead({
   children,
   className,
 }: SectionHeadProps) {
+  /*
+   * The row wraps, and the title is allowed to shrink.
+   *
+   * Both actions are `shrink-0`, so with a long title ("Mağaza və restoranlar") and two of them
+   * the title was the only thing that could give — it folded onto two lines on a phone while the
+   * links stayed crushed against the right edge. `flex-wrap` lets the actions drop to their own
+   * line when the row genuinely cannot hold everything, and `min-w-0 flex-1` lets the title use
+   * the width that is actually free.
+   */
   return (
-    <div className={cn('flex w-full flex-row items-center justify-between gap-5', className)}>
+    <div
+      className={cn(
+        'flex w-full flex-row flex-wrap items-center justify-between gap-x-4 gap-y-2',
+        className,
+      )}
+    >
       <Tag
         id={titleId}
-        className="text-h4 font-bold tracking-[-0.5px] text-ink md:text-h3 md:font-extrabold"
+        className="min-w-0 flex-1 text-h4 font-bold tracking-[-0.5px] text-ink md:text-h3 md:font-extrabold"
       >
         {title}
       </Tag>

@@ -548,6 +548,9 @@
       "quantityAnnouncement": "Количество: {value}",
       "remove": "Удалить товар"
     },
+    "miniCart": {
+      "openWithCount": "Открыть корзину — {count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}"
+    },
     "notice": {
       "addressRequired": "Выберите адрес доставки, чтобы рассчитать сумму.",
       "cartUpdated": "Магазин обновил корзину — проверьте цены.",

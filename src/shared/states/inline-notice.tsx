@@ -149,7 +149,16 @@ export function InlineNotice({
       aria-live={resolvedRole === 'alert' ? 'assertive' : 'polite'}
       className={cn(
         'flex w-full flex-row gap-3 rounded-[16px]',
-        multiline ? 'items-start px-5 py-[14px]' : 'h-[56px] items-center px-5',
+        /*
+         * A multiline notice WRAPS; a single-line one cannot (it is a fixed 56 tall).
+         *
+         * The action is `shrink-0`, so on a phone a wide one took its width out of the text and
+         * left a two-word column: the store-closed banner rendered "Məhsulları / səbətə əlavə /
+         * edə bilərsiniz —" down the left of a 190px "Açılanda xəbər ver" button. With
+         * `flex-wrap` and a basis on the text, the action drops to its own line as soon as the
+         * row cannot hold both, and the text gets the full width back.
+         */
+        multiline ? 'flex-wrap items-start px-5 py-[14px]' : 'h-[56px] items-center px-5',
         palette.box,
         className,
       )}
@@ -161,7 +170,8 @@ export function InlineNotice({
       <div
         className={cn(
           'min-w-0 flex-1 text-label font-medium',
-          multiline ? 'flex flex-col gap-1' : 'truncate',
+          // ~192px: below that the row wraps rather than squeezing the copy into a column.
+          multiline ? 'flex basis-48 flex-col gap-1' : 'truncate',
         )}
       >
         {title ? <span className="font-bold">{title}</span> : null}

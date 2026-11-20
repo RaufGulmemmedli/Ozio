@@ -51,7 +51,10 @@ export function StoreTile({ store, subtitle, selected = false, onSelect, classNa
   const body = (
     <>
       <StoreLogo src={store.logoUrl} name={store.name} size={56} radius={18} decorative />
-      <div className="flex min-w-0 flex-col gap-[2px]">
+      {/* `w-full`, not auto: the shell is `items-start`, which stops children stretching, so
+          this block sized itself to the longest word — tiles in the rail came out different
+          widths and `truncate` had nothing to truncate against. */}
+      <div className="flex w-full min-w-0 flex-col gap-[2px]">
         <span className="truncate text-body-sm font-bold text-ink">{store.name}</span>
         <span className="truncate text-caption font-normal text-ink2">
           {open ? line : t('header.closed')}
@@ -61,7 +64,7 @@ export function StoreTile({ store, subtitle, selected = false, onSelect, classNa
   );
 
   const shell = cn(
-    'flex min-w-0 flex-col items-start gap-[14px] rounded-card bg-surface p-[18px] text-left',
+    'flex w-full min-w-0 flex-col items-start gap-[14px] rounded-card bg-surface p-[18px] text-left',
     'transition-transform duration-[var(--oz-dur-base)] ease-out hover:-translate-y-0.5 active:scale-[.99]',
     selected && 'outline outline-2 -outline-offset-2 outline-ink',
     className,

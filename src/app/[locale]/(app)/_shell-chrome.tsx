@@ -27,7 +27,7 @@ import { useRouter } from '@/core/i18n/navigation';
 import { paths } from '@/core/routes';
 import { useUser } from '@/core/session';
 import { useTheme } from '@/core/theme';
-import { useCartBadgeCount } from '@/modules/cart';
+import { MiniCartDrawerHost, MobileCartPill, useCartBadgeCount } from '@/modules/cart';
 import { useSignOut } from '@/modules/profile';
 import { useRestaurantBasketStore } from '@/modules/restaurants';
 import { RouteSplash } from '@/shared/brand';
@@ -69,6 +69,13 @@ export function ShellChrome({ children }: { children: ReactNode }) {
       {children}
       {/* Watches the route, not the mount: the layout survives client-side navigation, so a
           plain <BootSplash> here only ever played on a hard refresh. */}
+      {/* The cart module has always documented `<MiniCartDrawer>` as "mounted once in the shell",
+          and it never was — so every `useCartDrawer().open()` in the app opened nothing. The pill
+          is what opens it on a phone, where `<TopBar>` hides its cart icon below `md` and a
+          shopper otherwise had no way to reach the cart from the catalogue at all. */}
+      <MiniCartDrawerHost />
+      <MobileCartPill />
+
       <RouteSplash />
     </AppShell>
   );

@@ -493,5 +493,10 @@
     "az": "Səbət",
     "ru": "Корзина",
     "en": "Cart"
+  },
+  "miniCart.openWithCount": {
+    "az": "Səbəti aç — {count, plural, one {# məhsul} other {# məhsul}}",
+    "ru": "Открыть корзину — {count, plural, one {# товар} few {# товара} many {# товаров} other {# товара}}",
+    "en": "Open the cart — {count, plural, one {# item} other {# items}}"
   }
 }

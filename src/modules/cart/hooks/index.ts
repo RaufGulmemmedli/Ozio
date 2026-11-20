@@ -6,6 +6,7 @@ export {
   useCart,
   useCartCount,
   useCartBadgeCount,
+  useCartBadgeSummary,
   useActiveCart,
   useAllLines,
   useCartQuantity,

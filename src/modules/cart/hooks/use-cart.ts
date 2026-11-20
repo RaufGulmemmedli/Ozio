@@ -88,6 +88,29 @@ export function useCartCount(): number {
  * the one `useCart` and every mutation use, so this costs no extra request and updates in step.
  */
 export function useCartBadgeCount(): number {
+  return useCartBadgeSummary().count;
+}
+
+export interface CartBadgeSummary {
+  count: number;
+  /** The ACTIVE cart's item total, or `null` before anything has loaded. */
+  total: number | null;
+}
+
+/**
+ * Count and total for the chrome — the header badge and the phone's floating cart pill.
+ *
+ * Same reasoning as `useCartBadgeCount` had on its own, and the reason this exists at all: both
+ * callers live in the app-shell LAYOUT, above every page's Suspense boundary, and `useCart()`
+ * reaches `usePreview()` → `useSearchParams()`. Next then refuses to prerender the whole group
+ * ("useSearchParams() should be wrapped in a suspense boundary"), which is a build failure, not a
+ * warning. This reads the same `cartKeys.list()` query with a plain `useQuery`, so it costs no
+ * extra request and stays out of that trap.
+ *
+ * The price is `?preview=`: the chrome shows the real cart while a screen previews its states.
+ * That is the right trade — preview is a per-screen debug device.
+ */
+export function useCartBadgeSummary(): CartBadgeSummary {
   const authenticated = useIsAuthenticated();
 
   const { data } = useQuery<CartBundle, Failure>({
@@ -97,7 +120,11 @@ export function useCartBadgeCount(): number {
     ...CACHE.cart,
   });
 
-  return data?.itemCount ?? 0;
+  // `orders/checkout` prices a single `cart_id`, so the pill shows the active cart's figure —
+  // the same one the drawer and the summary card show.
+  const active = data ? (findCart(data, data.activeCartId) ?? data.carts[0] ?? null) : null;
+
+  return { count: data?.itemCount ?? 0, total: active?.totals?.price ?? null };
 }
 
 /** The cart the summary prices: the selection's choice, else the bundle's most recent non-empty. */

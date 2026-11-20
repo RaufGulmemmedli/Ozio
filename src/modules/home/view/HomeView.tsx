@@ -285,14 +285,14 @@ function StoresRegion() {
              and lets however many stores there are share the row. */
           <ul className="flex w-full flex-row gap-3 overflow-x-auto pb-1 [scrollbar-width:none] lg:grid lg:grid-cols-[repeat(auto-fit,minmax(172px,1fr))] lg:gap-4 lg:overflow-visible [&::-webkit-scrollbar]:hidden">
             {stores.slice(0, 8).map((store) => (
-              <li key={store.id} className="w-32 shrink-0 lg:w-auto">
+              <li key={store.id} className="w-44 shrink-0 lg:w-auto">
                 <StoreTile store={store} />
               </li>
             ))}
             {/* Restaurants ride in the same rail, in a tile built to match `<StoreTile>` box for
                 box — the section is "Mağaza və restoranlar", so it should read as one shelf. */}
             {restaurants.map((restaurant) => (
-              <li key={`restaurant-${restaurant.id}`} className="w-32 shrink-0 lg:w-auto">
+              <li key={`restaurant-${restaurant.id}`} className="w-44 shrink-0 lg:w-auto">
                 <RestaurantTile restaurant={restaurant} />
               </li>
             ))}
@@ -302,7 +302,7 @@ function StoresRegion() {
              API can offer when the search finds nothing for this point. */
           <ul className="flex w-full flex-row gap-3 overflow-x-auto pb-1 [scrollbar-width:none] lg:grid lg:grid-cols-[repeat(auto-fit,minmax(172px,1fr))] lg:gap-4 lg:overflow-visible [&::-webkit-scrollbar]:hidden">
             {(categoriesQuery.isError ? [] : categories).map((category) => (
-              <li key={category.id} className="w-32 shrink-0 lg:w-auto">
+              <li key={category.id} className="w-44 shrink-0 lg:w-auto">
                 <LinkButton
                   href={paths.category(category.id)}
                   variant="soft"

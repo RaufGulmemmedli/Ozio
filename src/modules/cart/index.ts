@@ -10,7 +10,7 @@
  *
  * Keep this list stable — three modules depend on it.
  */
-export { useCart, useCartCount, useCartBadgeCount, useCartAction, useCartDrawer } from './hooks';
+export { useCart, useCartCount, useCartBadgeCount, useCartBadgeSummary, useCartAction, useCartDrawer } from './hooks';
 export { MiniCartDrawer } from './components/MiniCartDrawer';
 export { AddToCartButton } from './components/AddToCartButton';
 export { cartKeys } from './cart.query-keys';
@@ -38,3 +38,6 @@ export type { CartBundle } from './data/models/cart';
 export { CartView } from './view/CartView';
 export { CartSkeleton } from './view/CartSkeleton';
 export { cartRoutes } from './cart.routes';
+
+export { MobileCartPill } from './components/MobileCartPill';
+export { MiniCartDrawerHost } from './components/MiniCartDrawerHost';

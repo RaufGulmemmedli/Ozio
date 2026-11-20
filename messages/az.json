@@ -548,6 +548,9 @@
       "quantityAnnouncement": "Miqdar: {value}",
       "remove": "Məhsulu sil"
     },
+    "miniCart": {
+      "openWithCount": "Səbəti aç — {count, plural, one {# məhsul} other {# məhsul}}"
+    },
     "notice": {
       "addressRequired": "Məbləği hesablamaq üçün çatdırılma ünvanı seç.",
       "cartUpdated": "Mağaza səbətini yeniləyib — qiymətləri yoxla.",
